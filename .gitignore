@@ -1,0 +1,23 @@
+# Local/private data
+data/
+raw_data/
+private/
+secrets/
+.env
+*.key
+*.pem
+
+# Outputs
+results/
+outputs/
+reports/intermediate/
+
+# Python/Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# OS/editor
+.DS_Store
+.vscode/
