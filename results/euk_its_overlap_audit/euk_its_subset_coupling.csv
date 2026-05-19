@@ -1,0 +1,9 @@
+row_type,subset,n_samples,n_features_subset,procrustes_corr,mantel_spearman_r,rv_coeff,embedding_distance_pearson_r,procrustes_corr_perm_p,mantel_spearman_r_perm_p,rv_coeff_perm_p,embedding_distance_pearson_r_perm_p,association_target,spearman_r,spearman_p
+subset_coupling,EUK_all,94,58205.0,0.25409783482149106,0.2700750971224275,0.2551606127078744,0.32985579683819805,0.01,0.01,0.01,0.01,,,
+subset_coupling,EUK_fungal,94,30756.0,0.1779331672639618,0.19573150424843663,0.17257670662330157,0.26192057821454723,0.01,0.01,0.01,0.01,,,
+subset_coupling,EUK_nonfungal,94,27449.0,0.2940278735061461,0.2905299275974288,0.29907263970145204,0.3491469140827794,0.01,0.01,0.01,0.01,,,
+association,EUK_fungal_fraction,94,,,,,,,,,,ITS_library_size,0.04110118520846529,0.6940792593962899
+association,EUK_fungal_fraction,94,,,,,,,,,,ITS_PC1,-0.023834122024347072,0.8196299764851229
+association,EUK_fungal_fraction,94,,,,,,,,,,EUK_all_PC1,0.041881298992161246,0.6885694343852412
+association,EUK_fungal_fraction,94,,,,,,,,,,EUK_fungal_PC1,-0.14601741140772315,0.16023299107088473
+association,EUK_fungal_fraction,94,,,,,,,,,,EUK_nonfungal_PC1,0.22567640790376767,0.028739938582412822

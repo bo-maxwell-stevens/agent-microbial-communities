@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-05-19T14:44:03.652048+00:00",
+  "runtime_seconds": 11.623,
+  "python_version": "3.12.3",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.5",
+  "git_commit": "7652b2fa4184b25b72d0c1b741e76590b8a2eba5",
+  "args": {
+    "metadata": "data/Final_data_with_diversity_prefixed.csv",
+    "euk_feature_metadata": "data/EUK_feature_metadata.tsv",
+    "its_feature_metadata": "data/ITS_feature_metadata.tsv",
+    "euk_table": "data/EUK_OTU_table_final.tsv",
+    "its_table": "data/ITS_OTU_table_final.tsv",
+    "output_dir": "results/euk_its_overlap_audit",
+    "n_pcs": 5,
+    "pseudocount": 1e-06,
+    "seed": 42,
+    "n_permutations": 99
+  },
+  "sample_col": "canonical",
+  "n_overlap_samples": 94,
+  "euk_taxonomy_column": "taxonomy",
+  "its_taxonomy_column": "taxonomy",
+  "euk_fungal_feature_count": 30756,
+  "euk_nonfungal_feature_count": 27449,
+  "input_file_sizes": {
+    "Final_data_with_diversity_prefixed.csv": 81029,
+    "EUK_feature_metadata.tsv": 8949040,
+    "ITS_feature_metadata.tsv": 6222483,
+    "EUK_OTU_table_final.tsv": 16261370,
+    "ITS_OTU_table_final.tsv": 7712417
+  },
+  "input_file_hashes_sha256": {
+    "Final_data_with_diversity_prefixed.csv": "dc0bc1d5da75d4053e53dd6ef05d3b46a62e660c0acb9749872409c9094d3dba",
+    "EUK_feature_metadata.tsv": "d6b75f996255de45d0a89b34b0bc8dfd54d77ff515c500752e6f6162d4efe4cb",
+    "ITS_feature_metadata.tsv": "b7763b0de093791c23675032e5ac2ebbadf5175b8ab44f3cb206ffe868582dbe",
+    "EUK_OTU_table_final.tsv": "e7bf99868e840b22d6df00cd2a6ae132939d970ad9c176a5da70b38e0c66c479",
+    "ITS_OTU_table_final.tsv": "9de837fc089f6107ef0577a348f63bd690bac10ba1ae4d6f5c262440a67b2f90"
+  },
+  "output_file_sizes": {
+    "euk_taxonomic_summary.csv": 568,
+    "euk_fungal_fraction_by_sample.csv": 5394,
+    "euk_its_subset_coupling.csv": 1166
+  },
+  "warnings_count": 0,
+  "warnings": []
+}

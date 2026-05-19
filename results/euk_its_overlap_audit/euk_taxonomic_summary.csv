@@ -1,0 +1,6 @@
+category,feature_count,feature_fraction,read_count,read_fraction,taxonomy_column_euk,taxonomy_column_its,n_overlap_samples
+Fungi,30756,0.5284082123528906,1551370.0,0.6369685393701304,taxonomy,taxonomy,94
+Metazoa,7592,0.13043552959367752,200243.0,0.08221668024332882,taxonomy,taxonomy,94
+Viridiplantae,5119,0.08794777081006787,394744.0,0.1620757840522395,taxonomy,taxonomy,94
+Other_Protist_or_Euk,12158,0.20888239841937978,250969.0,0.10304399167006083,taxonomy,taxonomy,94
+Unknown/Unclassified,2580,0.04432608882398419,38226.0,0.015695004664240387,taxonomy,taxonomy,94
