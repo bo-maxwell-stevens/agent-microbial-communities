@@ -3,3 +3,55 @@
 Fresh agent-oriented workspace for bacterial, AMF, ITS, and eukaryotic community analysis.
 
 Raw data are stored locally in `data/` and are intentionally excluded from GitHub.
+
+## Project overview
+
+This repository supports integrated microbial community analyses across multiple marker datasets and associated ecological metadata.
+
+- Main goals:
+  - Harmonize sample IDs across datasets (AMF, BAC, EUK, ITS, metadata)
+  - Run sequencing-depth and prevalence QC
+  - Build reproducible, script-first ecological analysis workflows
+- Reproducibility constraints:
+  - Never modify raw input files in `data/`
+  - Write derived outputs to `results/` and narrative summaries to `docs/`
+
+## Input datasets (`data/`)
+
+The following raw inputs are used by the workflow.
+
+- `Final_data_with_diversity_prefixed.csv`
+  - Ecological/sample-level metadata table (99 rows × 103 columns)
+  - Includes canonical sample identifiers and diversity/environment variables used for downstream integration
+
+- `AMF_OTU_table_final.tsv`
+  - Arbuscular mycorrhizal fungi abundance table (120 rows × 387 columns)
+  - Row-wise samples, with one sample-ID column plus AMF feature abundance columns
+
+- `AMF_feature_metadata.tsv`
+  - AMF feature annotation table (386 rows × 1 column)
+  - Reference metadata for AMF features in the AMF abundance matrix
+
+- `BAC_OTU_table_final.tsv`
+  - Bacterial abundance table (140 rows × 291,700 columns)
+  - Row-wise samples, with one sample-ID column plus bacterial feature abundance columns
+
+- `BAC_feature_metadata.tsv`
+  - Bacterial feature annotation table (291,699 rows × 2 columns)
+  - Reference metadata for bacterial OTUs/features
+
+- `EUK_OTU_table_final.tsv`
+  - Eukaryotic abundance table (135 rows × 58,206 columns)
+  - Row-wise samples, with one sample-ID column plus eukaryotic feature abundance columns
+
+- `EUK_feature_metadata.tsv`
+  - Eukaryotic feature annotation table (58,205 rows × 2 columns)
+  - Reference metadata for eukaryotic OTUs/features
+
+- `ITS_OTU_table_final.tsv`
+  - ITS fungal abundance table (139 rows × 26,286 columns)
+  - Row-wise samples, with one sample-ID column plus ITS feature abundance columns
+
+- `ITS_feature_metadata.tsv`
+  - ITS feature annotation table (26,285 rows × 19 columns)
+  - Reference metadata for ITS sequence hypotheses/features
