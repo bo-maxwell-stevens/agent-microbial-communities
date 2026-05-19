@@ -1,0 +1,348 @@
+{
+  "query": "plant richness microbial community assembly",
+  "timestamp_utc": "2026-05-19T13:06:09.308829+00:00",
+  "data": [
+    {
+      "paperId": "62ce667f024351085d75e01d4012ce67c731e517",
+      "url": "https://www.semanticscholar.org/paper/62ce667f024351085d75e01d4012ce67c731e517",
+      "title": "Gradient of acid mine drainage regulates microbial community assembly and the diversity of species associated with native plants.",
+      "venue": "Environmental Pollution",
+      "year": 2024,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.envpol.2024.125059?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.envpol.2024.125059, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2323978949",
+          "name": "Qinhong Cai"
+        },
+        {
+          "authorId": "73101411",
+          "name": "C. Obieze"
+        },
+        {
+          "authorId": "2175889638",
+          "name": "Ruby Pyke"
+        },
+        {
+          "authorId": "2324008115",
+          "name": "Karine Delorme"
+        },
+        {
+          "authorId": "2254950521",
+          "name": "Christine Maynard"
+        },
+        {
+          "authorId": "2323976685",
+          "name": "Charles W. Greer"
+        },
+        {
+          "authorId": "87356822",
+          "name": "D. Khasa"
+        }
+      ],
+      "abstract": "Acid mine drainage (AMD) is considered as one of the most important global environmental challenges. Therefore, understanding the impact of AMD on the diversity of microbial communities associated with native plants is important for phytoremediation. In this study, the community assembly and microbial diversity associated with native plants growing along an acid mine drainage (AMD) impact gradient was investigated using metabarcoding and high throughput iChip technique. The study revealed that across both domains of bacteria and fungi, richness and species diversity decreased according to AMD impact. Bacterial species diversity was more stratified according to the pH gradient than fungi, and the AMD impact on the plant-associated microbial diversity decreased towards the plant roots. The microbial community composition of the undisturbed site was significantly different from the AMD impacted sites, and the communities in the AMD impacted sites were further stratified according to the degree of impact. The overall microbial diversity was mediated by the AMD impact, niche differences and plant species differences. Dispersal limitation was the most important community assembly process in the undisturbed site, while the homogenous selection of Burkholderia, Actinospica, Puia and Bradyrhizobium increased along the AMD impact gradient. Differential abundance analysis further revealed that Umbelopsis, Burkholderia and Sphingomonas were among the biomarkers of the AMD impacted sites. Several strains of some of these responsive genera were subsequently isolated using the iChip. Overall, this study presents novel insight into the ecology of plant-associated microbial communities that are relevant for environmental monitoring and for enhancing the revegetation of AMD impacted sites."
+    },
+    {
+      "paperId": "a4a6ca47fdd6e0600847acbf9f60a41a8bcace9f",
+      "url": "https://www.semanticscholar.org/paper/a4a6ca47fdd6e0600847acbf9f60a41a8bcace9f",
+      "title": "Ecological processes influencing bacterial community assembly across plant niche compartments",
+      "venue": "mLife",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12207902, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "34839244",
+          "name": "Nazish Roy"
+        },
+        {
+          "authorId": "2267012085",
+          "name": "Seongeun Yang"
+        },
+        {
+          "authorId": "2266806951",
+          "name": "Dongmin Lee"
+        },
+        {
+          "authorId": "20575115",
+          "name": "Kihyuck Choi"
+        }
+      ],
+      "abstract": "Abstract Understanding microbial community assembly in plants is critical for advancing agricultural sustainability. This study investigated microbial diversity and community assembly mechanisms across six compartments of tomato plants: bulk soil, rhizosphere, root, stem, flower, and seed. Using 16S rRNA amplicon sequencing, we observed that microbial richness was highest in the bulk soil and rhizosphere, with significant reductions in internal plant tissues. Co‐occurrence network analysis identified distinct microbial hubs in each compartment, such as Bacillus in the root and seed, highlighting critical interactions influencing microbial dynamics. Ecological process modeling revealed that deterministic processes, such as selection, dominated in below‐ground compartments, whereas stochastic processes like drift were more influential in above‐ground tissues, reflecting differences in niche specificity and ecological stability. Dispersal limitation emerged as a key driver in soil‐associated compartments, structuring microbial diversity. These findings advance our understanding of the ecological mechanisms shaping plant microbiomes and suggest targeted microbiome management strategies to enhance crop health, productivity, and resilience. Future research integrating functional genomics, temporal dynamics, and environmental factors is necessary to uncover the broader implications of plant‐associated microbiomes."
+    },
+    {
+      "paperId": "8fa4731f67e82cdd49b2aed77aaf18afcff900ba",
+      "url": "https://www.semanticscholar.org/paper/8fa4731f67e82cdd49b2aed77aaf18afcff900ba",
+      "title": "Plant community assembly and soil microbe synergy: dual drivers of the escalation of disease severity in degraded grasslands",
+      "venue": "Plant and Soil",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-025-08016-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-025-08016-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2024257749",
+          "name": "Tingting Ding"
+        },
+        {
+          "authorId": "2332567403",
+          "name": "Rui Zhang"
+        },
+        {
+          "authorId": "2330302808",
+          "name": "Tingyu Duan"
+        },
+        {
+          "authorId": "2246694388",
+          "name": "Chunjie Li"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "c9bb167c0b99a5dc30e97b904caf71f087a18fc3",
+      "url": "https://www.semanticscholar.org/paper/c9bb167c0b99a5dc30e97b904caf71f087a18fc3",
+      "title": "Plant–microbe interactions drive the rhizosphere microbial assembly and nitrogen cycling in a subtropical forest",
+      "venue": "Functional Ecology",
+      "year": 2025,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1111/1365-2435.70025",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/1365-2435.70025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/1365-2435.70025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2350868663",
+          "name": "Ru Wang"
+        },
+        {
+          "authorId": "2260802488",
+          "name": "Yang Chen"
+        },
+        {
+          "authorId": "2351087886",
+          "name": "He Zhang"
+        },
+        {
+          "authorId": "2350861170",
+          "name": "Zihua Wang"
+        },
+        {
+          "authorId": "2350878841",
+          "name": "Fangyuan Zheng"
+        },
+        {
+          "authorId": "2323155196",
+          "name": "Y. Mu"
+        },
+        {
+          "authorId": "2350929974",
+          "name": "Hanzhi Bao"
+        },
+        {
+          "authorId": "2199497990",
+          "name": "Zilong Ma"
+        },
+        {
+          "authorId": "2248440584",
+          "name": "Chengjin Chu"
+        },
+        {
+          "authorId": "2255030401",
+          "name": "Yuchun Yang"
+        }
+      ],
+      "abstract": "\n\n\nInteractions between plants and soil microorganisms in the rhizosphere are vital for maintaining the nutrient cycle and stability of terrestrial ecosystems. Nitrogen, closely related to carbon (C) cycling and ecosystem productivity, undergoes transformation by soil microorganisms into forms that can be assimilated by plants. However, the mechanism by which plants impact nitrogen (N) cycling in acid subtropical forest soil by governing the rhizosphere microbial community remains unclear.\n\nThis study examined the impact of host phylogeny, root traits, and soil properties on microbial communities and N cycles in the rhizospheres of Fagaceae and Lauraceae, the two dominant families in the subtropical forest of Heishiding Natural Reserve in southern China.\n\nOur findings revealed that host phylogeny dominates the variation in the richness and composition of the rhizosphere microbial community. Furthermore, antibacterial exudates from Lauraceae might reduce the stability of microbial network structure and enrich fatty acid biosynthesis function for antimicrobial resistance. Net nitrification rates (NNR) and nitrifying enzyme activities (NEA) of arbuscular mycorrhizae trees of Lauraceae were significantly higher than those of ectomycorrhizae trees of Fagaceae. The positive relationships among NNR, NEA, and root nitrogen content suggest a close correlation between soil nitrification activity and N uptake efficiency by plants. Complete ammonia oxidizer (comammox) dominated the ammonia‐oxidizing communities of these acid soils, followed by ammonia‐oxidizing archaea and ammonia‐oxidizing bacteria. The niche differentiation among these groups was strongly influenced by soil properties and plant traits, which in turn affect plant N uptake efficiency.\n\nIn conclusion, we conducted a comprehensive analysis of the root‐mediated plant–microbe interactions and the regulated microbial N cycles in the rhizosphere soils of an acid subtropical forest. These findings are crucial for elucidating the biological mechanisms guiding microbial assembly in the rhizosphere and refining biological strategies to mitigate N loss in forest ecosystems.\n\nRead the free Plain Language Summary for this article on the Journal blog."
+    },
+    {
+      "paperId": "31327d3a493fad34f8b86b44ac5192cb07459e0b",
+      "url": "https://www.semanticscholar.org/paper/31327d3a493fad34f8b86b44ac5192cb07459e0b",
+      "title": "The impact of nitrogen forms on the ecological function and community assembly of biocrusts in Gurbantunggut Desert",
+      "venue": "Plant and Soil",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-025-07827-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-025-07827-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "1660181117",
+          "name": "Long Qian"
+        },
+        {
+          "authorId": "2166974006",
+          "name": "Jingshang Xiao"
+        },
+        {
+          "authorId": "2324210344",
+          "name": "Shiqi Wang"
+        },
+        {
+          "authorId": "2302133417",
+          "name": "Ling Xia"
+        },
+        {
+          "authorId": "2300425548",
+          "name": "Shaoxian Song"
+        },
+        {
+          "authorId": "2162451794",
+          "name": "Xiaoyan Liu"
+        },
+        {
+          "authorId": "9418535",
+          "name": "Y. Gong"
+        },
+        {
+          "authorId": "2308350375",
+          "name": "Li Wu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "b967e761497d2390fae0478635218144f9038c67",
+      "url": "https://www.semanticscholar.org/paper/b967e761497d2390fae0478635218144f9038c67",
+      "title": "Wastewater-driven nutrient enrichment restructures viral community assembly, host interactions, and ecological function along the Nakivubo-Lake Victoria interface in Uganda.",
+      "venue": "Science of the Total Environment",
+      "year": 2025,
+      "citationCount": 4,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.scitotenv.2025.180002?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.scitotenv.2025.180002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "5244034",
+          "name": "H. Ogola"
+        }
+      ],
+      "abstract": "Gulf ecosystems in freshwater lakes are dynamic interfaces of microbial activity, shaped by complex interactions between natural processes and anthropogenic inputs from surrounding urban catchments. This study investigated viral community composition, functional potential, and virus-host interactions along the Nakivubo catchment-Lake Victoria interface in Murchison Bay, Uganda. Metagenomic profiling of 28 samples across four compartments: wastewater treatment plant (WWTP); a municipal channel; papyrus-dominated wetland; and Lake water, revealed spatially distinct viromes dominated by Uroviricota (45.8-94.8 %), with higher richness observed in Channel and Wetland than in WWTP and Lake samples. Community structure was strongly compartmentalized (PERMANOVA, p < 0.001), with WWTP and Channel viromes distinct from those in less impacted compartments. Human-associated viruses, including crAss-like phages (up to 29.3 %) and Picobirnaviruses (11.4 %), were enriched in WWTP samples, reflecting fecal pollution. Linear discriminant analyses and random forest modeling identified Sinsheimervirus as wetland indicator, while Fukuivirus, Bellamyvirus and Prokaryotic dsDNA virus were characteristic of lake viromes. Viral-bacterial co-occurrence networks were fragmented and less cohesive in WWTP and Channel (average path length = 3.2), but more modular and nested in Wetland (avg. path length = 1.9; modularity = 0.47), reflecting ecological structuring. Among environmental variables, ammonia-N was the strongest correlate of viral beta diversity (Mantel r = 0.67, p < 0.01). Functionally, auxiliary metabolic genes (AMGs) linked to photosynthesis, nitrogen and carbohydrate cycling were enriched in Wetland and Lake, while mobile genetic elements (MGEs) and antibiotic resistance genes (ARGs) were largely confined to WWTP, Channel, and Wetland. These patterns suggest selective viral adaptations to eutrophic, contaminated environments and their attenuation downstream. The findings demonstrate how wastewater-driven nutrient enrichment shapes viral community assembly, host associations, and ecological function along tropical freshwater continua. Viruses emerge as sensitive indicators of anthropogenic impact and offer new perspectives for water quality monitoring and ecosystem health assessment in urban-influenced lake systems."
+    },
+    {
+      "paperId": "ee9a7083222c48613b4820a27d334b7ffda90f68",
+      "url": "https://www.semanticscholar.org/paper/ee9a7083222c48613b4820a27d334b7ffda90f68",
+      "title": "Taxonomic and functional β-diversity patterns reveal stochastic assembly rules in microbial communities of seagrass beds",
+      "venue": "Frontiers in Plant Science",
+      "year": 2024,
+      "citationCount": 8,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1367773/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10932972, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2237646587",
+          "name": "Xiaofeng Niu"
+        },
+        {
+          "authorId": "2378159754",
+          "name": "W. Ren"
+        },
+        {
+          "authorId": "2237077874",
+          "name": "Congjun Xu"
+        },
+        {
+          "authorId": "2353097640",
+          "name": "Ruilong Wang"
+        },
+        {
+          "authorId": "2289438779",
+          "name": "Jingwei Zhang"
+        },
+        {
+          "authorId": "2289276653",
+          "name": "Huan Wang"
+        }
+      ],
+      "abstract": "Microorganisms are important members of seagrass bed ecosystems and play a crucial role in maintaining the health of seagrasses and the ecological functions of the ecosystem. In this study, we systematically quantified the assembly processes of microbial communities in fragmented seagrass beds and examined their correlation with environmental factors. Concurrently, we explored the relative contributions of species replacement and richness differences to the taxonomic and functional β-diversity of microbial communities, investigated the potential interrelation between these components, and assessed the explanatory power of environmental factors. The results suggest that stochastic processes dominate community assembly. Taxonomic β-diversity differences are governed by species replacement, while for functional β-diversity, the contribution of richness differences slightly outweighs that of replacement processes. A weak but significant correlation (p < 0.05) exists between the two components of β-diversity in taxonomy and functionality, with almost no observed significant correlation with environmental factors. This implies significant differences in taxonomy, but functional convergence and redundancy within microbial communities. Environmental factors are insufficient to explain the β-diversity differences. In conclusion, the assembly of microbial communities in fragmented seagrass beds is governed by stochastic processes. The patterns of taxonomic and functional β-diversity provide new insights and evidence for a better understanding of these stochastic assembly rules. This has important implications for the conservation and management of fragmented seagrass beds."
+    },
+    {
+      "paperId": "844a94209fec97660e4fdcccc364921d63f6c4e3",
+      "url": "https://www.semanticscholar.org/paper/844a94209fec97660e4fdcccc364921d63f6c4e3",
+      "title": "The Role Transition of Dietary Species Richness in Modulating the Gut Microbial Assembly and Postweaning Performance of a Generalist Herbivore",
+      "venue": "mSystems",
+      "year": 2021,
+      "citationCount": 10,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1128/msystems.00979-21",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8562480, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2136107282",
+          "name": "Guoliang Li"
+        },
+        {
+          "authorId": "2105642063",
+          "name": "Chao Shi"
+        },
+        {
+          "authorId": "2119307331",
+          "name": "Yiran Song"
+        },
+        {
+          "authorId": "47765143",
+          "name": "H. Chu"
+        },
+        {
+          "authorId": "2411543847",
+          "name": "Zhibin Zhang"
+        }
+      ],
+      "abstract": "The plant species diversity varies greatly under the influence of both climate change and human disturbance, which may negatively affect the productivity as well as the variability of organisms (e.g., small herbivores) at the next trophic level. It is still unknown how gut microbiota of small herbivores respond to such changes in dietary species richness. ABSTRACT When facing a food shortage, generalist herbivores can respond by expanding their dietary species richness (DSR) to maximize energy collection, regardless of whether forages are preferred or not. Higher DSR usually indicates higher nutrient adequacy and better health. However, the high-DSR diet containing a large proportion of preferred species or a large proportion of less-preferred species means different things to an animal. It is still unknown how different shift patterns in DSR would affect distinctly the performance of animals via altering gut microbiota. We examined the gut microbial composition, diversity, community assembly processes, and performance of a generalist herbivore, Lasiopodomys brandtii, in a feeding experiment with increased levels of simulated DSR shifting from preferred plant species to less preferred ones. We found the survival rate and body growth of Brandt’s voles showed a dome-shaped association with DSR: species performance increased initially with the increase of preferred plant species but declined with the increase of less-preferred food items. Several microbial taxa and functions closely related to the metabolism of amino acids and short-chain fatty acids also showed a dome-shaped association with DSR, which is consistent with the observation of performance change. However, the alpha diversities of gut microbiota increased linearly with DSR. The null model and phylogenetic analysis suggested that stochastic processes dominate at low DSR diets, whereas deterministic processes prevail at high DSR diets. These results suggest that the role of DSR in regulating animal performance by gut microbiota depends on the number of preferred forage items. IMPORTANCE The plant species diversity varies greatly under the influence of both climate change and human disturbance, which may negatively affect the productivity as well as the variability of organisms (e.g., small herbivores) at the next trophic level. It is still unknown how gut microbiota of small herbivores respond to such changes in dietary species richness. Our manipulative food experiment revealed that dietary species richness can affect the composition, functions, and community assembly of gut microbiota of Brandt’s vole in a nonlinear way. Given the fast-growing interest in therapeutic diets to treat dysbiosis and to improve health conditions, our study highlights the need to consider not just the variety of consumed food but also the principles of rational nutrition."
+    }
+  ]
+}

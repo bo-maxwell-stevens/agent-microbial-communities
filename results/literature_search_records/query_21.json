@@ -1,0 +1,314 @@
+{
+  "query": "random forest SHAP microbiome ecology",
+  "timestamp_utc": "2026-05-19T13:06:29.263532+00:00",
+  "data": [
+    {
+      "paperId": "b19e1cedd27c589f875aa55fcf00020186f55e16",
+      "url": "https://www.semanticscholar.org/paper/b19e1cedd27c589f875aa55fcf00020186f55e16",
+      "title": "A study of dominant factors in the coupled coordination of population–ecology–energy–digital economy in China based on random forest algorithm",
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12092613, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2295221767",
+          "name": "Qikang Zhong"
+        },
+        {
+          "authorId": "2325687478",
+          "name": "Jiawei Zhu"
+        },
+        {
+          "authorId": "2295282899",
+          "name": "Zhe Li"
+        }
+      ],
+      "abstract": "This study aims to examine the spatiotemporal patterns and dominant influencing factors of the coupling coordinated development (CCD) among population, ecology, energy, and digital economy (PEED) systems in China, contributing to the broader goal of sustainable regional development. Using panel data from 31 Chinese provinces over the period 2011–2020, we construct a PEED coordination index and analyze its evolution through coupling coordination models, spatial autocorrelation (Moran’s I), the Geodetector model, and a Random Forest algorithm with SHAP analysis. Results show a steady improvement in the overall CCD across provinces, although significant regional disparities persist—eastern provinces such as Guangdong and Beijing lead in coordination, while western and northeastern regions lag behind. Among the four subsystems, the ecological subsystem shows the greatest spatial variation, while the digital economy subsystem is more homogeneous. The Nighttime Light Index, Urbanization Rate, and Green Coverage Rate are identified as the most important drivers, with the Nighttime Light Index consistently exhibiting the strongest influence on CCD. SHAP analysis reveals nonlinear effects of all drivers, highlighting the complexity of subsystem interactions. The findings provide policy-relevant insights for promoting balanced and sustainable development. Policymakers should focus on enhancing urban planning, ecological protection, renewable energy adoption, and digital infrastructure investment, especially in less-developed regions, to further strengthen PEED coordination and support the achievement of Sustainable Development Goals (SDGs)."
+    },
+    {
+      "paperId": "a4db59d2f6be150d1a5bfe5817d6a0cfeeb6aaad",
+      "url": "https://www.semanticscholar.org/paper/a4db59d2f6be150d1a5bfe5817d6a0cfeeb6aaad",
+      "title": "SHAP-based binarization enhances metataxonomic machine learning with application to gut microbiota of inflammatory bowel disease",
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12594890, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2261896930",
+          "name": "Youngro Lee"
+        },
+        {
+          "authorId": "2274110282",
+          "name": "Jongmo Seo"
+        },
+        {
+          "authorId": "112955780",
+          "name": "Barbara Di Camillo"
+        }
+      ],
+      "abstract": "Machine learning has been increasingly applied to microbiome data for biomarker discovery. However, microbiome datasets are typically high-dimensional, sparse, and correlated, which makes model training challenging and prone to overfitting. Previous studies have also reported that microbiome features exhibit binary-like characteristics, and that binarization does not necessarily reduce predictive performance. This observation motivated our work. Building on this idea, we propose a SHAP-based binarization pipeline. We first trained several machine learning models on raw continuous data and selected the best-performing model (random forest). Using SHAP values derived from the training set, we determined feature-specific thresholds that best separated positive and negative contributions. The dataset was then binarized using these thresholds and new models were trained on the transformed data. We evaluated this approach on gut microbiome abundance data (283 species, 220 genera, 1,569 individuals) to classify inflammatory bowel disease (IBD) versus healthy controls. The SHAP-based binarization consistently improved classification performance and interpretability compared with both continuous data and zero-threshold binarization. The best model’s Matthews correlation coefficient increased from 0.884 to 0.928, with the largest improvements observed in non-tree-based models such as logistic regression and neural networks. SHAP summary plots also revealed clearer feature patterns, and biomarker rankings were more stable. In addition, the pipeline enabled us to identify a concise set of 17 microbial biomarkers associated with IBD. This study introduces a novel approach for microbiome data analysis by explicitly linking binarization thresholds to SHAP-derived feature contributions. Our approach was grounded in the observation of binary-like patterns revealed through SHAP values. Furthermore, although binarization inevitably raises concerns about information loss, our evaluation confirmed improvements not only in predictive performance but also in interpretability and biomarker stability, providing a broader validation of robustness. These findings highlight SHAP-based binarization as an effective strategy for high-dimensional microbiome data, with broad applicability and opportunities for future extension."
+    },
+    {
+      "paperId": "2cfb07cdda398a6f1aff964f3e978b27603433be",
+      "url": "https://www.semanticscholar.org/paper/2cfb07cdda398a6f1aff964f3e978b27603433be",
+      "title": "Interpretable machine learning algorithms reveal gut microbiome features associated with atopic dermatitis",
+      "venue": "Frontiers in Immunology",
+      "year": 2025,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.3389/fimmu.2025.1528046",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12078218, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2333206723",
+          "name": "Jingtai Ma"
+        },
+        {
+          "authorId": "2358788112",
+          "name": "Yiting Fang"
+        },
+        {
+          "authorId": "2333587702",
+          "name": "Shiqi Li"
+        },
+        {
+          "authorId": "2333055117",
+          "name": "Lilian Zeng"
+        },
+        {
+          "authorId": "2333394756",
+          "name": "Siyi Chen"
+        },
+        {
+          "authorId": "2280331167",
+          "name": "Zhifeng Li"
+        },
+        {
+          "authorId": "2332384635",
+          "name": "Guiyuan Ji"
+        },
+        {
+          "authorId": "2266808404",
+          "name": "Xingfen Yang"
+        },
+        {
+          "authorId": "2333404015",
+          "name": "Wei Wu"
+        }
+      ],
+      "abstract": "Background The “gut–skin axis” has been proposed to play an important role in the development and symptoms of atopic dermatitis. Therefore, we have constructed an interpretable machine learning framework to quantitatively screen key gut flora. Methods The 16S rRNA dataset, after applying the centered log-ratio transformation, was analyzed using five different machine learning models: random forest, light gradient boosting machine, extreme gradient boosting, support vector machine with radial kernel, and logistic regression. Interpretable machine learning methods, such as SHAP values, were used to identify significant features associated with atopic dermatitis. Results Random forest performed better than the other “tree” models in the validation partitions. The SHAP global dependency plot indicated that Bifidobacterium ranked as the strongest predictive factor across all prediction horizons, although the SHAP values for some features were still higher in support vector machine and logistic regression models. The SHAP partial dependency plot for “tree” models showed that the best segmentation point for Bifidobacterium was further from the origin compared to other features in the respective models, quantitatively reflecting differences in gut microbiota. Conclusion Machine learning models combined with SHAP could be used to quantitatively screen key gut flora in atopic dermatitis patients, providing doctors with an intuitive understanding of 16S rRNA sequencing data to support precision medicine in care and recovery."
+    },
+    {
+      "paperId": "11da14a662863824bd612a4bbf94543d5c675be6",
+      "url": "https://www.semanticscholar.org/paper/11da14a662863824bd612a4bbf94543d5c675be6",
+      "title": "Interpretive prediction of hyperuricemia and gout patients via machine learning analysis of human gut microbiome",
+      "venue": "BMC Microbiology",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12243206, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2248646174",
+          "name": "Jia-Wei Tang"
+        },
+        {
+          "authorId": "2296182572",
+          "name": "Alfred C Y Tay"
+        },
+        {
+          "authorId": "2144696919",
+          "name": "Liang Wang"
+        }
+      ],
+      "abstract": "Hyperuricemia (HUA) and gout result from imbalances in uric acid metabolism and are closely associated with the gut microbiota. Advanced analytical methods facilitate the exploration of microbiota complexity. In this study, 16S rRNA sequencing data from stool samples of 233 patients were thoroughly collected. Machine learning (ML) and Shapley Additive exPlanations (SHAP) interpretability algorithms were applied to identify core taxa and predict the metabolic functions. The results revealed that the high-contribution core taxa identified by SHAP in each group, such as Oscillospiraceae_UCG-005 and Rhodococcus provided the basis for ML prediction. Among the five classification models, Random Forest (RF) achieved the best diagnostic performance, with prediction accuracy ranging from 82 to 96%. Metabolic function predictions indicated that the purine metabolism pathway contributes the most to distinguishing gout from other groups. In sum, ML-based 16S rRNA sequencing reveals key gut microbiome biomarkers, aiding new diagnostic strategies for HUA and gout. 1. Healthy gut microbiome diversity is significantly reduced in HUA and gout. 2. Interpretive machine learning models were developed for HUA and gout prediction. 3. Key bacteria were identified in the human gut microbiome for HUA and gout."
+    },
+    {
+      "paperId": "04ae2edfdb655f54fce358122b3199b709c605be",
+      "url": "https://www.semanticscholar.org/paper/04ae2edfdb655f54fce358122b3199b709c605be",
+      "title": "Skin Microbiome Signatures for Non-Invasive Detection of Autoimmune Disorders and Gut-Endocrine Axis Disruption in PCOS: An AI-Driven Multi-Omics Approach",
+      "venue": "International Conference on Computing, Communication and Automation",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICCCA66364.2025.11325458?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICCCA66364.2025.11325458, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2310544297",
+          "name": "N. Kulkarni"
+        },
+        {
+          "authorId": "102141839",
+          "name": "S. Jalan"
+        },
+        {
+          "authorId": "2362884503",
+          "name": "Vishal Kumar"
+        }
+      ],
+      "abstract": "Polycystic ovary syndrome (PCOS) is a complex endocrine disorder characterized by hyperandrogenism, ovulatory dysfunction, and metabolic abnormalities, with emerging evidence linking it to systemic immune dysregulation and increased risk of autoimmune comorbidities such as psoriasis, lupus, and thyroid disease. While the gut microbiome has been extensively investigated in PCOS, the skin microbiome remains an underutilized yet accessible interface with immune and endocrine pathways. This study introduces an AI-driven multi-omics framework integrating gut and skin microbiome sequencing with metabolomic and transcriptomic data to identify non-invasive biomarkers predictive of PCOS and autoimmune phenotypes. High-quality metagenomic datasets were curated and processed with standardized pipelines (FastQC, Trimmomatic, Bowtie2, Kraken2, Bracken), and microbial diversity shifts were quantified. Machine learning models (Random Forest, XGBoost, LightGBM) were trained on integrated microbial, metabolic, and cytokine features, with SHAP and LIME interpretability highlighting drivers such as short-chain fatty acid depletion, enrichment of pro-inflammatory taxa, and IL-36 and NGF signaling. Results showed consistent dysbiosis in PCOS alongside skin microbial and cytokine signatures of autoimmune dysregulation. Including inflammatory mediators and metabolite profiles improved classification, surpassing 90% accuracy. This framework establishes a path toward non-invasive, interpretable diagnostics for early detection, risk stratification, and targeted therapies in women with PCOS and related comorbidities."
+    },
+    {
+      "paperId": "b3e0924b61cc602f054bb0c394b68c28cde5bcc6",
+      "url": "https://www.semanticscholar.org/paper/b3e0924b61cc602f054bb0c394b68c28cde5bcc6",
+      "title": "Network and machine learning integration reveals gut microbiome biomarkers in pediatric IBD",
+      "venue": "BMC Microbiology",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12723835, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2333041090",
+          "name": "Yixing Luo"
+        },
+        {
+          "authorId": "2298576324",
+          "name": "Yang Yang"
+        }
+      ],
+      "abstract": "Pediatric inflammatory bowel disease (IBD) is an emergent health challenge globally, marked by complex interactions between host genetics, immune responses, and the gut microbiome. Despite advances in sequencing and computational approaches, robust, clinically translatable biomarkers remain limited, especially for Asian pediatric populations. This study aimed to integrate network-based microbial community analysis with machine learning (ML) to identify treatment-responsive bacterial taxa and predictive biomarkers in Chinese children with IBD. A prospective cohort of 50 children (30 IBD, 20 non-IBD controls) was enrolled at a tertiary hospital in Beijing, China. Fecal samples underwent 16 S rRNA sequencing, and clinical data were systematically recorded. Microbial diversity, taxonomic shifts, and co-occurrence networks were analyzed using QIIME 2, SparCC, and Cytoscape. Four ML classifiers (Random Forest, Logistic Regression, XGBoost, and Voting Classifier) were developed, with SHAP used for model interpretability. Decision curve analysis (DCA) assessed clinical net benefit. Children with IBD demonstrated significantly reduced Shannon diversity (3.55 ± 0.58 vs. 4.20 ± 0.46, p = 0.003) and observed operational taxonomic units (OTUs) (134 ± 30 vs. 188 ± 40, p = 0.001) compared to controls. Beta diversity (Bray–Curtis, PERMANOVA p = 0.001) and (Non-metric multidimensional scaling) NMDS revealed distinct community clustering. IBD networks were fragmented, with fewer edges (85 vs. 120, p = 0.02) and lower clustering coefficient (0.25 vs. 0.40, p = 0.01). Key taxa such as Faecalibacterium (3.2% ± 2.1 vs. 8.5% ± 4.0, p = 0.0005) were depleted in IBD, while Escherichia–Shigella (6.8% ± 5.5 vs. 1.2% ± 2.0, p = 0.002) and Veillonella (2.5% ± 2.2 vs. 0.5% ± 0.8, p = 0.010) were enriched. ML models achieved high accuracy (XGBoost: 98%, Voting Classifier: 97%), with SHAP analysis confirming these taxa and inflammation markers (CRP/ESR, calprotectin) as top predictors. DCA demonstrated clear net benefit for ML-guided diagnosis. Network-based and ML-integrated analysis of the gut microbiome in pediatric IBD identified reproducible, treatment-responsive biomarkers and delivered accurate, interpretable prediction. This integrative approach supports precision diagnostics and monitoring in pediatric IBD."
+    },
+    {
+      "paperId": "7d065bd8e2e452f4b9c77ddafad9604a1d99523d",
+      "url": "https://www.semanticscholar.org/paper/7d065bd8e2e452f4b9c77ddafad9604a1d99523d",
+      "title": "The cNED framework: modeling core microbial communities and metabolic functions with SHAP-interpretable environmental thresholds in large rivers.",
+      "venue": "Water Research",
+      "year": 2026,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.watres.2026.125531?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.watres.2026.125531, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2264173953",
+          "name": "Lunhui Lu"
+        },
+        {
+          "authorId": "2409605395",
+          "name": "Xingqian Jian"
+        },
+        {
+          "authorId": "2298566138",
+          "name": "Shanshan Lin"
+        },
+        {
+          "authorId": "2263579932",
+          "name": "Zhe Li"
+        },
+        {
+          "authorId": "2069578281",
+          "name": "Qiong Tang"
+        },
+        {
+          "authorId": "2404638493",
+          "name": "Yan Xiao"
+        },
+        {
+          "authorId": "2145793802",
+          "name": "Yuanyuan Zhang"
+        },
+        {
+          "authorId": "2263728564",
+          "name": "Dianchang Wang"
+        }
+      ],
+      "abstract": "Microbial communities in river ecosystems regulate biogeochemical cycling and serve as natural bioremediators for environmental pollutants. However, accurately predicting their dynamic responses to changing conditions remains a significant scientific challenge because of the complexity of microbial interactions and ecosystem-scale feedbacks. Here, a novel compositional neural encoder-decoder (cNED) framework was developed, coupling environmental variables with microbial profiles based on an extensive collection of 473 samples from the upper Yangtze River. A total of 157 core bacterial OTUs were identified from 27,932 OTUs by the occupancy-frequency method, which were predominantly governed by deterministic assembly processes. The identified core microbiome demonstrated significant functional associations with carbon and nitrogen cycling. Compared with conventional modeling approaches (multilayer perceptron, random forests, linear regression), the cNED framework demonstrated superior predictive performance, achieving high accuracy in taxonomic prediction and functional profile prediction (carbon cycling: R² = 0.85; nitrogen cycling: R² = 0.52). The Shapley additive explanations (SHAP) analysis identified spatial gradients and temperature as key environmental drivers. Generalized Additive Models uncovered phylum- and function-specific tipping points: Proteobacteria exhibited a dual-threshold thermal niche (20.5-27 °C), while functions like methylotrophy and nitrogen fixation responded nonlinearly to temperature and TN, revealing unimodal or monotonic transitions. The cNED framework developed in this study establishes an interpretable predictive framework for forecasting microbial community and functional responses to environmental perturbations, offering valuable insights for evidence-based river ecosystem management and climate adaptation strategies."
+    },
+    {
+      "paperId": "08e690edb106c1c6d90e0f65f0f05dacdef2a521",
+      "url": "https://www.semanticscholar.org/paper/08e690edb106c1c6d90e0f65f0f05dacdef2a521",
+      "title": "Rhizosphere Microbiome of Forest Trees Determines Their Resistance to Soil-borne Pathogens",
+      "venue": "",
+      "year": 2022,
+      "citationCount": 2,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.researchsquare.com/article/rs-1234640/latest.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.21203/rs.3.rs-1234640/v1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.21203/rs.3.rs-1234640/v1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "47785097",
+          "name": "Li Yu"
+        },
+        {
+          "authorId": "1742036723",
+          "name": "Haiyun Zi"
+        },
+        {
+          "authorId": "83728106",
+          "name": "H. Zhu"
+        },
+        {
+          "authorId": "6548939",
+          "name": "Yangwenke Liao"
+        },
+        {
+          "authorId": "2108182031",
+          "name": "Xiaogang Li"
+        }
+      ],
+      "abstract": "\n Background and aimsThe ability of plants to cope with environmental pressure and the interaction between rhizosphere microorganisms and host trees play an important role in the stability and function of forest ecosystems. Beneficial microbes recruited to the plant rhizosphere and stably association with tree roots can potentially reduce biotic stress, but the biochemical processes involved in coping with pathogen attack are not fully understood. Here, we aimed to investigate the ecology process of rhizosphere microbiota from four broad-leaved and three coniferous tree varieties involving in the suppression of soil-borne fungal pathogens. MethodsWe used separation cultivation and in vitro antagonistic experiments to investigate the inhibitory effects of rhizosphere microbiome on pathogenic fungi. Rhizosphere microbiome was then sequenced using the Illumina MiSeq platform, and root exudates of trees were measured by gas chromatography-mass spectrometry (GC-MS).ResultsRhizosphere microbes from seven tree varieties had strong inhibitory effects on fungal pathogens, nevertheless, there were significant differences in their capacity. The dissimilarities in rhizosphere bacterial communities that were significantly correlated with phylogenetic distance of trees had a greater influence on suppression of pathogens compared with microbial abundance and diversity. Combined analysis of a random forest model and co-occurrence networks, revealed a cooperative relationship between key groups that were positively associated with inhibition of fungal pathogens in the tree rhizosphere. This process was further strengthened by specific metabolites secreted by tree roots. ConclusionsIn general, the rhizosphere microbiota of seven tree species had different inhibitory effects on fungal pathogens, and the cooperative relationship within the rhizosphere microbial community plays an important role in maintaining trees resistance to soil pathogens stress."
+    }
+  ]
+}

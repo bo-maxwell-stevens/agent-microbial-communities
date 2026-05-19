@@ -1,0 +1,379 @@
+{
+  "query": "pH driven microbial community structure",
+  "timestamp_utc": "2026-05-19T13:06:18.377723+00:00",
+  "data": [
+    {
+      "paperId": "7737fa456ea9c899e98a5f4d7143db574247df4c",
+      "url": "https://www.semanticscholar.org/paper/7737fa456ea9c899e98a5f4d7143db574247df4c",
+      "title": "pH\n ‐Driven Modulation of Microbial Community Structure and Functional Succession in Fallen Oak Logs",
+      "venue": "Environmental Microbiology",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/1462-2920.70308?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/1462-2920.70308, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2223713144",
+          "name": "Junning Li"
+        },
+        {
+          "authorId": "2290246011",
+          "name": "Yulian Wei"
+        },
+        {
+          "authorId": "2289457900",
+          "name": "Wen Zhao"
+        },
+        {
+          "authorId": "2281465430",
+          "name": "Reyila Mumin"
+        },
+        {
+          "authorId": "2216544335",
+          "name": "Shun Liu"
+        },
+        {
+          "authorId": "2422281425",
+          "name": "Yifei Sun"
+        },
+        {
+          "authorId": "2284531081",
+          "name": "Baokai Cui"
+        }
+      ],
+      "abstract": "\n \n Deadwood serves as a vital carbon sink in forest ecosystems, fostering diverse microbial communities. pH shapes microbial community structure and metabolism in deadwood, especially in mid‐to‐late decomposition stages with strong pH gradients. In fallen\n Quercus liaotungensis\n logs, the variation in pH was closely related to changes in available nutrients and the activity of lignocellulolytic enzymes, particularly involved in cellulose degradation. These changes reflect a successional transition in microbial community structure and function, as revealed by ITS and 16S rRNA amplicon sequencing. Specifically, low pH (< 4.5) suppressed lignocellulosic enzyme activity but showed higher microbial diversity and greater modularity in fungal‐bacterial co‐occurrence networks, while bacterial communities also exhibited niche differentiation, suggesting distinct ecological strategies employed by fungi and bacteria in response to pH changes. Moreover, the abundance of major functional fungal groups and specific bacterial functional taxa varied with pH. Co‐occurrence network analysis identified the bacterial order\n Micrococcales\n as a core taxonomic group associated with high‐pH environments. This study elucidates how pH regulates microbial nutrient utilisation in a self‐contained decomposing system and provides a basis for understanding how pH‐driven microbial metabolic adjustment promotes nutrient transformation during deadwood decomposition.\n"
+    },
+    {
+      "paperId": "8c97a8e05a38f8b0adeeca2519a55f81da24894d",
+      "url": "https://www.semanticscholar.org/paper/8c97a8e05a38f8b0adeeca2519a55f81da24894d",
+      "title": "Phosphogypsum with Rice Cultivation Driven Saline-Alkali Soil Remediation Alters the Microbial Community Structure",
+      "venue": "Plants",
+      "year": 2024,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11479165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2262197990",
+          "name": "Guanru Lu"
+        },
+        {
+          "authorId": "2262204411",
+          "name": "Zhonghui Feng"
+        },
+        {
+          "authorId": "2217514691",
+          "name": "Yang Xu"
+        },
+        {
+          "authorId": "2298113739",
+          "name": "Fachun Guan"
+        },
+        {
+          "authorId": "81146433",
+          "name": "Yangyang Jin"
+        },
+        {
+          "authorId": "2263394145",
+          "name": "Guohui Zhang"
+        },
+        {
+          "authorId": "2262312010",
+          "name": "Jiafeng Hu"
+        },
+        {
+          "authorId": "2217461643",
+          "name": "Tianhe Yu"
+        },
+        {
+          "authorId": "2108930331",
+          "name": "Mingming Wang"
+        },
+        {
+          "authorId": "2144067143",
+          "name": "Miao Liu"
+        },
+        {
+          "authorId": "2310019137",
+          "name": "Haoyu Yang"
+        },
+        {
+          "authorId": "2202536852",
+          "name": "Weiqiang Li"
+        },
+        {
+          "authorId": "2238906331",
+          "name": "Zhengwei Liang"
+        }
+      ],
+      "abstract": "The improvement of saline-alkali land plays a key role in ensuring food security and promoting agricultural development. Saline soils modifies the response of the soil microbial community, but research is still limited. The effects of applying phosphogypsum with rice cultivation (PRC) on soil physicochemical properties and bacterial community in soda saline-alkali paddy fields in Songnen Plain, China were studied. The results showed that the PRC significantly improved the physicochemical properties of soil, significantly reduced the salinity, increased the utilization efficiency of carbon, nitrogen, and phosphorus, and significantly increased the activities of urease and phosphatase. The activities of urease and phosphatase were significantly correlated with the contents of total organic carbon and total carbon. A redundancy analysis showed that pH, AP, ESP, HCO3−, and Na+ were dominant factors in determining the bacterial community structure. The results showed that PRC could improve soil quality and enhance the ecosystem functionality of soda saline-alkali paddy fields by increasing nutrient content, stimulating soil enzyme activity, and regulating bacterial community improvement. After many years of PRC, the soda-alkali soil paddy field still develops continuously and healthily, which will provide a new idea for sustainable land use management and agricultural development."
+    },
+    {
+      "paperId": "bfed92ba9d36aea039010eb2a2e48d33baf848a3",
+      "url": "https://www.semanticscholar.org/paper/bfed92ba9d36aea039010eb2a2e48d33baf848a3",
+      "title": "Spatial heterogeneity of microbial community structure and its environmental drivers in surface sediments of Erhai Lake",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12410724, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2295151465",
+          "name": "Hao-Qin Xiong"
+        },
+        {
+          "authorId": "2354285499",
+          "name": "Cong-gao Yang"
+        },
+        {
+          "authorId": "2295213059",
+          "name": "Hao-Ran Bao"
+        },
+        {
+          "authorId": "2295177215",
+          "name": "Jia-Zhuo Qu"
+        },
+        {
+          "authorId": "2295212698",
+          "name": "Zhe-Xi Luan"
+        },
+        {
+          "authorId": "2112337185",
+          "name": "Xiao-Long Sun"
+        },
+        {
+          "authorId": "2214708498",
+          "name": "Hong Xiang"
+        }
+      ],
+      "abstract": "As a crucial plateau freshwater lake in Yunnan Province, China, Erhai Lake exhibits distinct environmental heterogeneity driven by its unique watershed characteristics and human activities, significantly influencing sediment microbial communities. This study investigated the spatial relationships between environmental factors and microbial community structures in surface sediments from the eastern, western, and northern shores using redundancy analysis (RDA) and Spearman correlation analysis. Results revealed that pH, total nitrogen (TN), total phosphorus (TP), total organic carbon (TOC), and redox potential (Eh) were key drivers of microbial community divergence. The western shore, with the highest TP, TOC, and nitrogen levels, displayed elevated microbial diversity dominated by Proteobacteria and Bacteroidetes, reflecting higher pollution loads. The northern shore exhibited severe nitrogen pollution, marked by the highest TN content and enrichment of Thiobacillus, potentially enhancing water self-purification. The eastern shore, with minimal anthropogenic disturbance, showed the highest bacterial diversity but the lowest nutrient concentrations. Fungal community structure was significantly influenced by pH, Eh, and TOC, while ecological restoration measures on the western shore enhanced fungal community stability. This study highlights how spatial heterogeneity in environmental factors regulates microbial community structure and function, ultimately affecting the stability of lake ecosystems. These findings provide a scientific basis for ecological restoration and sustainable management of plateau lakes."
+    },
+    {
+      "paperId": "96177fe41b5b69a58c87a618132bffe5f3f9feba",
+      "url": "https://www.semanticscholar.org/paper/96177fe41b5b69a58c87a618132bffe5f3f9feba",
+      "title": "Effects of bactericides and sulphate reducing bacteria addition on acidification and microbial community structure of newly produced coal gangue.",
+      "venue": "Journal of Environmental Science",
+      "year": 2024,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jes.2024.06.024?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jes.2024.06.024, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "49225625",
+          "name": "Qi Zhu"
+        },
+        {
+          "authorId": "2295280621",
+          "name": "Yu Cai"
+        },
+        {
+          "authorId": "2261899266",
+          "name": "Zhenqi Hu"
+        }
+      ],
+      "abstract": "Microbiologically driven acidic pollution of coal gangue has become a major environmental problem in coal gangue dumps in coal mining areas. Addition of bactericides and sulphate reducing bacteria (SRB) is an effective means to control the acidic pollution of coal gangue, but their mechanism of action has not been fully investigated. By adding bactericide, SRB and bactericide-SRB to the newly produced coal gangue, respectively, the effects of these treatments on the microbial community structure were observed. Changes in pH and electrical conductivity (EC) of the gangue leaching solution, as well as the microbial community composition and functional abundance on the gangue surface were analysed by leaching simulation experiments and 16S rRNA sequencing. The results showed that (1) the addition of bactericide-SRB was the most effective treatment to elevate pH before 8 d, while the addition of SRB performed best after 22 d (2) The addition of bactericide and SRB drastically changed the microbial community structure on the gangue surface. Simultaneous addition of both had the best inhibitory effect on pathogenic bacteria and Thiobacillus. (3) All three treatments promote higher abundance of genes related to nitrogen cycling, but reflected in different gene functions. Microorganisms with sulfate respiration function in the experimental group all showed different increases. The abundance of other sulfur cycle genes decreased substantially. However, Human Pathogens All had higher abundance than control check (CK) in each treatment, which may indicate that the addition of either bactericides or SRB increases the risk of microbial pathogenicity to humans."
+    },
+    {
+      "paperId": "584e86065ae4a2512f15ada1bf8742feceaef6d0",
+      "url": "https://www.semanticscholar.org/paper/584e86065ae4a2512f15ada1bf8742feceaef6d0",
+      "title": "Comprehensive insights into the effect of color, texture, flavor and microbial community driven via yak bone-derived collagen peptides combined with tea polyphenols as a versatile additive in fermented sausages.",
+      "venue": "Food Research International",
+      "year": 2025,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.foodres.2025.117010?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.foodres.2025.117010, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2258087375",
+          "name": "Zhaoyang Song"
+        },
+        {
+          "authorId": "2192608247",
+          "name": "Ya Zheng"
+        },
+        {
+          "authorId": "2303379215",
+          "name": "Yabin Ma"
+        },
+        {
+          "authorId": "2258026106",
+          "name": "Wenjing Ni"
+        },
+        {
+          "authorId": "2146247370",
+          "name": "Yinjuan Cao"
+        },
+        {
+          "authorId": "2258674817",
+          "name": "Ling Han"
+        },
+        {
+          "authorId": "2257890151",
+          "name": "Qunli Yu"
+        }
+      ],
+      "abstract": "In this study, yak bone collagen peptide-tea polyphenol binding peptides (YCP/TP) were successfully prepared and investigated for their positive effects in replacing nitrite to improve the color, texture, flavor and bacterial community structure of fermented sausages. Results showed that YCP/TP primarily binds through hydrogen bond interactions, enhancing its stability and functional properties. The YCP/TP can effectively inhibit the increase in pH, protein carbonyls and TBARS (p < 0.05), and maintain the a* of the sausage. Additionally, YCP/TP enhanced the hardness and springiness of sausages, thereby improving their chewiness and cohesiveness. A total of 60 flavor substances were detected by GC-MS, primarily consisting of aldehydes, alcohols, and esters. YCP/TP mainly boosted Leuconostoc, Lactobacillus and Weissella while reducing hgcI-clade; this dual regulatory role promotes the formation of the flavor in fermented sausages. These findings offer new insights into utilizing YCP/TP to manage the qualities, flavor and microorganisms of fermented products."
+    },
+    {
+      "paperId": "9e68d68bff68afe803ca7c7b65eaa2f546b3e28b",
+      "url": "https://www.semanticscholar.org/paper/9e68d68bff68afe803ca7c7b65eaa2f546b3e28b",
+      "title": "Exploring Methane Capture Potential in Alkaline Coal Mine Drainage: Insight from the Microbial Community Structure and Function Analysis",
+      "venue": "Water",
+      "year": 2024,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/w16131915?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/w16131915, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2310439994",
+          "name": "Yuan Li"
+        },
+        {
+          "authorId": "2173902118",
+          "name": "Zhan Su"
+        },
+        {
+          "authorId": "2068877368",
+          "name": "W. Xiu"
+        },
+        {
+          "authorId": "2310247484",
+          "name": "Lin Huang"
+        },
+        {
+          "authorId": "2310192589",
+          "name": "Taiyu Huang"
+        },
+        {
+          "authorId": "2192216031",
+          "name": "J. Zheng"
+        }
+      ],
+      "abstract": "Alkaline coal mine drainage represents one of the most critical issues in the coal industry, driven by complex hydro-biogeochemical processes. However, the interplay of hydrogeochemical and biogeochemical interactions in alkaline coal mine drainage is still poorly understood. To this end, water samples were systematically collected from alkaline coal mine drainage sites from five coal mining areas in Chongqing coal mining district, located in southwestern China. Hydrogeochemical analyses showed that the main water type of the coal mine drainage sample was HCO3-SO4~K-Na, which primarily originated from local meteoric water. The microbial community compositions in the studied alkaline coal drainage were critically associated with sulfate, bicarbonate, DOC, nitrate, and pH, and linked to three putative keystone genera via network analysis (Thiothrix, Methylophilaceae_MM1, and an unclassified genus from Comamonadaceae family). Functional predictions from FAPROTAX suggested a high abundance of metabolic pathways involving the oxidation of sulfide and sulfur compounds, potentially underscoring their importance in controlling sulfate enrichment in alkaline coal mine drainage. Interestingly, members of the Methylomonadaceae family (methanotrophs) and the Methylotenera genus (methylotrophs) had positive Spearman correlations with both ammonium and sulfate, potentially inferring that the enhanced activities of methanotrophs might help capture methane in the alkaline coal mine drainage. This study further enhances our comprehension of the intricate interplay between hydrogeochemical and biogeochemical interactions in alkaline coal mine drainage, contributing to the carbon budget."
+    },
+    {
+      "paperId": "6cab1a80eb775ae6d59598951a600e5eae165def",
+      "url": "https://www.semanticscholar.org/paper/6cab1a80eb775ae6d59598951a600e5eae165def",
+      "title": "Microbial community alteration driven by labile organic carbon enhances phosphorus availability under different tillage regimes",
+      "venue": "Journal of Soils and Sediments",
+      "year": 2024,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11368-024-03923-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11368-024-03923-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2109733307",
+          "name": "Jiao Yang"
+        },
+        {
+          "authorId": "5106623",
+          "name": "X. Xin"
+        },
+        {
+          "authorId": "46448548",
+          "name": "Xianfeng Zhang"
+        },
+        {
+          "authorId": "2266813003",
+          "name": "Xinyue Zhong"
+        },
+        {
+          "authorId": "8758517",
+          "name": "Wenliang Yang"
+        },
+        {
+          "authorId": "2276848823",
+          "name": "Anning Zhu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "23a2efdbf0d87be1867089d5990c888f7493272c",
+      "url": "https://www.semanticscholar.org/paper/23a2efdbf0d87be1867089d5990c888f7493272c",
+      "title": "Unveiling salinity-driven shifts in microbial community composition across compartments of naturally saline inland streams",
+      "venue": "Hydrobiologia",
+      "year": 2024,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://link.springer.com/content/pdf/10.1007/s10750-024-05479-5.pdf",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10750-024-05479-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10750-024-05479-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "4094126",
+          "name": "Paul A. Ayayee"
+        },
+        {
+          "authorId": "1418208620",
+          "name": "G. Custer"
+        },
+        {
+          "authorId": "47293814",
+          "name": "Lusha M. Tronstad"
+        },
+        {
+          "authorId": "7334693",
+          "name": "Linda T. A. van Diepen"
+        }
+      ],
+      "abstract": "Riverine environments host diverse microbial communities, exhibiting distinctive assemblies at both microscopic and macroscopic levels. Despite the complexity of microbial life in rivers, the underlying factors that shape the community structure across different compartments remain elusive. Herein, we characterized microbial community composition of biofilm and planktonic (water column) compartments in five naturally saline inland streams and a freshwater stream to examine changes in microbial communities following salinization via sequencing of the microbial 16S rRNA gene. Significant differences in specific conductivity, oxidation–reduction potential, dissolved oxygen, and pH among the sampled streams were measured, as were significant differences in the microbial community composition between the planktonic and biofilm. The bacterial families Bacillaceae, Vicinamibacterceae, and Micrococcaceae were significantly more abundant in the biofilm compartment, while Methylophilaceae, Alcaligenaceae, Spirosomaceae, Burkholderiaceae, and Comamonadaceae were more abundant in the planktonic compartment. In addition, salinity (based on specific conductivity) influenced the microbial community composition in both compartments, with higher sensitivity of the planktonic compartment. Increases in the bacterial families Shewanellaceae, Marinomonadaceae, and Saccharospirillaceae or loss of Anaeromyxobacteraceae could be indicative of increased salinity within inland streams. Our results suggest that monitoring of microbial assemblages of freshwater ecosystems could be used as early warning signs of increased salinization levels."
+    }
+  ]
+}

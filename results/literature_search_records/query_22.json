@@ -1,0 +1,324 @@
+{
+  "query": "microbial co-occurrence network limitations",
+  "timestamp_utc": "2026-05-19T13:06:31.561526+00:00",
+  "data": [
+    {
+      "paperId": "5ef4131489cc3cfdf8284be7bc3b81f0b5360daf",
+      "url": "https://www.semanticscholar.org/paper/5ef4131489cc3cfdf8284be7bc3b81f0b5360daf",
+      "title": "More Robust Co-Occurrence Patterns and Stronger Dispersal Limitations of Bacterial Communities in Wet than Dry Seasons of Riparian Wetlands",
+      "venue": "mSystems",
+      "year": 2023,
+      "citationCount": 23,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1128/msystems.01187-22",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10134804, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2108872091",
+          "name": "Liyan Zhang"
+        },
+        {
+          "authorId": "2196270872",
+          "name": "Yi Li"
+        },
+        {
+          "authorId": "2112377159",
+          "name": "X. Sun"
+        },
+        {
+          "authorId": "145902348",
+          "name": "Jonathan M Adams"
+        },
+        {
+          "authorId": "49681029",
+          "name": "Longfei Wang"
+        },
+        {
+          "authorId": "46701792",
+          "name": "Huanjun Zhang"
+        },
+        {
+          "authorId": "47765143",
+          "name": "H. Chu"
+        }
+      ],
+      "abstract": "Riparian wetlands comprise microbial communities that are easily affected by the surrounding conditions, especially in agricultural landscapes with a wide range of ecosystem services. After comparing the wet and dry season microbiota, we found that the soil bacterial community of the wet season exhibited a higher complexity and stability of soil bacterial network and stronger dispersal limitations than that of the dry season; however, the dry season bacteria showed stronger homogeneous selection than the wet season bacteria. ABSTRACT Riparian wetlands can be used as “sentinels” of environmental changes and play pivotal roles in ecological and biogeochemical processes. The bacterial community is an essential and rapidly responding component in riparian areas. However, the co-occurrence patterns and phylogenetic group-based ecological processes during wet-dry periods are still open questions. Here, we compared the co-occurrence patterns and phylogenetic group-based assembly mechanisms of soil bacterial communities in typical riparian wetlands across wet and dry seasons, which are subjected to intensive agricultural activities. The results showed that the potential functions, community composition, network structure, and phylogenetic group-based ecological processes of the bacterial community were distinct between the wet and dry seasons. The stability and complexity of the wet season bacterial network were significantly higher than those of the dry season bacterial network. Moreover, the phylogenetic group-based null model analysis showed that homogeneous selection (HoS), dispersal limitation (DL), and drift (DR) were the most important ecological processes for the bacterial community assemblages, with a higher proportion of DL in the wet season (36.7%) than in the dry season (25.5%) but lower contributions of the HoS (36.1% versus 41.3%) and DR (20.8% versus 25.4%). The communities dominated by Flavobacteriales, Burkholderiales, and Sphingomonadales in the wet season were controlled more by dispersal limitation, whereas they were significantly negatively correlated with precipitation, dissolved organic carbon, and total carbon in the dry season, respectively. These findings expand our understanding of the network vulnerability and assembly mechanisms in fragile anthropologically affected riparian wetland ecosystems. IMPORTANCE Riparian wetlands comprise microbial communities that are easily affected by the surrounding conditions, especially in agricultural landscapes with a wide range of ecosystem services. After comparing the wet and dry season microbiota, we found that the soil bacterial community of the wet season exhibited a higher complexity and stability of soil bacterial network and stronger dispersal limitations than that of the dry season; however, the dry season bacteria showed stronger homogeneous selection than the wet season bacteria. The co-occurrence and phylogenetic group-based bacterial community assembly mechanisms were mainly shaped by the divergence in temperature and precipitation between seasons. Revealing the variations in the potential functions, co-occurrence, and community assembly processes between wet and dry seasons is critical to understanding the maintenance of soil microbial diversity in riparian wetlands with regard to environmental sceneries."
+    },
+    {
+      "paperId": "c8be97da104a9c0ce681353152d44673aca87b19",
+      "url": "https://www.semanticscholar.org/paper/c8be97da104a9c0ce681353152d44673aca87b19",
+      "title": "Deciphering microbial interactions and detecting keystone species with co-occurrence networks",
+      "venue": "Frontiers in Microbiology",
+      "year": 2014,
+      "citationCount": 1496,
+      "influentialCitationCount": 57,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2014.00219/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4033041, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "50512170",
+          "name": "D. Berry"
+        },
+        {
+          "authorId": "1974486",
+          "name": "S. Widder"
+        }
+      ],
+      "abstract": "Co-occurrence networks produced from microbial survey sequencing data are frequently used to identify interactions between community members. While this approach has potential to reveal ecological processes, it has been insufficiently validated due to the technical limitations inherent in studying complex microbial ecosystems. Here, we simulate multi-species microbial communities with known interaction patterns using generalized Lotka-Volterra dynamics. We then construct co-occurrence networks and evaluate how well networks reveal the underlying interactions and how experimental and ecological parameters can affect network inference and interpretation. We find that co-occurrence networks can recapitulate interaction networks under certain conditions, but that they lose interpretability when the effects of habitat filtering become significant. We demonstrate that networks suffer from local hot spots of spurious correlation in the neighborhood of hub species that engage in many interactions. We also identify topological features associated with keystone species in co-occurrence networks. This study provides a substantiated framework to guide environmental microbiologists in the construction and interpretation of co-occurrence networks from microbial survey datasets."
+    },
+    {
+      "paperId": "9667064c1beb4b02d443c4d19bf08606bfe1b045",
+      "url": "https://www.semanticscholar.org/paper/9667064c1beb4b02d443c4d19bf08606bfe1b045",
+      "title": "Microbial community composition and network analyses in arid soils of the Patagonian Monte under grazing disturbance reveal an important response of the community to soil particle size",
+      "venue": "Agriculture, Ecosystems & Environment. Applied Soil Ecology",
+      "year": 2019,
+      "citationCount": 49,
+      "influentialCitationCount": 4,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.APSOIL.2019.03.001?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.APSOIL.2019.03.001, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "40498565",
+          "name": "M. Marcos"
+        },
+        {
+          "authorId": "5608607",
+          "name": "M. Bertiller"
+        },
+        {
+          "authorId": "1839414",
+          "name": "N. Olivera"
+        }
+      ],
+      "abstract": "Abstract The effects of livestock grazing on soil microbial communities are not fully understood in arid regions, where water limitations can have significant consequences on soil health and biological processes. Neither are understood the effects of livestock grazing on the interactions among members of the microbial communities. Here, we used high-throughput amplicon sequencing and co-occurrence network analyses to study changes in microbial community composition and networks in soil from plant-patches and inter-patches under sheep grazed and non-grazed conditions within an arid region of Patagonia. In addition, we analyzed soil and vegetation properties that could be influencing the observed microbial patterns. We detected over 2,000 amplicon sequence variants (ASVs) in soils from plant-patches and a similar number in inter-patches, which abundance shifted between the non-grazed and the grazed sites. Among them, members of the Actinomycetales, Solirubrobacterales, Pedosphaerales and Rhizobiales were present. We further found that connections among them in the network analysis were significantly affected by soil texture. Moreover, soil particle size explained between 24.7% and 31.9% of the variance in microbial community composition. Positive network connections increased from 57.8% in the non-grazed site to 88.6% in the grazed site. This may suggest either an increase in cooperative associations within the community, as a strategy to survive under the stressful conditions imposed by grazing, or a selection of microorganisms with similar niche requirements. We further concluded that members of the Actinomycetales and Rhizobiales seem to have a keystone role in the soil communities from this arid ecosystem."
+    },
+    {
+      "paperId": "53eb84cfb274529202eb050b068bb635089495ba",
+      "url": "https://www.semanticscholar.org/paper/53eb84cfb274529202eb050b068bb635089495ba",
+      "title": "Microbial community diversity and assembly processes in the aridification of wetlands on the Qinghai-Tibet Plateau",
+      "venue": "iScience",
+      "year": 2025,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12090270, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2379646953",
+          "name": "Kang Di"
+        },
+        {
+          "authorId": "2280588120",
+          "name": "Yuanyuan Chen"
+        },
+        {
+          "authorId": "2357034839",
+          "name": "Shishi Feng"
+        },
+        {
+          "authorId": "2357217594",
+          "name": "Qianmin Liu"
+        },
+        {
+          "authorId": "2237871163",
+          "name": "Shuzhen Zou"
+        }
+      ],
+      "abstract": "Summary This study investigates soil microbial community dynamics in high-altitude wetlands on the Qinghai-Tibet Plateau under drought conditions. It compares the composition, structure, and assembly mechanisms of microbial communities in water-rich and water-deficient wetlands. The results show that while α diversity remains stable after aridification, the community undergoes significant phylum reorganization. Aridification leads to increased sensitivity in the β diversity of archaea and bacteria to environmental and geographic factors, while fungal β diversity remains unchanged. Co-occurrence network analysis reveals a more complex and denser microbial network in aridified wetlands. Hub microbial groups are found only in bacteria and fungi, and their richness decreases after aridification. The study suggests a shift from a neutral to a partially deterministic assembly process, marked by reduced dispersal limitations and stronger heterogeneous selections. These findings contribute to understanding microbial community evolution in response to global environmental changes."
+    },
+    {
+      "paperId": "e5fa46955f3d8b95e9f56c5bc886ef1f99549f18",
+      "url": "https://www.semanticscholar.org/paper/e5fa46955f3d8b95e9f56c5bc886ef1f99549f18",
+      "title": "Leveraging Bayesian Networks for Consensus Network Construction and Multi-Method Feature Selection to Decode Disease Prediction",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1101/2025.04.07.647660",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.04.07.647660?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.04.07.647660, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2301206306",
+          "name": "R. Aghdam"
+        },
+        {
+          "authorId": "2260783986",
+          "name": "Shan Shan"
+        },
+        {
+          "authorId": "2260783032",
+          "name": "Richard A. Lankau"
+        },
+        {
+          "authorId": "1403426817",
+          "name": "Claudia R. Solís-Lemus"
+        }
+      ],
+      "abstract": "Constructing reliable microbiome co-occurrence networks and identifying disease-associated taxa remain major challenges in microbiome research due to variability introduced by different inference algorithms. To overcome these limitations, we present CMIMN, a novel R package that uses a Bayesian network framework based on conditional mutual information to infer robust microbial interaction networks. To further enhance reliability, we construct a consensus microbiome network by integrating results from CMIMN and three widely used methods—SPIEC-EASI, SPRING, and SPARCC. This consensus approach, which overlays and weights edges shared across methods, reduces inconsistencies and provides a more biologically meaningful view of microbial relationships. In addition, we introduce a multi-method framework for identifying disease-associated microbial taxa by combining machine learning and network-based feature selection. Our ML pipeline applies distinct algorithms and identifies key taxa based on their consistent importance across models. Complementing this, we employ two network-based strategies that prioritize taxa based on centrality differences between ‘clean tubers’ and ‘scab-infected tubers’ networks, as well as a composite scoring system that ranks nodes using integrated network metrics. Our results show that CMIMN achieves high robustness in network inference, and that the consensus network further improves stability and interpretability. The multi-method feature selection framework enhances confidence in identifying biologically relevant taxa linked to potato common scab disease. Notably, we identify Bacteroidota, WPS-2, and Proteobacteria at the Phylum level; Actinobacteria, AD3, Bacilli, Anaerolineae, and Ktedonobacteria at the Class level; and C0119, Defluviicoccales, Bacteroidales, and Ktedonobacterales at the Order level as key taxa associated with disease status."
+    },
+    {
+      "paperId": "622eaacb9d169dfadb4aa7be4d5732c4b1b1e305",
+      "url": "https://www.semanticscholar.org/paper/622eaacb9d169dfadb4aa7be4d5732c4b1b1e305",
+      "title": "Linking social and pathogen transmission networks using microbial genetics in giraffe (Giraffa camelopardalis).",
+      "venue": "Journal of Animal Ecology",
+      "year": 2014,
+      "citationCount": 206,
+      "influentialCitationCount": 10,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2656.12137",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/1365-2656.12137?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/1365-2656.12137, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "3811092",
+          "name": "K. VanderWaal"
+        },
+        {
+          "authorId": "47519240",
+          "name": "E. Atwill"
+        },
+        {
+          "authorId": "3900551",
+          "name": "L. Isbell"
+        },
+        {
+          "authorId": "3097381",
+          "name": "B. McCowan"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "a890901c6e173b7ba0e78f08e1d27e7d0e75661c",
+      "url": "https://www.semanticscholar.org/paper/a890901c6e173b7ba0e78f08e1d27e7d0e75661c",
+      "title": "Unveiling essential host genes and keystone microorganisms of the olive tree holobiont linked to Verticillium wilt tolerance",
+      "venue": "Microbiome",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12659499, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1401005646",
+          "name": "A. Fernández-González"
+        },
+        {
+          "authorId": "2275252493",
+          "name": "Alicia Serrano"
+        },
+        {
+          "authorId": "2275428765",
+          "name": "Francisco Luque"
+        },
+        {
+          "authorId": "84611352",
+          "name": "M. Fernández-López"
+        },
+        {
+          "authorId": "2253917691",
+          "name": "Jesús Mercado-Blanco"
+        }
+      ],
+      "abstract": "The plant holobiont concept emphasizes the critical role of the microbiome in host plant health and resilience. Microbial communities have been shown to enhance plant resistance to abiotic stresses, such as drought and salinity, and to mitigate the impact of phytopathogens. Traditional microbiome engineering approaches face challenges due to the complexity of microbial interactions. To overcome these limitations, recent advances in transcriptomics and metataxonomics analyses enable the identification of microbiome-associated phenotypes, co-occurrence networks, and key host genes-microbiome interactions. We present a novel framework combining co-occurrence network analyses and transcriptome-microbiota correlations to identify keystone belowground microorganisms and host genes potentially involved in olive (Olea europaea L.) tolerance to Verticillium wilt, a devastating disease caused by the soil-borne, fungal vascular pathogen Verticillium dahliae Kleb. Our approach aims to identify microbiome-regulating host genes and keystone bacteria and fungi that could be instrumental as genetic and microbiological markers in olive breeding programs. In the root endosphere, cultivars qualified as tolerant to Verticillium wilt of olive (VWO) exhibited an enrichment of the bacterial genera Actinophytocola, Kibdelosporangium and Nocardia. Keystone taxa analyses revealed clearly different profiles when comparing the microbial co-occurrence networks of the VWO-tolerant genotypes with those varieties described as susceptible to V. dahliae. Thus, tolerant cultivars harbored bacteria predominantly displaying negative interactions with the mycobiome. In contrast, VWO-susceptible cultivars displayed microbial hubs with positive fungal correlations. Transcriptomic analyses of olive roots identified 1,143 differentially expressed genes (DEGs), with 309 upregulated genes in tolerant cultivars, highlighting biological processes like defense response, carbohydrate metabolism, and amino acid transport. Key microbial taxa (Actinophytocola, Kibdelosporangium, Nocardia, Aquabispora, and Fusarium) strongly correlated with DEGs associated with plant defense. Keystone microbial taxa, particularly Actinophytocola and Nocardia, are proposed to play an important role against V. dahliae within the indigenous olive root microbiota under natural conditions. Moreover, our findings underscore the importance of studying keystone taxa along with essential host plant genes to holistically understand plant-microbiota interactions and explore their potential in disease management. This integrative approach provides insights into the complex dialogue taking place between the host plant and its microbiota, offering potential targets for microbiome engineering to enhance olive resilience against VWO. BBUpe-2awPbSgUz-sd7BHL Video Abstract Video Abstract"
+    },
+    {
+      "paperId": "41ca644e8f8c0aa09539bc5cfdeec91aa0ee36a1",
+      "url": "https://www.semanticscholar.org/paper/41ca644e8f8c0aa09539bc5cfdeec91aa0ee36a1",
+      "title": "Synergistic effects of biochar and phosphate fertilizer on fungal communities and soybean productivity in microplastic-contaminated alkaline soils.",
+      "venue": "Ecotoxicology and Environmental Safety",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ecoenv.2025.119287?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ecoenv.2025.119287, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2339402035",
+          "name": "Min Sun"
+        },
+        {
+          "authorId": "2265872592",
+          "name": "Xiao-yu Li"
+        },
+        {
+          "authorId": "2265357899",
+          "name": "Hai-Yan Yuan"
+        },
+        {
+          "authorId": "2265278876",
+          "name": "Qi-Lu Zhuang"
+        },
+        {
+          "authorId": "2340942998",
+          "name": "Huan-Guang Deng"
+        },
+        {
+          "authorId": "2265275871",
+          "name": "Bao-Xian Tao"
+        },
+        {
+          "authorId": "2265404383",
+          "name": "Bao-Hua Zhang"
+        }
+      ],
+      "abstract": "Alkaline soils suffer from phosphorus (P) bioavailability limitations due to fixation and precipitation, which is further exacerbated by microplastics (MPs) disrupting plant-microbe-soil P dynamics and threatening crop productivity. This study investigated the synergistic effects of applying 2 % (w/w) maize-derived biochar (a soil amendment that enhances nutrient retention and microbial activity) and varying phosphate fertilizers (0-180 kg P ha-1) in MPs-contaminated alkaline soils. Comprehensive investigations were conducted on the effects of the combined addition of phosphate fertilizer and biochar on P dynamics, fungal communities, and soybean growth. Results showed that biochar significantly reshaped soil fungal community structure and composition by modulating pH, nutrient availability, and organic matter dynamics, while increasing Aspergillus and Fusarium abundance, which play a key role in phosphorus solubilization and pollutant degradation. Additionally, co-occurrence network analysis revealed that applying biochar enhanced network complexity, promoted negative interactions, and intensified interspecific competition within the rhizosphere fungal community. Notably, the combined application of biochar with moderate-level P fertilization (60 kg P ha-1, 90 kg P ha-1) increased soybean total biomass (40.73 %, 42.58 %), total P uptake (58.19 %, 34.44 %), and yield (74.38 %, 84.16 %), indicating improved P-use efficiency. Additionally, Partial Least Squares Path Modeling (PLS-PM) revealed that the rhizosphere effect promoted soybean P uptake by regulating nutrient cycling, thereby enhancing yield. These findings provide critical insights into sustainable agriculture under dual challenges of MPs pollution and limited P resources, contributing scientific and efficient strategies for nutrient management and rational P fertilizer use in resource-constrained agroecosystems."
+    }
+  ]
+}

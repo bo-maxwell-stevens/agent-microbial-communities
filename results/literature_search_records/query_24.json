@@ -1,0 +1,366 @@
+{
+  "query": "multi-omics integration ecology",
+  "timestamp_utc": "2026-05-19T13:06:36.721539+00:00",
+  "data": [
+    {
+      "paperId": "e26f9f0371effa175c09b0e693fd6751d07d7e3e",
+      "url": "https://www.semanticscholar.org/paper/e26f9f0371effa175c09b0e693fd6751d07d7e3e",
+      "title": "Call for Papers: COVID-19 Systems Biology, Multi-Omics Integration, and Digital Technologies in Ecology, Health, and Society.",
+      "venue": "Omics",
+      "year": 2022,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1089/omi.2022.0094?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1089/omi.2022.0094, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "50765298",
+          "name": "V. Özdemir"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "501dbac11cd3a9e5e970e8dd3119db5548416e83",
+      "url": "https://www.semanticscholar.org/paper/501dbac11cd3a9e5e970e8dd3119db5548416e83",
+      "title": "Mining microbial and metabolic dark matter in extreme environments: a roadmap for harnessing the power of multi-omics data",
+      "venue": "Advanced Biotechnology",
+      "year": 2024,
+      "citationCount": 24,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://link.springer.com/content/pdf/10.1007/s44307-024-00034-8.pdf",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11740847, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "10188406",
+          "name": "Jia-Rui Han"
+        },
+        {
+          "authorId": "2262272936",
+          "name": "Shuai Li"
+        },
+        {
+          "authorId": "2253966866",
+          "name": "Wen-Jun Li"
+        },
+        {
+          "authorId": "2315261070",
+          "name": "Lei Dong"
+        }
+      ],
+      "abstract": "Extreme environments such as hyperarid, hypersaline, hyperthermal environments, and the deep sea harbor diverse microbial communities, which are specially adapted to extreme conditions and are known as extremophiles. These extremophilic organisms have developed unique survival strategies, making them ideal models for studying microbial diversity, evolution, and adaptation to adversity. They also play critical roles in biogeochemical cycles. Additionally, extremophiles often produce novel bioactive compounds in response to corresponding challenging environments. Recent advances in technologies, including genomic sequencing and untargeted metabolomic analysis, have significantly enhanced our understanding of microbial diversity, ecology, evolution, and the genetic and physiological characteristics in extremophiles. The integration of advanced multi-omics technologies into culture-dependent research has notably improved the efficiency, providing valuable insights into the physiological functions and biosynthetic capacities of extremophiles. The vast untapped microbial resources in extreme environments present substantial opportunities for discovering novel natural products and advancing our knowledge of microbial ecology and evolution. This review highlights the current research status on extremophilic microbiomes, focusing on microbial diversity, ecological roles, isolation and cultivation strategies, and the exploration of their biosynthetic potential. Moreover, we emphasize the importance and potential of discovering more strain resources and metabolites, which would be boosted greatly by harnessing the power of multi-omics data."
+    },
+    {
+      "paperId": "6c3ab21392ea73e8018e21ebc0838d16336c602d",
+      "url": "https://www.semanticscholar.org/paper/6c3ab21392ea73e8018e21ebc0838d16336c602d",
+      "title": "Multi‐omics analysis identifies potential microbial and metabolite diagnostic biomarkers of bacterial vaginosis",
+      "venue": "Journal of the European Academy of Dermatology and Venereology",
+      "year": 2024,
+      "citationCount": 9,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/jdv.19805?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/jdv.19805, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "30242992",
+          "name": "A. Challa"
+        },
+        {
+          "authorId": "38242099",
+          "name": "J. Maras"
+        },
+        {
+          "authorId": "2277191878",
+          "name": "S. Nagpal"
+        },
+        {
+          "authorId": "2064418325",
+          "name": "G. Tripathi"
+        },
+        {
+          "authorId": "2281731825",
+          "name": "B. Taneja"
+        },
+        {
+          "authorId": "5048096",
+          "name": "G. Kachhawa"
+        },
+        {
+          "authorId": "2264013824",
+          "name": "S. Sood"
+        },
+        {
+          "authorId": "2258920767",
+          "name": "B. Dhawan"
+        },
+        {
+          "authorId": "7010236",
+          "name": "P. Acharya"
+        },
+        {
+          "authorId": "2281732861",
+          "name": "A. Upadhyay"
+        },
+        {
+          "authorId": "2148258734",
+          "name": "M. Yadav"
+        },
+        {
+          "authorId": "2361425185",
+          "name": "R. Sharma"
+        },
+        {
+          "authorId": "2281729211",
+          "name": "M. Bajpai"
+        },
+        {
+          "authorId": "2269426804",
+          "name": "S. Gupta"
+        }
+      ],
+      "abstract": "Bacterial vaginosis (BV) is a common clinical manifestation of a perturbed vaginal ecology associated with adverse sexual and reproductive health outcomes if left untreated. The existing diagnostic modalities are either cumbersome or require skilled expertise, warranting alternate tests. Application of machine‐learning tools to heterogeneous and high‐dimensional multi‐omics datasets finds promising potential in data integration and may aid biomarker discovery."
+    },
+    {
+      "paperId": "3cca9eb503b34819bd3a557ffda06fd66405b6c1",
+      "url": "https://www.semanticscholar.org/paper/3cca9eb503b34819bd3a557ffda06fd66405b6c1",
+      "title": "Profiling Soil–Plant–Microbial Communities: DNA and Multi-Omics Techniques",
+      "venue": "Genes",
+      "year": 2026,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13025542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2265091007",
+          "name": "Shunlei Li"
+        },
+        {
+          "authorId": "27056225",
+          "name": "C. Chiodi"
+        },
+        {
+          "authorId": "2409214502",
+          "name": "Carmelo Maucieri"
+        },
+        {
+          "authorId": "1382047996",
+          "name": "M. D. Della Lucia"
+        },
+        {
+          "authorId": "2369720479",
+          "name": "G. Zardinoni"
+        },
+        {
+          "authorId": "40573277",
+          "name": "Samathmika Ravi"
+        },
+        {
+          "authorId": "2250678357",
+          "name": "A. Squartini"
+        },
+        {
+          "authorId": "2258639880",
+          "name": "G. Concheri"
+        },
+        {
+          "authorId": "2324267302",
+          "name": "G. Geng"
+        },
+        {
+          "authorId": "2143473749",
+          "name": "Yuguang Wang"
+        },
+        {
+          "authorId": "2328726105",
+          "name": "P. Stevanato"
+        }
+      ],
+      "abstract": "Interactions among plant roots, soil, and microorganisms in the rhizosphere regulate nutrient cycling, plant health, and ecosystem resilience. Recent advances in DNA sequencing and multi-omics are contributing to a shift from primarily descriptive surveys toward more mechanistic and predictive frameworks. This review synthesizes methodological developments and conceptual insights spanning microbial ecology, functional genomics, and agricultural applications. We first summarize DNA-based approaches—marker-gene sequencing, shotgun metagenomics, and quantitative nucleic acid assays—and then complementary omics layers, including metatranscriptomics, metaproteomics, metabolomics, epigenomics, ionomics, and phenomics. We next outline computational advances in data integration, network modeling, and visualization that help represent complex multi-layered datasets as biologically interpretable systems. Applications relevant to climate resilience and sustainable agriculture are discussed, including the design of synthetic microbial communities, the identification of biomarkers for soil health and stress tolerance, and case studies in which rhizosphere multi-omics informs crop breeding and soil management strategies. Overall, these developments underscore the potential of treating microbes as functional and, to some extent, manageable components of the plant holobiont. Looking ahead, we identify key research gaps involving standardized workflows, cross-scale causal inference, and real-time monitoring pipelines that integrate molecular diagnostics with remote sensing and edge–cloud analytics. By linking ecological mechanisms with translational practice, multi-omics frameworks may support the development of more sustainable, data-driven agriculture that better aligns productivity with environmental stewardship."
+    },
+    {
+      "paperId": "4ad1f8a7a75aaca183b86f5f127222f6c8edf4ce",
+      "url": "https://www.semanticscholar.org/paper/4ad1f8a7a75aaca183b86f5f127222f6c8edf4ce",
+      "title": "Predictive networks for multi meta-omics data integration",
+      "venue": "",
+      "year": 2017,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://opac.bncf.firenze.sbn.it/bncf-prod/resource?uri=TD17025815, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Computer Science",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "38115955",
+          "name": "Alessandro Zandonà"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "9f06a98c44bee6f1b7a3efaba294e5c7b138ca14",
+      "url": "https://www.semanticscholar.org/paper/9f06a98c44bee6f1b7a3efaba294e5c7b138ca14",
+      "title": "Multi-omics investigations within the Phylum Mollusca, Class Gastropoda: from ecological application to breakthrough phylogenomic studies.",
+      "venue": "Briefings in Functional Genomics",
+      "year": 2019,
+      "citationCount": 11,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/bfg/article-pdf/18/6/377/31564785/elz017.pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/bfgp/elz017?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/bfgp/elz017, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "1383081938",
+          "name": "A. Klein"
+        },
+        {
+          "authorId": "1389225559",
+          "name": "Kaylene R Ballard"
+        },
+        {
+          "authorId": "1759136",
+          "name": "K. Storey"
+        },
+        {
+          "authorId": "6123675",
+          "name": "C. Motti"
+        },
+        {
+          "authorId": "143726901",
+          "name": "Min Zhao"
+        },
+        {
+          "authorId": "2950003",
+          "name": "S. Cummins"
+        }
+      ],
+      "abstract": "Gastropods are the largest and most diverse class of mollusc and include species that are well studied within the areas of taxonomy, aquaculture, biomineralization, ecology, microbiome and health. Gastropod research has been expanding since the mid-2000s, largely due to large-scale data integration from next-generation sequencing and mass spectrometry in which transcripts, proteins and metabolites can be readily explored systematically. Correspondingly, the huge data added a great deal of complexity for data organization, visualization and interpretation. Here, we reviewed the recent advances involving gastropod omics ('gastropodomics') research from hundreds of publications and online genomics databases. By summarizing the current publicly available data, we present an insight for the design of useful data integrating tools and strategies for comparative omics studies in the future. Additionally, we discuss the future of omics applications in aquaculture, natural pharmaceutical biodiscovery and pest management, as well as to monitor the impact of environmental stressors."
+    },
+    {
+      "paperId": "846c89c88f47ca3cee5f783cac2b96ba7f88c597",
+      "url": "https://www.semanticscholar.org/paper/846c89c88f47ca3cee5f783cac2b96ba7f88c597",
+      "title": "Human Gut Microbiome Analysis and Multi-omics Approach",
+      "venue": "International Journal of Pharma Medicine and Biological Sciences",
+      "year": 2018,
+      "citationCount": 5,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.18178/ijpmbs.7.3.52-57?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.18178/ijpmbs.7.3.52-57, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "41155659",
+          "name": "T. Sirangelo"
+        }
+      ],
+      "abstract": "Given the importance of human gut microbioma in human health, its role has been recently reviewed and even now is the subject of many investigations. It is known that traditional culture methods are limited for analyzing it and that high-throughput sequencing, omics technologies instead allow to deepen the behaviour of microbial ecology. With the application of omics technologies, as metagenomics, metascriptomics, metaproteomics and metabolomics, many progress has been made in this field. Their integration, referred to as multi-omics approach, provides more evidence for biological mechanisms. This review highlights that omics approaches can be powerful tools in analyzing the human gut microbiome. The current scenario and examples of recently published landmark work are discussed and some limitations are outlined. Their combination is analyzed and relevant studies allowing us to link the expression of disease-associated microbial functions to distinct taxa are treated. Furthermore, recent system level approaches for integrating different omics layers are discussed and some researches aimed to develop a framework for the reconstruction of a large microbial community are examined. However, even today, we are aware that the multi-layer datasets integration is a challenging issue and that a careful planning of a multiomics application is thus required."
+    },
+    {
+      "paperId": "4bc96fcd4c24b34041363b16f9c3a639bdd9470a",
+      "url": "https://www.semanticscholar.org/paper/4bc96fcd4c24b34041363b16f9c3a639bdd9470a",
+      "title": "Decrypting proteomics, transcriptomics, genomics, and integrated omics for augmenting the abiotic, biotic, and climate change stress resilience in plants.",
+      "venue": "Journal of plant physiology",
+      "year": 2025,
+      "citationCount": 29,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jplph.2025.154430?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jplph.2025.154430, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2281565366",
+          "name": "Rashmi Choudhary"
+        },
+        {
+          "authorId": "2281504635",
+          "name": "Faheem Ahmad"
+        },
+        {
+          "authorId": "2237975231",
+          "name": "Cengiz Kaya"
+        },
+        {
+          "authorId": "2312948719",
+          "name": "Sudhir Kumar Upadhyay"
+        },
+        {
+          "authorId": "4567593",
+          "name": "S. Muneer"
+        },
+        {
+          "authorId": "2265223767",
+          "name": "Vinod Kumar"
+        },
+        {
+          "authorId": "2269863529",
+          "name": "Mukesh Meena"
+        },
+        {
+          "authorId": "2264401656",
+          "name": "Haitao Liu"
+        },
+        {
+          "authorId": "2339881711",
+          "name": "Hrishikesh Upadhyay"
+        },
+        {
+          "authorId": "2258175954",
+          "name": "Chandra Shekhar Seth"
+        }
+      ],
+      "abstract": "As our planet faces increasing environmental challenges, such as biotic pressures, abiotic stressors, and climate change, it is crucial to understand the complex mechanisms that underlie stress responses in crop plants. Over past few years, the integration of techniques of proteomics, transcriptomics, and genomics like LC-MS, IT-MS, MALDI-MS, DIGE, ESTs, SAGE, WGS, GWAS, GBS, 2D-PAGE, CRISPR-Cas, cDNA-AFLP, HLS, HRPF, MPSS, CAGE, MAS, IEF, MudPIT, SRM/MRM, SWATH-MS, ESI have significantly enhanced our ability to comprehend the molecular pathways and regulatory networks, involved in balancing the ecosystem/ecology stress adaptation. This review offers thorough synopsis of the current research on utilizing these multi-omics methods (including metabolomics, ionomics) for battling abiotic (salinity, temperature (chilling/freezing/cold/heat), flood (hypoxia), drought, heavy metals/loids), biotic (pathogens like fungi, bacteria, virus, pests, and insects (aphids, caterpillars, moths, mites, nematodes) and climate change stress (ozone, ultraviolet radiation, green house gases, carbon dioxide). These strategies can expedite crop improvement, and act as powerful tools with high throughput and instant database generation rates. They also provide a platform for interpreting intricate, systematic signalling pathways and knowing how different environmental stimuli cause phenotypic responses at cellular and molecular level by changing the expression of stress-responsive genes like RAB18, KIN1, RD29B, OsCIPK03, OsSTL, SIAGL, bZIP, SnRK, ABF. This review discusses various case studies that exemplify the successful implementation of these omics tools to enhance stress tolerance in plants. Finally, it highlights challenges and future prospects of utilizing these approaches in combating stress, emphasizing the need for interdisciplinary collaborations and bio-technological advancements for sustainable agriculture and food security."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "query": "community completeness soil microbiome",
+  "timestamp_utc": "2026-05-19T13:05:44.669379+00:00",
+  "data": [
+    {
+      "paperId": "b4c1b40b8d75ecdb9f3717e8dc563240eb184010",
+      "url": "https://www.semanticscholar.org/paper/b4c1b40b8d75ecdb9f3717e8dc563240eb184010",
+      "title": "Soil microbiome mediates plant community productivity in grass–legume mixtures",
+      "venue": "Plant and Soil",
+      "year": 2024,
+      "citationCount": 5,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-024-06911-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-024-06911-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2295807534",
+          "name": "Jing Li"
+        },
+        {
+          "authorId": "2295795662",
+          "name": "Zhuwen Xu"
+        },
+        {
+          "authorId": "2318653695",
+          "name": "Wenbo Zhang"
+        },
+        {
+          "authorId": "2318645284",
+          "name": "Xiaojiang Yang"
+        },
+        {
+          "authorId": "1951246",
+          "name": "P. Struik"
+        },
+        {
+          "authorId": "2318662767",
+          "name": "Shenyi Jiang"
+        },
+        {
+          "authorId": "2247747151",
+          "name": "Zhen Wang"
+        },
+        {
+          "authorId": "2086983273",
+          "name": "Ke Jin"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "eba33274bbf1e1dbacabfb1026c50ff8b846ccf6",
+      "url": "https://www.semanticscholar.org/paper/eba33274bbf1e1dbacabfb1026c50ff8b846ccf6",
+      "title": "Synthetic bacterial community derived from a desert rhizosphere confers salt stress resilience to tomato in the presence of a soil microbiome",
+      "venue": "The ISME Journal",
+      "year": 2022,
+      "citationCount": 205,
+      "influentialCitationCount": 4,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/s41396-022-01238-3.pdf",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9296610, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "47368950",
+          "name": "Lucas Schmitz"
+        },
+        {
+          "authorId": "91924837",
+          "name": "Zhichun Yan"
+        },
+        {
+          "authorId": "12515022",
+          "name": "M. Schneijderberg"
+        },
+        {
+          "authorId": "2163086311",
+          "name": "Martijn de Roij"
+        },
+        {
+          "authorId": "2163094262",
+          "name": "Rick Pijnenburg"
+        },
+        {
+          "authorId": "1570630877",
+          "name": "Qi Zheng"
+        },
+        {
+          "authorId": "47089312",
+          "name": "Carolien Franken"
+        },
+        {
+          "authorId": "40457229",
+          "name": "A. Dechesne"
+        },
+        {
+          "authorId": "145935015",
+          "name": "L. Trindade"
+        },
+        {
+          "authorId": "4147243",
+          "name": "Robin van Velzen"
+        },
+        {
+          "authorId": "2569654",
+          "name": "T. Bisseling"
+        },
+        {
+          "authorId": "2763915",
+          "name": "R. Geurts"
+        },
+        {
+          "authorId": "144647490",
+          "name": "Xu Cheng"
+        }
+      ],
+      "abstract": "The root bacterial microbiome is important for the general health of the plant. Additionally, it can enhance tolerance to abiotic stresses, exemplified by plant species found in extreme ecological niches like deserts. These complex microbe-plant interactions can be simplified by constructing synthetic bacterial communities or SynComs from the root microbiome. Furthermore, SynComs can be applied as biocontrol agents to protect crops against abiotic stresses such as high salinity. However, there is little knowledge on the design of a SynCom that offers a consistent protection against salt stress for plants growing in a natural and, therefore, non-sterile soil which is more realistic to an agricultural setting. Here we show that a SynCom of five bacterial strains, originating from the root of the desert plant Indigofera argentea, protected tomato plants growing in a non-sterile substrate against a high salt stress. This phenotype correlated with the differential expression of salt stress related genes and ion accumulation in tomato. Quantification of the SynCom strains indicated a low penetrance into the natural soil used as the non-sterile substrate. Our results demonstrate how a desert microbiome could be engineered into a simplified SynCom that protected tomato plants growing in a natural soil against an abiotic stress."
+    },
+    {
+      "paperId": "64482fc3531bda63ff73ee069b42b984ef84cefd",
+      "url": "https://www.semanticscholar.org/paper/64482fc3531bda63ff73ee069b42b984ef84cefd",
+      "title": "The occurrence of potato common scab correlates with the community composition and function of the geocaulosphere soil microbiome",
+      "venue": "Microbiome",
+      "year": 2019,
+      "citationCount": 186,
+      "influentialCitationCount": 5,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1186/s40168-019-0629-2",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6359780, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "10727383",
+          "name": "Wencong Shi"
+        },
+        {
+          "authorId": "6979179",
+          "name": "Mingcong Li"
+        },
+        {
+          "authorId": "4949126",
+          "name": "Guangshan Wei"
+        },
+        {
+          "authorId": "38890519",
+          "name": "R. Tian"
+        },
+        {
+          "authorId": "2144170000",
+          "name": "Cuiping Li"
+        },
+        {
+          "authorId": "144461642",
+          "name": "B. Wang"
+        },
+        {
+          "authorId": "14009908",
+          "name": "Rongshan Lin"
+        },
+        {
+          "authorId": "2086996170",
+          "name": "Chunyu Shi"
+        },
+        {
+          "authorId": "1399682137",
+          "name": "Xiuli Chi"
+        },
+        {
+          "authorId": "145818179",
+          "name": "Bo Zhou"
+        },
+        {
+          "authorId": "145089321",
+          "name": "Zheng Gao"
+        }
+      ],
+      "abstract": "BackgroundSoil microorganisms can mediate the occurrence of plant diseases. Potato common scab (CS) is a refractory disease caused by pathogenic Streptomyces that occurs worldwide, but little is known about the interactions between CS and the soil microbiome. In this study, four soil-root system compartments (geocaulosphere soil (GS), rhizosphere soil (RS), root-zone soil (ZS), and furrow soil (FS)) were analyzed for potato plants with naturally high (H) and low (L) scab severity levels. We aimed to determine the composition and putative function of the soil microbiome associated with potato CS.ResultsThe copy numbers of the scab phytotoxin biosynthetic gene txtAB and the bacterial 16S rRNA gene as well as the diversity and composition of each of the four soil-root system compartments were examined; GS was the only compartment that exhibited significant differences between the H and L groups. Compared to the H group, the L group exhibited a lower txtAB gene copy number, lower bacterial 16S copy number, higher diversity, higher co-occurrence network complexity, and higher community function similarity within the GS microbiome. The community composition and function of the GS samples were further revealed by shotgun metagenomic sequencing. Variovorax, Stenotrophomonas, and Agrobacterium were the most abundant genera that were significantly and positively correlated with the scab severity level, estimated absolute abundance (EAA) of pathogenic Streptomyces, and txtAB gene copy number. In contrast, Geobacillus, Curtobacterium, and unclassified Geodermatophilaceae were significantly negatively correlated with these three parameters. Compared to the function profiles in the L group, several genes involved in “ABC transporters,” the “bacterial secretion system,” “quorum sensing (QS),” “nitrogen metabolism,” and some metabolism by cytochrome P450 were enriched in the H group. In contrast, some antibiotic biosynthesis pathways were enriched in the L group. Based on the differences in community composition and function, a simple model was proposed to explain the putative relationships between the soil microbiome and CS occurrence.ConclusionsThe GS microbiome was closely associated with CS severity in the soil-root system, and the occurrence of CS was accompanied by changes in community composition and function. The differential functions provide new clues to elucidate the mechanism underlying the interaction between CS occurrence and the soil microbiome, and varying community compositions provide novel insights into CS occurrence."
+    },
+    {
+      "paperId": "f5edf55e9fce270c8bef61f79e2b530c49e931cc",
+      "url": "https://www.semanticscholar.org/paper/f5edf55e9fce270c8bef61f79e2b530c49e931cc",
+      "title": "Multi-meta-omics reveal unique symbiotic synchronization between ectomycorrhizal fungus and soil microbiome in Tricholoma matsutake habitat",
+      "venue": "Microbiome",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12801662, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2397849591",
+          "name": "In Hyup Bae"
+        },
+        {
+          "authorId": "2145490088",
+          "name": "Hyun Kim"
+        },
+        {
+          "authorId": "2244580844",
+          "name": "Su-Min Kim"
+        },
+        {
+          "authorId": "2344742227",
+          "name": "Yong-Hwan Lee"
+        }
+      ],
+      "abstract": "Ectomycorrhizal (ECM) fungi establish symbiotic relationships with plant roots, enhancing nutrient uptake, improving plant health, and boosting ecosystem resilience. Although previous studies reported molecular interactions among plant-ECM fungi-surrounding microbes near plant roots, microbiome-wide metabolic shifts and associations with the fungi remain unclear. Using Tricholoma matsutake as a model, we initially found that T. matsutake induced remarkable microbial community turnover linked to altered soil moisture, nitrogen, and phosphorus levels. Parallel with the compositional alteration, microbiome-wide metabolic capacities, including glutamate metabolism, oligopeptide transport, and siderophore activity, were enriched in the T. matsutake-colonizing soil compared to the soils where the fungus was not colonized. From metatranscriptome data, we found that T. matsutake induced functional remodeling in nitrogen metabolism. Notably, the fungus and soil microbiome were metabolically synchronized with the upregulation of nitrate reduction, glutamate biosynthesis, tryptophan biosynthesis, and indole-3-acetic acid (IAA) biosynthesis. Metabarcoding and metatranscriptome-guided microbial associations revealed potential T. matsutake helper bacteria consisting of Conexibacter and Paraburkholderia. Phage community analyses further showed that the colonization of the ECM fungus influenced phage distributions along with the increase in temperate phage populations. The differential expression of auxiliary metabolic genes also demonstrated that phages could influence bacterial fitness in response to T. matsutake colonization. Our multi-meta-omics-based approaches revealed unique environmental changes by T. matsutake compared to other mycorrhizal systems, as well as metabolic synchronization between the ECM fungus and surrounding microbiomes. These findings will expand our understanding of ECM symbiotic frameworks by highlighting integrated microbial and viral metabolic dynamics. BfZn9aKVRJcwAxk6sKjecp Video Abstract Video Abstract"
+    },
+    {
+      "paperId": "b3077ac70705ef42ae60ce3ff60f500d3f71efcf",
+      "url": "https://www.semanticscholar.org/paper/b3077ac70705ef42ae60ce3ff60f500d3f71efcf",
+      "title": "The Role of Soil Microbiome in Enhancing Plant Nutrition and Promoting Soil Health",
+      "venue": "International Journal of Plant &amp; Soil Science",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.9734/ijpss/2025/v37i25302?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.9734/ijpss/2025/v37i25302, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2057599618",
+          "name": "Chandan Singh"
+        },
+        {
+          "authorId": "2344605086",
+          "name": "Vivek Singh"
+        },
+        {
+          "authorId": "2344366718",
+          "name": "A. K. Pal"
+        },
+        {
+          "authorId": "2344310702",
+          "name": "Shashi Shekhar"
+        },
+        {
+          "authorId": "2344392418",
+          "name": "Mohil Kumar"
+        },
+        {
+          "authorId": "2344418695",
+          "name": "Rahul Kumar Singh"
+        }
+      ],
+      "abstract": "The soil microbiome, a complex community of microorganisms including bacteria, fungi, archaea, and protozoa, plays a pivotal role in sustaining plant nutrition and soil health. Through processes such as nutrient cycling, organic matter decomposition, and symbiotic relationships, soil microorganisms enhance the availability of essential nutrients like nitrogen, phosphorus, and potassium. Beneficial microbes such as plant growth-promoting rhizobacteria (PGPR) and mycorrhizal fungi improve plant growth by increasing nutrient uptake, producing growth hormones, and promoting disease resistance. Furthermore, the soil microbiome significantly contributes to soil structure, fertility, and resilience by aiding in soil aggregation, water retention, and stress tolerance. It also plays a critical role in suppressing plant pathogens and improving plant resilience to environmental stresses such as drought and heavy metal contamination. Despite its importance, conventional agricultural practices, including the overuse of chemical inputs and intensive tillage, often disrupt the balance of soil microbial communities, leading to soil degradation. Sustainable agricultural practices that incorporate organic amendments, crop rotations, and reduced chemical inputs are crucial for maintaining a healthy and diverse soil microbiome. This review highlights the essential functions of the soil microbiome in plant nutrition and soil health, emphasizing its potential to promote sustainable agricultural practices and ecosystem resilience."
+    },
+    {
+      "paperId": "4b9733a2f75f82032dfd399a51a83e2dbd70fee9",
+      "url": "https://www.semanticscholar.org/paper/4b9733a2f75f82032dfd399a51a83e2dbd70fee9",
+      "title": "Enhancing soil microbiome resilience: the mitigating role of silicon against environmental stresses",
+      "venue": "Frontiers in Agronomy",
+      "year": 2024,
+      "citationCount": 30,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.3389/fagro.2024.1465165",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3389/fagro.2024.1465165?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3389/fagro.2024.1465165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "4462726",
+          "name": "H. Etesami"
+        }
+      ],
+      "abstract": "The soil microbiome plays a pivotal role in the functioning and resilience of agricultural ecosystems, contributing to critical processes such as organic matter decomposition, nutrient cycling, and plant growth promotion. However, the soil microbiome is constantly challenged by various environmental stresses, including drought, heavy metal contamination, salinity, and climate change, which can significantly disrupt the delicate balance of the soil ecosystem. In this context, the application of silicon (Si) has emerged as a promising strategy to mitigate the adverse effects of these environmental stresses on the soil microbiome. This review paper synthesizes the current understanding of the impacts of environmental stresses on the soil microbiome and explores the potential of Si as a mitigating agent in enhancing the resilience of the soil microbial community. Silicon can enhance the resilience of the soil microbiome through several mechanisms, such as increasing soil pH, improving nutrient and water availability and uptake, altering root exudation patterns and plant physiology, and directly stimulating the abundance, diversity, and functional potential of key microbial groups. By enhancing the resilience of the soil microbiome, Si application can help maintain the critical ecosystem services provided by soil microorganisms, ultimately contributing to the sustainability and productivity of agricultural systems. The review also highlights future research aspects, including elucidating the precise mechanisms of Si-microbiome interactions, evaluating the long-term effects of Si on soil microbiome resilience, optimizing Si application strategies for specific crop-soil systems, integrating Si management with other sustainable soil practices, and assessing the impacts of Si on soil microbiome-mediated ecosystem services."
+    },
+    {
+      "paperId": "07ba689933afa0bc2dce13fc6cf1dc262e7d0363",
+      "url": "https://www.semanticscholar.org/paper/07ba689933afa0bc2dce13fc6cf1dc262e7d0363",
+      "title": "Soil microbiome analysis of Uruguayan grasslands and croplands reveals losses of microbial diversity and necromass recycling traits",
+      "venue": "Environmental Microbiome",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12306014, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "144136691",
+          "name": "M. Giménez"
+        },
+        {
+          "authorId": "89206091",
+          "name": "P. Berenstecher"
+        },
+        {
+          "authorId": "2276863000",
+          "name": "Andrés Ligrone"
+        },
+        {
+          "authorId": "2267000195",
+          "name": "Gregorio Iraola"
+        },
+        {
+          "authorId": "2276864966",
+          "name": "Gervasio Piñeiro"
+        }
+      ],
+      "abstract": "Soil microbiomes are critical regulators of nutrient biogeochemical cycles, contributing significantly to ecosystem services that support plant productivity. In this study, we investigated the effects of agricultural rotations on soil microbial communities in Uruguayan grasslands, comparing cropland soils with native grasslands grazed by livestock. By employing advanced metagenomic techniques, we characterized the diversity and functional potential of the soil microbiome, with particular emphasis on its roles in carbon, nitrogen, and phosphorus cycling. Additionally, we assessed functional genes associated with microbial necromass recycling, a key process for maintaining soil health and fertility. Our analysis revealed a significant decrease in fungal diversity and a restructuring of the fungal community in agricultural soils, highlighting the profound impact of farming practices on soil biology. In contrast, while we did not observe a similar decline in bacterial diversity, there was a noticeable shift in its composition. Agricultural soils showed a reduced abundance of bacteriophages, which are associated with bacterial necromass formation, as well as a decline in enzymes involved in microbial necromass decomposition. This suggests potential long-term consequences for soil carbon dynamics and crop productivity. Additionally, croplands exhibited a marked decrease in genes and enzymes involved in nitrogen and phosphorus cycling, indicating diminished functionality and resilience for these essential nutrient processes compared to grassland soils. Our findings emphasize the need for a sustainable approach to agriculture that preserves microbial diversity and functionality, ensuring the resilience of soil ecosystems. By comparing soil microbiomes across different land use types, this research provides novel insights into the mechanisms through which agriculture alters soil ecosystems and offers guidance for enhancing soil management practices to support environmental sustainability and agricultural productivity."
+    },
+    {
+      "paperId": "0c532a86877c3120ed34dd181828ec1616b62519",
+      "url": "https://www.semanticscholar.org/paper/0c532a86877c3120ed34dd181828ec1616b62519",
+      "title": "The native soil microbiome is critical for early root-associated microbiota assembly and canola growth",
+      "venue": "Environmental Microbiome",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12382021, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2346706583",
+          "name": "Mengying Liu"
+        },
+        {
+          "authorId": "2238837592",
+          "name": "Leon V. Kochian"
+        },
+        {
+          "authorId": "47146107",
+          "name": "B. Helgason"
+        }
+      ],
+      "abstract": "The native soil microbiome contributes to regulating the root-associated microbiota, root morphology, and plant growth. Using two canola (Brassica napus L.) genotypes contrasting in root size (small-rooted NAM23 and large-rooted NAM37), we investigated how the native soil microbiome influences canola establishment. Plants were grown in rhizoboxes containing gamma-irradiated (microbiome dysbiosis) or untreated (healthy microbiome) soils for 14 days. We evaluated plant growth and profiled bacterial and fungal communities in unplanted soil, rhizosphere soil, and root samples via DNA amplicon sequencing. Soil irradiation inhibited canola early growth, severely reducing shoot fresh mass (8 to 10-fold), root fresh mass and root length (3 to 13-fold). As expected, irradiation reduced microbial diversity and altered microbial community structure. The absence of significant soil physicochemical changes post-irradiation suggests that microbiome dysbiosis, rather than nutrient depletion, was the primary driver of plant growth suppression in irradiated soil. This growth suppression correlated with the depletion of potentially beneficial taxa (e.g., Sphingomonas, Alternaria prunicola, Fusarium, Gibberella avenacea, and Humicola nigrescens) and/or the enrichment of detrimental taxa (e.g., Mucilaginibacter, Leifsonia, and Trichoderma atrobrunneum) in both soil and roots. The large-rooted NAM37 outperformed the small-rooted NAM23 only in healthy microbiome-intact soils, but this growth advantage was not observed in unhealthy microbiome-disrupted irradiated soils. Our findings directly demonstrate the critical role of a healthy soil microbiome in supporting canola establishment. The absence of growth disparities between genotypes in irradiated soil indicates that plant fitness is not attributed to fixed root phenotypes but a dynamic interplay between intrinsic root traits and the microbiome."
+    }
+  ]
+}

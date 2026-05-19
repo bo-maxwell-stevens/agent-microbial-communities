@@ -1,0 +1,418 @@
+{
+  "query": "dark diversity environmental filtering",
+  "timestamp_utc": "2026-05-19T13:05:50.004888+00:00",
+  "data": [
+    {
+      "paperId": "5cdcbb04f38171ac1a4dffcfa6dec14f6d34a4c8",
+      "url": "https://www.semanticscholar.org/paper/5cdcbb04f38171ac1a4dffcfa6dec14f6d34a4c8",
+      "title": "Environmental micro‐niche filtering shapes bacterial pioneer communities during primary colonization of a Himalayas' glacier forefield",
+      "venue": "Environmental Microbiology",
+      "year": 2022,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1462-2920.16268",
+        "status": "HYBRID",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10099744, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "5867851",
+          "name": "E. Rolli"
+        },
+        {
+          "authorId": "143638853",
+          "name": "R. Marasco"
+        },
+        {
+          "authorId": "12220528",
+          "name": "M. Fusi"
+        },
+        {
+          "authorId": "12021667",
+          "name": "B. Scaglia"
+        },
+        {
+          "authorId": "6805215",
+          "name": "F. Schubotz"
+        },
+        {
+          "authorId": "122434768",
+          "name": "F. Mapelli"
+        },
+        {
+          "authorId": "5851637",
+          "name": "S. Ciccazzo"
+        },
+        {
+          "authorId": "6067503",
+          "name": "L. Brusetti"
+        },
+        {
+          "authorId": "50285650",
+          "name": "L. Trombino"
+        },
+        {
+          "authorId": "5424577",
+          "name": "F. Tambone"
+        },
+        {
+          "authorId": "1987889",
+          "name": "F. Adani"
+        },
+        {
+          "authorId": "49238625",
+          "name": "S. Borin"
+        },
+        {
+          "authorId": "3725854",
+          "name": "D. Daffonchio"
+        }
+      ],
+      "abstract": "Abstract The pedogenesis from the mineral substrate released upon glacier melting has been explained with the succession of consortia of pioneer microorganisms, whose structure and functionality are determined by the environmental conditions developing in the moraine. However, the microbiome variability that can be expected in the environmentally heterogeneous niches occurring in a moraine at a given successional stage is poorly investigated. In a 50 m2 area in the forefield of the Lobuche glacier (Himalayas, 5050 m above sea level), we studied six sites of primary colonization presenting different topographical features (orientation, elevation and slope) and harbouring greyish/dark biological soil crusts (BSCs). The spatial vicinity of the sites opposed to their topographical differences, allowed us to examine the effect of environmental conditions independently from the time of deglaciation. The bacterial microbiome diversity and their co‐occurrence network, the bacterial metabolisms predicted from 16S rRNA gene high‐throughput sequencing, and the microbiome intact polar lipids were investigated in the BSCs and the underlying sediment deep layers (DLs). Different bacterial microbiomes inhabited the BSCs and the DLs, and their composition varied among sites, indicating a niche‐specific role of the micro‐environmental conditions in the bacterial communities' assembly. In the heterogeneous sediments of glacier moraines, physico‐chemical and micro‐climatic variations at the site‐spatial scale are crucial in shaping the microbiome microvariability and structuring the pioneer bacterial communities during pedogenesis."
+    },
+    {
+      "paperId": "42b0d9ef5baad5ae67be5984b424252b42e8f0b5",
+      "url": "https://www.semanticscholar.org/paper/42b0d9ef5baad5ae67be5984b424252b42e8f0b5",
+      "title": "Changes in Phylogenetic and Functional Diversity of Ciliates along the Course of a Mediterranean Karstic River",
+      "venue": "Microorganisms",
+      "year": 2022,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/2076-2607/10/12/2493/pdf?version=1671177369",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9783291, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2197405591",
+          "name": "Vesna Gulin Beljak"
+        },
+        {
+          "authorId": "89936692",
+          "name": "Antonija Kulaš"
+        },
+        {
+          "authorId": "4536102",
+          "name": "Guillaume Lentendu"
+        },
+        {
+          "authorId": "88980939",
+          "name": "Barbara Vlaičević"
+        },
+        {
+          "authorId": "134399472",
+          "name": "M. Gligora Udovič"
+        },
+        {
+          "authorId": "13673138",
+          "name": "Mirela Sertić Perić"
+        },
+        {
+          "authorId": "15428334",
+          "name": "Fran Rebrina"
+        },
+        {
+          "authorId": "4282952",
+          "name": "P. Žutinić"
+        },
+        {
+          "authorId": "49083181",
+          "name": "S. Orlić"
+        },
+        {
+          "authorId": "1403101636",
+          "name": "R. Matoničkin Kepčija"
+        }
+      ],
+      "abstract": "Ciliates are a group of phagotrophic protists found in a wide variety of ecosystems. This study builds on recent studies of ciliates in the Krka river and investigates changes in the phylogenetic and functional diversity of ciliates in biofilm to predict the phylogenetic and functional structure of ciliates in other karstic rivers. Biofilm samples were collected from four representative locations: upstream (Krka spring), midstream (Marasovine), and downstream (Roški slap, Skradinski buk) of the Krka river to test for differences in phylogenetic and functional diversity of ciliates in relation to location and positioning on tufa stones (light/dark-exposed side of tufa stone). Our results showed that Krka spring had higher phylogenetic species variability, lower phylogenetic diversity, and lower functional richness than Skradinski buk, suggesting phylogenetic overdispersal at Krka spring. This could be due to environmental filtering, competitive exclusion, or a combination of these factors. As the first study of its kind in the Mediterranean, our results shed light on the phylogenetic and functional diversity of ciliates in karst ecosystems and provide a basis for future ecological and conservation efforts."
+    },
+    {
+      "paperId": "bd722b549768dc03e3e38f99f5aed8b8b44b6d0f",
+      "url": "https://www.semanticscholar.org/paper/bd722b549768dc03e3e38f99f5aed8b8b44b6d0f",
+      "title": "Pilliga Ghosts: The Novel Fungi of the Rivers, Creeks, Lakes, and Dams of the Narrabri Region, Australia",
+      "venue": "Environmental Microbiology Reports",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13124449, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2432508789",
+          "name": "Kim L. J. Porter"
+        },
+        {
+          "authorId": "19301641",
+          "name": "R. Schinteie"
+        },
+        {
+          "authorId": "145607828",
+          "name": "C. Mariani"
+        },
+        {
+          "authorId": "2307695762",
+          "name": "P. Greenfield"
+        },
+        {
+          "authorId": "2248007601",
+          "name": "Se Gong"
+        },
+        {
+          "authorId": "93636226",
+          "name": "S. Sestak"
+        },
+        {
+          "authorId": "1401909532",
+          "name": "N. Tran-Dinh"
+        },
+        {
+          "authorId": "2363000475",
+          "name": "David J Midgley"
+        }
+      ],
+      "abstract": "ABSTRACT Fungal communities in the freshwater systems of the semi‐arid Narrabri region, Australia, remain largely unexplored despite their crucial role as ecosystem regulators. This study provides the first comprehensive survey of aquatic fungal diversity across the Narrabri region of riverine and lacustrine waters in an area over 2000 km2 in size. ITS amplicon sequencing of water samples collected in November 2022 and June 2023 identified 344 OTUs, revealing clear temporal variation, with OTU richness significantly higher in November than in June. Notably, ~73% of sequences could not be reliably assigned to phyla, representing substantial ‘fungal dark matter’, although many of these sequences appear to have affinities with poorly characterised zoosporic fungi. Aquatic hyphomycetes were virtually absent. This observation may be due to regular filtering of conidia by hyporheic or ephemeral flow during the dry season in this region. Notably, this study reported the first Australian record of the ectomycorrhizal fungus, Laccaria miniata, detected in a mass fruiting event in June 2023. Furthermore, this study demonstrated that two sponges, previously undocumented in the region, are widespread, alongside a novel gastrotrich species occurring at most locations. Taken together, these findings reveal semi‐arid freshwater systems in Australia are hotspots of unrecognised fungal and eukaryote diversity."
+    },
+    {
+      "paperId": "2e5c2b9fff206636a4a14ba2009357e19c8db30f",
+      "url": "https://www.semanticscholar.org/paper/2e5c2b9fff206636a4a14ba2009357e19c8db30f",
+      "title": "Bryophytes on Brazilian ironstone outcrops: Diversity, environmental filtering, and conservation implications",
+      "venue": "",
+      "year": 2017,
+      "citationCount": 23,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.FLORA.2017.06.012?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.FLORA.2017.06.012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "1440955802",
+          "name": "G. Peñaloza-Bojacá"
+        },
+        {
+          "authorId": "4131260",
+          "name": "Bárbara A. Oliveira"
+        },
+        {
+          "authorId": "90496958",
+          "name": "C. A. Araújo"
+        },
+        {
+          "authorId": "89657646",
+          "name": "L. B. Fantecelle"
+        },
+        {
+          "authorId": "5566956",
+          "name": "N. D. D. Santos"
+        },
+        {
+          "authorId": "1404181477",
+          "name": "A. Maciel-Silva"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "47754ea87f9823cca84357e661eb3adc05060b82",
+      "url": "https://www.semanticscholar.org/paper/47754ea87f9823cca84357e661eb3adc05060b82",
+      "title": "Environmental Heterogeneity Drives the Dark Diversity of Global Plant Communities",
+      "venue": "",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/jbi.70043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/jbi.70043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2374433513",
+          "name": "Ji‐Zhong Wan"
+        },
+        {
+          "authorId": "2372347020",
+          "name": "Xiaodan Wang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "409ecd7d65a0e6d591b548f45a6588ffee257df6",
+      "url": "https://www.semanticscholar.org/paper/409ecd7d65a0e6d591b548f45a6588ffee257df6",
+      "title": "Environmental filtering and species interaction shaped the phytoplankton community assembly and diversity in different regulation periods of river-type reservoir.",
+      "venue": "Environmental Research",
+      "year": 2025,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.envres.2025.122512?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.envres.2025.122512, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2298204576",
+          "name": "Xiaoxiong Wen"
+        },
+        {
+          "authorId": "2151511349",
+          "name": "Yang Zhou"
+        },
+        {
+          "authorId": "2297800385",
+          "name": "Shanghong Zhang"
+        },
+        {
+          "authorId": "2258693355",
+          "name": "Hua Zhang"
+        },
+        {
+          "authorId": "2332439409",
+          "name": "Hao Wang"
+        }
+      ],
+      "abstract": "Reservoir regulation significantly alters riverine habitats, profoundly influencing phytoplankton communities, key indicators of aquatic ecosystem health. However, the assembly mechanisms shaping them in large, heterogeneous river-type reservoirs remain understudied. This study investigated the phytoplankton community in Three Gorges Reservoir (TGR), a China's representative river-type reservoir, across flood (FLP) and impoundment (IMP) periods, using samples collecting, alpha diversity, neutral community modeling, Mantel's tests, and co-occurrence network analysis to disentangle the underlying ecological processes. Results revealed a pronounced successional shift, from Bacillariophyta dominating the FLP (66.77% relative abundance) to Cyanophyta dominating the IMP (68.22%), and tributary areas showed heightened susceptibility to Cyanophyta blooms, particularly during IMP. Community assembly was overwhelmingly governed by deterministic processes, with neutral models explaining less than 25% of the variation, and their influence intensified during the more stable IMP. Ammonia nitrogen (NH4+-N), and water temperature (WT) were identified as primary environmental factors driving these changes. Furthermore, network analysis revealed a contrasting pattern between complexity and stability, the FLP's network, despite being more complex (45 nodes, 205 links), was less robust due to its centralization around a few dominant hub species, rendering the fluctuating backwater area (FA) particularly sensitive to disturbance. In contrast, the IMP's network was simpler (14 nodes, 27 links) but more stable. This study quantifies the shifting phytoplankton community assembly mechanisms in complex river-type, and provides a mechanistic explanation for these dynamics. These findings offer a robust foundation for future aquatic ecological health assessments and protection strategies."
+    },
+    {
+      "paperId": "5bb05c241567faf46bc82cd45313017daa42cb5b",
+      "url": "https://www.semanticscholar.org/paper/5bb05c241567faf46bc82cd45313017daa42cb5b",
+      "title": "Environmental filtering and management effects on functional and taxonomic reef fish diversity in the Abrolhos Reefs, Brazil.",
+      "venue": "Marine Environmental Research",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.marenvres.2025.107483?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.marenvres.2025.107483, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1484891444",
+          "name": "R. Hernández-Andreu"
+        },
+        {
+          "authorId": "1403194035",
+          "name": "F. C. Félix-Hackradt"
+        },
+        {
+          "authorId": "2052865231",
+          "name": "S. B. Kennedy"
+        },
+        {
+          "authorId": "2378791037",
+          "name": "Jessyca Luana Silva Texeira"
+        },
+        {
+          "authorId": "2077422858",
+          "name": "Inajara Marques Bezerra"
+        },
+        {
+          "authorId": "2258664841",
+          "name": "R. L. Moura"
+        },
+        {
+          "authorId": "2269137805",
+          "name": "Alexandre Schiavetti"
+        },
+        {
+          "authorId": "5694730",
+          "name": "C. Hackradt"
+        }
+      ],
+      "abstract": "Environmental conditions play a key role in shaping the functional composition of communities by favouring species with specific trait combinations. Certain habitat characteristics likely select for traits that confer advantages under specific local conditions, highlighting the importance of functional traits in mediating species' responses to environmental variation and in structuring community assembly. The main objective of this study was to identify the relationship of functional and taxonomic diversity, and biological traits against environmental variables across a coastal gradient to offshore reefs. Abundance and biomass data were collected from reef fish assemblages in Abrolhos Bank. Functional diversity (FD) indices were established with biomass data, calculated from fish traits. Differences in biomass, taxonomic diversity (TD), FD and redundancy patterns (RP) were assessed for spatial factors isolation, locality, and site. Also, the response of biological traits to onshore-offshore effects were evaluated with effect size analysis. Finally, RLQ ordination together with fourth-corner analyses were employed to establish significant correlations between environmental variables, biological traits and fish composition. The effect size was higher in offshore reefs for biomass, functional entities, richness species, while all FD, except functional richness, had higher effect in coastal areas. A strong environmental filtering mediated by coastal distance plays a role in community structure and reef fish distribution, with fish trophic group being most affected by the natural gradient. However, other traits' response revealed that protection measures might interact synergistically with environmental filtering, and mitigate the effects of anthropogenic pressure on coastal habitats. Ecological functionality, using functional indices considering specific environmental variables and habitats, can be used to monitor reef fish populations and to guide fisheries regulations and MPA establishment and management."
+    },
+    {
+      "paperId": "04483eb06873304a10d9ec0fa46c6aace3a379bb",
+      "url": "https://www.semanticscholar.org/paper/04483eb06873304a10d9ec0fa46c6aace3a379bb",
+      "title": "Land use history and environmental filtering drive taxonomic and functional diversity in Atlantic Rainforest fragments.",
+      "venue": "Journal of Environmental Management",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jenvman.2025.126830?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jenvman.2025.126830, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2137912603",
+          "name": "O. M. Verly"
+        },
+        {
+          "authorId": "2260678852",
+          "name": "Pedro Manuel Villa"
+        },
+        {
+          "authorId": "2352670800",
+          "name": "Marcelo Vitor Gualberto Santos Chaves"
+        },
+        {
+          "authorId": "2375313777",
+          "name": "Samuel José Silva Soares da-Rocha"
+        },
+        {
+          "authorId": "2369891991",
+          "name": "Luiz Claudio Medeiros Cabral-da-Silva"
+        },
+        {
+          "authorId": "134262197",
+          "name": "Klisman Oliveira"
+        },
+        {
+          "authorId": "2056740309",
+          "name": "M. P. M. X. Rufino"
+        },
+        {
+          "authorId": "2375313520",
+          "name": "Samuel Braz Vieira"
+        },
+        {
+          "authorId": "2375313320",
+          "name": "D’lano Figueiredo Teixeira Sathler"
+        },
+        {
+          "authorId": "2370156473",
+          "name": "C. M. M. E. Torres"
+        }
+      ],
+      "abstract": null
+    }
+  ]
+}

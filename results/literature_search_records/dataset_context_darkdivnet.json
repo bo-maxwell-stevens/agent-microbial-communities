@@ -1,0 +1,82 @@
+{
+  "meta_id_column": "canonical",
+  "set_sizes": {
+    "META": 99,
+    "AMF": 120,
+    "BAC": 140,
+    "EUK": 135,
+    "ITS": 139
+  },
+  "pairwise_overlap": [
+    {
+      "a": "META",
+      "b": "AMF",
+      "overlap_n": 89
+    },
+    {
+      "a": "META",
+      "b": "BAC",
+      "overlap_n": 98
+    },
+    {
+      "a": "META",
+      "b": "EUK",
+      "overlap_n": 95
+    },
+    {
+      "a": "META",
+      "b": "ITS",
+      "overlap_n": 98
+    },
+    {
+      "a": "AMF",
+      "b": "BAC",
+      "overlap_n": 117
+    },
+    {
+      "a": "AMF",
+      "b": "EUK",
+      "overlap_n": 114
+    },
+    {
+      "a": "AMF",
+      "b": "ITS",
+      "overlap_n": 117
+    },
+    {
+      "a": "BAC",
+      "b": "EUK",
+      "overlap_n": 135
+    },
+    {
+      "a": "BAC",
+      "b": "ITS",
+      "overlap_n": 137
+    },
+    {
+      "a": "EUK",
+      "b": "ITS",
+      "overlap_n": 132
+    }
+  ],
+  "union_n": 143,
+  "all5_n": 84,
+  "missing_from_union": {
+    "META": 44,
+    "AMF": 23,
+    "BAC": 3,
+    "EUK": 8,
+    "ITS": 4
+  },
+  "darkdivnet_core_vars_present": [
+    "alpha",
+    "gamma",
+    "dark",
+    "compl",
+    "pool",
+    "compl.perc",
+    "beta",
+    "beta.perc"
+  ],
+  "darkdivnet_core_vars_missing": []
+}

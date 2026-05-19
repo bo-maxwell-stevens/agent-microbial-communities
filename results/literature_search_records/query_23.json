@@ -1,0 +1,375 @@
+{
+  "query": "joint species distribution microbiome",
+  "timestamp_utc": "2026-05-19T13:06:34.022920+00:00",
+  "data": [
+    {
+      "paperId": "08c39ad8d390b8009c5e7c63f795da7ccfd9fc19",
+      "url": "https://www.semanticscholar.org/paper/08c39ad8d390b8009c5e7c63f795da7ccfd9fc19",
+      "title": "Mammals show distinct functional gut microbiome dynamics to identical series of environmental stressors",
+      "venue": "mBio",
+      "year": 2023,
+      "citationCount": 21,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1128/mbio.01606-23",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10653949, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "38344703",
+          "name": "Adam Koziol"
+        },
+        {
+          "authorId": "88083010",
+          "name": "I. Odriozola"
+        },
+        {
+          "authorId": "145338532",
+          "name": "Aoife M. Leonard"
+        },
+        {
+          "authorId": "2302661809",
+          "name": "Raphael Eisenhofer"
+        },
+        {
+          "authorId": "2360693356",
+          "name": "Carlos San José"
+        },
+        {
+          "authorId": "3847958",
+          "name": "Ostaizka Aizpurua"
+        },
+        {
+          "authorId": "32047635",
+          "name": "A. Alberdi"
+        }
+      ],
+      "abstract": "ABSTRACT The ability of the gut microbiome has been posited as an additional axis of animals’ phenotypic plasticity. However, whether and how such plasticity varies across hosts with different biological features remains unclear. We performed a captivity experiment to compare how the taxonomic, phylogenetic, and functional microbial dynamics varied across a series of temperature and dietary disturbances in two mammals: the insectivorous-specialist Crocidura russula and the omnivorous-generalist Apodemus sylvaticus. Combining genome-resolved metagenomics, metabolic pathway distillation and joint species distribution modeling, we observed that, although microbiome alpha diversity of both species remained stable, C. russula exhibited substantially higher variability and directionality of microbial responses than A. sylvaticus. Our results indicate that the intrinsic properties (e.g., diversity and functional redundancy) of microbial communities coupled with physiological attributes (e.g., thermal plasticity) of hosts shape the taxonomic, phylogenetic, and functional response of gut microbiomes to environmental stressors, which might influence their contribution to the acclimation and adaptation capacity of animal hosts. IMPORTANCE In our manuscript, we report the first interspecific comparative study about the plasticity of the gut microbiota. We conducted a captivity experiment that exposed wild-captured mammals to a series of environmental challenges over 45 days. We characterized their gut microbial communities using genome-resolved metagenomics and modeled how the taxonomic, phylogenetic, and functional microbial dynamics varied across a series of disturbances in both species. Our results indicate that the intrinsic properties (e.g., diversity and functional redundancy) of microbial communities coupled with physiological attributes (e.g., thermal plasticity) of hosts shape the taxonomic, phylogenetic, and functional response of gut microbiomes to environmental stressors, which might influence their contribution to the acclimation and adaptation capacity of animal hosts. In our manuscript, we report the first interspecific comparative study about the plasticity of the gut microbiota. We conducted a captivity experiment that exposed wild-captured mammals to a series of environmental challenges over 45 days. We characterized their gut microbial communities using genome-resolved metagenomics and modeled how the taxonomic, phylogenetic, and functional microbial dynamics varied across a series of disturbances in both species. Our results indicate that the intrinsic properties (e.g., diversity and functional redundancy) of microbial communities coupled with physiological attributes (e.g., thermal plasticity) of hosts shape the taxonomic, phylogenetic, and functional response of gut microbiomes to environmental stressors, which might influence their contribution to the acclimation and adaptation capacity of animal hosts."
+    },
+    {
+      "paperId": "51aeb12e5f2baecf291d6247323d2b4804ada310",
+      "url": "https://www.semanticscholar.org/paper/51aeb12e5f2baecf291d6247323d2b4804ada310",
+      "title": "Dietary carotenoid supplementation has long‐term and community‐wide effects on the amphibian skin microbiome",
+      "venue": "Molecular Ecology",
+      "year": 2023,
+      "citationCount": 9,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mec.17203",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/mec.17203?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/mec.17203, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "26376785",
+          "name": "A. Risely"
+        },
+        {
+          "authorId": "6696913",
+          "name": "Phillip G. Byrne"
+        },
+        {
+          "authorId": "2267081210",
+          "name": "Bethany J Hoye"
+        },
+        {
+          "authorId": "34646752",
+          "name": "Aimee J. Silla"
+        }
+      ],
+      "abstract": "The amphibian skin microbiome plays a crucial role in host immunity and pathogen defence, yet we know little about the environmental drivers of skin microbial variation across host individuals. Inter‐individual variation in the availability of micro‐nutrients such as dietary carotenoids, which are involved in amphibian immunity, may be one factor that influences skin microbial assembly across different life history stages. We compared the effect of four carotenoid supplementation regimes during different life stages on the adult skin microbiome using a captive population of the critically endangered southern corroboree frog, Pseudophryne corroboree. We applied 16S rRNA sequencing paired with joint‐species distribution models to examine the effect of supplementation on taxon abundances. We found that carotenoid supplementation had subtle yet taxonomically widespread effects on the skin microbiome, even 4.5 years post supplementation. Supplementation during any life‐history stage tended to have a positive effect on the number of bacterial taxa detected, although explanatory power was low. Some genera were sensitive to supplementation pre‐metamorphosis, but most demonstrated either additive or dominant effects, whereby supplementation during one life history stage had intermediate or similar effects, respectively, to supplementation across life. Carotenoid supplementation increased abundances of taxa belonging to lactic acid bacteria, including Lactococcus and Enterococcus, a group of bacteria that have previously been linked to protection against the amphibian fungal pathogen Batrachochytrium dendrobatidis (Bd). While the fitness benefits of these microbial shifts require further study, these results suggest a fundamental relationship between nutrition and the amphibian skin microbiome which may be critical to amphibian health and the development of novel conservation strategies."
+    },
+    {
+      "paperId": "04578408dc9a1c01b51c7e6f2ba34c64c1379418",
+      "url": "https://www.semanticscholar.org/paper/04578408dc9a1c01b51c7e6f2ba34c64c1379418",
+      "title": "Interplay between the Lung Microbiome, Pulmonary Immunity and Viral Reservoirs in People Living with HIV under Antiretroviral Therapy",
+      "venue": "Viruses",
+      "year": 2022,
+      "citationCount": 5,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/1999-4915/14/11/2395/pdf?version=1668074997",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9693210, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2135789377",
+          "name": "Zihui Wang"
+        },
+        {
+          "authorId": "5247753",
+          "name": "Mohammad-Ali Jenabian"
+        },
+        {
+          "authorId": "1965060837",
+          "name": "Y. Alexandrova"
+        },
+        {
+          "authorId": "145225828",
+          "name": "A. Pagliuzza"
+        },
+        {
+          "authorId": "2118526",
+          "name": "R. Olivenstein"
+        },
+        {
+          "authorId": "7892228",
+          "name": "S. Samarani"
+        },
+        {
+          "authorId": "145347427",
+          "name": "N. Chomont"
+        },
+        {
+          "authorId": "3162684",
+          "name": "S. Kembel"
+        },
+        {
+          "authorId": "144215566",
+          "name": "C. Costiniuk"
+        }
+      ],
+      "abstract": "Pulmonary dysbiosis may predispose people living with HIV (PLWH) to chronic lung disease. Herein, we assessed whether intrapulmonary HIV reservoir size and immune disruption are associated with reduced bacterial lung diversity in PLWH. Bacterial DNA was extracted and PCR-amplified from cell-free bronchoalveolar lavage (BAL) fluid from 28 PLWH and 9 HIV-negative controls. Amplicon sequence variant (ASV) relative abundances and taxonomic identities were analyzed using joint species distribution modeling. HIV-DNA was quantified from blood and pulmonary CD4+ T-cells using ultra-sensitive qPCR. Immunophenotyping of BAL T-cells was performed using flow cytometry. Lung microbiome diversity was lower in smokers than non-smokers and microbiome composition was more variable in PLWH than HIV-negative individuals. Frequencies of effector memory BAL CD4+ and CD8+ T-cells positively correlated with abundance of several bacterial families while frequencies of BAL activated CD4+ T-cells negatively correlated with abundance of most lung bacterial families. Higher HIV-DNA levels in blood, but not in BAL, as well as frequencies of senescent CD4+ T-cells were associated with reduced bacterial diversity. These findings suggest that HIV infection may weaken the relationship between the lung microbiome and smoking status. Viral reservoir and immune activation levels may impact the lung microbiome, predisposing PLWH to pulmonary comorbidities."
+    },
+    {
+      "paperId": "03d0342b08991e8003c79070e88c88f2adc169f3",
+      "url": "https://www.semanticscholar.org/paper/03d0342b08991e8003c79070e88c88f2adc169f3",
+      "title": "Gut microbial diversity across a contact zone for California voles: Implications for lineage divergence of hosts and mitonuclear mismatch in the assembly of the mammalian gut microbiome",
+      "venue": "Molecular Ecology",
+      "year": 2020,
+      "citationCount": 9,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/mec.15443?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/mec.15443, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "145732059",
+          "name": "Dana Lin"
+        },
+        {
+          "authorId": "6986309",
+          "name": "E. Lacey"
+        },
+        {
+          "authorId": "1632134896",
+          "name": "Bryan H. Bach"
+        },
+        {
+          "authorId": "98811605",
+          "name": "K. Bi"
+        },
+        {
+          "authorId": "3252617",
+          "name": "C. Conroy"
+        },
+        {
+          "authorId": "37122927",
+          "name": "Anton Suvorov"
+        },
+        {
+          "authorId": "48519889",
+          "name": "R. Bowie"
+        }
+      ],
+      "abstract": "Gut microbial diversity is thought to reflect the co‐evolution of microbes and their hosts as well as current host‐specific attributes such as genetic background and environmental setting. To explore interactions among these parameters, we characterized variation in gut microbiome composition of California voles (Microtus californicus) across a contact zone between two recently diverged lineages of this species. Because this contact zone contains individuals with mismatched mitochondrial‐nuclear genomes (cybrids), it provides an important opportunity to explore how different components of the genotype contribute to gut microbial diversity. Analyses of bacterial 16S rRNA sequences and joint species distribution modelling revealed that host genotypes and genetic differentiation among host populations together explained more than 50% of microbial community variation across our sampling transect. The ranked importance (most to least) of factors contributing to gut microbial diversity in our study populations were: genome‐wide population differentiation, local environmental conditions, and host genotypes. However, differences in microbial communities among vole populations (β‐diversity) did not follow patterns of lineage divergence (i.e., phylosymbiosis). Instead, among‐population variation was best explained by the spatial distribution of hosts, as expected if the environment is a primary source of gut microbial diversity (i.e., dispersal limitation hypothesis). Across the contact zone, several bacterial taxa differed in relative abundance between the two parental lineages as well as among individuals with mismatched mitochondrial and nuclear genomes. Thus, genetic divergence among host lineages and mitonuclear genomic mismatches may also contribute to microbial diversity by altering interactions between host genomes and gut microbiota (i.e., hologenome speciation hypothesis)."
+    },
+    {
+      "paperId": "ca861d4db84f82391933276fd653a4b33624be15",
+      "url": "https://www.semanticscholar.org/paper/ca861d4db84f82391933276fd653a4b33624be15",
+      "title": "Metabolic capabilities of key rumen microbiota drive methane emissions in cattle",
+      "venue": "mSystems",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12542661, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2309710408",
+          "name": "Wanxin Lai"
+        },
+        {
+          "authorId": "32047635",
+          "name": "A. Alberdi"
+        },
+        {
+          "authorId": "2334359953",
+          "name": "Andy O. Leu"
+        },
+        {
+          "authorId": "1825242222",
+          "name": "A. D. de León"
+        },
+        {
+          "authorId": "2281834776",
+          "name": "Carl M. Kobel"
+        },
+        {
+          "authorId": "2311683047",
+          "name": "Velma T. E. Aho"
+        },
+        {
+          "authorId": "6401739",
+          "name": "R. Roehe"
+        },
+        {
+          "authorId": "2267354214",
+          "name": "Phillip B. Pope"
+        },
+        {
+          "authorId": "2224971",
+          "name": "T. R. Hvidsten"
+        }
+      ],
+      "abstract": "ABSTRACT The rumen microbiome plays a critical role in determining feed conversion and methane emissions in cattle, with significant implications for both agricultural productivity and environmental sustainability. In this study, we applied a hierarchical joint species distribution model to predict directional associations between biotic factors and abundances of microbial populations determined via metagenome-assembled genomes (MAGs). Our analysis revealed distinct microbial differences, including 191 MAGs significantly more abundant in animals with a higher methane yield (above 24 g/kg dry matter intake [DMI]; high-emission cattle), and 220 MAGs more abundant in low-emission cattle. Interestingly, the microbiome community of the low-methane-emission rumen exhibited higher metabolic capacity but with lower functional redundancy compared to that of high-methane-emission cattle. Our findings also suggest that microbiomes associated with low methane yields are prevalent in specific functionalities such as active fiber hydrolysis and succinate production, which may enhance their contributions to feed conversion in the host animal. This study provides an alternate genome-centric means to investigate the microbial ecology of the rumen and identify microbial and metabolic intervention targets that aim to reduce greenhouse gas emissions in livestock production systems. IMPORTANCE Ruminant livestock are major contributors to global methane emissions, largely through microbial fermentation in the rumen. Understanding how microbial communities vary between high- and low-methane-emitting animals is critical for identifying mitigation strategies. This study leverages a genome-centric approach to link microbial metabolic traits to methane output in cattle. By reconstructing and functionally characterizing hundreds of microbial genomes, we observe that a low-methane-emission rumen harbors well-balanced, “streamlined” microbial communities characterized by high metabolic capacity and minimal metabolic overlap across populations (low functional redundancy). Our results demonstrate the utility of genome-level functional profiling in uncovering microbial community traits tied to climate-relevant phenotypes. Ruminant livestock are major contributors to global methane emissions, largely through microbial fermentation in the rumen. Understanding how microbial communities vary between high- and low-methane-emitting animals is critical for identifying mitigation strategies. This study leverages a genome-centric approach to link microbial metabolic traits to methane output in cattle. By reconstructing and functionally characterizing hundreds of microbial genomes, we observe that a low-methane-emission rumen harbors well-balanced, “streamlined” microbial communities characterized by high metabolic capacity and minimal metabolic overlap across populations (low functional redundancy). Our results demonstrate the utility of genome-level functional profiling in uncovering microbial community traits tied to climate-relevant phenotypes."
+    },
+    {
+      "paperId": "b5d545c9b92f7f80a13f037047b7789cac7ff265",
+      "url": "https://www.semanticscholar.org/paper/b5d545c9b92f7f80a13f037047b7789cac7ff265",
+      "title": "Uncovering diversity and abundance patterns of CO2-fixing microorganisms in peatlands",
+      "venue": "npj Biodiversity",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12322008, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2274625203",
+          "name": "Marie Le Geay"
+        },
+        {
+          "authorId": "2293727548",
+          "name": "Kyle Mayers"
+        },
+        {
+          "authorId": "2007695654",
+          "name": "Anna Sytiuk"
+        },
+        {
+          "authorId": "5085975",
+          "name": "E. Dorrepaal"
+        },
+        {
+          "authorId": "8257466",
+          "name": "Martin Küttim"
+        },
+        {
+          "authorId": "4692513",
+          "name": "M. Lamentowicz"
+        },
+        {
+          "authorId": "21444066",
+          "name": "E. Tuittila"
+        },
+        {
+          "authorId": "2265105914",
+          "name": "Béatrice Lauga"
+        },
+        {
+          "authorId": "21756931",
+          "name": "V. Jassey"
+        }
+      ],
+      "abstract": "Microorganisms play a crucial role in the carbon (C) dynamics of peatlands — a major terrestrial C reservoir. Because of their role in C emissions, heterotrophic microorganisms have attracted much attention over the past decades. CO2-fixing microorganisms (CFMs) remained largely overlooked, while they could attenuate C emissions. Here, we use metabarcoding and digital droplet PCR to survey microorganisms that potentially fix CO2 in different peatlands. We demonstrate that CFMs are abundant and diverse in peatlands, with on average 1021 CFMs contributing up to 40% of the total bacterial abundance. Using a joint-species distribution model, we identified a core and a specific CFM microbiome, the latter being influenced by temperature and nutrients. Our findings highlight that ASV richness and community structure were direct drivers of CFM abundance, while environmental parameters were indirect drivers. These results provide the basis for a better understanding of the role of CFMs in peatland C cycle inputs."
+    },
+    {
+      "paperId": "b79ed45e2351c82e8b55c0b451e6247c05331bdc",
+      "url": "https://www.semanticscholar.org/paper/b79ed45e2351c82e8b55c0b451e6247c05331bdc",
+      "title": "Niche dimensionality drives microbial community structure",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.11.02.686095?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.11.02.686095, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2316716956",
+          "name": "Karthik Srinivasan"
+        },
+        {
+          "authorId": "2278627012",
+          "name": "Germán Plata"
+        },
+        {
+          "authorId": "2278626692",
+          "name": "Purushottam D. Dixit"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "1459dd53d7db6a952c43578567488fc9c25d41f5",
+      "url": "https://www.semanticscholar.org/paper/1459dd53d7db6a952c43578567488fc9c25d41f5",
+      "title": "Mycorrhizal and endophytic fungi structure forest below-ground symbiosis through contrasting but interdependent assembly processes",
+      "venue": "Environmental Microbiome",
+      "year": 2024,
+      "citationCount": 8,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11531145, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2284998839",
+          "name": "Mikihito Noguchi"
+        },
+        {
+          "authorId": "6089850",
+          "name": "Hirokazu Toju"
+        }
+      ],
+      "abstract": "Interactions between plants and diverse root-associated fungi are essential drivers of forest ecosystem dynamics. The symbiosis is potentially dependent on multiple ecological factors/processes such as host/symbiont specificity, background soil microbiome, inter-root dispersal of symbionts, and fungus–fungus interactions within roots. Nonetheless, it has remained a major challenge to reveal the mechanisms by which those multiple factors/processes determine the assembly of root-associated fungal communities. Based on the framework of joint species distribution modeling, we examined 1,615 root-tips samples collected in a cool-temperate forest to reveal how root-associated fungal community structure was collectively formed through filtering by host plants, associations with background soil fungi, spatial autocorrelation, and symbiont–symbiont interactions. In addition, to detect fungi that drive the assembly of the entire root-associated fungal community, we inferred networks of direct fungus–fungus associations by a statistical modeling that could account for implicit environmental effects. The fine-scale community structure of root-associated fungi were best explained by the statistical model including the four ecological factors/processes. Meanwhile, among partial models, those including background soil fungal community structure and within-root fungus–fungus interactions showed the highest performance. When fine-root distributions were examined, ectomycorrhizal fungi tended to show stronger associations with background soil community structure and spatially autocorrelated patterns than other fungal guilds. In contrast, the distributions of root-endophytic fungi were inferred to depend greatly on fungus–fungus interactions. An additional statistical analysis further suggested that some endophytic fungi, such as Phialocephala and Leptodontidium, were placed at the core positions within the web of direct associations with other root-associated fungi. By applying emerging statistical frameworks to intensive datasets of root-associated fungal communities, we demonstrated background soil fungal community structure and fungus–fungus associations within roots, as well as filtering by host plants and spatial autocorrelation in ecological processes, could collectively drive the assembly of root-associated fungi. We also found that basic assembly rules could differ between mycorrhizal and endophytic fungi, both of which were major components of forest ecosystems. Consequently, knowledge of how multiple ecological factors/processes differentially drive the assembly of multiple fungal guilds is indispensable for comprehensively understanding the mechanisms by which terrestrial ecosystem dynamics are organized by plant–fungal symbiosis."
+    }
+  ]
+}

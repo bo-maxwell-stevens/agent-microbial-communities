@@ -1,0 +1,370 @@
+{
+  "query": "plant diversity soil microbiome relationships",
+  "timestamp_utc": "2026-05-19T13:06:03.951306+00:00",
+  "data": [
+    {
+      "paperId": "2848996a2bbb7d5ef5bd60b1913a66e41abdb691",
+      "url": "https://www.semanticscholar.org/paper/2848996a2bbb7d5ef5bd60b1913a66e41abdb691",
+      "title": "Soil microbiome mediates positive plant diversity-productivity relationships in late successional grassland species.",
+      "venue": "Ecology Letters",
+      "year": 2019,
+      "citationCount": 91,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/ele.13273?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/ele.13273, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2152583674",
+          "name": "Guangzhou Wang"
+        },
+        {
+          "authorId": "38488057",
+          "name": "P. Schultz"
+        },
+        {
+          "authorId": "88824643",
+          "name": "Alice G. Tipton"
+        },
+        {
+          "authorId": "1559737316",
+          "name": "Junling Zhang"
+        },
+        {
+          "authorId": "145241280",
+          "name": "Fusuo Zhang"
+        },
+        {
+          "authorId": "1822671",
+          "name": "J. Bever"
+        }
+      ],
+      "abstract": "Which processes drive the productivity benefits of biodiversity remain a critical, but unanswered question in ecology. We tested whether the soil microbiome mediates the diversity-productivity relationships among late successional plant species. We found that productivity increased with plant richness in diverse soil communities, but not with low-diversity mixtures of arbuscular mycorrhizal fungi or in pasteurised soils. Diversity-interaction modelling revealed that pairwise interactions among species best explained the positive diversity-productivity relationships, and that transgressive overyielding resulting from positive complementarity was only observed with the late successional soil microbiome, which was both the most diverse and exhibited the strongest community differentiation among plant species. We found evidence that both dilution/suppression from host-specific pathogens and microbiome-mediated resource partitioning contributed to positive diversity-productivity relationships and overyielding. Our results suggest that re-establishment of a diverse, late successional soil microbiome may be critical to the restoration of the functional benefits of plant diversity following anthropogenic disturbance."
+    },
+    {
+      "paperId": "de7252ea09b5bf83d36da198ab76f0d3c3c9ef66",
+      "url": "https://www.semanticscholar.org/paper/de7252ea09b5bf83d36da198ab76f0d3c3c9ef66",
+      "title": "Grazing intensity alters network complexity and predator–prey relationships in the soil microbiome",
+      "venue": "Applied and Environmental Microbiology",
+      "year": 2024,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1128/aem.00425-24?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1128/aem.00425-24, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1492133408",
+          "name": "Lennel A. Camuy-Vélez"
+        },
+        {
+          "authorId": "2276982259",
+          "name": "Samiran Banerjee"
+        },
+        {
+          "authorId": "3865574",
+          "name": "K. Sedivec"
+        }
+      ],
+      "abstract": "ABSTRACT Grasslands are recognized as important reservoirs of soil biodiversity. Livestock grazing is implemented as a grassland management strategy to improve soil quality and enhance plant diversity. Soil microbial communities play a pivotal role in grassland ecosystems, so it is important to examine whether grazing practices affect the soil microbiome. Previous studies on grazing have primarily focused on bacteria and fungi, overlooking an important group—protists. Protists are vital in soil microbiomes as they drive nutrient availability and trophic interactions. Determining the impact of grazing on protists and their relationships with bacterial and fungal communities is important for understanding soil microbiome dynamics in grazed ecosystems. In this study, we investigated soil bacterial, fungal, and protist communities under four grazing levels: no grazing, moderate-use grazing, full-use grazing, and heavy-use grazing. Our results showed that heavy grazing led to a greater diversity of protists with specific groups, such as Discoba and Conosa, increasing in abundance. We also found strong associations between protist and bacterial/fungal members, indicating their intricate relationships within the soil microbiome. For example, the abundance of predatory protists increased under grazing while arbuscular mycorrhizal fungi decreased. Notably, arbuscular mycorrhizae were negatively associated with predatory groups. Furthermore, we observed that microbial network complexity increased with grazing intensity, with fungal members playing an important role in the network. Overall, our study reports the impact of temporal grazing intensity on soil microbial dynamics and highlights the importance of considering protist ecology when evaluating the effects of grazing on belowground communities in grassland ecosystems. IMPORTANCE The significance of this study lies in its exploration of the effects of temporal grazing intensity on the dynamics of the soil microbiome, specifically focusing on the often-neglected role of protists. Our findings provide insights into the complex relationships between protists, bacteria, and fungi, emphasizing their impact on trophic interactions in the soil. Gaining a better understanding of these dynamics is essential for developing effective strategies for grassland management and conservation, underscoring the importance of incorporating protist ecology into microbiome studies in grasslands. The significance of this study lies in its exploration of the effects of temporal grazing intensity on the dynamics of the soil microbiome, specifically focusing on the often-neglected role of protists. Our findings provide insights into the complex relationships between protists, bacteria, and fungi, emphasizing their impact on trophic interactions in the soil. Gaining a better understanding of these dynamics is essential for developing effective strategies for grassland management and conservation, underscoring the importance of incorporating protist ecology into microbiome studies in grasslands."
+    },
+    {
+      "paperId": "7a2c85f32608660fa11c19409496bc85c8c423dd",
+      "url": "https://www.semanticscholar.org/paper/7a2c85f32608660fa11c19409496bc85c8c423dd",
+      "title": "Soil Microbiome: Diversity, Benefits and Interactions with Plants",
+      "venue": "Sustainability",
+      "year": 2023,
+      "citationCount": 136,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/2071-1050/15/19/14643/pdf?version=1696854126",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/su151914643?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/su151914643, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2280598363",
+          "name": "Poonam Chauhan"
+        },
+        {
+          "authorId": "2258312515",
+          "name": "Neha Sharma"
+        },
+        {
+          "authorId": "87038065",
+          "name": "A. Tapwal"
+        },
+        {
+          "authorId": "2257968651",
+          "name": "Ajay Kumar"
+        },
+        {
+          "authorId": "2276531415",
+          "name": "G. Verma"
+        },
+        {
+          "authorId": "2138759989",
+          "name": "M. Meena"
+        },
+        {
+          "authorId": "2258175954",
+          "name": "Chandra Shekhar Seth"
+        },
+        {
+          "authorId": "145877641",
+          "name": "Prashant Swapnil"
+        }
+      ],
+      "abstract": "Plant roots aid the growth and functions of several kinds of microorganisms such as plant growth-promoting rhizobacteria, mycorrhizal fungi, endophytic bacteria, actinomycetes, nematodes, protozoans which may impart significant impacts on plant health and growth. Plant soil–microbe interaction is an intricate, continuous, and dynamic process that occurs in a distinct zone known as the rhizosphere. Plants interact with these soil microbes in a variety of ways, including competitive, exploitative, neutral, commensal, and symbiotic relationships. Both plant and soil types were found to have an impact on the community diversity and structure of the rhizosphere, or vice versa. The diversity of microorganisms in soil is thought to be essential for the management of soil health and quality because it has different plant growth-promoting or biocontrol effects that could be very advantageous for the host plant and alter plant physiology and nutrition. The composition of microbial community is influenced by soil and plant type. Besides these beneficial microbes, the soil also harbors microorganisms that are detrimental to plants, competing for nutrients and space, and causing diseases. Numerous microorganisms have antagonistic activity and the ability to defend plants from soil-borne diseases. The study of the soil microbiome is essential for formulating strategies for transforming the rhizosphere to the benefit of the plants. This review pays special emphasis on the types of microbial populations in the soil and how they influence plant growth, nutrient acquisition, inter-relationships between soil microbes and plants, stress resistance, carbon sequestration, and phytoremediation."
+    },
+    {
+      "paperId": "8a85d833f46fb45d0021bd1d2614a51b48388f29",
+      "url": "https://www.semanticscholar.org/paper/8a85d833f46fb45d0021bd1d2614a51b48388f29",
+      "title": "Plant invasion shifts soil microbiome and physico-chemical attributes along an elevational gradient in Kashmir Himalaya",
+      "venue": "Environmental science and pollution research international",
+      "year": 2023,
+      "citationCount": 9,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11356-023-28197-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11356-023-28197-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1516489025",
+          "name": "Khalid Hussain"
+        },
+        {
+          "authorId": "151501770",
+          "name": "Rameez Ahmad"
+        },
+        {
+          "authorId": "7277105",
+          "name": "Martin A. Nuñez"
+        },
+        {
+          "authorId": "19226500",
+          "name": "T. Dar"
+        },
+        {
+          "authorId": "5587696",
+          "name": "I. Rashid"
+        },
+        {
+          "authorId": "2060952373",
+          "name": "A. Khuroo"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "97d2c002d827967040c0b8213ba7b509ea34006b",
+      "url": "https://www.semanticscholar.org/paper/97d2c002d827967040c0b8213ba7b509ea34006b",
+      "title": "Soil–plant–microbiome interactions in drylands: soil bacteria isolated from the rhizosphere of a xerophytic plant gather multiple plant growth promoting properties",
+      "venue": "Euro-Mediterranean Journal for Environmental Integration",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s41207-025-00933-9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s41207-025-00933-9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "35496668",
+          "name": "A. Dekak"
+        },
+        {
+          "authorId": "5115729",
+          "name": "T. Menasria"
+        },
+        {
+          "authorId": "5852761",
+          "name": "Mohamed Nacer Mekahlia"
+        },
+        {
+          "authorId": "4597618",
+          "name": "Haroun Chenchouni"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "14ea8f756367b18a5032ca78bdde7cb213c56b9a",
+      "url": "https://www.semanticscholar.org/paper/14ea8f756367b18a5032ca78bdde7cb213c56b9a",
+      "title": "Plant Identity Impacts the Soil Microbiome More Than Interspecific Interactions in Intensively Managed Grasslands",
+      "venue": "European Journal of Soil Science",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/ejss.70256?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/ejss.70256, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2260944826",
+          "name": "Kerry B. Ryan"
+        },
+        {
+          "authorId": "2275723606",
+          "name": "J. A. Finn"
+        },
+        {
+          "authorId": "2322779051",
+          "name": "Alexandre de Menezes"
+        },
+        {
+          "authorId": "2195553794",
+          "name": "Laura Byrne"
+        },
+        {
+          "authorId": "2260499895",
+          "name": "C. Brophy"
+        },
+        {
+          "authorId": "2238367262",
+          "name": "F. Brennan"
+        }
+      ],
+      "abstract": "Plants and soil microbes are intricately linked, and agricultural production relies heavily on microbially mediated ecosystem services. However, the effects of plant diversity (richness, relative abundance and composition) on soil microbial community diversity and function are still unclear. To better inform agricultural grassland management, it is essential to understand these relationships in intensively managed systems. Between May and September 2019, we conducted a field experiment on an established, intensively managed agricultural grassland to investigate the effect of plant diversity on soil microbial abundance, community composition and nitrogen cycling functional capacity. We systematically manipulated sown plant diversity comprising six forage species at a lower level of chemical nitrogen application, and we included a high chemical N treatment on an L. perenne monoculture as a reference level for conventional productive grassland management. Using Diversity‐Interactions (DI) modelling, we measured the effects of plant richness, relative abundance and composition on soil microbial community gene abundance and nitrogen cycling functional capacities, finding limited effects of plant identity and even weaker effects of interspecific interactions. Where differences in identity effects occurred, the plant species involved were not consistent across responses. In a separate multivariate community analysis, soil microbial community composition was found to be significantly affected by plant species composition, and this was more evident in fungal communities than in prokaryotic communities. There were no differences in microbial community composition between L. perenne monocultures receiving a high and lower nitrogen application; however, the high nitrogen L. perenne had a different microbial community structure than some other plant communities at lower nitrogen. Overall, our study found weak effects of plant diversity on several measures of microbial diversity and function in intensively managed agricultural grasslands."
+    },
+    {
+      "paperId": "d3ed03cf29c91db5d3de7f1fb277e86dc084bbe6",
+      "url": "https://www.semanticscholar.org/paper/d3ed03cf29c91db5d3de7f1fb277e86dc084bbe6",
+      "title": "Response of Yields, Soil Physiochemical Characteristics, and the Rhizosphere Microbiome to the Occurrence of Root Rot Caused by Fusarium solani in Ligusticum chuanxiong Hort.",
+      "venue": "Microorganisms",
+      "year": 2024,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/2076-2607/12/11/2350/pdf?version=1731924326",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11596405, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2309894207",
+          "name": "Xiaofang Sun"
+        },
+        {
+          "authorId": "2309894222",
+          "name": "Yong Liu"
+        },
+        {
+          "authorId": "2332389689",
+          "name": "Lian He"
+        },
+        {
+          "authorId": "115259362",
+          "name": "Z. Kuang"
+        },
+        {
+          "authorId": "2267448726",
+          "name": "Shundong Dai"
+        },
+        {
+          "authorId": "15560044",
+          "name": "L. Hua"
+        },
+        {
+          "authorId": "2267428899",
+          "name": "Qiuping Jiang"
+        },
+        {
+          "authorId": "2332306849",
+          "name": "Taiyang Wei"
+        },
+        {
+          "authorId": "2267483199",
+          "name": "Pengsheng Ye"
+        },
+        {
+          "authorId": "2310208242",
+          "name": "Hualan Zeng"
+        }
+      ],
+      "abstract": "Ligusticum chuanxiong Hort. is considered an important medicinal herb with extremely high economic value and medicinal value due to its various effects, including anti-oxidation, sedative action, hepatoprotection, and invigorating blood circulation. However, L. chuanxiong cultivation is hampered by various plant diseases, especially the root rot caused by Fusarium solani, hindering the sustainable development of the L. chuanxiong industry. The occurrence of soil-borne diseases is closely linked to imbalances in the microbial community structure. Here, we studied the yields, rhizosphere microbiota, and soil physiochemical characteristics of healthy and diseased L. chuanxiong plants affected by root rot with high-throughput sequencing and microbial network analysis, aiming to explore the relationships between soil environmental factors, microbiomes, and plant health of L. chuanxiong. According to the results, L. chuanxiong root rot significantly decreased the yields, altered microbial community diversity and composition, enriched more pathogenic fungi, recruited some beneficial bacteria, and reduced microbial interaction network stability. The Mantel test showed that soil organic matter and pH were the major environmental factors modulating plant microbiome assembly. The root rot severity was significantly affected by soil physiochemical properties, including organic matter, cation exchange capacity, available nitrogen, phosphorus, potassium, and pH. Furthermore, two differential microbes that have great potential in the biocontrol of L. chuanxiong root rot were dug out in the obtained results, which were the genera Trichoderma and Bacillus. This study provided a theoretical basis for further studies revealing the microecological mechanism of L. chuanxiong root rot and the ecological prevention and control of L. chuanxiong root rot from a microbial ecology perspective."
+    },
+    {
+      "paperId": "e44cc11a20a81d345594394d7a0b3c92fff6e8fa",
+      "url": "https://www.semanticscholar.org/paper/e44cc11a20a81d345594394d7a0b3c92fff6e8fa",
+      "title": "Warming and disturbance alter soil microbiome diversity and function in a northern forest ecotone.",
+      "venue": "FEMS Microbiology Ecology",
+      "year": 2020,
+      "citationCount": 22,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/femsec/fiaa108?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/femsec/fiaa108, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2126753422",
+          "name": "Michael E. Van Nuland"
+        },
+        {
+          "authorId": "2110769832",
+          "name": "Dylan P. Smith"
+        },
+        {
+          "authorId": "39431846",
+          "name": "Jennifer M. Bhatnagar"
+        },
+        {
+          "authorId": "6822659",
+          "name": "Artur Stefanski"
+        },
+        {
+          "authorId": "4718435",
+          "name": "S. Hobbie"
+        },
+        {
+          "authorId": "2829427",
+          "name": "P. Reich"
+        },
+        {
+          "authorId": "4208401",
+          "name": "K. Peay"
+        }
+      ],
+      "abstract": "The response to global change by soil microbes is set to affect important ecosystem processes. These impacts could be most immediate in transitional zones, such as the temperate-boreal forest ecotone, yet previous work in these forests has primarily focused on specific subsets of microbial taxa. Here, we examined how bacterial and fungal communities respond to simulated above- and belowground warming under realistic field conditions in closed and open canopy treatments in Minnesota, USA. Our results show that warming and canopy disturbance shifted bacterial and fungal community structure as dominant bacterial and fungal groups differed in the direction and intensity of their responses. Ectomycorrhizal and saprotrophic fungal communities with greater connectivity (higher prevalence of strongly interconnected taxa based on pairwise co-occurrence relationships) were more resistant to compositional change. Warming effects on soil enzymes involved in the hydrolytic and oxidative liberation of carbon from plant cell walls and nutrients from organic matter were most strongly linked to fungal community responses, although community structure-function relationships differed between fungal guilds. Collectively, these findings indicate that warming and disturbance will influence the composition and function of microbial communities in the temperate-boreal ecotone, and fungal responses are particularly important to understand for predicting future ecosystem functioning."
+    }
+  ]
+}

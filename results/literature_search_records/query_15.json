@@ -1,0 +1,394 @@
+{
+  "query": "deterministic stochastic microbial assembly",
+  "timestamp_utc": "2026-05-19T13:06:15.232563+00:00",
+  "data": [
+    {
+      "paperId": "91b2dd35d5476dd3677d179dd56f019ea0e650f8",
+      "url": "https://www.semanticscholar.org/paper/91b2dd35d5476dd3677d179dd56f019ea0e650f8",
+      "title": "A Dynamic Framework for Context-Dependent Microbial Assembly: Validation of the Domain-Specific Stochastic–Deterministic Integration Model",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1101/2025.05.04.652157",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.05.04.652157?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.05.04.652157, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2067517585",
+          "name": "M. Wan"
+        },
+        {
+          "authorId": "2216986738",
+          "name": "Ping Liu"
+        }
+      ],
+      "abstract": "Microbial community assembly is governed by the interplay of stochastic and deterministic processes. However, most existing frameworks treat microbial communities as taxonomically homogeneous entities, overlooking the phylogenetic divergence and ecological distinctiveness of major microbial domains. Here, we present a new conceptual model—Domain-Specific Stochastic–Deterministic Integration (DSSDI)—that explicitly incorporates domain-level asymmetries, cross-domain interactions, and functional buffering into the community assembly process. Using 16S rRNA sequencing data from seasonal intertidal microbial communities, we tested four hypotheses derived from the DSSDI framework. Our results revealed that bacterial and archaeal communities differ in their stochastic–deterministic assembly patterns, spatial–temporal responses, network modularity, and functional robustness. Cross-domain cooperation emerged as a stabilizing factor, promoting metabolic complementarity and buffering against taxonomic turnover. This study introduces and validates the DSSDI framework as the first domain-explicit model of microbial community assembly, establishing a clear conceptual foundation and claiming priority for future theoretical and empirical developments in this field."
+    },
+    {
+      "paperId": "59e25de59f2150b7268d45d4594a6270f2b19b98",
+      "url": "https://www.semanticscholar.org/paper/59e25de59f2150b7268d45d4594a6270f2b19b98",
+      "title": "Stochastic and deterministic mechanisms jointly drive the assembly of microbial communities in cold-rolling wastewater across China.",
+      "venue": "Journal of Hazardous Materials",
+      "year": 2025,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jhazmat.2025.137925?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jhazmat.2025.137925, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2219396071",
+          "name": "Jingjing Guo"
+        },
+        {
+          "authorId": "2349072562",
+          "name": "Wulong Luo"
+        },
+        {
+          "authorId": "2305451780",
+          "name": "Xiaowen Wu"
+        },
+        {
+          "authorId": "2110437048",
+          "name": "Y. Li"
+        },
+        {
+          "authorId": "2348180274",
+          "name": "Zimin Liu"
+        },
+        {
+          "authorId": "2364942716",
+          "name": "Hui Fang"
+        },
+        {
+          "authorId": "2222916507",
+          "name": "Qi Chen"
+        },
+        {
+          "authorId": "2327230061",
+          "name": "Enchao Li"
+        },
+        {
+          "authorId": "2108727669",
+          "name": "Yunkun Wang"
+        }
+      ],
+      "abstract": "Microorganisms play a pivotal role in industrial wastewater treatment, serving as a critical barrier to water purification and safeguarding human and environmental health. Despite their importance, the biogeographic distribution and assembly mechanisms of microbial communities in cold-rolling wastewater treatment systems remain poorly understood. This study analyzed 101 microbial samples from nine regions using high-throughput sequencing, revealing rich microbial diversity and distinct regional aggregation patterns. Random forest analysis identified key biomarkers, often low-abundance species, while a unique core microbial community was strongly correlated with pollutant removal efficiencies, including chemical oxygen demand (COD), total organic carbon (TOC), and total nitrogen (TN). Neutral community model analysis demonstrated that microbial community assembly is driven by both stochastic and deterministic processes. Co-occurrence network analysis further highlighted o__1-20 and g__Ellin6067 as pivotal taxa influencing community structure. Among environmental factors, nitrite nitrogen (NO₂-N) and COD were identified as critical drivers of community assembly. This study provides the first comprehensive characterization of microbial biogeographic patterns in cold-rolling wastewater treatment plants across China. The findings deepen our understanding of microbial diversity, distribution, and community dynamics in industrial wastewater systems, offering valuable insights for optimizing treatment processes."
+    },
+    {
+      "paperId": "b2cd3abf657bc64434265e6d44f464005c76f32f",
+      "url": "https://www.semanticscholar.org/paper/b2cd3abf657bc64434265e6d44f464005c76f32f",
+      "title": "Stochastic and deterministic assembly processes of microbial communities in relation to natural attenuation of black stains in Lascaux Cave",
+      "venue": "mSystems",
+      "year": 2024,
+      "citationCount": 10,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1128/msystems.01233-23",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10878041, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2140631961",
+          "name": "Zélia Bontemps"
+        },
+        {
+          "authorId": "2250874733",
+          "name": "Yvan Moënne-Loccoz"
+        },
+        {
+          "authorId": "6621579",
+          "name": "M. Hugoni"
+        }
+      ],
+      "abstract": "ABSTRACT Community assembly processes are complex and understanding them represents a challenge in microbial ecology. Here, we used Lascaux Cave as a stable, confined environment to quantify the importance of stochastic vs deterministic processes during microbial community dynamics across the three domains of life in relation to an anthropogenic disturbance that had resulted in the side-by-side occurrence of a resistant community (unstained limestone), an impacted community (present in black stains), and a resilient community (attenuated stains). Metabarcoding data showed that the microbial communities of attenuated stains, black stains, and unstained surfaces differed, with attenuated stains being in an intermediate position. We found four scenarios to explain community response to disturbance in stable conditions for the three domains of life. Specifically, we proposed the existence of a fourth, not-documented yet scenario that concerns the always-rare microbial taxa, where stochastic processes predominate even after disturbance but are replaced by deterministic processes during post-disturbance recovery. This suggests a major role of always-rare taxa in resilience, perhaps because they might provide key functions required for ecosystem recovery. IMPORTANCE The importance of stochastic vs deterministic processes in cave microbial ecology has been a neglected topic so far, and this work provided an opportunity to do so in a context related to the dynamics of black-stain alterations in Lascaux, a UNESCO Paleolithic cave. Of particular significance was the discovery of a novel scenario for always-rare microbial taxa in relation to disturbance, in which stochastic processes are replaced later by deterministic processes during post-disturbance recovery, i.e., during attenuation of black stains. The importance of stochastic vs deterministic processes in cave microbial ecology has been a neglected topic so far, and this work provided an opportunity to do so in a context related to the dynamics of black-stain alterations in Lascaux, a UNESCO Paleolithic cave. Of particular significance was the discovery of a novel scenario for always-rare microbial taxa in relation to disturbance, in which stochastic processes are replaced later by deterministic processes during post-disturbance recovery, i.e., during attenuation of black stains."
+    },
+    {
+      "paperId": "e31b4310546ebdca611dca28189aa1a173247a38",
+      "url": "https://www.semanticscholar.org/paper/e31b4310546ebdca611dca28189aa1a173247a38",
+      "title": "Ecological features of microbial community linked to stochastic and deterministic assembly processes in acid mine drainage",
+      "venue": "Applied and Environmental Microbiology",
+      "year": 2024,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11784436, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "47781636",
+          "name": "Zhenghua Liu"
+        },
+        {
+          "authorId": "2332165055",
+          "name": "Chengying Jiang"
+        },
+        {
+          "authorId": "2229717625",
+          "name": "Zhuzhong Yin"
+        },
+        {
+          "authorId": "2327859704",
+          "name": "I. A. Ibrahim"
+        },
+        {
+          "authorId": "2157676494",
+          "name": "Teng Zhang"
+        },
+        {
+          "authorId": "2303336449",
+          "name": "Jing Wen"
+        },
+        {
+          "authorId": "2289357236",
+          "name": "Lei Zhou"
+        },
+        {
+          "authorId": "2303933688",
+          "name": "Guoping Jiang"
+        },
+        {
+          "authorId": "2154884092",
+          "name": "L. Li"
+        },
+        {
+          "authorId": "2307131136",
+          "name": "Zhendong Yang"
+        },
+        {
+          "authorId": "2108610318",
+          "name": "Ye Huang"
+        },
+        {
+          "authorId": "2155029717",
+          "name": "Zhaoyue Yang"
+        },
+        {
+          "authorId": "5374909",
+          "name": "Yabing Gu"
+        },
+        {
+          "authorId": "2237236006",
+          "name": "Delong Meng"
+        },
+        {
+          "authorId": "2238916161",
+          "name": "Huaqun Yin"
+        }
+      ],
+      "abstract": "ABSTRACT Ecological processes greatly shape microbial community assembly, but the driving factors remain unclear. Here, we compiled a metagenomic data set of microbial communities from global acid mine drainage (AMD) and explored the ecological features of microbial community linked to stochastic and deterministic processes from the perspective of species niche position, interaction patterns, gene functions, and viral infection. Our results showed that dispersal limitation (DL) (48.5%~93.5%) dominated the assembly of phylogenetic bin in AMD microbial community, followed by homogeneous selection (HoS) (3.1%~39.2%), heterogeneous selection (HeS) (1.4%~22.2%), and drift (DR) (0.2%~2.7%). The dominant process of dispersal limitation was significantly influenced by niche position in temperature (r = −0.518, P = 0.007) and dissolved oxygen (r = 0.471, P = 0.015). Network stability had a significantly negative correlation with the relative importance of dispersal limitation, while it had a positive correlation with selection processes, implying changes in network properties could be mediated by ecological processes. Furthermore, we found that ecological processes were mostly related to the gene functions of energy production and conversion (C), and amino acid transport and metabolism (E). Meanwhile, our results showed that the number of proviruses and viral genes involved in arsenic (As) resistance is negatively associated with the relative importance of ecological drift in phylogenetic bin assembly, implying viral infection might weaken ecological drift. Taken together, these results highlight that ecological processes are associated with ecological features at multiple levels, providing a novel insight into microbial community assembly in extremely acidic environments. IMPORTANCE Unraveling the forces driving community assemblage is a core issue in microbial ecology, but how ecological constraints impose stochasticity and determinism remains unknown. This study presents a comprehensive investigation to uncover the association of ecological processes with species niche position, interaction patterns, microbial metabolisms, and viral infections, which provides novel insights into community assembly in extreme environments. Unraveling the forces driving community assemblage is a core issue in microbial ecology, but how ecological constraints impose stochasticity and determinism remains unknown. This study presents a comprehensive investigation to uncover the association of ecological processes with species niche position, interaction patterns, microbial metabolisms, and viral infections, which provides novel insights into community assembly in extreme environments."
+    },
+    {
+      "paperId": "fac300b3482b0f94de711962411f0137bf19ac3c",
+      "url": "https://www.semanticscholar.org/paper/fac300b3482b0f94de711962411f0137bf19ac3c",
+      "title": "Deterministic processes dominate microbial assembly mechanisms in the gut microbiota of cold-water fish between summer and winter",
+      "venue": "Frontiers in Microbiology",
+      "year": 2024,
+      "citationCount": 11,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1415931/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11216611, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2297647015",
+          "name": "Liangliang Xu"
+        },
+        {
+          "authorId": "2052092005",
+          "name": "Peng Xiang"
+        },
+        {
+          "authorId": "2122313100",
+          "name": "Xiaoshuai Liu"
+        },
+        {
+          "authorId": "2297636852",
+          "name": "Luying Zhao"
+        },
+        {
+          "authorId": "2297726423",
+          "name": "Hanxi Chen"
+        },
+        {
+          "authorId": "2279340861",
+          "name": "Maohua Li"
+        },
+        {
+          "authorId": "2278375569",
+          "name": "Zhaobin Song"
+        }
+      ],
+      "abstract": "Exploring the effects of seasonal variation on the gut microbiota of cold-water fish plays an important role in understanding the relationship between seasonal variation and cold-water fish. Gut samples of cold-water fish and environmental samples were collected during summer and winter from the lower reaches of the Yalong River. The results of the 16S rRNA sequencing showed that significant differences were identified in the composition and diversity of gut bacteria of cold-water fish. Co-occurrence network complexity of the gut bacteria of cold-water fish was higher in summer compared to winter (Sum: nodes: 256; edges: 20,450; Win: nodes: 580; edges: 16,725). Furthermore, from summer to winter, the contribution of sediment bacteria (Sum: 5.3%; Win: 23.7%) decreased in the gut bacteria of cold-water fish, while the contribution of water bacteria (Sum: 0%; Win: 27.7%) increased. The normalized stochastic ratio (NST) and infer community assembly mechanisms by phylogenetic bin-based null model analysis (iCAMP) showed that deterministic processes played a more important role than stochastic processes in the microbial assembly mechanism of gut bacteria of cold-water fish. From summer to winter, the contribution of deterministic processes to gut bacteria community assembly mechanisms decreased, while the contribution of stochastic processes increased. Overall, these results demonstrated that seasonal variation influenced the gut bacteria of cold-water fish and served as a potential reference for future research to understand the adaptation of fish to varying environments."
+    },
+    {
+      "paperId": "42808e0cbb7b818ffea497f847ba2b7129821daa",
+      "url": "https://www.semanticscholar.org/paper/42808e0cbb7b818ffea497f847ba2b7129821daa",
+      "title": "Understanding stochastic and deterministic assembly processes in microbial communities along temporal, spatial and environmental scales",
+      "venue": "Molecular Ecology",
+      "year": 2023,
+      "citationCount": 48,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mec.16842",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/mec.16842?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/mec.16842, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1438912980",
+          "name": "Mateu Menéndez-Serra"
+        },
+        {
+          "authorId": "91101333",
+          "name": "Vicente J. Ontiveros"
+        },
+        {
+          "authorId": "47272920",
+          "name": "Joan Cáliz"
+        },
+        {
+          "authorId": "8644206",
+          "name": "David Alonso"
+        },
+        {
+          "authorId": "5743832",
+          "name": "E. Casamayor"
+        }
+      ],
+      "abstract": "Identifying the main drivers of community assembly remains an open fundamental question in ecology. Dispersal processes introduce randomness in community composition while selection for particular environments creates predictable assemblages. However, the interaction between selection and dispersal processes is still poorly understood. Here, we address this question in bacterial and microeukaryotic communities inhabiting a highly dynamic system of ephemeral (hyper)saline lakes. We show that the combination of beta‐diversity decomposition methods and a temporal approach based on colonization and extinction dynamics yields new insights into the relative effect of selection and dispersal along environmental gradients. Selective pressure and dispersal‐related processes simultaneously shape each local community with variable strength and effect. The dominance of selection vs. dispersal shifted from stochastic to deterministic assembly as salinity increased along the gradient. This transition also had an impact on the temporal dynamics of the lakes as community turnover decreased at high salinities because both colonization and extinction rates slowed down. Only microeukaryotic richness decreased along the gradient due to lower effective colonization at higher salinities, suggesting that the net effect of selection and dispersal is determined by both environmental conditions and the idiosyncrasy of the different microbial ecologies. Our results emphasize the use of temporal approaches in combination with standard statistical methods for a better understanding of the dynamic processes underlying community assembly."
+    },
+    {
+      "paperId": "7143f83865af5bce075c47903ae8ca43110d73cf",
+      "url": "https://www.semanticscholar.org/paper/7143f83865af5bce075c47903ae8ca43110d73cf",
+      "title": "Deterministic and stochastic effects drive the gut microbial diversity in cucurbit-feeding fruit flies (Diptera, Tephritidae)",
+      "venue": "PLoS ONE",
+      "year": 2025,
+      "citationCount": 5,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1371/journal.pone.0313447",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11759365, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2333538162",
+          "name": "Wouter Hendrycks"
+        },
+        {
+          "authorId": "87729319",
+          "name": "N. Mullens"
+        },
+        {
+          "authorId": "2086074025",
+          "name": "Jackline Bakengesa"
+        },
+        {
+          "authorId": "2210887839",
+          "name": "S. Kabota"
+        },
+        {
+          "authorId": "2294822541",
+          "name": "J. Tairo"
+        },
+        {
+          "authorId": "2327412240",
+          "name": "Thierry Backeljau"
+        },
+        {
+          "authorId": "2255945037",
+          "name": "R. Majubwa"
+        },
+        {
+          "authorId": "4447254",
+          "name": "M. Mwatawala"
+        },
+        {
+          "authorId": "2238792237",
+          "name": "M. De Meyer"
+        },
+        {
+          "authorId": "2610750",
+          "name": "M. Virgilio"
+        }
+      ],
+      "abstract": "Insect diversity is closely linked to the evolution of phytophagy, with most phytophagous insects showing a strong degree of specialisation for specific host plants. Recent studies suggest that the insect gut microbiome might be crucial in facilitating the dietary (host plant) range. This requires the formation of stable insect-microbiome associations, but it remains largely unclear which processes govern the assembly of insect microbiomes. In this study, we investigated the role of deterministic and stochastic processes in shaping the assembly of the larval microbiome of three tephritid fruit fly species (Dacus bivittatus, D. ciliatus, Zeugodacus cucurbitae). We found that deterministic and stochastic processes play a considerable role in shaping the larval gut microbiome. We also identified 65 microbial ASVs (Amplicon sequence variants) that were associated with these flies, most belonging to the families Enterobacterales, Sphingobacterales, Pseudomonadales and Betaproteobacterales, and speculate about their relationship with cucurbit specialisation. Our data suggest that the larval gut microbiome assembly fits the “microbiome on a leash” model."
+    },
+    {
+      "paperId": "0e48e3d06431e63cf1065a494e368ddd68a64500",
+      "url": "https://www.semanticscholar.org/paper/0e48e3d06431e63cf1065a494e368ddd68a64500",
+      "title": "Biofilm thickness controls the relative importance of stochastic and deterministic processes in microbial community assembly in moving bed biofilm reactors",
+      "venue": "Interface Focus",
+      "year": 2023,
+      "citationCount": 15,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1098/rsfs.2022.0069",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9912012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "80544520",
+          "name": "S. J. Fowler"
+        },
+        {
+          "authorId": "16199800",
+          "name": "E. Torresi"
+        },
+        {
+          "authorId": "4842520",
+          "name": "A. Dechesne"
+        },
+        {
+          "authorId": "3920784",
+          "name": "B. Smets"
+        }
+      ],
+      "abstract": "Deterministic and stochastic processes are believed to play a combined role in microbial community assembly, though little is known about the factors determining their relative importance. We investigated the effect of biofilm thickness on community assembly in nitrifying moving bed biofilm reactors using biofilm carriers where maximum biofilm thickness is controlled. We examined the contribution of stochastic and deterministic processes to biofilm assembly in a steady state system using neutral community modelling and community diversity analysis with a null-modelling approach. Our results indicate that the formation of biofilms results in habitat filtration, causing selection for phylogenetically closely related community members, resulting in a substantial enrichment of Nitrospira spp. in the biofilm communities. Stochastic assembly processes were more prevalent in biofilms of 200 µm and thicker, while stronger selection in thinner (50 µm) biofilms could be driven by hydrodynamic and shear forces at the biofilm surface. Thicker biofilms exhibited greater phylogenetic beta-diversity, which may be driven by a variable selection regime caused by variation in environmental conditions between replicate carrier communities, or by drift combined with low migration rates resulting in stochastic historical contingency during community establishment. Our results indicate that assembly processes vary with biofilm thickness, contributing to our understanding of biofilm ecology and potentially paving the way towards strategies for microbial community management in biofilm systems."
+    }
+  ]
+}

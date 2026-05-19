@@ -1,0 +1,478 @@
+{
+  "query": "sparse microbiome machine learning",
+  "timestamp_utc": "2026-05-19T13:06:26.694151+00:00",
+  "data": [
+    {
+      "paperId": "f80b4453215220076c8f9e584a836775d9374aba",
+      "url": "https://www.semanticscholar.org/paper/f80b4453215220076c8f9e584a836775d9374aba",
+      "title": "Exploring crop health and its associations with fungal soil microbiome composition using machine learning applied to remote sensing data",
+      "venue": "Communications Earth & Environment",
+      "year": 2025,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1038/s43247-025-02330-0",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s43247-025-02330-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s43247-025-02330-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2308653012",
+          "name": "M. B. Sørensen"
+        },
+        {
+          "authorId": "2197408119",
+          "name": "David Faurdal"
+        },
+        {
+          "authorId": "119606104",
+          "name": "Giovanni Schiesaro"
+        },
+        {
+          "authorId": "2267684376",
+          "name": "E. D. Jensen"
+        },
+        {
+          "authorId": "2291008908",
+          "name": "Michael K. Jensen"
+        },
+        {
+          "authorId": "2279769262",
+          "name": "Line Katrine Harder Clemmensen"
+        }
+      ],
+      "abstract": "Global food security is increasingly challenged by climate change and unsustainable agriculture, emphasizing the need for strategies to enhance crop productivity. Understanding the interplay between crop health and soil microbiomes is crucial. This study explores the link between crop health, observed via multi-spectral satellite imagery, and fungal soil microbiome taxonomy. We associate the normalized difference vegetation index with fungal microbiomes in wheat, barley, and maize using a two-step machine learning process. The first step adjusts normalized difference vegetation index values for abiotic confounders using a random forest model trained on Lucas 2018 topsoil and ERA5 climate datasets. The second step clusters operational taxonomy unit counts from fungal DNA, revealing significant differences in residual normalized difference vegetation index values. To identify potential bio-fertilizer candidates, we compare the average relative abundance of operational taxonomy unit clusters and construct sparse biological networks. Key findings are: (I) clusters with higher plant pathogenic genera have lower normalized difference vegetation index values; (II) clusters with higher influential scores for multiple beneficial genera have higher normalized difference vegetation index values; (III) lower abundance taxonomy (1-3%) seems to regulate microbial networks; (IV) the influence of beneficial vs. pathogenic taxonomy is relative to their abundance. The study links satellite imagery to fungal microbiomes, providing a baseline for exploring fungal bio-fertilizers. Crop health is improved by abundance of beneficial soil fungal genera and reduced by abundance of soil fungal pathogens, according to analysis of satellite-derived normalized difference vegetation index data and fungal soil microbiome taxonomic data."
+    },
+    {
+      "paperId": "7a0ef861541385a38d82a653b354b2a7559d13da",
+      "url": "https://www.semanticscholar.org/paper/7a0ef861541385a38d82a653b354b2a7559d13da",
+      "title": "A hybrid framework for disease biomarker discovery in microbiome research combining Bayesian networks, machine learning, and network-based methods",
+      "venue": "Biology Methods and Protocols",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12791661, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2301206306",
+          "name": "R. Aghdam"
+        },
+        {
+          "authorId": "2260783986",
+          "name": "Shan Shan"
+        },
+        {
+          "authorId": "2260783032",
+          "name": "Richard A. Lankau"
+        },
+        {
+          "authorId": "1403426817",
+          "name": "Claudia R. Solís-Lemus"
+        }
+      ],
+      "abstract": "Abstract Microbiome research faces two central challenges, namely constructing reliable networks, where nodes represent microbial taxa and edges represent their associations, and identifying significant disease-associated taxa. To address the first challenge, we developed CMIMN, a novel R package that applies a Bayesian network framework based on conditional mutual information to infer microbial interaction networks. To further enhance reliability, we construct a consensus microbiome network by integrating results from CMIMN and three widely used methods, including Sparse Inverse Covariance Estimation for Ecological Association Inference (SPIEC-EASI), Semi-Parametric Rank-based correlation and partial correlation Estimation (SPRING), and Sparse Correlations for Compositional Data (SPARCC). This consensus approach, which overlays and weights edges shared across methods, reduces inconsistencies and provides a more biologically meaningful view of microbial relationships. To address the second challenge, we designed a multi-method feature selection framework that combines machine learning with network-based strategies. Our machine learning pipeline applies distinct algorithms and identifies key taxa based on their consistent importance across models. Complementing this, we employ two network-based strategies that prioritize taxa based on centrality differences between networks constructed from healthy samples and disease-affected samples, as well as a composite scoring system that ranks nodes using integrated network metrics. We applied CMIMN on soil microbiome data from potato fields affected by common scab disease. Bootstrap analysis confirmed the robustness of CMIMN, and the consensus network further improved stability and interpretability. The multi-method framework enhances confidence in identifying soil microbial taxa associated with potato disease. Notably, we identified Bacteroidota, WPS-2, and Proteobacteria at the Phylum level; Actinobacteria, AD3, Bacilli, Anaerolineae, and Ktedonobacteria at the Class level; and C0119, Defluviicoccales, Bacteroidales, and Ktedonobacterales at the Order level as key taxa associated with disease status."
+    },
+    {
+      "paperId": "711133ad09ba4c8606738acdc64e62253303a728",
+      "url": "https://www.semanticscholar.org/paper/711133ad09ba4c8606738acdc64e62253303a728",
+      "title": "Grapevine Rootstock and Scion Genotypes’ Symbiosis with Soil Microbiome: A Machine Learning Revelation for Climate-Resilient Viticulture",
+      "venue": "bioRxiv",
+      "year": 2024,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/27/2024.02.25.581926.full.pdf",
+        "status": "GREEN",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2024.02.25.581926?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2024.02.25.581926, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "51119125",
+          "name": "Lakshay Anand"
+        },
+        {
+          "authorId": "2023943",
+          "name": "T. Gentimis"
+        },
+        {
+          "authorId": "145838647",
+          "name": "A. Downie"
+        },
+        {
+          "authorId": "2262451992",
+          "name": "Carlos M. Rodriguez Lopez"
+        }
+      ],
+      "abstract": "Given the impact of climate change on agriculture, the development of resilient crop cultivars is imperative. A healthy plant microbiota is key to plant productivity, influencing nutrient absorption, disease resistance, and overall vigor. The plant genetic factors controlling the assembly of microbial communities are still unknown. Here we examine if Machine Learning can predict grapevine rootstock and scion genotypes based on soil microbiota, despite environmental variability. The study utilized soil microbial bacteriome datasets from 281 vineyards across 13 countries and five continents, featuring 34 different Vitis vinifera cultivars grafted onto, often ambiguous, rootstocks. Random Forests, Adaptive Boost, Gradient Boost, Support Vector Machines, Gaussian and Bernoulli Naïve Bayes, k-Nearest Neighbor, and Neural Networks algorithms were employed to predict continent, country, scion, and rootstock cultivar, under two filtering criteria: retaining sparse classes, ensuring class diversity, and excluding sparse classes assessing model robustness against overfitting. Both criteria showed remarkable F1-weighted scores (>0.8) for all classes, for most algorithms. Moreover, successful rootstock and scion genotype prediction from soil microbiomes confirms that genotypes of both plant parts shape the microbiome. These insights pave the way for identifying plant genes for use with breeding programs that enhance plant productivity and sustainability by improving the plant-microbiota relationship."
+    },
+    {
+      "paperId": "18c1d08573ed4194bb769a3063400a37c5430b90",
+      "url": "https://www.semanticscholar.org/paper/18c1d08573ed4194bb769a3063400a37c5430b90",
+      "title": "A Machine Learning-Based Diagnostic Model for Crohn’s Disease and Ulcerative Colitis Utilizing Fecal Microbiome Analysis",
+      "venue": "Microorganisms",
+      "year": 2023,
+      "citationCount": 13,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/2076-2607/12/1/36/pdf?version=1703416914",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10820568, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "46695797",
+          "name": "Hyeonwoo Kim"
+        },
+        {
+          "authorId": "2276635407",
+          "name": "J. E. Na"
+        },
+        {
+          "authorId": "2109571336",
+          "name": "Sangsoo Kim"
+        },
+        {
+          "authorId": "2143569782",
+          "name": "Tae-Oh Kim"
+        },
+        {
+          "authorId": "2255338260",
+          "name": "Soo-Kyung Park"
+        },
+        {
+          "authorId": "123159943",
+          "name": "Chil-Woo Lee"
+        },
+        {
+          "authorId": "2318358035",
+          "name": "K. Kim"
+        },
+        {
+          "authorId": "2248630005",
+          "name": "Geom-Seog Seo"
+        },
+        {
+          "authorId": "2157211364",
+          "name": "Min Suk Kim"
+        },
+        {
+          "authorId": "2242647699",
+          "name": "J. Cha"
+        },
+        {
+          "authorId": "2237351865",
+          "name": "Ja Seol Koo"
+        },
+        {
+          "authorId": "2256197572",
+          "name": "Dong-Il Park"
+        }
+      ],
+      "abstract": "Recent research has demonstrated the potential of fecal microbiome analysis using machine learning (ML) in the diagnosis of inflammatory bowel disease (IBD), mainly Crohn’s disease (CD) and ulcerative colitis (UC). This study employed the sparse partial least squares discriminant analysis (sPLS-DA) ML technique to develop a robust prediction model for distinguishing among CD, UC, and healthy controls (HCs) based on fecal microbiome data. Using data from multicenter cohorts, we conducted 16S rRNA gene sequencing of fecal samples from patients with CD (n = 671) and UC (n = 114) while forming an HC cohort of 1462 individuals from the Kangbuk Samsung Hospital Healthcare Screening Center. A streamlined pipeline based on HmmUFOTU was used. After a series of filtering steps, 1517 phylotypes and 1846 samples were retained for subsequent analysis. After 100 rounds of downsampling with age, sex, and sample size matching, and division into training and test sets, we constructed two binary prediction models to distinguish between IBD and HC and CD and UC using the training set. The binary prediction models exhibited high accuracy and area under the curve (for differentiating IBD from HC (mean accuracy, 0.950; AUC, 0.992) and CD from UC (mean accuracy, 0.945; AUC, 0.988)), respectively, in the test set. This study underscores the diagnostic potential of an ML model based on sPLS-DA, utilizing fecal microbiome analysis, highlighting its ability to differentiate between IBD and HC and distinguish CD from UC."
+    },
+    {
+      "paperId": "1318ed0c2c769eda0c77389a27c5f22ba1559552",
+      "url": "https://www.semanticscholar.org/paper/1318ed0c2c769eda0c77389a27c5f22ba1559552",
+      "title": "Overview of data preprocessing for machine learning applications in human microbiome research",
+      "venue": "Frontiers in Microbiology",
+      "year": 2023,
+      "citationCount": 26,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2023.1250909/pdf?isPublishedV2=False",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10588656, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2244342376",
+          "name": "Eliana Ibrahimi"
+        },
+        {
+          "authorId": "2244593807",
+          "name": "Marta B. Lopes"
+        },
+        {
+          "authorId": "2255639242",
+          "name": "X. Dhamo"
+        },
+        {
+          "authorId": "2244342207",
+          "name": "Andrea Simeon"
+        },
+        {
+          "authorId": "2244344575",
+          "name": "R. Shigdel"
+        },
+        {
+          "authorId": "2244342238",
+          "name": "Karel Hron"
+        },
+        {
+          "authorId": "3239194",
+          "name": "B. Stres"
+        },
+        {
+          "authorId": "2255633048",
+          "name": "Domenica D’Elia"
+        },
+        {
+          "authorId": "2244345268",
+          "name": "Magali Berland"
+        },
+        {
+          "authorId": "1398577149",
+          "name": "L. Marcos-Zambrano"
+        }
+      ],
+      "abstract": "Although metagenomic sequencing is now the preferred technique to study microbiome-host interactions, analyzing and interpreting microbiome sequencing data presents challenges primarily attributed to the statistical specificities of the data (e.g., sparse, over-dispersed, compositional, inter-variable dependency). This mini review explores preprocessing and transformation methods applied in recent human microbiome studies to address microbiome data analysis challenges. Our results indicate a limited adoption of transformation methods targeting the statistical characteristics of microbiome sequencing data. Instead, there is a prevalent usage of relative and normalization-based transformations that do not specifically account for the specific attributes of microbiome data. The information on preprocessing and transformations applied to the data before analysis was incomplete or missing in many publications, leading to reproducibility concerns, comparability issues, and questionable results. We hope this mini review will provide researchers and newcomers to the field of human microbiome research with an up-to-date point of reference for various data transformation tools and assist them in choosing the most suitable transformation method based on their research questions, objectives, and data characteristics."
+    },
+    {
+      "paperId": "47e0c80c38fe3d98590167bb55643f9ff37ea725",
+      "url": "https://www.semanticscholar.org/paper/47e0c80c38fe3d98590167bb55643f9ff37ea725",
+      "title": "Machine learning and deep learning applications in microbiome research",
+      "venue": "ISME Communications",
+      "year": 2022,
+      "citationCount": 251,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/s43705-022-00182-9.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9723725, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2187130940",
+          "name": "R. Hernández Medina"
+        },
+        {
+          "authorId": "2076023529",
+          "name": "S. Kutuzova"
+        },
+        {
+          "authorId": "90023713",
+          "name": "K. Nielsen"
+        },
+        {
+          "authorId": "2038024712",
+          "name": "Joachim Johansen"
+        },
+        {
+          "authorId": "2187112951",
+          "name": "L. H. Hansen"
+        },
+        {
+          "authorId": "2113732526",
+          "name": "Mads Nielsen"
+        },
+        {
+          "authorId": "2099810242",
+          "name": "S. Rasmussen"
+        }
+      ],
+      "abstract": "The many microbial communities around us form interactive and dynamic ecosystems called microbiomes. Though concealed from the naked eye, microbiomes govern and influence macroscopic systems including human health, plant resilience, and biogeochemical cycling. Such feats have attracted interest from the scientific community, which has recently turned to machine learning and deep learning methods to interrogate the microbiome and elucidate the relationships between its composition and function. Here, we provide an overview of how the latest microbiome studies harness the inductive prowess of artificial intelligence methods. We start by highlighting that microbiome data – being compositional, sparse, and high-dimensional – necessitates special treatment. We then introduce traditional and novel methods and discuss their strengths and applications. Finally, we discuss the outlook of machine and deep learning pipelines, focusing on bottlenecks and considerations to address them."
+    },
+    {
+      "paperId": "95cc8c5160ba8b132204f4b4549cad7004027f78",
+      "url": "https://www.semanticscholar.org/paper/95cc8c5160ba8b132204f4b4549cad7004027f78",
+      "title": "Integrative Analysis of Gut Microbiome Profiles in Rheumatoid Arthritis Using Differential Abundance, Beta Diversity, and Sparse Machine Learning",
+      "venue": "SoutheastCon",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/SoutheastCon63549.2026.11476242?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/SoutheastCon63549.2026.11476242, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2355619846",
+          "name": "Hatim Palitanawala"
+        },
+        {
+          "authorId": "1581832219",
+          "name": "Sabira Dabeer"
+        },
+        {
+          "authorId": "2355622665",
+          "name": "Ramprasad Goturkarnam"
+        },
+        {
+          "authorId": "2300211796",
+          "name": "Santosh Kumar"
+        },
+        {
+          "authorId": "2430847848",
+          "name": "Shamseerahammed Thendan Kandiyil"
+        }
+      ],
+      "abstract": "Rheumatoid arthritis (RA) is a systemic autoimmune disease in which the gut microbiome is thought to contribute to disease initiation and progression. We analyzed a large publicly available 16 S rRNA amplicon dataset from the AsiaPacific Rheumatoid Arthritis Cohort (APRAC), comprising 1,034 RA patients and 1,204 healthy controls (HC). Amplicon sequence variants (ASVs) were aggregated to the genus level and analyzed using differential abundance testing (DESeq2), beta-diversity analysis (Bray-Curtis dissimilarity, PCoA, PERMANOVA), and supervised machine learning models (Random Forest, XGBoost, SVM, and LASSO logistic regression). DESeq2 identified 63 significantly different ASVs (adjusted $p<0.05$), with 29 enriched in RA and 34 enriched in HC. PERMANOVA confirmed significant community-level differences between groups (pseudo-F $=$ 32.18, $\\mathrm{p}=0.0001$). Machine learning models achieved moderate discrimination, with XGBoost performing best (ROC-AUC = 0.8149). These results show that RA is associated with subtle but distributed gut microbiome alterations that provide moderate predictive value for disease classification."
+    },
+    {
+      "paperId": "16f098539ded31e386220d4c5442370adf253db5",
+      "url": "https://www.semanticscholar.org/paper/16f098539ded31e386220d4c5442370adf253db5",
+      "title": "Applications of Machine Learning in Human Microbiome Studies: A Review on Feature Selection, Biomarker Identification, Disease Prediction and Treatment",
+      "venue": "Frontiers in Microbiology",
+      "year": 2021,
+      "citationCount": 303,
+      "influentialCitationCount": 6,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2021.634511/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7962872, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1398577149",
+          "name": "L. Marcos-Zambrano"
+        },
+        {
+          "authorId": "1398360162",
+          "name": "Kanita Karaduzovic-Hadziabdic"
+        },
+        {
+          "authorId": "2051207366",
+          "name": "Tatjana Loncar Turukalo"
+        },
+        {
+          "authorId": "2612841",
+          "name": "Piotr Przymus"
+        },
+        {
+          "authorId": "3272045",
+          "name": "V. Trajkovik"
+        },
+        {
+          "authorId": "103729235",
+          "name": "O. Aasmets"
+        },
+        {
+          "authorId": "11271176",
+          "name": "M. Berland"
+        },
+        {
+          "authorId": "1790005",
+          "name": "A. Gruca"
+        },
+        {
+          "authorId": "1875195",
+          "name": "Jasminka Hasic"
+        },
+        {
+          "authorId": "2815211",
+          "name": "K. Hron"
+        },
+        {
+          "authorId": "2268131714",
+          "name": "Thomas Klammsteiner"
+        },
+        {
+          "authorId": "35139465",
+          "name": "M. Kolev"
+        },
+        {
+          "authorId": "3294751",
+          "name": "L. Lahti"
+        },
+        {
+          "authorId": "38700499",
+          "name": "M. Lopes"
+        },
+        {
+          "authorId": "25179861",
+          "name": "V. Moreno"
+        },
+        {
+          "authorId": "1658623022",
+          "name": "I. Naskinova"
+        },
+        {
+          "authorId": "2288192709",
+          "name": "E. Org"
+        },
+        {
+          "authorId": "8430504",
+          "name": "I. Paciência"
+        },
+        {
+          "authorId": "98328817",
+          "name": "G. Papoutsoglou"
+        },
+        {
+          "authorId": "2244344575",
+          "name": "R. Shigdel"
+        },
+        {
+          "authorId": "3239194",
+          "name": "B. Stres"
+        },
+        {
+          "authorId": "2047555",
+          "name": "B. Vilne"
+        },
+        {
+          "authorId": "144993058",
+          "name": "M. Yousef"
+        },
+        {
+          "authorId": "2269444",
+          "name": "Eftim Zdravevski"
+        },
+        {
+          "authorId": "2051203240",
+          "name": "Ioannis Tsamarindos"
+        },
+        {
+          "authorId": "7701699",
+          "name": "E. Carrillo de Santa Pau"
+        },
+        {
+          "authorId": "8076892",
+          "name": "M. Claesson"
+        },
+        {
+          "authorId": "2406663455",
+          "name": "I. Moreno-Indias"
+        },
+        {
+          "authorId": "5741333",
+          "name": "J. Truu"
+        }
+      ],
+      "abstract": "The number of microbiome-related studies has notably increased the availability of data on human microbiome composition and function. These studies provide the essential material to deeply explore host-microbiome associations and their relation to the development and progression of various complex diseases. Improved data-analytical tools are needed to exploit all information from these biological datasets, taking into account the peculiarities of microbiome data, i.e., compositional, heterogeneous and sparse nature of these datasets. The possibility of predicting host-phenotypes based on taxonomy-informed feature selection to establish an association between microbiome and predict disease states is beneficial for personalized medicine. In this regard, machine learning (ML) provides new insights into the development of models that can be used to predict outputs, such as classification and prediction in microbiology, infer host phenotypes to predict diseases and use microbial communities to stratify patients by their characterization of state-specific microbial signatures. Here we review the state-of-the-art ML methods and respective software applied in human microbiome studies, performed as part of the COST Action ML4Microbiome activities. This scoping review focuses on the application of ML in microbiome studies related to association and clinical use for diagnostics, prognostics, and therapeutics. Although the data presented here is more related to the bacterial community, many algorithms could be applied in general, regardless of the feature type. This literature and software review covering this broad topic is aligned with the scoping review methodology. The manual identification of data sources has been complemented with: (1) automated publication search through digital libraries of the three major publishers using natural language processing (NLP) Toolkit, and (2) an automated identification of relevant software repositories on GitHub and ranking of the related research papers relying on learning to rank approach."
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "query": "cross domain microbial ecology",
+  "timestamp_utc": "2026-05-19T13:05:59.390715+00:00",
+  "data": [
+    {
+      "paperId": "0d78585b624fb3e157d92301b89baf74f21dac1c",
+      "url": "https://www.semanticscholar.org/paper/0d78585b624fb3e157d92301b89baf74f21dac1c",
+      "title": "Cross-domain microbial interactions mediate soil multifunctionality during crop growth stages",
+      "venue": "Agriculture, Ecosystems & Environment. Applied Soil Ecology",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.apsoil.2026.106992?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.apsoil.2026.106992, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2295432476",
+          "name": "Guo Chen"
+        },
+        {
+          "authorId": "2295486254",
+          "name": "Chao Chang"
+        },
+        {
+          "authorId": "2254855929",
+          "name": "Zihan Yan"
+        },
+        {
+          "authorId": "2295670937",
+          "name": "Hao Wang"
+        },
+        {
+          "authorId": "2237774376",
+          "name": "Qingwei Zhang"
+        },
+        {
+          "authorId": "2237771068",
+          "name": "Jian Wang"
+        },
+        {
+          "authorId": "2295506425",
+          "name": "Ming Li"
+        },
+        {
+          "authorId": "2152972476",
+          "name": "Wei Zheng"
+        },
+        {
+          "authorId": "2277845700",
+          "name": "Ding He"
+        },
+        {
+          "authorId": "2354228219",
+          "name": "B. Zhu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "80d2177603f6325af32dfad2bc0b508ff837c078",
+      "url": "https://www.semanticscholar.org/paper/80d2177603f6325af32dfad2bc0b508ff837c078",
+      "title": "Geography, Host Genetics, and Cross‐Domain Microbial Networks Structure the Skin Microbiota of Fragmented Brazilian Atlantic Forest Frog Populations",
+      "venue": "Ecology and Evolution",
+      "year": 2020,
+      "citationCount": 16,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/168518/1/ece37594.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8293785, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Geography"
+      ],
+      "authors": [
+        {
+          "authorId": "32347860",
+          "name": "Anat M Belasen"
+        },
+        {
+          "authorId": "39427637",
+          "name": "M. Riolo"
+        },
+        {
+          "authorId": "144974834",
+          "name": "Mariana L. Lyra"
+        },
+        {
+          "authorId": "49920544",
+          "name": "F. Toledo"
+        },
+        {
+          "authorId": "31571206",
+          "name": "T. James"
+        }
+      ],
+      "abstract": "Abstract The host‐associated microbiome plays a significant role in health. However, the roles of factors such as host genetics and microbial interactions in determining microbiome diversity remain unclear. We examined these factors using amplicon‐based sequencing of 175 Thoropa taophora frog skin swabs collected from a naturally fragmented landscape in southeastern Brazil. Specifically, we examined (1) the effects of geography and host genetics on microbiome diversity and structure; (2) the structure of microbial eukaryotic and bacterial co‐occurrence networks; and (3) co‐occurrence between microeukaryotes with bacterial OTUs known to affect growth of the fungal pathogen Batrachochytrium dendrobatidis (Bd). While bacterial alpha diversity varied by both site type and host MHC IIB genotype, microeukaryotic alpha diversity varied only by site type. However, bacteria and microeukaryote composition showed variation according to both site type and host MHC IIB genotype. Our network analysis showed the highest connectivity when both eukaryotes and bacteria were included, implying that ecological interactions may occur among domains. Lastly, anti‐Bd bacteria were not broadly negatively co‐associated with the fungal microbiome and were positively associated with potential amphibian parasites. Our findings emphasize the importance of considering both domains in microbiome research and suggest that for effective probiotic strategies for amphibian disease management, considering potential interactions among all members of the microbiome is crucial."
+    },
+    {
+      "paperId": "b10e78d3e58aeb8a16464077551c7275e93a6720",
+      "url": "https://www.semanticscholar.org/paper/b10e78d3e58aeb8a16464077551c7275e93a6720",
+      "title": "From soil to sequence: filling the critical gap in genome-resolved metagenomics is essential to the future of soil microbial ecology",
+      "venue": "Environmental Microbiome",
+      "year": 2024,
+      "citationCount": 27,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11295382, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "145442036",
+          "name": "Winston E. Anthony"
+        },
+        {
+          "authorId": "2238112124",
+          "name": "Steven D. Allison"
+        },
+        {
+          "authorId": "91854640",
+          "name": "Caitlin M. Broderick"
+        },
+        {
+          "authorId": "2000274242",
+          "name": "Luciana Chavez Rodriguez"
+        },
+        {
+          "authorId": "2295303671",
+          "name": "A. Clum"
+        },
+        {
+          "authorId": "2056176412",
+          "name": "Hugh Cross"
+        },
+        {
+          "authorId": "1396822962",
+          "name": "E. Eloe-Fadrosh"
+        },
+        {
+          "authorId": "2073788393",
+          "name": "Sarah Evans"
+        },
+        {
+          "authorId": "88589647",
+          "name": "D. Fairbanks"
+        },
+        {
+          "authorId": "2252434295",
+          "name": "R. Gallery"
+        },
+        {
+          "authorId": "2314531447",
+          "name": "Júlia Brandão Gontijo"
+        },
+        {
+          "authorId": "2314669612",
+          "name": "Jennifer Jones"
+        },
+        {
+          "authorId": "2306326824",
+          "name": "Jason E. McDermott"
+        },
+        {
+          "authorId": "2241040626",
+          "name": "J. Pett-Ridge"
+        },
+        {
+          "authorId": "2314528698",
+          "name": "Sydne Record"
+        },
+        {
+          "authorId": "2256461361",
+          "name": "J. L. Rodrigues"
+        },
+        {
+          "authorId": "1560409599",
+          "name": "W. Rodríguez-Reillo"
+        },
+        {
+          "authorId": "19427261",
+          "name": "Katherine L. Shek"
+        },
+        {
+          "authorId": "1887358733",
+          "name": "T. Takacs-Vesbach"
+        },
+        {
+          "authorId": "2065376483",
+          "name": "Jeffrey L. Blanchard"
+        }
+      ],
+      "abstract": "Soil microbiomes are heterogeneous, complex microbial communities. Metagenomic analysis is generating vast amounts of data, creating immense challenges in sequence assembly and analysis. Although advances in technology have resulted in the ability to easily collect large amounts of sequence data, soil samples containing thousands of unique taxa are often poorly characterized. These challenges reduce the usefulness of genome-resolved metagenomic (GRM) analysis seen in other fields of microbiology, such as the creation of high quality metagenomic assembled genomes and the adoption of genome scale modeling approaches. The absence of these resources restricts the scale of future research, limiting hypothesis generation and the predictive modeling of microbial communities. Creating publicly available databases of soil MAGs, similar to databases produced for other microbiomes, has the potential to transform scientific insights about soil microbiomes without requiring the computational resources and domain expertise for assembly and binning."
+    },
+    {
+      "paperId": "6e51547f135e6f08d74c14c69fbd0f27a5a72788",
+      "url": "https://www.semanticscholar.org/paper/6e51547f135e6f08d74c14c69fbd0f27a5a72788",
+      "title": "Global cross-domain diversity patterns of picoplankton in the photic and aphotic ocean",
+      "venue": "",
+      "year": 2014,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
+      "fieldsOfStudy": [
+        "Environmental Science"
+      ],
+      "authors": [
+        {
+          "authorId": "90295866",
+          "name": "G. Salazar"
+        },
+        {
+          "authorId": "2577145",
+          "name": "R. Logares"
+        },
+        {
+          "authorId": "1398537497",
+          "name": "Francisco M. Cornejo-Castillo"
+        },
+        {
+          "authorId": "2067568",
+          "name": "S. Sunagawa"
+        },
+        {
+          "authorId": "3534315",
+          "name": "P. Bork"
+        },
+        {
+          "authorId": "5262671",
+          "name": "J. Gasol"
+        },
+        {
+          "authorId": "6119340",
+          "name": "S. Acinas"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "d787f100d0a6aa818a111937d33b514dba7d8fb3",
+      "url": "https://www.semanticscholar.org/paper/d787f100d0a6aa818a111937d33b514dba7d8fb3",
+      "title": "Variations and gradients between methane seep and off-seep microbial communities in a submarine canyon system in the Northeast Pacific",
+      "venue": "PeerJ",
+      "year": 2023,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.7717/peerj.15119",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10064993, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2240673467",
+          "name": "Milo E. Cummings"
+        },
+        {
+          "authorId": "2127848149",
+          "name": "Lila M. Ardor Bellucci"
+        },
+        {
+          "authorId": "32518671",
+          "name": "Sarah Seabrook"
+        },
+        {
+          "authorId": "15912170",
+          "name": "N. Raineault"
+        },
+        {
+          "authorId": "4555843",
+          "name": "K. McPhail"
+        },
+        {
+          "authorId": "6373025",
+          "name": "A. Thurber"
+        }
+      ],
+      "abstract": "Methane seeps are highly abundant marine habitats that contribute sources of chemosynthetic primary production to marine ecosystems. Seeps also factor into the global budget of methane, a potent greenhouse gas. Because of these factors, methane seeps influence not only local ocean ecology, but also biogeochemical cycles on a greater scale. Methane seeps host specialized microbial communities that vary significantly based on geography, seep gross morphology, biogeochemistry, and a diversity of other ecological factors including cross-domain species interactions. In this study, we collected sediment cores from six seep and non-seep locations from Grays and Quinault Canyons (46–47°N) off Washington State, USA, as well as one non-seep site off the coast of Oregon, USA (45°N) to quantify the scale of seep influence on biodiversity within marine habitats. These samples were profiled using 16S rRNA gene sequencing. Predicted gene functions were generated using the program PICRUSt2, and the community composition and predicted functions were compared among samples. The microbial communities at seeps varied by seep morphology and habitat, whereas the microbial communities at non-seep sites varied by water depth. Microbial community composition and predicted gene function clearly transitioned from on-seep to off-seep in samples collected from transects moving away from seeps, with a clear ecotone and high diversity where methane-fueled habitats transition into the non-seep deep sea. Our work demonstrates the microbial and metabolic sphere of influence that extends outwards from methane seep habitats."
+    },
+    {
+      "paperId": "831b5152275599512e61e6482d24dbfb89523441",
+      "url": "https://www.semanticscholar.org/paper/831b5152275599512e61e6482d24dbfb89523441",
+      "title": "Seaweed-microbial interactions: key functions of seaweed-associated bacteria.",
+      "venue": "FEMS Microbiology Ecology",
+      "year": 2014,
+      "citationCount": 306,
+      "influentialCitationCount": 10,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/femsec/article-pdf/88/2/213/19538338/88-2-213.pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/1574-6941.12297?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/1574-6941.12297, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2115329295",
+          "name": "R. Singh"
+        },
+        {
+          "authorId": "2115329295",
+          "name": "R. Singh"
+        },
+        {
+          "authorId": "145332339",
+          "name": "C. Reddy"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "657fbfd3031bb673ec1c6742088c42833f549ffb",
+      "url": "https://www.semanticscholar.org/paper/657fbfd3031bb673ec1c6742088c42833f549ffb",
+      "title": "Minisyncoccus archaeiphilus gen. nov., sp. nov., a mesophilic, obligate parasitic bacterium and proposal of Minisyncoccaceae fam. nov., Minisyncoccales ord. nov., Minisyncoccia class. nov. and Minisyncoccota phyl. nov. formerly referred to as Candidatus Patescibacteria or candidate phyla radiation",
+      "venue": "International Journal of Systematic and Evolutionary Microbiology",
+      "year": 2025,
+      "citationCount": 14,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12281837, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2061567587",
+          "name": "M. Nakajima"
+        },
+        {
+          "authorId": "2299150386",
+          "name": "Ryosuke Nakai"
+        },
+        {
+          "authorId": "40267398",
+          "name": "Y. Hirakata"
+        },
+        {
+          "authorId": "2283116529",
+          "name": "Kengo Kubota"
+        },
+        {
+          "authorId": "2283115441",
+          "name": "Hisashi Satoh"
+        },
+        {
+          "authorId": "4352911",
+          "name": "M. Nobu"
+        },
+        {
+          "authorId": "6698098",
+          "name": "T. Narihiro"
+        },
+        {
+          "authorId": "6281360",
+          "name": "Kyohei Kuroda"
+        }
+      ],
+      "abstract": "Abstract In the domain Bacteria, one of the largest, most diverse and environmentally ubiquitous phylogenetic groups, Candidatus Patescibacteria (also known as candidate phyla radiation/CPR), remains poorly characterized, leaving a major knowledge gap in microbial ecology. We recently discovered a novel cross-domain symbiosis between Ca. Patescibacteria and Archaea in highly purified enrichment cultures and proposed Candidatus taxa for the characterized species, including Ca. Minisyncoccus archaeophilus and the corresponding family Ca. Minisyncoccaceae. In this study, we report the isolation of this bacterium, designated strain PMX.108T, in a two-strain co-culture with a host archaeon, Methanospirillum hungatei strain DSM 864T (JF-1T), and hereby describe it as the first representative species of Ca. Patescibacteria. Strain PMX.108T was isolated from mesophilic methanogenic sludge in an anaerobic laboratory-scale bioreactor treating synthetic purified terephthalate- and dimethyl terephthalate-manufacturing wastewater. The strain could not grow axenically and is obligately anaerobic and parasitic, strictly depending on M. hungatei as a host. The genome was comparatively large (1.54 Mbp) compared to other members of the clade, lacked some genes involved in the biosynthesis pathway and encoded type IV pili-related genes associated with the parasitic lifestyle of ultrasmall microbes. The G+C content of the genomic DNA was 36.6 mol%. Here, we report the phenotypic and genomic properties of strain PMX.108T; we propose Minisyncoccus archaeiphilus gen. nov., sp. nov. to accommodate this strain. The type strain of the species is PMX.108T (=JCM 39522T). We also propose the associated family, order, class and phylum as Minisyncoccaceae fam. nov. Minisyncoccales nov., Minisyncoccia class. nov. and Minisyncoccota phyl. nov. within the bacterial kingdom Bacillati."
+    },
+    {
+      "paperId": "6f6cb6b3fcbc8ccc9106f6f7b53a6781d5ee63a9",
+      "url": "https://www.semanticscholar.org/paper/6f6cb6b3fcbc8ccc9106f6f7b53a6781d5ee63a9",
+      "title": "Diversity and Activity of Communities Inhabiting Plastic Debris in the North Pacific Gyre",
+      "venue": "mSystems",
+      "year": 2016,
+      "citationCount": 393,
+      "influentialCitationCount": 17,
+      "openAccessPdf": {
+        "url": "https://msystems.asm.org/content/msys/1/3/e00024-16.full.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5069773, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "40596092",
+          "name": "J. Bryant"
+        },
+        {
+          "authorId": "39871567",
+          "name": "Tara M. Clemente"
+        },
+        {
+          "authorId": "5198442",
+          "name": "D. A. Viviani"
+        },
+        {
+          "authorId": "39500707",
+          "name": "A. Fong"
+        },
+        {
+          "authorId": "2105846688",
+          "name": "K. A. Thomas"
+        },
+        {
+          "authorId": "35157341",
+          "name": "P. Kemp"
+        },
+        {
+          "authorId": "6026561",
+          "name": "D. Karl"
+        },
+        {
+          "authorId": "5008773",
+          "name": "A. White"
+        },
+        {
+          "authorId": "1999355",
+          "name": "E. Delong"
+        }
+      ],
+      "abstract": "Marine plastic debris is a growing concern that has captured the general public’s attention. While the negative impacts of plastic debris on oceanic macrobiota, including mammals and birds, are well documented, little is known about its influence on smaller marine residents, including microbes that have key roles in ocean biogeochemistry. Our work provides a new perspective on microbial communities inhabiting microplastics that includes its effect on microbial biogeochemical activities and a description of the cross-domain communities inhabiting plastic particles. This study is among the first molecular ecology, plastic debris biota surveys in the North Pacific Subtropical Gyre. It has identified fundamental differences in the functional potential and taxonomic composition of plastic-associated microbes versus planktonic microbes found in the surrounding open-ocean habitat. ABSTRACT Marine plastic debris has become a significant concern in ocean ecosystems worldwide. Little is known, however, about its influence on microbial community structure and function. In 2008, we surveyed microbial communities and metabolic activities in seawater and on plastic on an oceanographic expedition through the “great Pacific garbage patch.” The concentration of plastic particles in surface seawater within different size classes (2 to 5 mm and >5 mm) ranged from 0.35 to 3.7 particles m−3 across sampling stations. These densities and the particle size distribution were consistent with previous values reported in the North Pacific Ocean. Net community oxygen production (NCP = gross primary production − community respiration) on plastic debris was positive and so net autotrophic, whereas NCP in bulk seawater was close to zero. Scanning electron microscopy and metagenomic sequencing of plastic-attached communities revealed the dominance of a few metazoan taxa and a diverse assemblage of photoautotrophic and heterotrophic protists and bacteria. Bryozoa, Cyanobacteria, Alphaproteobacteria, and Bacteroidetes dominated all plastic particles, regardless of particle size. Bacteria inhabiting plastic were taxonomically distinct from the surrounding picoplankton and appeared well adapted to a surface-associated lifestyle. Genes with significantly higher abundances among plastic-attached bacteria included che genes, secretion system genes, and nifH genes, suggesting enrichment for chemotaxis, frequent cell-to-cell interactions, and nitrogen fixation. In aggregate, our findings suggest that plastic debris forms a habitat for complex microbial assemblages that have lifestyles, metabolic pathways, and biogeochemical activities that are distinct from those of free-living planktonic microbial communities. IMPORTANCE Marine plastic debris is a growing concern that has captured the general public’s attention. While the negative impacts of plastic debris on oceanic macrobiota, including mammals and birds, are well documented, little is known about its influence on smaller marine residents, including microbes that have key roles in ocean biogeochemistry. Our work provides a new perspective on microbial communities inhabiting microplastics that includes its effect on microbial biogeochemical activities and a description of the cross-domain communities inhabiting plastic particles. This study is among the first molecular ecology, plastic debris biota surveys in the North Pacific Subtropical Gyre. It has identified fundamental differences in the functional potential and taxonomic composition of plastic-associated microbes versus planktonic microbes found in the surrounding open-ocean habitat. Author Video: An author video summary of this article is available."
+    }
+  ]
+}

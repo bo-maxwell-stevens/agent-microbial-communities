@@ -1,0 +1,297 @@
+{
+  "query": "dark diversity belowground ecology",
+  "timestamp_utc": "2026-05-19T13:05:45.699568+00:00",
+  "data": [
+    {
+      "paperId": "9d1638d0fd85287b14ccc1e4dbb0314be4327c1f",
+      "url": "https://www.semanticscholar.org/paper/9d1638d0fd85287b14ccc1e4dbb0314be4327c1f",
+      "title": "Micromosaic structure and phytomass of ground vegetation in main types of dark conifer forests in the Pechora-Ilych state nature reserve",
+      "venue": "Russian journal of ecology",
+      "year": 2013,
+      "citationCount": 15,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1134/S1067413613010086?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1134/S1067413613010086, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "5044490",
+          "name": "D. L. Lugovaya"
+        },
+        {
+          "authorId": "50663532",
+          "name": "O. Smirnova"
+        },
+        {
+          "authorId": "6094722",
+          "name": "M. V. Zaprudina"
+        },
+        {
+          "authorId": "72896573",
+          "name": "A. Aleynikov"
+        },
+        {
+          "authorId": "2054808693",
+          "name": "V. Smirnov"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "503884aff3369ceeb25ca67586010cdba0f10064",
+      "url": "https://www.semanticscholar.org/paper/503884aff3369ceeb25ca67586010cdba0f10064",
+      "title": "Micromosaic structure and phytomass of ground vegetation in main types of dark conifer forests in the Pechora-Ilych state nature reserve",
+      "venue": "Russian journal of ecology",
+      "year": 2013,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1134/S1067413613010086?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1134/S1067413613010086, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "5044490",
+          "name": "D. L. Lugovaya"
+        },
+        {
+          "authorId": "2056687860",
+          "name": "O. Smirnova"
+        },
+        {
+          "authorId": "6094722",
+          "name": "M. V. Zaprudina"
+        },
+        {
+          "authorId": "2078188609",
+          "name": "A. A. Aleynikov"
+        },
+        {
+          "authorId": "2054808693",
+          "name": "V. Smirnov"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "10037e9c06d662f5e3bb8df38e00604eba5fa09b",
+      "url": "https://www.semanticscholar.org/paper/10037e9c06d662f5e3bb8df38e00604eba5fa09b",
+      "title": "The latitudinal gradient in European ant dark diversity: patterns and potential mechanisms",
+      "venue": "",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/oik.10656?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/oik.10656, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "6513664",
+          "name": "Olga Boet"
+        },
+        {
+          "authorId": "5721955",
+          "name": "X. Arnan"
+        },
+        {
+          "authorId": "2275584132",
+          "name": "Javier Retana"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "1daf2628ebfd8b6f92dbb510a6a3662a56da081d",
+      "url": "https://www.semanticscholar.org/paper/1daf2628ebfd8b6f92dbb510a6a3662a56da081d",
+      "title": "Using a trait‐based dark diversity approach to evaluate natural recovery potential in forests",
+      "venue": "Restoration Ecology",
+      "year": 2024,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/rec.14251",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/rec.14251?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/rec.14251, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2301097029",
+          "name": "Élise Deschênes"
+        },
+        {
+          "authorId": "86965191",
+          "name": "Kierann R. Santala"
+        },
+        {
+          "authorId": "2301094958",
+          "name": "Jonathan Lavigne"
+        },
+        {
+          "authorId": "2301097673",
+          "name": "Isabelle Aubin"
+        }
+      ],
+      "abstract": "Utilizing ecosystems' natural recovery potential is crucial for enhancing the scale and efficacy of restoration efforts. However, this potential is currently underutilized in restoration ecology, and barriers to natural species recruitment remain poorly understood. In this study, we develop an analytical framework that combines trait‐based and dark diversity approaches to evaluate understory plant community recovery in smelter‐impacted forests and identify factors limiting recovery for absent species. A community completeness index (CCI) was calculated in 18 naturally recovering smelter‐impacted forests and three reference forests in Sudbury, Ontario, Canada. The CCI was used to identify sites that deviate the most from their target communities and was compared to traditionally used indicators of plant recovery. Community weighted means (CWM) of traits for observed and dark diversity species were compared, and principal components analysis was used to identify relationships between traits of observed and missing species among study sites. Species unable to recover passively (i.e. with high dark diversity probabilities) were generally tall and/or large seeded. Understory plant community recovery was structured along two functional gradients, plant economics and size, which both coincided with distance to the smelter. Dark diversity and trait analyses were useful for identifying barriers to natural recovery and, therefore, providing guidance on targeted restoration actions. We conclude by discussing the limitations and opportunities of the dark diversity approach in a restoration context, highlighting the importance of carefully defining habitat‐specific species pools and critically assessing the ecological significance of dark diversity probabilities."
+    },
+    {
+      "paperId": "3b3cea6c1bace8f0738a553c13d98c6fd14bc615",
+      "url": "https://www.semanticscholar.org/paper/3b3cea6c1bace8f0738a553c13d98c6fd14bc615",
+      "title": "Latitudinal variation in root neighborhood β-diversity and its role in belowground community assembly.",
+      "venue": "Journal of Environmental Management",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jenvman.2025.127882?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jenvman.2025.127882, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2378257678",
+          "name": "Minxia Liu"
+        },
+        {
+          "authorId": "2344179184",
+          "name": "Xin Zhang"
+        },
+        {
+          "authorId": "2346954176",
+          "name": "Jianyang Shi"
+        }
+      ],
+      "abstract": "Understanding the geographic patterns of root neighborhood β-diversity is critical for ecology, biogeography, and conservation biology. However, the mechanisms driving belowground β-diversity in response to root functional traits and phylogenetic structure remain unexplored in grassland plant communities. We analyzed eight root functional traits for 110 herbaceous species from 675 root clusters across 207 soil samples along a latitudinal gradient in the northeastern Tibetan Plateau, China. Probabilistic hypervolumes were used to estimate root trait space, while mean pairwise distance (Dpw) and mean nearest neighbor distance (Dnn) quantified species' ecological differences. β-diversity was partitioned into spatial and environmental components to infer the roles of abiotic filtering, dispersal limitation, and biotic interactions. Our results indicate that 71.5 % of root functional traits were clustered, suggesting abiotic filtering as the primary driver of root aggregation. Root neighborhood functional and phylogenetic Dpw exhibited a distance decay pattern, reflecting abiotic filtering or dispersal limitation. In contrast, root functional Dnn showed an inverse distance decay pattern, suggesting strong abiotic filtering effects among species with distinct functional traits. Soil factors explained more variation than geographic distance, and the combined effects of spatial and environmental variables had the strongest influence on phylogeny. These findings highlight the potential for trait differentiation even in environmentally harsh ecosystems, with the relative influence of abiotic filtering and biotic interactions shifting along a latitudinal gradient. Our findings emphasize the necessity of integrating belowground trait diversity into grassland conservation and restoration strategies. Specifically, maintaining environmental heterogeneity could enhance underground biodiversity and ecological resilience, which is critical under escalating global anthropogenic pressures. Understanding these belowground assembly processes will improve predictions of ecosystem responses and support effective grassland biodiversity management under future environmental scenarios."
+    },
+    {
+      "paperId": "00e06e842d577e63e10a5b73908cb7241eb8c267",
+      "url": "https://www.semanticscholar.org/paper/00e06e842d577e63e10a5b73908cb7241eb8c267",
+      "title": "Decomposing dark diversity affinities of species and sites using Bayesian method: What accounts for absences of species at suitable sites?",
+      "venue": "Methods in Ecology and Evolution",
+      "year": 2023,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14109",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/2041-210X.14109?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/2041-210X.14109, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2515044",
+          "name": "J. Fujinuma"
+        },
+        {
+          "authorId": "2373976",
+          "name": "M. Pärtel"
+        }
+      ],
+      "abstract": "Locally observed biodiversity always consists of only a fraction of its site‐specific species pool. Why some suitable species are absent, shaping dark diversity of that site, is a basic yet increasingly crucial question in the face of global biodiversity degradation. The ultimate processes underlying dark diversity associate with either dispersal or persistence limitations, or both. These two limitations in turn link to several characteristics of individual species and sites, making it challenging to detect the exact factors contributing to dark diversity in a particular metacommunity. Here, we propose a metric, dark diversity affinity (DDA), which measures the tendencies of individual species to be absent from suitable sites and of individual sites to miss suitable species. We developed a Bayesian model interrelating four types of datasets: metacommunity matrix of species presences in sites, species‐sites suitability matrix, species functional traits and site characteristics. In the model, DDA operates as an adjustment bridging the disparity between site‐specific suitability and observed presence/absence of each species at each site. Furthermore, DDA can be related to individual properties of species and sites through logistic regression sub‐models. We demonstrated our framework using nine empirical datasets of vertebrate, invertebrate and vascular plant metacommunities. We show the decomposed roles of species traits and site characteristics in defining DDA and, therefore, dark diversity in metacommunities. In the empirical datasets, various functional traits, which related to morphology, reproduction, dispersal ability, population attributes, resource specificity and life history, significantly affected species‐level DDA, while site characteristics regarding habitat types and attributes, resource availability, pollution, and edaphic and water conditions influenced DDA at the site level. Our framework provides a concept and methodological toolbox that allows identification of the processes underlying dark diversity and advances both the theory of community ecology and biodiversity conservation. Conservation actions can be more successful by knowing whether species loss in a particular metacommunity is associated to some species traits or site characteristics and what their relative contributions are."
+    },
+    {
+      "paperId": "b126f184aaca59d50df32d545846e0eca3a6877b",
+      "url": "https://www.semanticscholar.org/paper/b126f184aaca59d50df32d545846e0eca3a6877b",
+      "title": "Integrating dark diversity, functional traits, and diagnostic species: a framework to diagnose bottlenecks in forest recovery",
+      "venue": "Frontiers in Plant Science",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13011820, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2276978355",
+          "name": "Minghui Wang"
+        },
+        {
+          "authorId": "46337121",
+          "name": "Jianrong Su"
+        },
+        {
+          "authorId": "2301743981",
+          "name": "Wan-de Liu"
+        },
+        {
+          "authorId": "90312287",
+          "name": "Shuaifeng Li"
+        },
+        {
+          "authorId": "2120830696",
+          "name": "Xiaobo Huang"
+        },
+        {
+          "authorId": "2423393211",
+          "name": "Jiayan Shen"
+        },
+        {
+          "authorId": "67141317",
+          "name": "Rui-Guang Shang"
+        }
+      ],
+      "abstract": "Introduction Accurately assessing the natural recovery processes of forest ecosystems remains a key challenge in restoration ecology. The concept of dark diversity—the set of species absent from a site but belonging to its habitat-specific species pool—provides a novel lens for this assessment. Methods In this study, we developed and applied an integrated diagnostic framework that synthesizes dark diversity, functional traits, and diagnostic species. We applied this framework to a chronosequence of recovering forest ecosystems in subtropical China, representing early, middle, and late recovery stages. Results Our results demonstrated that the Community Completeness Index (CCI), derived from dark diversity, increased significantly during recovery, with its stabilization indicating the approach to a stable state. The framework identified stagespecific early-warning species: the absence of light-demanding, acquisitive transitional species in the mid-stage signaled successful progression, while the absence of shade-tolerant, conservative climax species in the late-stage signaled potential degradation. Crucially, analysis using Dark Diversity Affinity (DDA) revealed that the functional traits of species (e.g., seed mass, mycorrhizal type, leaf economics) were the primary filters determining species absence, exhibiting a stronger influence than local environmental conditions. These filters shifted predictably across stages, from dispersal and establishment limitations early on to competitive interactions later. Discussion The proposed framework translates dark diversity theory into an actionable tool for restoration. It moves beyond simple observation to diagnose recovery success, pinpoint specific bottlenecks, and inform targeted interventions such as assisted dispersal or canopy management. This provides a mechanism-based approach for guiding precision restoration in forest ecosystems."
+    },
+    {
+      "paperId": "b0abf1636b7be05ec19d459e33f675ec855202fd",
+      "url": "https://www.semanticscholar.org/paper/b0abf1636b7be05ec19d459e33f675ec855202fd",
+      "title": "Protist diversity and function in the dark ocean - Challenging the paradigms of deep-sea ecology with special emphasis on foraminiferans and naked protists.",
+      "venue": "European Journal of Protistology",
+      "year": 2020,
+      "citationCount": 43,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "http://nora.nerc.ac.uk/id/eprint/527931/1/Gooday%20et%20al.%202020_DeepSea_Protists.pdf",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.ejop.2020.125721?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.ejop.2020.125721, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "86929758",
+          "name": "A. Gooday"
+        },
+        {
+          "authorId": "87448675",
+          "name": "Alexandra Schoenle"
+        },
+        {
+          "authorId": "7030368",
+          "name": "J. Dolan"
+        },
+        {
+          "authorId": "2024353",
+          "name": "H. Arndt"
+        }
+      ],
+      "abstract": "The dark ocean and the underlying deep seafloor together represent the largest environment on this planet, comprising about 80% of the oceanic volume and covering more than two-thirds of the Earth's surface, as well as hosting a major part of the total biosphere. Emerging evidence suggests that these vast pelagic and benthic habitats play a major role in ocean biogeochemistry and represent an \"untapped reservoir\" of high genetic and metabolic microbial diversity. Due to its huge volume, the water column of the dark ocean is the largest reservoir of organic carbon in the biosphere and likely plays a major role in the global carbon budget. The dark ocean and the seafloor beneath it are also home to a largely enigmatic food web comprising little-known and sometimes spectacular organisms, mainly prokaryotes and protists. This review considers the globally important role of pelagic and benthic protists across all protistan size classes in the deep-sea realm, with a focus on their taxonomy, diversity, and physiological properties, including their role in deep microbial food webs. We argue that, given the important contribution that protists must make to deep-sea biodiversity and ecosystem processes, they should not be overlooked in biological studies of the deep ocean."
+    }
+  ]
+}

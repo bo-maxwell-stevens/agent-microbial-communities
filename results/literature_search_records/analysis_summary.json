@@ -1,0 +1,409 @@
+{
+  "latest_run": {
+    "run_id": "20260519T130542Z",
+    "queries_csv": "results/literature_search_records/queries_20260519T130542Z.csv",
+    "papers_csv": "results/literature_search_records/papers_20260519T130542Z.csv",
+    "summary_md": "results/literature_search_records/summary_20260519T130542Z.md",
+    "queries_ok": 24,
+    "queries_total": 24,
+    "papers_logged": 192
+  },
+  "existing_dark_vars": [
+    "alpha",
+    "gamma",
+    "dark",
+    "compl",
+    "pool",
+    "compl.perc",
+    "beta",
+    "beta.perc"
+  ],
+  "missing_dark_vars": [],
+  "existing_env_vars": [
+    "N_pct",
+    "C_pct",
+    "pH_KCl",
+    "P_Mehlich3_mg_100g",
+    "K_Mehlich3_mg_100g",
+    "hfp.300",
+    "bio1now.100",
+    "bio12now.100",
+    "bio1min.100",
+    "lat",
+    "lon",
+    "region",
+    "site.id",
+    "PC1",
+    "PC2",
+    "PC3",
+    "PC4"
+  ],
+  "missing_env_vars": [],
+  "important_absent_vars": [
+    "soil_moisture",
+    "SOC",
+    "elevation",
+    "land_use",
+    "management_intensity",
+    "sequencing_batch"
+  ],
+  "n_queries": 24,
+  "n_papers": 192,
+  "n_unique_titles": 185,
+  "query_summaries": [
+    {
+      "query_id": "1",
+      "query": "plant dark diversity microbial communities",
+      "n_results": 8,
+      "top_title": "Exploring the under-investigated \u201cmicrobial dark matter\u201d of drinking water treatment plants",
+      "top_citations": "44",
+      "top_url": "https://www.semanticscholar.org/paper/009a3c715762f137b9b8dbe85cb4ab8d4d99bec9"
+    },
+    {
+      "query_id": "2",
+      "query": "community completeness soil microbiome",
+      "n_results": 8,
+      "top_title": "Synthetic bacterial community derived from a desert rhizosphere confers salt stress resilience to tomato in the presence of a soil microbiome",
+      "top_citations": "205",
+      "top_url": "https://www.semanticscholar.org/paper/eba33274bbf1e1dbacabfb1026c50ff8b846ccf6"
+    },
+    {
+      "query_id": "3",
+      "query": "dark diversity belowground ecology",
+      "n_results": 8,
+      "top_title": "Protist diversity and function in the dark ocean - Challenging the paradigms of deep-sea ecology with special emphasis on foraminiferans and naked protists.",
+      "top_citations": "43",
+      "top_url": "https://www.semanticscholar.org/paper/b0abf1636b7be05ec19d459e33f675ec855202fd"
+    },
+    {
+      "query_id": "4",
+      "query": "plant community completeness microbial diversity",
+      "n_results": 8,
+      "top_title": "Critical transition of soil microbial diversity and composition triggered by plant rhizosphere effects",
+      "top_citations": "35",
+      "top_url": "https://www.semanticscholar.org/paper/6466cd3a3c34ac1168463299be0b34f367fa7a6b"
+    },
+    {
+      "query_id": "5",
+      "query": "dark diversity environmental filtering",
+      "n_results": 8,
+      "top_title": "Bryophytes on Brazilian ironstone outcrops: Diversity, environmental filtering, and conservation implications",
+      "top_citations": "23",
+      "top_url": "https://www.semanticscholar.org/paper/2e5c2b9fff206636a4a14ba2009357e19c8db30f"
+    },
+    {
+      "query_id": "6",
+      "query": "soil cross kingdom microbial interactions",
+      "n_results": 8,
+      "top_title": "Cross-kingdom synthetic microbiota supports tomato suppression of Fusarium wilt disease",
+      "top_citations": "204",
+      "top_url": "https://www.semanticscholar.org/paper/f210636764e16c0ab7dd4418b3f17f5198b762d7"
+    },
+    {
+      "query_id": "7",
+      "query": "fungi bacteria protist interactions soil",
+      "n_results": 8,
+      "top_title": "Soil protist communities form a dynamic hub in the soil microbiome",
+      "top_citations": "229",
+      "top_url": "https://www.semanticscholar.org/paper/3a17ce6cee66ccb66e7eb24a1d7637b27a918843"
+    },
+    {
+      "query_id": "8",
+      "query": "multi kingdom soil microbiome ecology",
+      "n_results": 8,
+      "top_title": "Ecology of the respiratory tract microbiome.",
+      "top_citations": "34",
+      "top_url": "https://www.semanticscholar.org/paper/f267b6a85a15d93297875c8daeb0f238dc89b2cd"
+    },
+    {
+      "query_id": "9",
+      "query": "cross domain microbial ecology",
+      "n_results": 8,
+      "top_title": "Diversity and Activity of Communities Inhabiting Plastic Debris in the North Pacific Gyre",
+      "top_citations": "393",
+      "top_url": "https://www.semanticscholar.org/paper/6f6cb6b3fcbc8ccc9106f6f7b53a6781d5ee63a9"
+    },
+    {
+      "query_id": "10",
+      "query": "soil microbiome assembly across kingdoms",
+      "n_results": 8,
+      "top_title": "Seed-borne bacteria drive wheat rhizosphere microbiome assembly via niche partitioning and facilitation",
+      "top_citations": "43",
+      "top_url": "https://www.semanticscholar.org/paper/0e3110f99f363a3d25599565941ed98b1db379e7"
+    },
+    {
+      "query_id": "11",
+      "query": "plant diversity soil microbiome relationships",
+      "n_results": 8,
+      "top_title": "Soil Microbiome: Diversity, Benefits and Interactions with Plants",
+      "top_citations": "136",
+      "top_url": "https://www.semanticscholar.org/paper/7a2c85f32608660fa11c19409496bc85c8c423dd"
+    },
+    {
+      "query_id": "12",
+      "query": "plant community composition microbial diversity",
+      "n_results": 8,
+      "top_title": "Effects of soil substrate quality, microbial diversity and community composition on the plant community during primary succession",
+      "top_citations": "61",
+      "top_url": "https://www.semanticscholar.org/paper/e379cb00494735753aaf0a21e626cd6f47f668ca"
+    },
+    {
+      "query_id": "13",
+      "query": "plant richness microbial community assembly",
+      "n_results": 8,
+      "top_title": "The Role Transition of Dietary Species Richness in Modulating the Gut Microbial Assembly and Postweaning Performance of a Generalist Herbivore",
+      "top_citations": "10",
+      "top_url": "https://www.semanticscholar.org/paper/844a94209fec97660e4fdcccc364921d63f6c4e3"
+    },
+    {
+      "query_id": "14",
+      "query": "vegetation completeness soil microbiome",
+      "n_results": 8,
+      "top_title": "Roles of the soil microbiome in sustaining grassland ecosystem health on the Qinghai-Tibet Plateau.",
+      "top_citations": "16",
+      "top_url": "https://www.semanticscholar.org/paper/dcc0dd46abfebc637f16759798fd3a5b71cb80e2"
+    },
+    {
+      "query_id": "15",
+      "query": "deterministic stochastic microbial assembly",
+      "n_results": 8,
+      "top_title": "Understanding stochastic and deterministic assembly processes in microbial communities along temporal, spatial and environmental scales",
+      "top_citations": "48",
+      "top_url": "https://www.semanticscholar.org/paper/42808e0cbb7b818ffea497f847ba2b7129821daa"
+    },
+    {
+      "query_id": "16",
+      "query": "microbial beta diversity environmental gradients",
+      "n_results": 8,
+      "top_title": "The Cladistic Basis for the Phylogenetic Diversity (PD) Measure Links Evolutionary Features to Environmental Gradients and Supports Broad Applications of Microbial Ecology\u2019s \u201cPhylogenetic Beta Diversity\u201d Framework",
+      "top_citations": "98",
+      "top_url": "https://www.semanticscholar.org/paper/2d9cfc809e81319d0598e4924cf2a5a744e38c86"
+    },
+    {
+      "query_id": "17",
+      "query": "pH driven microbial community structure",
+      "n_results": 8,
+      "top_title": "Microbial community alteration driven by labile organic carbon enhances phosphorus availability under different tillage regimes",
+      "top_citations": "5",
+      "top_url": "https://www.semanticscholar.org/paper/6cab1a80eb775ae6d59598951a600e5eae165def"
+    },
+    {
+      "query_id": "18",
+      "query": "environmental filtering microbiome ecology",
+      "n_results": 8,
+      "top_title": "The human gut microbiome: ecology and recent evolutionary changes.",
+      "top_citations": "684",
+      "top_url": "https://www.semanticscholar.org/paper/2ce82858d276ab42e53f68a780491443587298e0"
+    },
+    {
+      "query_id": "19",
+      "query": "compositional microbiome analysis CLR Aitchison",
+      "n_results": 8,
+      "top_title": "Variable selection in microbiome compositional data analysis",
+      "top_citations": "83",
+      "top_url": "https://www.semanticscholar.org/paper/aef538d3dde70c0c2eaaa5fc95bea7e92303a522"
+    },
+    {
+      "query_id": "20",
+      "query": "sparse microbiome machine learning",
+      "n_results": 8,
+      "top_title": "Applications of Machine Learning in Human Microbiome Studies: A Review on Feature Selection, Biomarker Identification, Disease Prediction and Treatment",
+      "top_citations": "303",
+      "top_url": "https://www.semanticscholar.org/paper/16f098539ded31e386220d4c5442370adf253db5"
+    },
+    {
+      "query_id": "21",
+      "query": "random forest SHAP microbiome ecology",
+      "n_results": 8,
+      "top_title": "Interpretable machine learning algorithms reveal gut microbiome features associated with atopic dermatitis",
+      "top_citations": "7",
+      "top_url": "https://www.semanticscholar.org/paper/2cfb07cdda398a6f1aff964f3e978b27603433be"
+    },
+    {
+      "query_id": "22",
+      "query": "microbial co-occurrence network limitations",
+      "n_results": 8,
+      "top_title": "Deciphering microbial interactions and detecting keystone species with co-occurrence networks",
+      "top_citations": "1496",
+      "top_url": "https://www.semanticscholar.org/paper/c8be97da104a9c0ce681353152d44673aca87b19"
+    },
+    {
+      "query_id": "23",
+      "query": "joint species distribution microbiome",
+      "n_results": 8,
+      "top_title": "Mammals show distinct functional gut microbiome dynamics to identical series of environmental stressors",
+      "top_citations": "21",
+      "top_url": "https://www.semanticscholar.org/paper/08c39ad8d390b8009c5e7c63f795da7ccfd9fc19"
+    },
+    {
+      "query_id": "24",
+      "query": "multi-omics integration ecology",
+      "n_results": 8,
+      "top_title": "Decrypting proteomics, transcriptomics, genomics, and integrated omics for augmenting the abiotic, biotic, and climate change stress resilience in plants.",
+      "top_citations": "29",
+      "top_url": "https://www.semanticscholar.org/paper/4bc96fcd4c24b34041363b16f9c3a639bdd9470a"
+    }
+  ],
+  "top20_cited": [
+    {
+      "title": "Deciphering microbial interactions and detecting keystone species with co-occurrence networks",
+      "year": "2014",
+      "citationCount": "1496",
+      "url": "https://www.semanticscholar.org/paper/c8be97da104a9c0ce681353152d44673aca87b19",
+      "query": "microbial co-occurrence network limitations",
+      "ecological_relevance_note": "community-assembly mechanism relevance; methodological relevance"
+    },
+    {
+      "title": "The human gut microbiome: ecology and recent evolutionary changes.",
+      "year": "2011",
+      "citationCount": "684",
+      "url": "https://www.semanticscholar.org/paper/2ce82858d276ab42e53f68a780491443587298e0",
+      "query": "environmental filtering microbiome ecology",
+      "ecological_relevance_note": "indirect conceptual/background relevance"
+    },
+    {
+      "title": "Diversity and Activity of Communities Inhabiting Plastic Debris in the North Pacific Gyre",
+      "year": "2016",
+      "citationCount": "393",
+      "url": "https://www.semanticscholar.org/paper/6f6cb6b3fcbc8ccc9106f6f7b53a6781d5ee63a9",
+      "query": "cross domain microbial ecology",
+      "ecological_relevance_note": "cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Seaweed-microbial interactions: key functions of seaweed-associated bacteria.",
+      "year": "2014",
+      "citationCount": "306",
+      "url": "https://www.semanticscholar.org/paper/831b5152275599512e61e6482d24dbfb89523441",
+      "query": "cross domain microbial ecology",
+      "ecological_relevance_note": "cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Applications of Machine Learning in Human Microbiome Studies: A Review on Feature Selection, Biomarker Identification, Disease Prediction and Treatment",
+      "year": "2021",
+      "citationCount": "303",
+      "url": "https://www.semanticscholar.org/paper/16f098539ded31e386220d4c5442370adf253db5",
+      "query": "sparse microbiome machine learning",
+      "ecological_relevance_note": "cross-kingdom microbial relevance; methodological relevance"
+    },
+    {
+      "title": "Machine learning and deep learning applications in microbiome research",
+      "year": "2022",
+      "citationCount": "251",
+      "url": "https://www.semanticscholar.org/paper/47e0c80c38fe3d98590167bb55643f9ff37ea725",
+      "query": "sparse microbiome machine learning",
+      "ecological_relevance_note": "plant-soil context relevance; methodological relevance"
+    },
+    {
+      "title": "Soil protist communities form a dynamic hub in the soil microbiome",
+      "year": "2017",
+      "citationCount": "229",
+      "url": "https://www.semanticscholar.org/paper/3a17ce6cee66ccb66e7eb24a1d7637b27a918843",
+      "query": "fungi bacteria protist interactions soil",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Linking social and pathogen transmission networks using microbial genetics in giraffe (Giraffa camelopardalis).",
+      "year": "2014",
+      "citationCount": "206",
+      "url": "https://www.semanticscholar.org/paper/622eaacb9d169dfadb4aa7be4d5732c4b1b1e305",
+      "query": "microbial co-occurrence network limitations",
+      "ecological_relevance_note": "methodological relevance"
+    },
+    {
+      "title": "Synthetic bacterial community derived from a desert rhizosphere confers salt stress resilience to tomato in the presence of a soil microbiome",
+      "year": "2022",
+      "citationCount": "205",
+      "url": "https://www.semanticscholar.org/paper/eba33274bbf1e1dbacabfb1026c50ff8b846ccf6",
+      "query": "community completeness soil microbiome",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Cross-kingdom synthetic microbiota supports tomato suppression of Fusarium wilt disease",
+      "year": "2022",
+      "citationCount": "204",
+      "url": "https://www.semanticscholar.org/paper/f210636764e16c0ab7dd4418b3f17f5198b762d7",
+      "query": "soil cross kingdom microbial interactions",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "The occurrence of potato common scab correlates with the community composition and function of the geocaulosphere soil microbiome",
+      "year": "2019",
+      "citationCount": "186",
+      "url": "https://www.semanticscholar.org/paper/64482fc3531bda63ff73ee069b42b984ef84cefd",
+      "query": "community completeness soil microbiome",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance; methodological relevance"
+    },
+    {
+      "title": "Soil Microbiome: Diversity, Benefits and Interactions with Plants",
+      "year": "2023",
+      "citationCount": "136",
+      "url": "https://www.semanticscholar.org/paper/7a2c85f32608660fa11c19409496bc85c8c423dd",
+      "query": "plant diversity soil microbiome relationships",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "The Cladistic Basis for the Phylogenetic Diversity (PD) Measure Links Evolutionary Features to Environmental Gradients and Supports Broad Applications of Microbial Ecology\u2019s \u201cPhylogenetic Beta Diversity\u201d Framework",
+      "year": "2009",
+      "citationCount": "98",
+      "url": "https://www.semanticscholar.org/paper/2d9cfc809e81319d0598e4924cf2a5a744e38c86",
+      "query": "microbial beta diversity environmental gradients",
+      "ecological_relevance_note": "community-assembly mechanism relevance"
+    },
+    {
+      "title": "Comparative analysis of diversity and environmental niches of soil bacterial, archaeal, fungal and protist communities reveal niche divergences along environmental gradients in the Alps",
+      "year": "2021",
+      "citationCount": "98",
+      "url": "https://www.semanticscholar.org/paper/f2b10d8f4de28a2ba44ec53f676bf0f5f25f56e3",
+      "query": "microbial beta diversity environmental gradients",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Soil microbiome mediates positive plant diversity-productivity relationships in late successional grassland species.",
+      "year": "2019",
+      "citationCount": "91",
+      "url": "https://www.semanticscholar.org/paper/2848996a2bbb7d5ef5bd60b1913a66e41abdb691",
+      "query": "plant diversity soil microbiome relationships",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Variable selection in microbiome compositional data analysis",
+      "year": "2020",
+      "citationCount": "83",
+      "url": "https://www.semanticscholar.org/paper/aef538d3dde70c0c2eaaa5fc95bea7e92303a522",
+      "query": "compositional microbiome analysis CLR Aitchison",
+      "ecological_relevance_note": "methodological relevance"
+    },
+    {
+      "title": "HT-SIP: a semi-automated stable isotope probing pipeline identifies cross-kingdom interactions in the hyphosphere of arbuscular mycorrhizal fungi",
+      "year": "2022",
+      "citationCount": "65",
+      "url": "https://www.semanticscholar.org/paper/30f9207d455ffc6eca0040529821bf9b3e9ae195",
+      "query": "soil cross kingdom microbial interactions",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance"
+    },
+    {
+      "title": "Effects of soil substrate quality, microbial diversity and community composition on the plant community during primary succession",
+      "year": "2016",
+      "citationCount": "61",
+      "url": "https://www.semanticscholar.org/paper/e379cb00494735753aaf0a21e626cd6f47f668ca",
+      "query": "plant community composition microbial diversity",
+      "ecological_relevance_note": "plant-soil context relevance"
+    },
+    {
+      "title": "Stable-Isotope-Informed, Genome-Resolved Metagenomics Uncovers Potential Cross-Kingdom Interactions in Rhizosphere Soil",
+      "year": "2021",
+      "citationCount": "53",
+      "url": "https://www.semanticscholar.org/paper/5a4fbb00ace620dd546b4e2a57d76ad05a7e582e",
+      "query": "soil cross kingdom microbial interactions",
+      "ecological_relevance_note": "plant-soil context relevance; cross-kingdom microbial relevance; methodological relevance"
+    },
+    {
+      "title": "Microbial community composition and network analyses in arid soils of the Patagonian Monte under grazing disturbance reveal an important response of the community to soil particle size",
+      "year": "2019",
+      "citationCount": "49",
+      "url": "https://www.semanticscholar.org/paper/9667064c1beb4b02d443c4d19bf08606bfe1b045",
+      "query": "microbial co-occurrence network limitations",
+      "ecological_relevance_note": "plant-soil context relevance; methodological relevance"
+    }
+  ]
+}

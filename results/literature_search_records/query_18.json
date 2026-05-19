@@ -1,0 +1,374 @@
+{
+  "query": "environmental filtering microbiome ecology",
+  "timestamp_utc": "2026-05-19T13:06:21.824427+00:00",
+  "data": [
+    {
+      "paperId": "f687f229fc9697f4cdf35b1980688871b5316b3f",
+      "url": "https://www.semanticscholar.org/paper/f687f229fc9697f4cdf35b1980688871b5316b3f",
+      "title": "Rare legumes are missing mutualists, but herbivory and environmental filtering are more important determinants of reintroduction success",
+      "venue": "Restoration Ecology",
+      "year": 2024,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1111/rec.14278",
+        "status": "HYBRID",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/rec.14278?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/rec.14278, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "88197137",
+          "name": "E. Galloway"
+        },
+        {
+          "authorId": "2164133814",
+          "name": "Paul Price"
+        },
+        {
+          "authorId": "5018871",
+          "name": "Emily Grman"
+        },
+        {
+          "authorId": "39375948",
+          "name": "J. T. Bauer"
+        }
+      ],
+      "abstract": "Soil microbial mutualists like rhizobia bacteria can promote the establishment of rare, late‐successional legumes. Despite restoration efforts, these mutualists are often absent in the microbiome. Therefore, restoring this mutualism by directly inoculating rare legumes with rhizobia mutualists may increase plant establishment. We inoculated seedlings of Amorpha canescens, Dalea purpurea, and Lespedeza capitata with three strains of species‐specific rhizobia each to investigate how this mutualism would promote growth in the field and in the greenhouse. Because many herbaceous plants are vulnerable to herbivory, we used exclosures for half of our field transplantations to prevent mammalian herbivory. We did not find that rhizobia bacteria directly promoted the growth of our legumes in the field but rather that herbivory and environmental conditions overwhelmed the effects of the rhizobia. Of the plants transplanted, only 17.78% of 180 survived to the end of the growing season, all of which were protected from herbivory. Survival at the end of the growing season was also greater in the northern, drier end of the field site. In the second growing season, plants were more likely to survive in the exclosure treatment, while only four recovered in the open treatment. In the greenhouse, we found increased nodulation with inoculations, supporting the hypothesis that species‐specific mutualists are absent from restoration sites. Though several recent studies have shown that restoring mutualistic interactions has the potential to dramatically improve the outcomes of ecological restoration, our results show that protecting rare species from herbivory after transplantation might achieve greater gains in establishment."
+    },
+    {
+      "paperId": "6bee28f25c6b6346735f627c381a1012b577cb4d",
+      "url": "https://www.semanticscholar.org/paper/6bee28f25c6b6346735f627c381a1012b577cb4d",
+      "title": "Environmental filtering structures fungal endophyte communities in tree bark",
+      "venue": "Molecular Ecology",
+      "year": 2019,
+      "citationCount": 32,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/152808/2/mec15237.pdf",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/mec.15237?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/mec.15237, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "29982168",
+          "name": "P. Pellitier"
+        },
+        {
+          "authorId": "5981547",
+          "name": "D. Zak"
+        },
+        {
+          "authorId": "90517952",
+          "name": "S. O. Salley"
+        }
+      ],
+      "abstract": "The factors that control the assembly and composition of endophyte communities across plant hosts remains poorly understood. This is especially true for endophyte communities inhabiting inner tree bark, one of the least studied components of the plant microbiome. Here, we test the hypothesis that bark of different tree species acts as an environmental filter structuring endophyte communities, as well as the alternative hypothesis, that bark acts as a passive reservoir that accumulates a diverse assemblage of spores and latent fungal life stages. We develop a means of extracting high‐quality DNA from surface sterilized tree bark to compile the first culture‐independent study of inner bark fungal communities. We sampled a total of 120 trees, spanning five dominant overstorey species across multiple sites in a mixed temperate hardwood forest. We find that each of the five tree species harbour unique assemblages of inner bark fungi and that angiosperm and gymnosperm hosts harbour significantly different fungal communities. Chemical components of tree bark (pH, total phenolic content) structure some of the differences detected among fungal communities residing in particular tree species. Inner bark fungal communities were highly diverse (mean of 117–171 operational taxonomic units per tree) and dominated by a range of Ascomycete fungi living asymptomatically as putative endophytes. Together, our evidence supports the hypothesis that tree bark acts as an environmental filter structuring inner bark fungal communities. The role of these potentially ubiquitous and plant‐specific fungal communities remains uncertain and merits further study."
+    },
+    {
+      "paperId": "61810c01ed33bea60907013a27d4a6faa39cae7f",
+      "url": "https://www.semanticscholar.org/paper/61810c01ed33bea60907013a27d4a6faa39cae7f",
+      "title": "The Ground Beetle Poecilus (Carabidae) Gut Microbiome and Its Functionality",
+      "venue": "Microbial Ecology",
+      "year": 2025,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12310908, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2105873492",
+          "name": "C. Braglia"
+        },
+        {
+          "authorId": "2298267074",
+          "name": "Simone Cutajar"
+        },
+        {
+          "authorId": "27616403",
+          "name": "Serena Magagnoli"
+        },
+        {
+          "authorId": "2374015447",
+          "name": "Diana Asciano"
+        },
+        {
+          "authorId": "2243185475",
+          "name": "Giovanni Burgio"
+        },
+        {
+          "authorId": "5378333",
+          "name": "D. Di Gioia"
+        },
+        {
+          "authorId": "2703345",
+          "name": "L. Baffoni"
+        },
+        {
+          "authorId": "7183359",
+          "name": "D. Alberoni"
+        }
+      ],
+      "abstract": "Ground beetles of the genus Poecilus (Carabidae) play key ecological roles in pest control and soil health. However, their gut microbiome remains largely unexplored despite increasing interest in insect-associated microbiota and its environmental implications. This study used next-generation sequencing and qPCR to characterise the gut microbiome of Poecilus beetles collected from organic and conventional tomato fields. Core microbiota were identified through prevalence–abundance filtering, revealing dominant genera including Gilliamella, Weissella, Enterobacter, and Enterococcus, alongside several low-abundance but consistently present taxa. Notably, Carnobacterium was detected for the first time in an insect host, and Nosema ceranae was identified for the first time in Carabidae, expanding the known host range of this microsporidian pathogen. Functional predictions based on 16S rRNA data and comparative genomic analysis showed enrichment in pathways related to amino acid synthesis, protein degradation, and monosaccharide metabolism. Significant inter-individual variation in microbial diversity and predicted functionality was observed, with lowest diversity and metabolic potential in beetles from conventionally managed fields, potentially indicating dysbiosis and environmental stress. The detection of Nosema and Serratia pathogens in some individuals adds new insights into pathogen dynamics within carabid beetles. Our findings reveal that the gut microbiome of Poecilus may be shaped by environmental factors and agricultural practices, influencing host health and ecological performance. These insights support the use of Poecilus as a bioindicator for soil ecosystem health and highlight the potential of microbiome-based metrics in agroecological monitoring."
+    },
+    {
+      "paperId": "e95dc340644002b5348582b337fa6dcf13a99226",
+      "url": "https://www.semanticscholar.org/paper/e95dc340644002b5348582b337fa6dcf13a99226",
+      "title": "The Gut Microbial Community of Solitary Bees is Acquired through Host and Location Filtering",
+      "venue": "Microbial Ecology",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12586223, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2132955225",
+          "name": "A. Hettiarachchi"
+        },
+        {
+          "authorId": "2156865724",
+          "name": "Tina Tuerlings"
+        },
+        {
+          "authorId": "2036790579",
+          "name": "T. Weekers"
+        },
+        {
+          "authorId": "2268066950",
+          "name": "Leon Marshall"
+        },
+        {
+          "authorId": "47404593",
+          "name": "N. Leclercq"
+        },
+        {
+          "authorId": "2307523056",
+          "name": "T. J. Wood"
+        },
+        {
+          "authorId": "91332630",
+          "name": "D. Cejas"
+        },
+        {
+          "authorId": "20614360",
+          "name": "Maxence Gérard"
+        },
+        {
+          "authorId": "4660557",
+          "name": "N. Vereecken"
+        },
+        {
+          "authorId": "2247116512",
+          "name": "D. Michez"
+        },
+        {
+          "authorId": "2238058418",
+          "name": "Guy Smagghe"
+        },
+        {
+          "authorId": "2254233594",
+          "name": "M. Joossens"
+        },
+        {
+          "authorId": "2238059011",
+          "name": "P. Vandamme"
+        }
+      ],
+      "abstract": "Species traits and environmental conditions are among the many factors that shape bee communities. Their effective conservation is currently challenged due to global changes. The gut microbiome likely contributes to bee plasticity and resilience but is largely understudied in solitary bees. A stable core microbiome in social bees has been identified to be important for health and survival in changing environmental conditions, but knowledge on a host-specific core microbiome in solitary bees is very scarce. In the present study, we analyzed the gut bacterial and fungal communities of eight solitary bee species commonly found in apple orchards along a latitudinal gradient throughout Europe. We aimed to understand the intra- and interspecific variations in the gut microbial communities and the extent to which host species and local environment shape the solitary bee gut microbiota. The bacterial community showed strong host effects, with each bee species having a distinct core bacterial community that was mostly stable across locations. The fungal community was most strongly influenced by the local environment, while different environmental variables were responsible for the variation in bacterial and fungal communities. Our study demonstrated that the examined solitary bee species harbor a distinct microbial diversity and composition, which undergoes host- and location-specific filtering."
+    },
+    {
+      "paperId": "2079715743b360965f5790b7e8a0e83f84f7b60b",
+      "url": "https://www.semanticscholar.org/paper/2079715743b360965f5790b7e8a0e83f84f7b60b",
+      "title": "Determinants of microbiome composition: Insights from free‐ranging hybrid zebras (Equus quagga × grevyi)",
+      "venue": "Molecular Ecology",
+      "year": 2024,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/mec.17370?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/mec.17370, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2060278685",
+          "name": "Joel O. Abraham"
+        },
+        {
+          "authorId": "145401771",
+          "name": "Bing Lin"
+        },
+        {
+          "authorId": "46524983",
+          "name": "Audrey E Miller"
+        },
+        {
+          "authorId": "48037300",
+          "name": "Lucas P. Henry"
+        },
+        {
+          "authorId": "2182448836",
+          "name": "Margaret Y Demmel"
+        },
+        {
+          "authorId": "1405791570",
+          "name": "Rosemary Warungu"
+        },
+        {
+          "authorId": "2298958538",
+          "name": "Margaret Mwangi"
+        },
+        {
+          "authorId": "2298957564",
+          "name": "Patrick M Lobura"
+        },
+        {
+          "authorId": "37252316",
+          "name": "Luisa F. Pallares"
+        },
+        {
+          "authorId": "5451182",
+          "name": "J. Ayroles"
+        },
+        {
+          "authorId": "1817797",
+          "name": "R. Pringle"
+        },
+        {
+          "authorId": "2267977745",
+          "name": "Daniel I. Rubenstein"
+        }
+      ],
+      "abstract": "The composition of mammalian gut microbiomes is highly conserved within species, yet the mechanisms by which microbiome composition is transmitted and maintained within lineages of wild animals remain unclear. Mutually compatible hypotheses exist, including that microbiome fidelity results from inherited dietary habits, shared environmental exposure, morphophysiological filtering and/or maternal effects. Interspecific hybrids are a promising system in which to interrogate the determinants of microbiome composition because hybrids can decouple traits and processes that are otherwise co‐inherited in their parent species. We used a population of free‐living hybrid zebras (Equus quagga × grevyi) in Kenya to evaluate the roles of these four mechanisms in regulating microbiome composition. We analysed faecal DNA for both the trnL‐P6 and the 16S rRNA V4 region to characterize the diets and microbiomes of the hybrid zebra and of their parent species, plains zebra (E. quagga) and Grevy's zebra (E. grevyi). We found that both diet and microbiome composition clustered by species, and that hybrid diets and microbiomes were largely nested within those of the maternal species, plains zebra. Hybrid microbiomes were less variable than those of either parent species where they co‐occurred. Diet and microbiome composition were strongly correlated, although the strength of this correlation varied between species. These patterns are most consistent with the maternal‐effects hypothesis, somewhat consistent with the diet hypothesis, and largely inconsistent with the environmental‐sourcing and morphophysiological‐filtering hypotheses. Maternal transmittance likely operates in conjunction with inherited feeding habits to conserve microbiome composition within species."
+    },
+    {
+      "paperId": "18ed349058443329c31b69d2d351d4f121ff0397",
+      "url": "https://www.semanticscholar.org/paper/18ed349058443329c31b69d2d351d4f121ff0397",
+      "title": "Absence of stress‐promoted facilitation coupled with a competition decrease in the microbiome of ephemeral saline lakes",
+      "venue": "Ecology",
+      "year": 2022,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ecy.3834",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10078231, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1438912980",
+          "name": "Mateu Menéndez-Serra"
+        },
+        {
+          "authorId": "91101333",
+          "name": "Vicente J. Ontiveros"
+        },
+        {
+          "authorId": "6791252",
+          "name": "A. Barberán"
+        },
+        {
+          "authorId": "5743832",
+          "name": "E. Casamayor"
+        }
+      ],
+      "abstract": "Abstract Salinity fluctuations constitute a well‐known high stress factor strongly shaping global biological distributions and abundances. However, there is a knowledge gap regarding how increasing saline stress affects microbial biological interactions. We applied the combination of a probabilistic method for estimating significant co‐occurrences/exclusions and a conceptual framework for filtering out associations potentially linked to environmental and/or spatial factors, in a series of connected ephemeral (hyper) saline lakes. We carried out a network analysis over the full aquatic microbiome—bacteria, eukarya, and archaea—under severe salinity fluctuations. Most of the observed co‐occurrences/exclusions were potentially explained by environmental niche and/or dispersal limitation. Co‐occurrences assigned to potential biological interactions remained stable, suggesting that the salt gradient was not promoting interspecific facilitation processes. Conversely, co‐exclusions assigned to potential biological interactions decreased along the gradient both in number and network complexity, pointing to a decrease of interspecies competition as salinity increased. Overall, higher saline stress reduced microbial co‐exclusions while co‐occurrences remained stable suggesting decreasing competition coupled with lack of stress‐gradient promoted facilitation in the microbiome of ephemeral saline lakes."
+    },
+    {
+      "paperId": "a049214eab9d7ff14fb7d88789044ec866bc9ded",
+      "url": "https://www.semanticscholar.org/paper/a049214eab9d7ff14fb7d88789044ec866bc9ded",
+      "title": "Some observations on meaningful and objective inference in radioecological field studies.",
+      "venue": "Journal of Animal Ecology",
+      "year": 2022,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://salford-repository.worktribe.com/preview/2091672/sustainability-15-14697-v2.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/1365-2656.13743?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/1365-2656.13743, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "97183094",
+          "name": "J. Jackson"
+        },
+        {
+          "authorId": "5008506",
+          "name": "R. Antwis"
+        },
+        {
+          "authorId": "5138462",
+          "name": "N. Beresford"
+        },
+        {
+          "authorId": "145322160",
+          "name": "M. Wood"
+        }
+      ],
+      "abstract": "Anthropogenic releases of radiation are of ongoing importance for environmental protection, but the radiation doses at which natural systems begin to show effects are controversial. More certainty is required in this area to achieve optimal regulation for radioactive substances. We recently carried out a large survey (268 sampled animals and 20 sites) of the association between environmental radiation exposures and small mammal gut-associated microbiomes (fungal and bacterial) in the Chornobyl Exclusion zone (CEZ). Using individual measurements of total absorbed dose rates and a study design and analyses that accounted for spatial non-independence, we found no, or only limited, association. Watts et al. have criticised our study: for not filtering candidate non-resident components prior to our fungal microbiome analyses, for our qualified speculations on the relative merits of faecal and gut samples, and for the design of our study which they felt lacked sufficient replication. The advantage of filtering non-resident-fungal taxa is not clear and it would not have changed the null (spatially adjusted) association we found between radioactive dose and mycobiome composition because the most discriminatory fungal taxa with regard to dose were non-resident taxa. We maintain that it was legitimate for us to make qualified discussion comments on the differences in results between our faecal and gut microbiome analyses and on the relative merits of these sample types. Most importantly, the criticism of our study design by Watts et al. and the designs and analysis of their recent studies in the CEZ show a misunderstanding of the true nature of independent replication in field studies. Recognising the importance of spatial non-independence is essential in the design and analysis of radioecological field surveys."
+    },
+    {
+      "paperId": "2ce82858d276ab42e53f68a780491443587298e0",
+      "url": "https://www.semanticscholar.org/paper/2ce82858d276ab42e53f68a780491443587298e0",
+      "title": "The human gut microbiome: ecology and recent evolutionary changes.",
+      "venue": "Annual Review of Microbiology",
+      "year": 2011,
+      "citationCount": 684,
+      "influentialCitationCount": 22,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1146/annurev-micro-090110-102830?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1146/annurev-micro-090110-102830, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "48071567",
+          "name": "J. Walter"
+        },
+        {
+          "authorId": "145061660",
+          "name": "R. Ley"
+        }
+      ],
+      "abstract": null
+    }
+  ]
+}

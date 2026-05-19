@@ -1,0 +1,463 @@
+{
+  "query": "plant community completeness microbial diversity",
+  "timestamp_utc": "2026-05-19T13:05:47.625807+00:00",
+  "data": [
+    {
+      "paperId": "d961cf5edf8cf644780b53881b66f6571eae02be",
+      "url": "https://www.semanticscholar.org/paper/d961cf5edf8cf644780b53881b66f6571eae02be",
+      "title": "Importance of plant community composition and aboveground biomass in shaping microbial communities following long-term nitrogen and phosphorus addition in a temperate steppe ecosystem",
+      "venue": "Plant and Soil",
+      "year": 2024,
+      "citationCount": 13,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-024-06881-7?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-024-06881-7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2265389122",
+          "name": "Hao Zhang"
+        },
+        {
+          "authorId": "2265293616",
+          "name": "Na Jiang"
+        },
+        {
+          "authorId": "2265441528",
+          "name": "Hui Wang"
+        },
+        {
+          "authorId": "2265459953",
+          "name": "Siyu Zhang"
+        },
+        {
+          "authorId": "49530492",
+          "name": "Jian-ning Zhao"
+        },
+        {
+          "authorId": "2253053647",
+          "name": "Hongmei Liu"
+        },
+        {
+          "authorId": "2361874441",
+          "name": "Haifang Zhang"
+        },
+        {
+          "authorId": "2253026702",
+          "name": "Dianlin Yang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "1d5d13515185665d422ba3ea0be709e377520501",
+      "url": "https://www.semanticscholar.org/paper/1d5d13515185665d422ba3ea0be709e377520501",
+      "title": "Plant-specific microbial diversity facilitates functional redundancy at the soil-root interface",
+      "venue": "Plant and Soil",
+      "year": 2024,
+      "citationCount": 10,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-024-07097-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-024-07097-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "8053956",
+          "name": "W. Wicaksono"
+        },
+        {
+          "authorId": "5666266",
+          "name": "Martina Köberl"
+        },
+        {
+          "authorId": "2192364127",
+          "name": "R. A. White"
+        },
+        {
+          "authorId": "2243108503",
+          "name": "J. Jansson"
+        },
+        {
+          "authorId": "2061488380",
+          "name": "Christer Jansson"
+        },
+        {
+          "authorId": "5701939",
+          "name": "T. Cernava"
+        },
+        {
+          "authorId": "2237559091",
+          "name": "Gabriele Berg"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "b486431e050ee1e8035f05a1fc97e3e8e4892e67",
+      "url": "https://www.semanticscholar.org/paper/b486431e050ee1e8035f05a1fc97e3e8e4892e67",
+      "title": "Plant Microbiomes: Do Different Preservation Approaches and Primer Sets Alter Our Capacity to Assess Microbial Diversity and Community Composition?",
+      "venue": "Frontiers in Plant Science",
+      "year": 2020,
+      "citationCount": 27,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fpls.2020.00993/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7351510, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "35545821",
+          "name": "Zhiguang Qiu"
+        },
+        {
+          "authorId": "2167484752",
+          "name": "Juntao Wang"
+        },
+        {
+          "authorId": "1397970368",
+          "name": "M. Delgado‐Baquerizo"
+        },
+        {
+          "authorId": "49296643",
+          "name": "P. Trivedi"
+        },
+        {
+          "authorId": "49696017",
+          "name": "E. Egidi"
+        },
+        {
+          "authorId": "2315854941",
+          "name": "Yi-min Chen"
+        },
+        {
+          "authorId": "2118013156",
+          "name": "Haiyang Zhang"
+        },
+        {
+          "authorId": "108745697",
+          "name": "B. Singh"
+        }
+      ],
+      "abstract": "The microbial communities associated with plants (the plant microbiome) play critical roles in regulating plant health and productivity. Because of this, in recent years, there have been significant increase in studies targeting the plant microbiome. Amplicon sequencing is widely used to investigate the plant microbiome and to develop sustainable microbial agricultural tools. However, performing large microbiome surveys at the regional and global scales pose several logistic challenges. One of these challenges is related with the preservation of plant materials for sequencing aiming to maintain the integrity of the original diversity and community composition of the plant microbiome. Another significant challenge involves the existence of multiple primer sets used in amplicon sequencing that, especially for bacterial communities, hampers the comparability of datasets across studies. Here, we aimed to examine the effect of different preservation approaches (snap freezing, fresh and kept on ice, and air drying) on the bacterial and fungal diversity and community composition on plant leaves, stems and roots from seven plant species from contrasting functional groups (e.g. C3, C4, N-Fixers, etc.). Another major challenge comes when comparing plant to soil microbiomes, as different primers sets are often used for plant vs. soil microbiomes. Thus, we also investigated if widely used 16S rRNA primer set (779F/1193R) for plant microbiome studies provides comparable data to those often used for soil microbiomes (341F/805R) using 86 soil samples. We found that the community composition and diversity of bacteria or fungi were robust to contrasting preservation methods. The primer sets often used for plants provided similar results to those often used for soil studies suggesting that simultaneous studies on plant and soil microbiomes are possible. Our findings provide novel evidence that preservation approaches do not significantly impact plant microbiome data interpretation and primer differences do not impact the treatment effect, which has significant implication for future large-scale and global surveys of plant microbiomes."
+    },
+    {
+      "paperId": "6466cd3a3c34ac1168463299be0b34f367fa7a6b",
+      "url": "https://www.semanticscholar.org/paper/6466cd3a3c34ac1168463299be0b34f367fa7a6b",
+      "title": "Critical transition of soil microbial diversity and composition triggered by plant rhizosphere effects",
+      "venue": "Frontiers in Plant Science",
+      "year": 2023,
+      "citationCount": 35,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fpls.2023.1252821/pdf?isPublishedV2=False",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10676204, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2162329974",
+          "name": "Xianheng Fu"
+        },
+        {
+          "authorId": "2143854378",
+          "name": "Yu Huang"
+        },
+        {
+          "authorId": "2113772515",
+          "name": "Qi Fu"
+        },
+        {
+          "authorId": "2117838172",
+          "name": "Ying Qiu"
+        },
+        {
+          "authorId": "2235970473",
+          "name": "Jiayi Zhao"
+        },
+        {
+          "authorId": "2266700132",
+          "name": "Jiaxin Li"
+        },
+        {
+          "authorId": "2266632268",
+          "name": "Xicun Wu"
+        },
+        {
+          "authorId": "2266708054",
+          "name": "Yihang Yang"
+        },
+        {
+          "authorId": "2395834150",
+          "name": "Hongen Liu"
+        },
+        {
+          "authorId": "2257866810",
+          "name": "Xian Yang"
+        },
+        {
+          "authorId": "2258108716",
+          "name": "Huaihai Chen"
+        }
+      ],
+      "abstract": "Over the years, microbial community composition in the rhizosphere has been extensively studied as the most fascinating topic in microbial ecology. In general, plants affect soil microbiota through rhizodeposits and changes in abiotic conditions. However, a consensus on the response of microbiota traits to the rhizosphere and bulk soils in various ecosystems worldwide regarding community diversity and structure has not been reached yet. Here, we conducted a meta-analysis of 101 studies to investigate the microbial community changes between the rhizosphere and bulk soils across various plant species (maize, rice, vegetables, other crops, herbaceous, and woody plants). Our results showed that across all plant species, plant rhizosphere effects tended to reduce the rhizosphere soil pH, especially in neutral or slightly alkaline soils. Beta-diversity of bacterial community was significantly separated between into rhizosphere and bulk soils. Moreover, r-strategists and copiotrophs (e.g. Proteobacteria and Bacteroidetes) enriched by 24-27% in the rhizosphere across all plant species, while K-strategists and oligotrophic (e.g. Acidobacteria, Gemmatimonadete, Nitrospirae, and Planctomycetes) decreased by 15-42% in the rhizosphere. Actinobacteria, Firmicutes, and Chloroflexi are also depleted by in the plant rhizosphere compared with the bulk soil by 7-14%. The Actinobacteria exhibited consistently negative effect sizes across all plant species, except for maize and vegetables. In Firmicutes, both herbaceous and woody plants showed negative responses to rhizosphere effects, but those in maize and rice were contrarily enriched in the rhizosphere. With regards to Chloroflexi, apart from herbaceous plants showing a positive effect size, the plant rhizosphere effects were consistently negative across all other plant types. Verrucomicrobia exhibited a significantly positive effect size in maize, whereas herbaceous plants displayed a negative effect size in the rhizosphere. Overall, our meta-analysis exhibited significant changes in microbial community structure and diversity responding to the plant rhizosphere effects depending on plant species, further suggesting the importance of plant rhizosphere to environmental changes influencing plants and subsequently their controls over the rhizosphere microbiota related to nutrient cycling and soil health."
+    },
+    {
+      "paperId": "576fde2cc422671bdbf963999ac8a62432eb7b05",
+      "url": "https://www.semanticscholar.org/paper/576fde2cc422671bdbf963999ac8a62432eb7b05",
+      "title": "Effect of molybdenum supply on crop performance through rhizosphere soil microbial diversity and metabolite variation",
+      "venue": "Frontiers in Plant Science",
+      "year": 2025,
+      "citationCount": 11,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.3389/fpls.2024.1519540",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11811785, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2304563690",
+          "name": "Muhammad Shoaib Rana"
+        },
+        {
+          "authorId": "1995577057",
+          "name": "Dikhnah Alshehri"
+        },
+        {
+          "authorId": "2342461476",
+          "name": "Ruilong Wang"
+        },
+        {
+          "authorId": "2342431530",
+          "name": "Muhammad Imran"
+        },
+        {
+          "authorId": "1701658828",
+          "name": "Yousif Abdelrahman Yousif Abdellah"
+        },
+        {
+          "authorId": "2216751726",
+          "name": "Faiz ur Rahman"
+        },
+        {
+          "authorId": "1742388116",
+          "name": "Marfat Alatawy"
+        },
+        {
+          "authorId": "13310061",
+          "name": "Hanaa Ghabban"
+        },
+        {
+          "authorId": "51934234",
+          "name": "Amany H. A. Abeed"
+        },
+        {
+          "authorId": "2342983292",
+          "name": "Cheng-xiao Hu"
+        }
+      ],
+      "abstract": "Molybdenum (Mo) deficiency is a global problem in acidic soils, limiting plant growth, development, and nutrient availability. To address this, we carried out a field study with two treatments, i.e., Mo applied (+Mo) and without Mo (−Mo) treatment to explore the effects of Mo application on crop growth and development, microbial diversity, and metabolite variations in maize and soybean cropping systems. Our results indicated that the nutrient availability (N, P, K) was higher under Mo supply leading to improved biological yield and nutrient uptake efficiency in both crops. Microbial community analysis revealed that Proteobacteria and Acidobacteria were the dominant phyla in Mo treated (+Mo) soils for both maize and soybean. Both these phyla accounted together 39.43% and 57.74% in −Mo and +Mo, respectively, in soybean rhizosphere soil, while they accounted for 44.51% and 46.64% in maize rhizosphere soil. This indicates more variations among the treatments in soybean soil compared to maize soil. At a lower taxonomic level, the diverse responses of the genera indicated the specific bacterial community adaptations to fertilization. Candidatus Koribacter and Kaistobacter were commonly significantly higher in both crops under Mo-applied conditions in both cropping systems. These taxa, sharing similar functions, could serve as potential markers for nutrient availability and soil fertility. Metabolite profiling revealed 8 and 10 significantly differential metabolites in maize and soybean, respectively, under +Mo treatment, highlighting the critical role of Mo in metabolite variation. Overall, these findings emphasize the importance of Mo in shaping soil microbial diversity by altering metabolite composition, which in turn may enhance the nutrient availability, nutrient uptake, and plant performance."
+    },
+    {
+      "paperId": "ad4b5399c06c4d1025ddf9ac29c216c3bef4311d",
+      "url": "https://www.semanticscholar.org/paper/ad4b5399c06c4d1025ddf9ac29c216c3bef4311d",
+      "title": "Soil Application of Urban Waste-Derived Amendments Increased Microbial Community Diversity in the Grapevine Rhizosphere: A Rhizobox Approach",
+      "venue": "Horticulturae",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/horticulturae11111368?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/horticulturae11111368, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2287150209",
+          "name": "Giacomo Chiarelli"
+        },
+        {
+          "authorId": "1473250081",
+          "name": "Daniela Sangiorgio"
+        },
+        {
+          "authorId": "50363726",
+          "name": "C. Pastore"
+        },
+        {
+          "authorId": "4684963",
+          "name": "I. Filippetti"
+        },
+        {
+          "authorId": "2393081674",
+          "name": "Fatih Buyukfiliz"
+        },
+        {
+          "authorId": "120413201",
+          "name": "E. Baldi"
+        },
+        {
+          "authorId": "122803464",
+          "name": "M. Toselli"
+        }
+      ],
+      "abstract": "The intensification of agricultural practices and the consequent dramatic decrease in soil organic matter has increased the use of organic fertilizer to recover soil fertility and plant productivity. The aim of this study was to compare the effect of three amendments obtained from the recycling of urban and agri-food wastes on rhizosphere microbial community, soil, and plant nutrient status. The experiment was carried out on rhizobox-grown, 1-year-old vines of Sangiovese (Vitis vinifera L.), grafted onto 110 Richter (V. berlandieri × V. rupestris) planted in April 2023. Twenty-four rhizoboxes were filled with soil collected from a field trial in which three types of amendments had been applied since 2019. In detail, the complete randomized experimental design (with four replications) compared the following treatments: (1) municipal organic waste compost (ACM), (2) agri-food organic waste compost (ACF), (3) defecation gypsum (GDD), and (4) a control that received 60 kg of N ha−1 year−1 (CK). The application of the amendments increased the soil concentration of total C, total N, and pH. The application of ACM increases soil K and Zn and the concentration of N and K in plant roots. The application of all the amendments increased leaf N concentration in comparison with CK, but only ACF increased leaf P. ACM was the most effective in promoting microbial biodiversity, increasing phyla like Bacillota, Pseudomonata, and Bacteroidota, including genra like Bacillus, Neobacillus, Paenibacillus, and Pseudomonas. ACF promoted Nitrosospherota and Chitinophaga, and GDD promoted Chloroflexota and Agrobacterium."
+    },
+    {
+      "paperId": "7210b2591a5ae8e31295b0cd4b8f132ffab2ac04",
+      "url": "https://www.semanticscholar.org/paper/7210b2591a5ae8e31295b0cd4b8f132ffab2ac04",
+      "title": "Different sex combinations of Populus cathayana affect soil respiration and tea litter decomposition by influencing plant growth and soil functional microbial diversity",
+      "venue": "Plant and Soil",
+      "year": 2023,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-023-06107-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-023-06107-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "1693503510",
+          "name": "O. K. Zveushe"
+        },
+        {
+          "authorId": "35700080",
+          "name": "Sumbal Sajid"
+        },
+        {
+          "authorId": "145426325",
+          "name": "F. Dong"
+        },
+        {
+          "authorId": "144054487",
+          "name": "Ying Han"
+        },
+        {
+          "authorId": "40409503",
+          "name": "Fang Zeng"
+        },
+        {
+          "authorId": "2228392433",
+          "name": "Yuhong Geng"
+        },
+        {
+          "authorId": "2189947694",
+          "name": "Songrong Shen"
+        },
+        {
+          "authorId": "2221918669",
+          "name": "Yuanling Xiang"
+        },
+        {
+          "authorId": "2189971797",
+          "name": "Qianlin Kang"
+        },
+        {
+          "authorId": "2433736446",
+          "name": "Yazhen Zhang"
+        },
+        {
+          "authorId": "2196818545",
+          "name": "Miao Huang"
+        },
+        {
+          "authorId": "2126552240",
+          "name": "Farhan Nabi"
+        },
+        {
+          "authorId": "7809291",
+          "name": "Víctor Resco de Dios"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "0f5005c2cba90a1037ae49d27b407fbfb929299c",
+      "url": "https://www.semanticscholar.org/paper/0f5005c2cba90a1037ae49d27b407fbfb929299c",
+      "title": "Analysis of endophytic bacterial diversity in seeds of different genotypes of cotton and the suppression of Verticillium wilt pathogen infection by a synthetic microbial community",
+      "venue": "BMC Plant Biology",
+      "year": 2024,
+      "citationCount": 11,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://bmcplantbiol.biomedcentral.com/counter/pdf/10.1186/s12870-024-04910-2",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11005247, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2157308496",
+          "name": "Chong Wu"
+        },
+        {
+          "authorId": "2278984581",
+          "name": "Yongbin Fan"
+        },
+        {
+          "authorId": "2277846368",
+          "name": "Xue Chen"
+        },
+        {
+          "authorId": "2375381365",
+          "name": "Jiang Cao"
+        },
+        {
+          "authorId": "2279250100",
+          "name": "Jingyi Ye"
+        },
+        {
+          "authorId": "2393844592",
+          "name": "Menglei Feng"
+        },
+        {
+          "authorId": "2350477597",
+          "name": "Xing Liu"
+        },
+        {
+          "authorId": "2290965895",
+          "name": "Wen-Jing Sun"
+        },
+        {
+          "authorId": "2278864242",
+          "name": "Ruina Liu"
+        },
+        {
+          "authorId": "2278971683",
+          "name": "Aiying Wang"
+        }
+      ],
+      "abstract": "In agricultural production, fungal diseases significantly impact the yield and quality of cotton (Gossypium spp.) with Verticillium wilt posing a particularly severe threat. This study is focused on investigating the effectiveness of endophytic microbial communities present in the seeds of disease-resistant cotton genotypes in the control of cotton Verticillium wilt. The technique of 16S ribosomal RNA (16S rRNA) amplicon sequencing identified a significant enrichment of the Bacillus genus in the resistant genotype Xinluzao 78, which differed from the endophytic bacterial community structure in the susceptible genotype Xinluzao 63. Specific enriched strains were isolated and screened from the seeds of Xinluzao 78 to further explore the biological functions of seed endophytes. A synthetic microbial community (SynCom) was constructed using the broken-rod model, and seeds of the susceptible genotype Xinluzao 63 in this community that had been soaked with the SynCom were found to significantly control the occurrence of Verticillium wilt and regulate the growth of cotton plants. Antibiotic screening techniques were used to preliminarily identify the colonization of strains in the community. These techniques revealed that the strains can colonize plant tissues and occupy ecological niches in cotton tissues through a priority effect, which prevents infection by pathogens. This study highlights the key role of seed endophytes in driving plant disease defense and provides a theoretical basis for the future application of SynComs in agriculture."
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "query": "multi kingdom soil microbiome ecology",
+  "timestamp_utc": "2026-05-19T13:05:57.709243+00:00",
+  "data": [
+    {
+      "paperId": "a7096eb5df9b939ea87d665edff0a84cdb5a5458",
+      "url": "https://www.semanticscholar.org/paper/a7096eb5df9b939ea87d665edff0a84cdb5a5458",
+      "title": "Seasonal dynamics of gut microbiome: A study of multi-kingdom microbiota of earthworm gut in an urban park",
+      "venue": "Agriculture, Ecosystems & Environment. Applied Soil Ecology",
+      "year": 2024,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.apsoil.2023.105259?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.apsoil.2023.105259, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2239008421",
+          "name": "Jiahua Hao"
+        },
+        {
+          "authorId": "2264405332",
+          "name": "Liping Wang"
+        },
+        {
+          "authorId": "14564160",
+          "name": "N. Aspe"
+        },
+        {
+          "authorId": "2277320908",
+          "name": "A. C. Han"
+        },
+        {
+          "authorId": "2239087849",
+          "name": "Mengya Chen"
+        },
+        {
+          "authorId": "2277671247",
+          "name": "Meiyan Li"
+        },
+        {
+          "authorId": "2261193296",
+          "name": "Sisi Zhang"
+        },
+        {
+          "authorId": "2263895239",
+          "name": "Donghui Wu"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "983a4cb38b9177620a2b4635bb9ba985fa90b276",
+      "url": "https://www.semanticscholar.org/paper/983a4cb38b9177620a2b4635bb9ba985fa90b276",
+      "title": "Soybean productivity can be enhanced by understanding rhizosphere microbiota: evidence from metagenomics analysis from diverse agroecosystems",
+      "venue": "Microbiome",
+      "year": 2025,
+      "citationCount": 21,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12034204, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2257146465",
+          "name": "Honglei Ren"
+        },
+        {
+          "authorId": "2256605676",
+          "name": "Huilong Hong"
+        },
+        {
+          "authorId": "2327452064",
+          "name": "Bire Zha"
+        },
+        {
+          "authorId": "2037593028",
+          "name": "S. F. Lamlom"
+        },
+        {
+          "authorId": "2357973536",
+          "name": "Hongmei Qiu"
+        },
+        {
+          "authorId": "2277508158",
+          "name": "Yongqiang Cao"
+        },
+        {
+          "authorId": "2004648120",
+          "name": "Rujia Sun"
+        },
+        {
+          "authorId": "2308566734",
+          "name": "Haoran Wang"
+        },
+        {
+          "authorId": "2267862459",
+          "name": "Junkui Ma"
+        },
+        {
+          "authorId": "2327927174",
+          "name": "Hengbin Zhang"
+        },
+        {
+          "authorId": "2110665098",
+          "name": "Li-peng Sun"
+        },
+        {
+          "authorId": "2152899061",
+          "name": "Qing Yang"
+        },
+        {
+          "authorId": "2305029544",
+          "name": "Changjun Zhou"
+        },
+        {
+          "authorId": "2146015263",
+          "name": "Xiulin Liu"
+        },
+        {
+          "authorId": "2281905038",
+          "name": "Xueyang Wang"
+        },
+        {
+          "authorId": "2281866982",
+          "name": "Chunlei Zhang"
+        },
+        {
+          "authorId": "2179465382",
+          "name": "Fengyi Zhang"
+        },
+        {
+          "authorId": "2159545054",
+          "name": "Kezhen Zhao"
+        },
+        {
+          "authorId": "2218746787",
+          "name": "Rongqiang Yuan"
+        },
+        {
+          "authorId": "2175915935",
+          "name": "A. Abdelghany"
+        },
+        {
+          "authorId": "7504283",
+          "name": "Bixian Zhang"
+        },
+        {
+          "authorId": "49345361",
+          "name": "Yuhong Zheng"
+        },
+        {
+          "authorId": "2215230094",
+          "name": "Jiajun Wang"
+        },
+        {
+          "authorId": "2257322464",
+          "name": "Wencheng Lu"
+        }
+      ],
+      "abstract": "Microbial communities associated with roots play a crucial role in the growth and health of plants and are constantly influenced by plant development and alterations in the soil environment. Despite extensive rhizosphere microbiome research, studies examining multi-kingdom microbial variation across large-scale agricultural gradients remain limited. This study investigates the rhizosphere microbial communities associated with soybean across 13 diverse geographical locations in China. Using high-throughput shotgun metagenomic sequencing on the BGISEQ T7 platform with 10 GB per sample, we identified a total of 43,337 microbial species encompassing bacteria, archaea, fungi, and viruses. Our analysis revealed significant site-specific variations in microbial diversity and community composition, underscoring the influence of local environmental factors on microbial ecology. Principal coordinate analysis (PCoA) indicated distinct clustering patterns of microbial communities, reflecting the unique environmental conditions and agricultural practices of each location. Network analysis identified 556 hub microbial taxa significantly correlated with soybean yield traits, with bacteria showing the strongest associations. These key microorganisms were found to be involved in critical nutrient cycling pathways, particularly in carbon oxidation, nitrogen fixation, phosphorus solubilization, and sulfur metabolism. Our findings demonstrate the pivotal roles of specific microbial taxa in enhancing nutrient cycling, promoting plant health, and improving soybean yield, with significant positive correlations (r = 0.5, p = 0.039) between microbial diversity and seed yield. This study provides a comprehensive understanding of the diversity and functional potential of rhizosphere microbiota in enhancing soybean productivity. The findings underscore the importance of integrating microbial community dynamics into crop management strategies to optimize nutrient cycling, plant health, and yield. While this study identifies key microbial taxa with potential functional roles, future research should focus on isolating and validating these microorganisms for their bioremediation and biofertilization activities under field conditions. This will provide actionable insights for developing microbial-based agricultural interventions to improve crop resilience and sustainability. BGDCKW7bTctQq4sh1kxH_X Video Abstract Video Abstract"
+    },
+    {
+      "paperId": "6c76efe6b3924b1b61d43f5d8888d6a38a22d07c",
+      "url": "https://www.semanticscholar.org/paper/6c76efe6b3924b1b61d43f5d8888d6a38a22d07c",
+      "title": "Biodegradable plastic exposure enhances microbial functional diversity while reducing taxonomic diversity across multi-kingdom soil microbiota in cherry tomato fields",
+      "venue": "Communications Biology",
+      "year": 2025,
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12647629, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2394165155",
+          "name": "Zhen Shi"
+        },
+        {
+          "authorId": "2287399540",
+          "name": "Li Xiong"
+        },
+        {
+          "authorId": "2156264705",
+          "name": "Zhaojie Li"
+        },
+        {
+          "authorId": "2277082962",
+          "name": "Farooq Shah"
+        },
+        {
+          "authorId": "2277028858",
+          "name": "Qianhua Yuan"
+        },
+        {
+          "authorId": "2332163045",
+          "name": "J.K. Whalen"
+        },
+        {
+          "authorId": "2287730046",
+          "name": "Wei Wu"
+        }
+      ],
+      "abstract": "Plastic films are extensively utilized in agroecosystems, and their residues are accumulating in global soil at a worrying rate. Biodegradable films are employed as a substitute for polyethylene (PE) films due to their rapid degradation rate. Although the taxonomic diversity of soil microbiome in response to biodegradable films has been studied, its alterations in functional diversity remain unexplored. Here, we conduct a two–year field experiment in cherry tomato to address how PE and poly (butylene adipate–co–terephthalate) (PBAT) influences soil microbiota across multi–kingdom (bacteria, fungi, and protists) regarding its taxonomic and functional diversity. The results show that PBAT exposure reduces the taxonomic diversity while increasing functional diversity across multi–kingdom domains compared to PE exposure. We further find that the decreased taxonomic diversity under PBAT exposure reduces the complexity of microbial inter–kingdom and internal–kingdom networks. Conversely, PBAT exposure enhances microbial functional diversity (Shannon index) and average genome size, accompanied by elevated abundances of plastic–degrading genes as well as carbon, nitrogen, phosphorus, and sulphur cycling functional genes. Overall, our study indicates that environmental filtration induced by PBAT exposure changes the microbial life adaptive strategies and leads to a decoupling between taxonomic diversity and functional diversity. PBAT plastic exposure decreases taxonomic diversity across multi–kingdom soil microbiota, while enriching functional diversity, genome size, and genes for plastic degradation and carbon, nitrogen, phosphorus, and sulfur cycling."
+    },
+    {
+      "paperId": "56df6aff0eaf6646e30bc29e7973ebf470d52591",
+      "url": "https://www.semanticscholar.org/paper/56df6aff0eaf6646e30bc29e7973ebf470d52591",
+      "title": "Community RNA-Seq: multi-kingdom responses to living versus decaying roots in soil",
+      "venue": "ISME Communications",
+      "year": 2021,
+      "citationCount": 18,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/s43705-021-00059-3.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9723751, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "4915140",
+          "name": "E. Nuccio"
+        },
+        {
+          "authorId": "143705926",
+          "name": "Nhu H. Nguyen"
+        },
+        {
+          "authorId": "122867649",
+          "name": "U. Nunes da Rocha"
+        },
+        {
+          "authorId": "5095645",
+          "name": "X. Mayali"
+        },
+        {
+          "authorId": "9957182",
+          "name": "J. Bougoure"
+        },
+        {
+          "authorId": "2136453866",
+          "name": "P. Weber"
+        },
+        {
+          "authorId": "1691615",
+          "name": "Eoin L. Brodie"
+        },
+        {
+          "authorId": "4741328",
+          "name": "M. Firestone"
+        },
+        {
+          "authorId": "1396822954",
+          "name": "J. Pett‐Ridge"
+        }
+      ],
+      "abstract": "Roots are a primary source of organic carbon input in most soils. The consumption of living and detrital root inputs involves multi-trophic processes and multiple kingdoms of microbial life, but typical microbial ecology studies focus on only one or two major lineages. We used Illumina shotgun RNA sequencing to conduct PCR-independent SSU rRNA community analysis (“community RNA-Seq”) and simultaneously assess the bacteria, archaea, fungi, and microfauna surrounding both living and decomposing roots of the annual grass, Avena fatua. Plants were grown in 13CO2-labeled microcosms amended with 15N-root litter to identify the preferences of rhizosphere organisms for root exudates (13C) versus decaying root biomass (15N) using NanoSIMS microarray imaging (Chip-SIP). When litter was available, rhizosphere and bulk soil had significantly more Amoebozoa, which are potentially important yet often overlooked top-down drivers of detritusphere community dynamics and nutrient cycling. Bulk soil containing litter was depleted in Actinobacteria but had significantly more Bacteroidetes and Proteobacteria. While Actinobacteria were abundant in the rhizosphere, Chip-SIP showed Actinobacteria preferentially incorporated litter relative to root exudates, indicating this group’s more prominent role in detritus elemental cycling in the rhizosphere. Our results emphasize that decomposition is a multi-trophic process involving complex interactions, and our methodology can be used to track the trajectory of carbon through multi-kingdom soil food webs."
+    },
+    {
+      "paperId": "283a568aa3701239a2cd051e54643f6764d824f8",
+      "url": "https://www.semanticscholar.org/paper/283a568aa3701239a2cd051e54643f6764d824f8",
+      "title": "Community RNA-Seq: Multi-kingdom responses to living versus decaying root inputs in soil",
+      "venue": "bioRxiv",
+      "year": 2021,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1101/2021.01.12.426429",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2021.01.12.426429?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2021.01.12.426429, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "4915140",
+          "name": "E. Nuccio"
+        },
+        {
+          "authorId": "143705927",
+          "name": "Nhu H. Nguyen"
+        },
+        {
+          "authorId": "123012852",
+          "name": "U. N. da Rocha"
+        },
+        {
+          "authorId": "5095645",
+          "name": "X. Mayali"
+        },
+        {
+          "authorId": "9957182",
+          "name": "J. Bougoure"
+        },
+        {
+          "authorId": "39906960",
+          "name": "P. Weber"
+        },
+        {
+          "authorId": "118445021",
+          "name": "E. Brodie"
+        },
+        {
+          "authorId": "4741328",
+          "name": "M. Firestone"
+        },
+        {
+          "authorId": "1396822954",
+          "name": "J. Pett‐Ridge"
+        }
+      ],
+      "abstract": "Roots are the primary source of organic carbon inputs to most soils. Decomposition is a multi-trophic process involving multiple kingdoms of microbial life, but typically microbial ecology studies focus on one or two major lineages in isolation. We used Illumina shotgun RNA sequencing to conduct PCR-independent SSU rRNA community analysis (“community RNA-Seq”) to simultaneously study the bacteria, archaea, fungi, and microfauna surrounding both living and decomposing roots of the annual grass, Avena fatua. Plants were grown in 13CO2-labeled microcosms amended with 15N-root litter. We identified rhizosphere substrate preferences for 13C-exudates versus 15N-litter using NanoSIMS microarray imaging (Chip-SIP). When litter was available, rhizosphere and bulk soil had significantly more Amoebozoa, which are potentially important yet often overlooked top-down drivers of detritusphere community dynamics and nutrient cycling. Bulk soil containing litter was depleted in Actinobacteria but had significantly more Bacteroidetes and Proteobacteria. While Actinobacteria were abundant in the rhizosphere, Chip-SIP showed Actinobacteria preferentially incorporated litter relative to root exudates, indicating this group’s more prominent role in detritus elemental cycling in the rhizosphere. Our results emphasize that decomposition is a multi-trophic process involving cross-kingdom interactions, and the trajectory of carbon through this soil food web likely impacts the fate of carbon in soil."
+    },
+    {
+      "paperId": "f5e82ef9fd483a177f296844464dd566718ebcd2",
+      "url": "https://www.semanticscholar.org/paper/f5e82ef9fd483a177f296844464dd566718ebcd2",
+      "title": "Multi-omics analysis of interspecies interactions in a soil Streptomyces community provides functional insights into siderophore ecology",
+      "venue": "Scientific Reports",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13061897, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2192968424",
+          "name": "J. Connolly"
+        },
+        {
+          "authorId": "51935399",
+          "name": "F. Del Carratore"
+        },
+        {
+          "authorId": "47859456",
+          "name": "K. Schmidt"
+        },
+        {
+          "authorId": "2219839226",
+          "name": "A. Bisesi"
+        },
+        {
+          "authorId": "12334324",
+          "name": "J. Martinson"
+        },
+        {
+          "authorId": "119803853",
+          "name": "J. Chua"
+        },
+        {
+          "authorId": "89601263",
+          "name": "M. Kuhs"
+        },
+        {
+          "authorId": "94744823",
+          "name": "M. M. Boneza"
+        },
+        {
+          "authorId": "116461648",
+          "name": "S. Heinsch"
+        },
+        {
+          "authorId": "2203097309",
+          "name": "L. Kinkel"
+        },
+        {
+          "authorId": "48760468",
+          "name": "M. Smanski"
+        },
+        {
+          "authorId": "3270216",
+          "name": "W. Harcombe"
+        },
+        {
+          "authorId": "2267040955",
+          "name": "R. Breitling"
+        },
+        {
+          "authorId": "115553352",
+          "name": "E. Takano"
+        }
+      ],
+      "abstract": "Streptomyces are key contributors to soil microbiome function, known for their biosynthetic diversity. While advances in -omics technologies have improved our understanding of microbiome composition and metabolic potential, the mechanisms underpinning interspecies interactions remain poorly resolved. Here, we investigate the molecular basis of interactions among four sympatric Streptomyces soil microbiome isolates, focusing on phenotypic, metabolomic and transcriptomic responses. Co-culture experiments revealed that one isolate, strain A, exhibited pronounced phenotypic changes when grown alongside each of the other three strains. Untargeted metabolomics and RNA-seq analyses showed that strain A undergoes distinct metabolic and transcriptional shifts depending on its partner, with the strongest response elicited by strain C. Despite all four strains possessing a conserved desferrioxamine biosynthetic gene cluster, only strain C constitutively produced desferrioxamine B (DFO-B), a hydroxamate siderophore, indicating a role for iron bioavailability in the interaction. Supplementation with DFO-B or iron mimicked the growth stimulation of strain A observed in co-culture with strain C, and CRISPR base editing of desD in strain C abolished both DFO production and the phenotypic induction of strain A. However, transcriptomic profiles of strain A varied significantly depending on the partner strain, with distinct sets of biosynthetic gene clusters and metabolic pathways activated in response to strains B and C, suggesting additional cues beyond DFO-B. In contrast, strain D did not elicit growth stimulation in its partners, and itself showed downregulation of amino acid and carbon metabolism when co-cultured with strain C. These findings indicate that Streptomyces interactions are not only mediated by siderophore piracy but also involve complex, strain-specific molecular responses. Our findings demonstrate that Streptomyces interactions are highly strain-specific and only partly mediated by siderophore piracy, with DFO-B acting as a potent interspecies cue. The divergent molecular responses to different partners suggest nuanced mechanisms of microbial sensing and competition. These insights advance our understanding of microbial crosstalk and highlight the ecological and evolutionary complexity of siderophore-mediated interactions. By integrating transcriptomics, metabolomics, and biochemical assays, we present a robust framework for dissecting microbial interactions, with implications for microbiome engineering and synthetic community design. Supplementary Information The online version contains supplementary material available at 10.1038/s41598-026-45368-6."
+    },
+    {
+      "paperId": "2018d9b880b846748c1a27fa30bbb9587160a509",
+      "url": "https://www.semanticscholar.org/paper/2018d9b880b846748c1a27fa30bbb9587160a509",
+      "title": "Multi-omics profiling of fungal balls in chronic pulmonary aspergillosis patients reveals microbiome dynamics and metabolic adaptations",
+      "venue": "mBio",
+      "year": 2026,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1128/mbio.00348-26?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1128/mbio.00348-26, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2370148498",
+          "name": "Chan Liu"
+        },
+        {
+          "authorId": "2424627152",
+          "name": "Matheus Mertz Ribeiro"
+        },
+        {
+          "authorId": "2331462613",
+          "name": "Jian Yang"
+        },
+        {
+          "authorId": "2364732396",
+          "name": "Liangyu Li"
+        },
+        {
+          "authorId": "2370173858",
+          "name": "Jianxiong Li"
+        },
+        {
+          "authorId": "2143734863",
+          "name": "Xianqiu Chen"
+        },
+        {
+          "authorId": "2307389194",
+          "name": "Yude Wang"
+        },
+        {
+          "authorId": "2218861613",
+          "name": "Le-Le Wang"
+        },
+        {
+          "authorId": "2261454453",
+          "name": "Beibei Wang"
+        },
+        {
+          "authorId": "2145942833",
+          "name": "Yiming Zhou"
+        },
+        {
+          "authorId": "2289807193",
+          "name": "Jing Zhang"
+        },
+        {
+          "authorId": "2218685104",
+          "name": "Jijin Jiang"
+        },
+        {
+          "authorId": "2317177040",
+          "name": "Jie-Wei Lin"
+        },
+        {
+          "authorId": "91174134",
+          "name": "E. Delbaje"
+        },
+        {
+          "authorId": "2007345551",
+          "name": "Jin‐fu Xu"
+        },
+        {
+          "authorId": "1382661747",
+          "name": "G. Goldman"
+        },
+        {
+          "authorId": "2293294451",
+          "name": "Shuo Liang"
+        }
+      ],
+      "abstract": "ABSTRACT Fungal balls (aspergillomas) are a debilitating complication of chronic pulmonary aspergillosis, but their functional biology as multi-kingdom ecosystems is poorly understood. Through integrated multi-omics analysis of 61 patient-derived fungal balls, we reveal their complex ecology. While Aspergillus fumigatus dominates the fungal niche (59% of patients), bacterial co-colonization is ubiquitous, primarily by Pseudomonas aeruginosa and Haemophilus influenzae. Metabolomics and metatranscriptomics unveil a structured division of labor and active warfare, including metabolic cross-feeding, competition for iron, and reciprocal antagonism via secondary metabolites, such as fumagillin and fumigaclavine C produced by A. fumigatus. Host metabolomics and transcriptomics revealed a potent but dysregulated human immune response, characterized by neutrophil activation and failed resolution. Our findings redefine aspergilloma not as a mere fungal aggregate, but as a resilient polymicrobial biofilm across kingdoms, in which synergistic and antagonistic inter-kingdom interactions drive pathogenesis and chronicity, suggesting new therapeutic strategies targeting the pathogenic consortium. IMPORTANCE Chronic pulmonary aspergillosis (CPA) and its hallmark fungal balls (aspergillomas) represent a debilitating and difficult-to-treat respiratory disease, affecting millions worldwide. Here, we provide the first integrated multi-omics profile of surgically resected fungal balls from 61 CPA patients, revealing these structures not as mere fungal colonies, but as resilient, cross-kingdom biofilms teeming with bacterial co-colonizers, particularly Pseudomonas aeruginosa and Haemophilus influenzae. Our findings uncover a dynamic battlefield where fungi and bacteria engage in metabolic cross-feeding, chemical warfare, and competition for nutrients such as iron. We demonstrate that the host mounts a potent but dysregulated immune response characterized by chronic neutrophilic inflammation and failed resolution, driving tissue damage and disease persistence. Our data provide a foundation for novel therapeutic strategies aimed at disrupting microbial synergy, modulating host inflammation, and breaking the cycle of chronic infection, an approach that could significantly improve outcomes for patients with this refractory disease. Chronic pulmonary aspergillosis (CPA) and its hallmark fungal balls (aspergillomas) represent a debilitating and difficult-to-treat respiratory disease, affecting millions worldwide. Here, we provide the first integrated multi-omics profile of surgically resected fungal balls from 61 CPA patients, revealing these structures not as mere fungal colonies, but as resilient, cross-kingdom biofilms teeming with bacterial co-colonizers, particularly Pseudomonas aeruginosa and Haemophilus influenzae. Our findings uncover a dynamic battlefield where fungi and bacteria engage in metabolic cross-feeding, chemical warfare, and competition for nutrients such as iron. We demonstrate that the host mounts a potent but dysregulated immune response characterized by chronic neutrophilic inflammation and failed resolution, driving tissue damage and disease persistence. Our data provide a foundation for novel therapeutic strategies aimed at disrupting microbial synergy, modulating host inflammation, and breaking the cycle of chronic infection, an approach that could significantly improve outcomes for patients with this refractory disease."
+    },
+    {
+      "paperId": "f267b6a85a15d93297875c8daeb0f238dc89b2cd",
+      "url": "https://www.semanticscholar.org/paper/f267b6a85a15d93297875c8daeb0f238dc89b2cd",
+      "title": "Ecology of the respiratory tract microbiome.",
+      "venue": "Trends in Microbiology",
+      "year": 2023,
+      "citationCount": 34,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.tim.2023.04.006?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.tim.2023.04.006, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1400854940",
+          "name": "A. E. Pérez-Cobas"
+        },
+        {
+          "authorId": "1403162896",
+          "name": "J. Rodríguez-Beltrán"
+        },
+        {
+          "authorId": "145534955",
+          "name": "F. Baquero"
+        },
+        {
+          "authorId": "4213806",
+          "name": "T. Coque"
+        }
+      ],
+      "abstract": "A thriving multi-kingdom microbial ecosystem inhabits the respiratory tract: the respiratory tract microbiome (RTM). In recent years, the contribution of the RTM to human health has become a crucial research aspect. However, research into the key ecological processes, such as robustness, resilience, and microbial interaction networks, has only recently started. This review leans on an ecological framework to interpret the human RTM and determine how the ecosystem functions and assembles. Specifically, the review illustrates the ecological RTM models and discusses microbiome establishment, community structure, diversity stability, and critical microbial interactions. Lastly, the review outlines the RTM responses to ecological disturbances, as well as the promising approaches for restoring ecological balance."
+    }
+  ]
+}

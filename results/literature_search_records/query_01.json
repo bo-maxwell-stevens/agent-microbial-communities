@@ -1,0 +1,351 @@
+{
+  "query": "plant dark diversity microbial communities",
+  "timestamp_utc": "2026-05-19T13:05:42.224646+00:00",
+  "data": [
+    {
+      "paperId": "b44310da84b75314a273bfaf92597a99410a1067",
+      "url": "https://www.semanticscholar.org/paper/b44310da84b75314a273bfaf92597a99410a1067",
+      "title": "Contributions of the dark septate endophyte extracellular metabolites to plant growth, metabolism and root-associated microbial community structure",
+      "venue": "Plant and Soil",
+      "year": 2024,
+      "citationCount": 10,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-024-06980-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-024-06980-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2253484933",
+          "name": "Yinli Bi"
+        },
+        {
+          "authorId": "2253827753",
+          "name": "Shuhui Wang"
+        },
+        {
+          "authorId": "2283161126",
+          "name": "Yaning Song"
+        },
+        {
+          "authorId": "2253947444",
+          "name": "Hai Tan"
+        },
+        {
+          "authorId": "2280203517",
+          "name": "Peter Christie"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "ecaa926b963466c992e4e7ad224ae5df63cf909f",
+      "url": "https://www.semanticscholar.org/paper/ecaa926b963466c992e4e7ad224ae5df63cf909f",
+      "title": "Investigating the Role of Microbial Dark Matter in Marine & Garden Soil Health and Ecosystem Resilience",
+      "venue": "International Journal of Innovative Science and Research Technology",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.38124/ijisrt/25jul550?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.38124/ijisrt/25jul550, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2373377489",
+          "name": "Ritika Sunil Gawali"
+        },
+        {
+          "authorId": "2373384450",
+          "name": "Aishwarya Ajayakumar"
+        },
+        {
+          "authorId": "2372425478",
+          "name": "Udaybhan Yadav"
+        }
+      ],
+      "abstract": "This study investigates the critical role of Microbial Dark Matter (MDM) comprising uncultured microbial\nbiomass, exudates, and residues in maintaining soil health and enhancing ecosystem resilience in both marine sediments and\ngarden soils. Despite being largely uncharacterized, MDM plays a pivotal role in biogeochemical processes, particularly in\nnutrient cycling, carbon sequestration, and the stabilization of organic matter. The research compares microbial functions\nacross marine and terrestrial environments, focusing on microbial diversity, metabolic activity, and the interactions between\nmicrobial communities and plant roots. Through advanced molecular and biochemical analyses, this study highlights how\nMDM contributes to the regulation of soil structure, fertility, and biological interactions that underpin ecosystem\nsustainability. In marine ecosystems, MDM facilitates the transformation and retention of organic carbon in sediments,\nwhile in garden soils, it supports plant growth, root health, and overall soil productivity. These microbial functions are\nessential for ecosystem resilience, especially under environmental stressors such as climate change, pollution, and\nanthropogenic disturbances. The findings underscore the need to integrate microbial processes particularly those related to\nMDM into soil health assessment frameworks and ecosystem management strategies. Recognizing and harnessing the\nfunctional significance of microbial dark matter can inform sustainable practices in agriculture, soil restoration, and marine\nconservation."
+    },
+    {
+      "paperId": "28f669c375e7cb838b38a9270458b5a53e7eff73",
+      "url": "https://www.semanticscholar.org/paper/28f669c375e7cb838b38a9270458b5a53e7eff73",
+      "title": "Microbial interactions mediate the fairy ring type effects on alpine meadow plant communities on the Tibetan plateau",
+      "venue": "Environmental Microbiome",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13088534, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2342394500",
+          "name": "Zhihua Wu"
+        },
+        {
+          "authorId": "2334027238",
+          "name": "Shiting Cao"
+        },
+        {
+          "authorId": "2423223945",
+          "name": "Sisong Tu"
+        },
+        {
+          "authorId": "2361256671",
+          "name": "Yuyin Zhang"
+        },
+        {
+          "authorId": "2407654687",
+          "name": "Ming Wang"
+        },
+        {
+          "authorId": "2423386730",
+          "name": "Huiyuan Ren"
+        },
+        {
+          "authorId": "2321005093",
+          "name": "Chengxing Wu"
+        },
+        {
+          "authorId": "47336255",
+          "name": "Shilong Chen"
+        },
+        {
+          "authorId": "144890929",
+          "name": "Qingbo Gao"
+        },
+        {
+          "authorId": "15753269",
+          "name": "R. Xing"
+        }
+      ],
+      "abstract": "The Fairy ring (FR) is a circular formation created by the mycelium of the FR fungus during its dynamic proliferation in the soil. FRs were categorized into three types based on their varying effects on adjacent plants. Type I FRs (T1) cause extensive damage with wilting and necrosis, Type II FRs (T2) promote growth with dark-green zones, and Type III FRs (T3) feature fruiting bodies with minimal impact on vegetation. T2 FR often display conspicuous growth-promoting zones and thus are studied more frequently than other types. Here we compare three FR types—Agrocybe sp. (T1), Agaricus campestris (T2), and Clitocybe sp. (T3)—across zones (ON (beneath the fruiting body)/IN (20 cm inward from the ON zone) /OUT (20 cm outward from the ON zone) and depths (0–10/10–20 cm) in Tibetan alpine meadows using 16 S and ITS amplicon sequencing. We infer putative microbe–fungus associations from diversity patterns, differential abundances, and co-occurrence analyses. Our research revealed that bacterial diversity was minimal in the ON zones; in contrast, fungal diversity was maximal, which may be attributable to the selection and interspecific competition among FR fungi. Taxa enriched in ON zones differed among FR types: T1 exhibited enrichment of Nitrospiria (nitrification) and Phycisphaerae (organic matter decomposition); T2 demonstrated enrichment of Actinobacteria and Proteobacteria, correlating with plant-growth enhancement; T3 displayed diminished recruitment, consistent with negligible vegetation influence. Cross-kingdom co-occurrence networks demonstrated increased microbial collaboration in ON zones, especially in surface soils for T1/T3 and in subsurface layers for T2. Different types of FR fungi exert varying effects on soil microorganisms at different depths. This study provides comparative data on three types of fairy rings and their associated soil microorganisms, offering insights into elucidating the potential mechanisms of fungal-bacterial-plant interactions. However, further validation through metabolomics and controlled experiments is still required. Supplementary Information The online version contains supplementary material available at 10.1186/s40793-026-00873-z."
+    },
+    {
+      "paperId": "57e11f2c3b16777e43baa9c24ead98496473acd1",
+      "url": "https://www.semanticscholar.org/paper/57e11f2c3b16777e43baa9c24ead98496473acd1",
+      "title": "Arbuscular mycorrhizal fungal and soil microbial communities in African Dark Earths",
+      "venue": "FEMS Microbiology Ecology",
+      "year": 2018,
+      "citationCount": 11,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/femsec/article-pdf/94/4/fiy033/24283245/fiy033.pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/femsec/fiy033?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/femsec/fiy033, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "7015317",
+          "name": "Tessa Camenzind"
+        },
+        {
+          "authorId": "6949498",
+          "name": "Edith C. Hammer"
+        },
+        {
+          "authorId": "46585964",
+          "name": "J. Lehmann"
+        },
+        {
+          "authorId": "39884413",
+          "name": "D. Solomon"
+        },
+        {
+          "authorId": "50377309",
+          "name": "Sebastian Horn"
+        },
+        {
+          "authorId": "5718291",
+          "name": "M. Rillig"
+        },
+        {
+          "authorId": "2229822",
+          "name": "Stefan Hempel"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "ed66428d02c4e6f26185da226fd2b0aaa2948fc6",
+      "url": "https://www.semanticscholar.org/paper/ed66428d02c4e6f26185da226fd2b0aaa2948fc6",
+      "title": "Targeted Cell Sorting Combined With Single Cell Genomics Captures Low Abundant Microbial Dark Matter With Higher Sensitivity Than Metagenomics",
+      "venue": "Frontiers in Microbiology",
+      "year": 2020,
+      "citationCount": 27,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.01377/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7387413, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "30854466",
+          "name": "H. Dam"
+        },
+        {
+          "authorId": "47177666",
+          "name": "John Vollmers"
+        },
+        {
+          "authorId": "69395609",
+          "name": "Morgan S. Sobol"
+        },
+        {
+          "authorId": "145260593",
+          "name": "A. Cabezas"
+        },
+        {
+          "authorId": "48972143",
+          "name": "Anne-Kristin Kaster"
+        }
+      ],
+      "abstract": "Rare members of environmental microbial communities are often overlooked and unexplored, primarily due to the lack of techniques capable of acquiring their genomes. Chloroflexi belong to one of the most understudied phyla, even though many of its members are ubiquitous in the environment and some play important roles in biochemical cycles or biotechnological applications. We here used a targeted cell-sorting approach, which enables the selection of specific taxa by fluorescent labeling and is compatible with subsequent single-cell genomics, to enrich for rare Chloroflexi species from a wastewater-treatment plant and obtain their genomes. The combined workflow was able to retrieve a substantially higher number of novel Chloroflexi draft genomes with much greater phylogenetical diversity when compared to a metagenomics approach from the same sample. The method offers an opportunity to access genetic information from rare biosphere members which would have otherwise stayed hidden as microbial dark matter and can therefore serve as an essential complement to cultivation-based, metagenomics, and microbial community-focused research approaches."
+    },
+    {
+      "paperId": "009a3c715762f137b9b8dbe85cb4ab8d4d99bec9",
+      "url": "https://www.semanticscholar.org/paper/009a3c715762f137b9b8dbe85cb4ab8d4d99bec9",
+      "title": "Exploring the under-investigated “microbial dark matter” of drinking water treatment plants",
+      "venue": "Scientific Reports",
+      "year": 2017,
+      "citationCount": 44,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/srep44350.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5349567, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Environmental Science"
+      ],
+      "authors": [
+        {
+          "authorId": "8989209",
+          "name": "A. Bruno"
+        },
+        {
+          "authorId": "6043843",
+          "name": "A. Sandionigi"
+        },
+        {
+          "authorId": "1758313",
+          "name": "E. Rizzi"
+        },
+        {
+          "authorId": "30346968",
+          "name": "M. Bernasconi"
+        },
+        {
+          "authorId": "47490564",
+          "name": "Saverio Vicario"
+        },
+        {
+          "authorId": "34989773",
+          "name": "A. Galimberti"
+        },
+        {
+          "authorId": "144014484",
+          "name": "C. Cocuzza"
+        },
+        {
+          "authorId": "2716441",
+          "name": "M. Labra"
+        },
+        {
+          "authorId": "6624711",
+          "name": "M. Casiraghi"
+        }
+      ],
+      "abstract": "Scientists recently reported the unexpected detection of unknown or poorly studied bacterial diversity in groundwater. The ability to uncover this neglected biodiversity mainly derives from technical improvements, and the term “microbial dark matter” was used to group taxa poorly investigated and not necessarily monophyletic. We focused on such under-investigated microbial dark matter of drinking water treatment plant from groundwater, across carbon filters, to post-chlorination. We tackled this topic using an integrated approach where the efficacy of stringent water filtration (10000 MWCO) in recovering even the smallest environmental microorganisms was coupled with high-throughput DNA sequencing to depict an informative spectrum of the neglected microbial diversity. Our results revealed that the composition of bacterial communities varies across the plant system: Parcubacteria (OD1) superphylum is found mainly in treated water, while groundwater has the highest heterogeneity, encompassing non-OD1 candidate phyla (Microgenomates, Saccharibacteria, Dependentiae, OP3, OP1, BRC1, WS3). Carbon filters probably act as substrate for microorganism growth and contribute to seeding water downstream, since chlorination does not modify the incoming bacterial community. New questions arise about the role of microbial dark matter in drinking water. Indeed, our results suggest that these bacteria might play a central role in the microbial dynamics of drinking water."
+    },
+    {
+      "paperId": "e8ee8a225245c7b4dc45607808d6852fb984805f",
+      "url": "https://www.semanticscholar.org/paper/e8ee8a225245c7b4dc45607808d6852fb984805f",
+      "title": "Urochloa brizantha and Amazonian Dark Earths reshape soil microbiota without affecting tree growth in degraded Central Amazon Oxisols",
+      "venue": "Soil Ecology Letters",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s42832-026-0453-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s42832-026-0453-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "133583463",
+          "name": "Anderson Santos de Freitas"
+        },
+        {
+          "authorId": "2304542558",
+          "name": "R. E. Hanada"
+        },
+        {
+          "authorId": "2077209275",
+          "name": "A. Muniz"
+        },
+        {
+          "authorId": "2256513711",
+          "name": "S. M. Tsai"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "1bc8d0c6b11d0de88297c1782ce00082b4c562e2",
+      "url": "https://www.semanticscholar.org/paper/1bc8d0c6b11d0de88297c1782ce00082b4c562e2",
+      "title": "Temporal dynamics of endophytic bacterial and fungal communities during spike development in Piper longum L.",
+      "venue": "Physiology and Molecular Biology of Plants",
+      "year": 2023,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12298-023-01352-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12298-023-01352-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2309686125",
+          "name": "Sushma Mishra"
+        },
+        {
+          "authorId": "2239832800",
+          "name": "Shilpi Sharma"
+        }
+      ],
+      "abstract": null
+    }
+  ]
+}

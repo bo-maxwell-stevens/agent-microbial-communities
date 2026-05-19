@@ -1,0 +1,395 @@
+{
+  "query": "plant community composition microbial diversity",
+  "timestamp_utc": "2026-05-19T13:06:06.738155+00:00",
+  "data": [
+    {
+      "paperId": "b486431e050ee1e8035f05a1fc97e3e8e4892e67",
+      "url": "https://www.semanticscholar.org/paper/b486431e050ee1e8035f05a1fc97e3e8e4892e67",
+      "title": "Plant Microbiomes: Do Different Preservation Approaches and Primer Sets Alter Our Capacity to Assess Microbial Diversity and Community Composition?",
+      "venue": "Frontiers in Plant Science",
+      "year": 2020,
+      "citationCount": 27,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fpls.2020.00993/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7351510, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "35545821",
+          "name": "Zhiguang Qiu"
+        },
+        {
+          "authorId": "2167484752",
+          "name": "Juntao Wang"
+        },
+        {
+          "authorId": "1397970368",
+          "name": "M. Delgado‐Baquerizo"
+        },
+        {
+          "authorId": "49296643",
+          "name": "P. Trivedi"
+        },
+        {
+          "authorId": "49696017",
+          "name": "E. Egidi"
+        },
+        {
+          "authorId": "2315854941",
+          "name": "Yi-min Chen"
+        },
+        {
+          "authorId": "2118013156",
+          "name": "Haiyang Zhang"
+        },
+        {
+          "authorId": "108745697",
+          "name": "B. Singh"
+        }
+      ],
+      "abstract": "The microbial communities associated with plants (the plant microbiome) play critical roles in regulating plant health and productivity. Because of this, in recent years, there have been significant increase in studies targeting the plant microbiome. Amplicon sequencing is widely used to investigate the plant microbiome and to develop sustainable microbial agricultural tools. However, performing large microbiome surveys at the regional and global scales pose several logistic challenges. One of these challenges is related with the preservation of plant materials for sequencing aiming to maintain the integrity of the original diversity and community composition of the plant microbiome. Another significant challenge involves the existence of multiple primer sets used in amplicon sequencing that, especially for bacterial communities, hampers the comparability of datasets across studies. Here, we aimed to examine the effect of different preservation approaches (snap freezing, fresh and kept on ice, and air drying) on the bacterial and fungal diversity and community composition on plant leaves, stems and roots from seven plant species from contrasting functional groups (e.g. C3, C4, N-Fixers, etc.). Another major challenge comes when comparing plant to soil microbiomes, as different primers sets are often used for plant vs. soil microbiomes. Thus, we also investigated if widely used 16S rRNA primer set (779F/1193R) for plant microbiome studies provides comparable data to those often used for soil microbiomes (341F/805R) using 86 soil samples. We found that the community composition and diversity of bacteria or fungi were robust to contrasting preservation methods. The primer sets often used for plants provided similar results to those often used for soil studies suggesting that simultaneous studies on plant and soil microbiomes are possible. Our findings provide novel evidence that preservation approaches do not significantly impact plant microbiome data interpretation and primer differences do not impact the treatment effect, which has significant implication for future large-scale and global surveys of plant microbiomes."
+    },
+    {
+      "paperId": "c9cb999fced4a78239ac623733263a9ec2a3910c",
+      "url": "https://www.semanticscholar.org/paper/c9cb999fced4a78239ac623733263a9ec2a3910c",
+      "title": "Effects of Soil Properties and Plant Diversity on Soil Microbial Community Composition and Diversity during Secondary Succession",
+      "venue": "Forests",
+      "year": 2021,
+      "citationCount": 36,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/1999-4907/12/6/805/pdf?version=1624010163",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/f12060805?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/f12060805, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2129416806",
+          "name": "Ruiguang Shang"
+        },
+        {
+          "authorId": "90312287",
+          "name": "Shuaifeng Li"
+        },
+        {
+          "authorId": "2120830696",
+          "name": "Xiaobo Huang"
+        },
+        {
+          "authorId": "4106712",
+          "name": "Wande Liu"
+        },
+        {
+          "authorId": "21859262",
+          "name": "X. Lang"
+        },
+        {
+          "authorId": "46337121",
+          "name": "Jianrong Su"
+        }
+      ],
+      "abstract": "Soil microbial communities play an important role in maintaining the ecosystem during forest secondary succession. However, the underlying mechanisms that drive change in soil microbial community structures during secondary succession remain poorly defined in species-rich subtropical coniferous forests. In this study, Illumina high-throughput sequencing was used to analyze the variations in soil microbial community structures during forest secondary succession in subtropical coniferous forests in China. The role of soil properties and plant diversity in affecting soil bacterial and fungal communities was determined using random forest and structural equation models. Highly variable soil microbial diversity was observed in different stages of secondary succession. Bacterial community diversity rose from early to middle and late successional stages, whereas fungal community diversity increased from early to middle successional stages and then declined in the late stage. The relative abundance of Acidobacteria, Gemmatimonadetes, Eremiobacterota(WPS-2), Rokubacteria, and Mortierellomycota increased during succession, whereas the relative abundance of Ascomycota and Mucoromycota decreased. The community composition and diversity of the soil microbial community were remarkably influenced by plant diversity and soil properties. Notably, tree species richness (TSR) displayed a significant and direct correlation to the composition and diversity of both bacterial and fungal communities. The carbon-to-nitrogen (C:N) ratio had a direct impact on the bacterial community composition and diversity, and pH had a marked impact on the fungal community composition and diversity. Furthermore, succession stage and plant diversity indirectly impacted the composition and diversity of soil bacterial and fungal communities via soil properties. Overall, it can be concluded that soil intrinsic properties and plant diversity might jointly drive the changes in soil microbial community composition and diversity during secondary succession of subtropical coniferous forests."
+    },
+    {
+      "paperId": "e379cb00494735753aaf0a21e626cd6f47f668ca",
+      "url": "https://www.semanticscholar.org/paper/e379cb00494735753aaf0a21e626cd6f47f668ca",
+      "title": "Effects of soil substrate quality, microbial diversity and community composition on the plant community during primary succession",
+      "venue": "",
+      "year": 2016,
+      "citationCount": 61,
+      "influentialCitationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.SOILBIO.2016.04.024?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.SOILBIO.2016.04.024, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "4603026",
+          "name": "J. Frouz"
+        },
+        {
+          "authorId": "40280199",
+          "name": "A. Toyota"
+        },
+        {
+          "authorId": "4684706",
+          "name": "O. Mudrák"
+        },
+        {
+          "authorId": "3609305",
+          "name": "V. Jílková"
+        },
+        {
+          "authorId": "4446168",
+          "name": "A. Filipová"
+        },
+        {
+          "authorId": "4117136",
+          "name": "T. Cajthaml"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "dd0e05576900f7e0b04b53e58669e43836d3087f",
+      "url": "https://www.semanticscholar.org/paper/dd0e05576900f7e0b04b53e58669e43836d3087f",
+      "title": "Soil microbial richness and community composition are primarily mediated by functional trait diversity of fine roots in subtropical forests",
+      "venue": "Plant and Soil",
+      "year": 2023,
+      "citationCount": 13,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-023-06408-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-023-06408-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2274201445",
+          "name": "Jinwen Pan"
+        },
+        {
+          "authorId": "120155486",
+          "name": "Huili Wu"
+        },
+        {
+          "authorId": "40552747",
+          "name": "W. Xiang"
+        },
+        {
+          "authorId": "2228978202",
+          "name": "Ouyang Shuai"
+        },
+        {
+          "authorId": "71063055",
+          "name": "Liang Chen"
+        },
+        {
+          "authorId": "3985043",
+          "name": "Yelin Zeng"
+        },
+        {
+          "authorId": "6555889",
+          "name": "X. Deng"
+        },
+        {
+          "authorId": "3909194",
+          "name": "Zhonghui Zhao"
+        },
+        {
+          "authorId": "1431752190",
+          "name": "Weixian Zeng"
+        },
+        {
+          "authorId": "5797911",
+          "name": "Y. Kuzyakov"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "b525d99dfe53ca17514d6b39bcc73e35105e29a9",
+      "url": "https://www.semanticscholar.org/paper/b525d99dfe53ca17514d6b39bcc73e35105e29a9",
+      "title": "Influence of different phytoremediation on soil microbial diversity and community composition in saline-alkaline land",
+      "venue": "International journal of phytoremediation",
+      "year": 2021,
+      "citationCount": 29,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/15226514.2021.1955240?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/15226514.2021.1955240, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2145190765",
+          "name": "Fengxia Li"
+        },
+        {
+          "authorId": "2115274117",
+          "name": "Yongzhong Guo"
+        },
+        {
+          "authorId": "2108405298",
+          "name": "Zhangjun Wang"
+        },
+        {
+          "authorId": "6452877",
+          "name": "Y. Mu"
+        }
+      ],
+      "abstract": "Abstract Soil salinization is one main environmental factor restricting plant growth and agricultural productivity. However, phytoremediation is one of the important means to improve saline-alkali soil by planting halophytes or salt-tolerant plants. In order to study whether there are differences among soil microorganisms in different phytoremediation, the effects of four plants, including alfalfa (MX), oil sunflower (YK), maize (YM) and ryegrass (HMC) on soil physicochemical properties, enzyme activity and microbial community diversity and composition were investigated in this study and the relationships between microbial community structure and soil physicochemical properties, enzyme activity were analyzed. The results showed that all plants treatments significantly decreased pH, TS (total saltinity) and BD (bulk density), while increased OM (organic matter), TN (total nitrogen), AN (available nitrogen), TP (total phosphorus), AP (available phosphorus), TK (total potassium) and TPOR (total porosity), and the number of nitrite bacteria reduced by planting at the same time. Except for YM, other treatments significantly increased the number of nitrifying and denitrifying bacteria compared with CK, while only YK increased that of fungi. Additionally, all plants increased the activity of nitrite reductase and decreased that of urease. More interestingly, plants treatments shifted microbial community compositions, and only YM significantly decreased the bacterial diversity and increased the fungal diversity. Redundancy analysis suggested that TK, pH, BD, TS, AN, OM and nitrite reductase, lignin peroxidase were the key environmental factors that shaped the bacterial community structure, while that of fungi was mainly driven by OM, nitrite reductase, urease and lignin peroxidase. The results indicated that MX and YM are the best choice for remediation of saline-alkali soil. These data can provide certain theoretical basis for the further restoration of saline-alkali land. HIGHLIGHTS The effects of different phytoremediation on microbial diversity and community structure were different. Phytoremediation can significantly decreased pH, TS and BD, while increased OM, TN, AN, TP, AP, TK and TPOR in saline-alkali soil. All plants increased the activity of nitrite reductase and decreased the activity of urease."
+    },
+    {
+      "paperId": "6466cd3a3c34ac1168463299be0b34f367fa7a6b",
+      "url": "https://www.semanticscholar.org/paper/6466cd3a3c34ac1168463299be0b34f367fa7a6b",
+      "title": "Critical transition of soil microbial diversity and composition triggered by plant rhizosphere effects",
+      "venue": "Frontiers in Plant Science",
+      "year": 2023,
+      "citationCount": 35,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fpls.2023.1252821/pdf?isPublishedV2=False",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10676204, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2162329974",
+          "name": "Xianheng Fu"
+        },
+        {
+          "authorId": "2143854378",
+          "name": "Yu Huang"
+        },
+        {
+          "authorId": "2113772515",
+          "name": "Qi Fu"
+        },
+        {
+          "authorId": "2117838172",
+          "name": "Ying Qiu"
+        },
+        {
+          "authorId": "2235970473",
+          "name": "Jiayi Zhao"
+        },
+        {
+          "authorId": "2266700132",
+          "name": "Jiaxin Li"
+        },
+        {
+          "authorId": "2266632268",
+          "name": "Xicun Wu"
+        },
+        {
+          "authorId": "2266708054",
+          "name": "Yihang Yang"
+        },
+        {
+          "authorId": "2395834150",
+          "name": "Hongen Liu"
+        },
+        {
+          "authorId": "2257866810",
+          "name": "Xian Yang"
+        },
+        {
+          "authorId": "2258108716",
+          "name": "Huaihai Chen"
+        }
+      ],
+      "abstract": "Over the years, microbial community composition in the rhizosphere has been extensively studied as the most fascinating topic in microbial ecology. In general, plants affect soil microbiota through rhizodeposits and changes in abiotic conditions. However, a consensus on the response of microbiota traits to the rhizosphere and bulk soils in various ecosystems worldwide regarding community diversity and structure has not been reached yet. Here, we conducted a meta-analysis of 101 studies to investigate the microbial community changes between the rhizosphere and bulk soils across various plant species (maize, rice, vegetables, other crops, herbaceous, and woody plants). Our results showed that across all plant species, plant rhizosphere effects tended to reduce the rhizosphere soil pH, especially in neutral or slightly alkaline soils. Beta-diversity of bacterial community was significantly separated between into rhizosphere and bulk soils. Moreover, r-strategists and copiotrophs (e.g. Proteobacteria and Bacteroidetes) enriched by 24-27% in the rhizosphere across all plant species, while K-strategists and oligotrophic (e.g. Acidobacteria, Gemmatimonadete, Nitrospirae, and Planctomycetes) decreased by 15-42% in the rhizosphere. Actinobacteria, Firmicutes, and Chloroflexi are also depleted by in the plant rhizosphere compared with the bulk soil by 7-14%. The Actinobacteria exhibited consistently negative effect sizes across all plant species, except for maize and vegetables. In Firmicutes, both herbaceous and woody plants showed negative responses to rhizosphere effects, but those in maize and rice were contrarily enriched in the rhizosphere. With regards to Chloroflexi, apart from herbaceous plants showing a positive effect size, the plant rhizosphere effects were consistently negative across all other plant types. Verrucomicrobia exhibited a significantly positive effect size in maize, whereas herbaceous plants displayed a negative effect size in the rhizosphere. Overall, our meta-analysis exhibited significant changes in microbial community structure and diversity responding to the plant rhizosphere effects depending on plant species, further suggesting the importance of plant rhizosphere to environmental changes influencing plants and subsequently their controls over the rhizosphere microbiota related to nutrient cycling and soil health."
+    },
+    {
+      "paperId": "3b157e8cd9089fd9ba51d92c3f10d04b6591f16f",
+      "url": "https://www.semanticscholar.org/paper/3b157e8cd9089fd9ba51d92c3f10d04b6591f16f",
+      "title": "Alpine wetlands degradation leads to soil nutrient imbalances that affect plant growth and microbial diversity",
+      "venue": "Communications Earth & Environment",
+      "year": 2024,
+      "citationCount": 27,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s43247-024-01562-w?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s43247-024-01562-w, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "145842837",
+          "name": "Ganjun Xu"
+        },
+        {
+          "authorId": "123868634",
+          "name": "X. Kang"
+        },
+        {
+          "authorId": "2148956532",
+          "name": "Fei Wang"
+        },
+        {
+          "authorId": "2291555021",
+          "name": "Weirong Zhuang"
+        },
+        {
+          "authorId": "2291033077",
+          "name": "Wende Yan"
+        },
+        {
+          "authorId": "47969335",
+          "name": "Kerou Zhang"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "334d7369bef81baf950d197000ae65d2ef55e790",
+      "url": "https://www.semanticscholar.org/paper/334d7369bef81baf950d197000ae65d2ef55e790",
+      "title": "Fire history and plant community composition outweigh decadal multi‐factor global change as drivers of microbial composition in an annual grassland",
+      "venue": "Journal of Ecology",
+      "year": 2019,
+      "citationCount": 19,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2745.13284",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/1365-2745.13284?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/1365-2745.13284, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Environmental Science"
+      ],
+      "authors": [
+        {
+          "authorId": "80841651",
+          "name": "Clara Qin"
+        },
+        {
+          "authorId": "46931152",
+          "name": "K. Zhu"
+        },
+        {
+          "authorId": "6288927",
+          "name": "N. Chiariello"
+        },
+        {
+          "authorId": "2525997",
+          "name": "C. Field"
+        },
+        {
+          "authorId": "4208401",
+          "name": "K. Peay"
+        }
+      ],
+      "abstract": "Soil microbial communities regulate and respond to key biogeochemical cycles and influence plant community patterns. However, microbial communities also respond to disturbance events, motivating an assessment of the relative roles of decadal multi‐factor global change, disturbance and plant community structure on microbial community responses. We used high‐throughput amplicon sequencing to characterize the diversity and composition of bacterial and fungal communities in bulk soil (0–7 cm) collected in 2014 from the Jasper Ridge Global Change Experiment, a full‐factorial field experiment in which ambient and elevated levels of nitrogen deposition (+7 g N m−2 yr−1 calcium nitrate), CO2 concentration (+275 ppm), temperature (+1–2°C) and precipitation (+50% volume with +3 weeks duration) were applied to a California annual grassland from 1998 to 2014. We used linear mixed‐effects modelling to test for the effects of global change on microbial diversity (observed richness, Shannon index). We also used generalized dissimilarity modelling (GDM) to study controls on compositional dissimilarity in fungal and bacterial communities. Bacterial community composition was best explained by exposure to fires in 2003 and 2011, whereas fungal community composition was best explained by plant community composition. The richness of fungi increased under elevated nitrogen deposition; bacterial diversity metrics decreased under warmer temperatures. Interactions between global change factors were statistically insignificant or weak. Synthesis. Our results indicate that even on decadal time‐scales, the effects of fire history and plant community composition on bacterial and fungal community composition, respectively, outweigh the effects of multi‐factor global change. Furthermore, global change factors have mostly additive effects on microbial diversity patterns. Our results show that highly variable mediators such as fire history and plant community composition limit the generalizability of soil microbial responses to long‐term global change."
+    }
+  ]
+}

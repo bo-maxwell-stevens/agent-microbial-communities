@@ -1,0 +1,386 @@
+{
+  "query": "microbial beta diversity environmental gradients",
+  "timestamp_utc": "2026-05-19T13:06:16.223695+00:00",
+  "data": [
+    {
+      "paperId": "2d9cfc809e81319d0598e4924cf2a5a744e38c86",
+      "url": "https://www.semanticscholar.org/paper/2d9cfc809e81319d0598e4924cf2a5a744e38c86",
+      "title": "The Cladistic Basis for the Phylogenetic Diversity (PD) Measure Links Evolutionary Features to Environmental Gradients and Supports Broad Applications of Microbial Ecology’s “Phylogenetic Beta Diversity” Framework",
+      "venue": "International Journal of Molecular Sciences",
+      "year": 2009,
+      "citationCount": 98,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/1422-0067/10/11/4723/pdf?version=1403138770",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2808007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2618772",
+          "name": "D. Faith"
+        },
+        {
+          "authorId": "2345044",
+          "name": "C. Lozupone"
+        },
+        {
+          "authorId": "5044450",
+          "name": "David A. Nipperess"
+        },
+        {
+          "authorId": "2235761188",
+          "name": "R. Knight"
+        }
+      ],
+      "abstract": "The PD measure of phylogenetic diversity interprets branch lengths cladistically to make inferences about feature diversity. PD calculations extend conventional species-level ecological indices to the features level. The “phylogenetic beta diversity” framework developed by microbial ecologists calculates PD-dissimilarities between community localities. Interpretation of these PD-dissimilarities at the feature level explains the framework’s success in producing ordinations revealing environmental gradients. An example gradients space using PD-dissimilarities illustrates how evolutionary features form unimodal response patterns to gradients. This features model supports new application of existing species-level methods that are robust to unimodal responses, plus novel applications relating to climate change, commercial products discovery, and community assembly."
+    },
+    {
+      "paperId": "f2b10d8f4de28a2ba44ec53f676bf0f5f25f56e3",
+      "url": "https://www.semanticscholar.org/paper/f2b10d8f4de28a2ba44ec53f676bf0f5f25f56e3",
+      "title": "Comparative analysis of diversity and environmental niches of soil bacterial, archaeal, fungal and protist communities reveal niche divergences along environmental gradients in the Alps",
+      "venue": "Soil Biology and Biochemistry",
+      "year": 2021,
+      "citationCount": 98,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1016/j.soilbio.2022.108674",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.21203/rs.3.rs-609984/v2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.21203/rs.3.rs-609984/v2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "51107086",
+          "name": "Lucie A. Malard"
+        },
+        {
+          "authorId": "5843965",
+          "name": "Heidi K. Mod"
+        },
+        {
+          "authorId": "1830358",
+          "name": "N. Guex"
+        },
+        {
+          "authorId": "3554898",
+          "name": "O. Broennimann"
+        },
+        {
+          "authorId": "6915527",
+          "name": "E. Yashiro"
+        },
+        {
+          "authorId": "144442152",
+          "name": "Enrique Lara"
+        },
+        {
+          "authorId": "48177754",
+          "name": "E. Mitchell"
+        },
+        {
+          "authorId": "1402135020",
+          "name": "H. Niculita‐Hirzel"
+        },
+        {
+          "authorId": "1830349",
+          "name": "A. Guisan"
+        }
+      ],
+      "abstract": "\n Although widely used in ecology, comparative analyses of diversity and niche properties are still lacking for microorganisms, especially concerning niche variations. In this study, we identified important topoclimatic, edaphic, spatial and biotic drivers of the alpha and beta diversity of bacterial, archaeal, fungal and protist communities. Then, we calculated the niche breadth and position of each taxon along environmental gradients within all taxonomic groups, to determine how these vary within and between groups. Quantifying the niches of microbial taxa is necessary to then forecast how taxa and the communities they compose might respond to environmental changes. We found that edaphic properties were the most important drivers of both community diversity and composition for all microbial groups. Protists presented the largest niche breadths, followed by bacteria and archaea, with fungi displaying the smallest. Niche breadth generally decreased towards environmental extremes, especially along edaphic gradients, suggesting increased specialisation of microbial taxa in highly selective environments. Overall, we showed that microorganisms have well defined niches, as do macro-organisms, likely driving part of the observed spatial patterns of community variations. Assessing niche variation more widely in microbial ecology should open new perspectives, especially to tackle global change effects on microbes."
+    },
+    {
+      "paperId": "18520e2c3e82cc3247bed4d54d4f7658728c9c9d",
+      "url": "https://www.semanticscholar.org/paper/18520e2c3e82cc3247bed4d54d4f7658728c9c9d",
+      "title": "Biotic Interactions Shape Soil Bacterial Beta Diversity Patterns along an Altitudinal Gradient during Invasion",
+      "venue": "Microorganisms",
+      "year": 2024,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.3390/microorganisms12101972",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11509125, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2280746694",
+          "name": "Yuchao Wang"
+        },
+        {
+          "authorId": "2313550311",
+          "name": "Wenyan Xue"
+        },
+        {
+          "authorId": "2323586088",
+          "name": "Jinlin Lyu"
+        },
+        {
+          "authorId": "2278316589",
+          "name": "Ming Yue"
+        },
+        {
+          "authorId": "2201150164",
+          "name": "Zhuxin Mao"
+        },
+        {
+          "authorId": "2407640140",
+          "name": "Xu Shen"
+        },
+        {
+          "authorId": "2323724430",
+          "name": "Xue Wang"
+        },
+        {
+          "authorId": "2278402164",
+          "name": "Yang Li"
+        },
+        {
+          "authorId": "2117126203",
+          "name": "Qian Li"
+        }
+      ],
+      "abstract": "Invasive plants have already been observed in the understory of mountain forests, which are often considered a safe shelter for most native plants. Microorganisms might be drivers of plant invasions. Nevertheless, the mechanisms determining variations in microbial community composition (beta diversity) during invasion along altitudinal gradients remain to be elucidated. Here, the elevational patterns and the driving ecological processes (e.g., environmental filtering, co-occurrence patterns, and community assembly processes) of soil bacterial beta diversity were compared between invasive and native plants on the Qinling Mountains. The species turnover dominated bacterial compositional dissimilarities in both invasive and native communities, and its contribution to total beta diversity decreased during invasion. Total soil bacterial dissimilarities and turnover exhibited significant binominal patterns over an altitudinal gradient, with a tipping point of 1413 m. Further analysis showed that the contributions of assembly processes decreased in parallel with an increase in contributions of co-occurrence patterns during the invasion process, indicating that species interdependence rather than niche partitioning is strongly correlated with the bacterial biogeography of invasive communities. Plant invasion affects the relative contributions of stochastic processes and co-occurrence interactions through the regulation of the physiochemical characteristics of soil, and ultimately determines compositional dissimilarities and the components of the bacterial community along altitudinal gradients."
+    },
+    {
+      "paperId": "a35662d22b6f36ad2863613860885c20122bf285",
+      "url": "https://www.semanticscholar.org/paper/a35662d22b6f36ad2863613860885c20122bf285",
+      "title": "mecoturn: An R package for deciphering microbial turnover patterns along gradients",
+      "venue": "Soil Ecology Letters",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s42832-025-0355-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s42832-025-0355-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2272098254",
+          "name": "Chi Liu"
+        },
+        {
+          "authorId": "2368147999",
+          "name": "Jiahui Luo"
+        },
+        {
+          "authorId": "2367977335",
+          "name": "Chunmiao Lu"
+        },
+        {
+          "authorId": "2367988599",
+          "name": "Tianlong Sheng"
+        },
+        {
+          "authorId": "2201038805",
+          "name": "R. J. Zeng"
+        },
+        {
+          "authorId": "2272058367",
+          "name": "Xiangzheng Li"
+        },
+        {
+          "authorId": "4991787",
+          "name": "Minjie Yao"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "8d2e0963882f86f1809296d6bd8932900857e54f",
+      "url": "https://www.semanticscholar.org/paper/8d2e0963882f86f1809296d6bd8932900857e54f",
+      "title": "Exploring Multiple Aspects of Taxonomic and Functional Diversity in Microphytobenthic Communities: Effects of Environmental Gradients and Temporal Changes",
+      "venue": "Frontiers in Microbiology",
+      "year": 2021,
+      "citationCount": 15,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2021.668993/pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8175668, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "31538957",
+          "name": "Anette Teittinen"
+        },
+        {
+          "authorId": "25146179",
+          "name": "L. Virta"
+        }
+      ],
+      "abstract": "Biodiversity has traditionally been quantified using taxonomic information but the importance of also considering its functional characteristics has recently gained an increasing attention among microorganisms. However, studies exploring multiple aspects of taxonomic and functional diversity and their temporal variations are scarce for diatoms, which is one of the most important microbial groups in aquatic ecosystems. Here, our aim was to examine the taxonomic and functional alpha and beta diversities of diatoms in a coastal rock pool system characterized by a naturally high environmental heterogeneity. We also investigated the temporal differences in the diversity patterns and drivers. The relationship between the species richness and functional dispersion was temporally coherent, such that species-poor communities tended to be functionally clustered. The trend between the species richness and taxonomic uniqueness of community composition was temporally inconsistent, changing from negative to non-significant over time. Conductivity or distance to the sea or both were key determinants of species richness, functional dispersion, and uniqueness of community composition. The increase of community dissimilarity with an increasing environmental distance was stronger for the taxonomic than the functional composition. Our results suggest that even minor decreases in the species richness may result in a lowered functional diversity and decreased ecosystem functioning. Species-poor ecosystems may, however, have unique species compositions and high contributions to regional biodiversity. Despite changing the species compositions along the environmental gradients, communities may remain to have a high functional similarity and robustness in the face of environmental changes. Our results highlight the advantage of considering multiple biodiversity metrics and incorporating a temporal component for a deeper understanding of the effects of environmental changes on microbial biodiversity."
+    },
+    {
+      "paperId": "78917b277b5ac239d6060ee031f2704eb80d70d4",
+      "url": "https://www.semanticscholar.org/paper/78917b277b5ac239d6060ee031f2704eb80d70d4",
+      "title": "Groundwater Microbial Diversity Associated With Icelandic Basaltic Subsurface Environments",
+      "venue": "Environmental Microbiology Reports",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12665481, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2274588827",
+          "name": "Juliette Bas-Lorillot"
+        },
+        {
+          "authorId": "2242094668",
+          "name": "B. Ménez"
+        },
+        {
+          "authorId": "49708853",
+          "name": "B. Wild"
+        },
+        {
+          "authorId": "2274674315",
+          "name": "Guillaume Borrel"
+        },
+        {
+          "authorId": "2395612921",
+          "name": "Manon Le Bihan"
+        },
+        {
+          "authorId": "2336823619",
+          "name": "A. Stefánsson"
+        },
+        {
+          "authorId": "1405401454",
+          "name": "J. Gunnarsson-Robin"
+        },
+        {
+          "authorId": "2328198023",
+          "name": "A. B. Bjarkadóttir"
+        },
+        {
+          "authorId": "1396448047",
+          "name": "S. Aðalsteinsdóttir"
+        },
+        {
+          "authorId": "2308212597",
+          "name": "Delphine Tisserand"
+        },
+        {
+          "authorId": "2292641194",
+          "name": "Damien Daval"
+        },
+        {
+          "authorId": "2260509379",
+          "name": "Emmanuelle Gérard"
+        }
+      ],
+      "abstract": "ABSTRACT Microbial communities in the deep basaltic aquifers of Iceland remain poorly characterized, despite their relevance for understanding subsurface biogeochemical processes, including silicate weathering. Here, we used 16S rRNA gene metabarcoding to investigate bacterial and archaeal diversity in 22 geothermal wells spanning broad gradients in temperature (30°C–110°C), pH (7.0–11.0), and bedrock age (0.01–15 Myr). We observed highly variable microbial assemblages, with several dominant taxa affiliated with known deep biosphere lineages, including hydrogenotrophs and sulfate reducers. Archaeal communities were less diverse and displayed domain‐specific patterns, distinct from bacterial assemblages. Beta diversity was primarily structured by temperature and pH, and, to a lesser extent, by bedrock age. Thermodynamic and kinetic parameters derived from groundwater chemistry—including redox potential and silicate dissolution rates—also accounted for significant fractions of the variation in microbial beta diversity, although it cannot be ruled out that their influence primarily reflected underlying correlations with temperature and pH. Our results suggest that both environmental gradients and host‐rock reactivity shape microbial diversity in these systems. This highlights the importance of considering geochemical context when designing subsurface microcosm experiments, and identifies candidate taxa for future studies exploring links between microbial composition and silicate weathering processes."
+    },
+    {
+      "paperId": "7c07a6149d67f55456a38d1921b34df0d7d58889",
+      "url": "https://www.semanticscholar.org/paper/7c07a6149d67f55456a38d1921b34df0d7d58889",
+      "title": "Spatial variation of microbial communities in sediments along the environmental gradients from Xiaoqing River to Laizhou Bay.",
+      "venue": "Marine Pollution Bulletin",
+      "year": 2017,
+      "citationCount": 36,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.marpolbul.2017.04.059?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.marpolbul.2017.04.059, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine",
+        "Environmental Science"
+      ],
+      "authors": [
+        {
+          "authorId": "4941132",
+          "name": "Shu-xian Yu"
+        },
+        {
+          "authorId": "49789330",
+          "name": "Yunlong Pang"
+        },
+        {
+          "authorId": "2340841182",
+          "name": "Yin-chu Wang"
+        },
+        {
+          "authorId": "2108961031",
+          "name": "Jia-Lin Li"
+        },
+        {
+          "authorId": "145205592",
+          "name": "S. Qin"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "42808e0cbb7b818ffea497f847ba2b7129821daa",
+      "url": "https://www.semanticscholar.org/paper/42808e0cbb7b818ffea497f847ba2b7129821daa",
+      "title": "Understanding stochastic and deterministic assembly processes in microbial communities along temporal, spatial and environmental scales",
+      "venue": "Molecular Ecology",
+      "year": 2023,
+      "citationCount": 48,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mec.16842",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/mec.16842?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/mec.16842, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1438912980",
+          "name": "Mateu Menéndez-Serra"
+        },
+        {
+          "authorId": "91101333",
+          "name": "Vicente J. Ontiveros"
+        },
+        {
+          "authorId": "47272920",
+          "name": "Joan Cáliz"
+        },
+        {
+          "authorId": "8644206",
+          "name": "David Alonso"
+        },
+        {
+          "authorId": "5743832",
+          "name": "E. Casamayor"
+        }
+      ],
+      "abstract": "Identifying the main drivers of community assembly remains an open fundamental question in ecology. Dispersal processes introduce randomness in community composition while selection for particular environments creates predictable assemblages. However, the interaction between selection and dispersal processes is still poorly understood. Here, we address this question in bacterial and microeukaryotic communities inhabiting a highly dynamic system of ephemeral (hyper)saline lakes. We show that the combination of beta‐diversity decomposition methods and a temporal approach based on colonization and extinction dynamics yields new insights into the relative effect of selection and dispersal along environmental gradients. Selective pressure and dispersal‐related processes simultaneously shape each local community with variable strength and effect. The dominance of selection vs. dispersal shifted from stochastic to deterministic assembly as salinity increased along the gradient. This transition also had an impact on the temporal dynamics of the lakes as community turnover decreased at high salinities because both colonization and extinction rates slowed down. Only microeukaryotic richness decreased along the gradient due to lower effective colonization at higher salinities, suggesting that the net effect of selection and dispersal is determined by both environmental conditions and the idiosyncrasy of the different microbial ecologies. Our results emphasize the use of temporal approaches in combination with standard statistical methods for a better understanding of the dynamic processes underlying community assembly."
+    }
+  ]
+}

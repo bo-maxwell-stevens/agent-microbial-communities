@@ -1,0 +1,410 @@
+{
+  "query": "vegetation completeness soil microbiome",
+  "timestamp_utc": "2026-05-19T13:06:12.320440+00:00",
+  "data": [
+    {
+      "paperId": "dbf07ebeab1cfc680920c421ad9fee822f32989c",
+      "url": "https://www.semanticscholar.org/paper/dbf07ebeab1cfc680920c421ad9fee822f32989c",
+      "title": "The effect of above-ground vegetation on soil microbiome in urban green spaces: A systematic evidence map",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.03.19.643203?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.03.19.643203, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2351610115",
+          "name": "Aditi Sudhir"
+        },
+        {
+          "authorId": "2351609016",
+          "name": "Husnal Brar"
+        },
+        {
+          "authorId": "2112286682",
+          "name": "Ananya Mukherjee"
+        },
+        {
+          "authorId": "2320515417",
+          "name": "Monica Kaushik"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "dcc0dd46abfebc637f16759798fd3a5b71cb80e2",
+      "url": "https://www.semanticscholar.org/paper/dcc0dd46abfebc637f16759798fd3a5b71cb80e2",
+      "title": "Roles of the soil microbiome in sustaining grassland ecosystem health on the Qinghai-Tibet Plateau.",
+      "venue": "Microbiology Research",
+      "year": 2025,
+      "citationCount": 16,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.micres.2025.128078?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.micres.2025.128078, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2342330149",
+          "name": "Mingxu Zhang"
+        },
+        {
+          "authorId": "2342438870",
+          "name": "Jinpeng Hu"
+        },
+        {
+          "authorId": "2342587888",
+          "name": "Yuewei Zhang"
+        },
+        {
+          "authorId": "2342392926",
+          "name": "Yanhua Cao"
+        },
+        {
+          "authorId": "2240935930",
+          "name": "Christopher Rensing"
+        },
+        {
+          "authorId": "2195446277",
+          "name": "Quanmin Dong"
+        },
+        {
+          "authorId": "2276155375",
+          "name": "Fujiang Hou"
+        },
+        {
+          "authorId": "2300515874",
+          "name": "Jinlin Zhang"
+        }
+      ],
+      "abstract": "Soil microbes, as intermediaries in plant-soil interactions, are closely linked to plant health in grassland ecosystems. In recent years, varying degrees of degradation have been observed in the alpine grasslands of the Qinghai-Tibet Plateau (QTP). Addressing grassland degradation, particularly under the influence of climate change, poses a global challenge. Understanding the factors driving grassland degradation on the QTP and developing appropriate mitigation measures is essential for the future sustainability of this fragile ecosystem. In this review, we discuss the environmental and anthropogenic factors affecting grassland degradation and the corresponding impacts on soil microbe community structure. We summarize the current research on the microbiome of the QTP, in particular the effect of vegetation, climate change, grazing, and land use, respectively on the alpine grassland microbiome. The results of these studies indicate that microbially mediated soil bioprocesses are important drivers of grassland ecosystem functional recovery. Therefore, a thorough understanding of the spatial distribution characteristics of the soil microbiome in alpine grasslands is required, and this necessitates an integrated approach in which the interactions among climatic factors, vegetation characteristics, and human activities are evaluated. Additionally, we assess and summarise current technological developments and prospects for applying soil microbiome technologies in sustainable agriculture, including: (i) single-strain inoculation, and (ii) inoculation of synthetic microbial communities, (iii) microbial community transplantation. Grassland restoration projects should be carried out with the understanding that each restoration measure has a unique effect on the soil microbial activity. We propose that the sustainable development of alpine grassland ecosystems can be achieved by adopting advanced microbiome technologies and integrating microbe-based sustainable agricultural practices to maximise grassland biomass, increase soil carbon, and optimise soil nutrient cycling."
+    },
+    {
+      "paperId": "f80b4453215220076c8f9e584a836775d9374aba",
+      "url": "https://www.semanticscholar.org/paper/f80b4453215220076c8f9e584a836775d9374aba",
+      "title": "Exploring crop health and its associations with fungal soil microbiome composition using machine learning applied to remote sensing data",
+      "venue": "Communications Earth & Environment",
+      "year": 2025,
+      "citationCount": 6,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1038/s43247-025-02330-0",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s43247-025-02330-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s43247-025-02330-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2308653012",
+          "name": "M. B. Sørensen"
+        },
+        {
+          "authorId": "2197408119",
+          "name": "David Faurdal"
+        },
+        {
+          "authorId": "119606104",
+          "name": "Giovanni Schiesaro"
+        },
+        {
+          "authorId": "2267684376",
+          "name": "E. D. Jensen"
+        },
+        {
+          "authorId": "2291008908",
+          "name": "Michael K. Jensen"
+        },
+        {
+          "authorId": "2279769262",
+          "name": "Line Katrine Harder Clemmensen"
+        }
+      ],
+      "abstract": "Global food security is increasingly challenged by climate change and unsustainable agriculture, emphasizing the need for strategies to enhance crop productivity. Understanding the interplay between crop health and soil microbiomes is crucial. This study explores the link between crop health, observed via multi-spectral satellite imagery, and fungal soil microbiome taxonomy. We associate the normalized difference vegetation index with fungal microbiomes in wheat, barley, and maize using a two-step machine learning process. The first step adjusts normalized difference vegetation index values for abiotic confounders using a random forest model trained on Lucas 2018 topsoil and ERA5 climate datasets. The second step clusters operational taxonomy unit counts from fungal DNA, revealing significant differences in residual normalized difference vegetation index values. To identify potential bio-fertilizer candidates, we compare the average relative abundance of operational taxonomy unit clusters and construct sparse biological networks. Key findings are: (I) clusters with higher plant pathogenic genera have lower normalized difference vegetation index values; (II) clusters with higher influential scores for multiple beneficial genera have higher normalized difference vegetation index values; (III) lower abundance taxonomy (1-3%) seems to regulate microbial networks; (IV) the influence of beneficial vs. pathogenic taxonomy is relative to their abundance. The study links satellite imagery to fungal microbiomes, providing a baseline for exploring fungal bio-fertilizers. Crop health is improved by abundance of beneficial soil fungal genera and reduced by abundance of soil fungal pathogens, according to analysis of satellite-derived normalized difference vegetation index data and fungal soil microbiome taxonomic data."
+    },
+    {
+      "paperId": "acf5558025c3631fa0c31e5b6b133c503ac325e1",
+      "url": "https://www.semanticscholar.org/paper/acf5558025c3631fa0c31e5b6b133c503ac325e1",
+      "title": "Accurate MAG reconstruction from complex soil microbiome through combined short- and HiFi long-reads metagenomics",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2025.09.12.675765?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2025.09.12.675765, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2140230850",
+          "name": "Carole Belliardo"
+        },
+        {
+          "authorId": "2350454832",
+          "name": "Nicolas Maurice"
+        },
+        {
+          "authorId": "2067366275",
+          "name": "A. Péré"
+        },
+        {
+          "authorId": "2291189813",
+          "name": "Samuel Mondy"
+        },
+        {
+          "authorId": "2291843983",
+          "name": "Alain Franc"
+        },
+        {
+          "authorId": "1422126841",
+          "name": "Marc Bailly-Bechet"
+        },
+        {
+          "authorId": "2331734638",
+          "name": "Claire Lemaitre"
+        },
+        {
+          "authorId": "2285380794",
+          "name": "R. Vicedomini"
+        },
+        {
+          "authorId": "2257741080",
+          "name": "Jean-Marc Frigerio"
+        },
+        {
+          "authorId": "48000152",
+          "name": "F. Salin"
+        },
+        {
+          "authorId": "2150299299",
+          "name": "E. Belmonte"
+        },
+        {
+          "authorId": "2236764529",
+          "name": "D. Sherman"
+        },
+        {
+          "authorId": "2387348494",
+          "name": "Pierre Abad"
+        },
+        {
+          "authorId": "8764843",
+          "name": "C. Frioux"
+        },
+        {
+          "authorId": "2290173141",
+          "name": "Etienne G. J. Danchin"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "24d2d6dfbe20b144187fa48bc6b225d0bbd488b9",
+      "url": "https://www.semanticscholar.org/paper/24d2d6dfbe20b144187fa48bc6b225d0bbd488b9",
+      "title": "THE ROLE OF THE ARTIFICIALLY FORMED SOIL MICROBIOME IN THE CARBON CYCLE",
+      "venue": "Agriciltural microbiology",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.35868/1997-3004.41.3-18?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.35868/1997-3004.41.3-18, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2398469556",
+          "name": "А. А. Bunas"
+        },
+        {
+          "authorId": "2398470155",
+          "name": "О. V. Sherstoboieva"
+        },
+        {
+          "authorId": "2395273785",
+          "name": "Yevhenia Tkach"
+        },
+        {
+          "authorId": "2398471944",
+          "name": "І. P. Movchan"
+        },
+        {
+          "authorId": "2337931518",
+          "name": "V. Dvoretskyi"
+        }
+      ],
+      "abstract": "Objective. To analyse the scientific literature on the role and impact of the artificially formed microbiome on the processes of carbon transformation in agroecosystems. Methods. Collection, analysis and synthesis. Results. The carbon cycle is a fundamental process that determines the balance of the element in the biosphere and affects the climate stability of the planet. Soil is one of the main carbon reservoirs, containing more carbon than the atmosphere and vegetation combined. In this context, the soil microbiome — a collection of bacteria, archaea, steptomycetes, micromycetes and other organisms that inhabit the soil medium, including the plant rhizosphere — plays a key role in the transformation, storage and mobilisation of carbon. Microorganisms catalyse the humification of organic matter, which results in the formation of stable forms of soil carbon that can remain in the soil for hundreds or even thousands of years. For example, by enhancing the formation of microbial biomass, about 2–4 tonnes of organic carbon per hectare can be stabilised annually in chernozem soils. Soil microbiomes artificially created using biotechnological methods open up new opportunities for managing carbon transformation and decreasing climate change consequences. Conclusions. Artificially created soil microbiomes are a promising tool for managing the carbon cycle and decreasing the effects of global climate change consequences. The large-scale implementation of biotechnological measures aimed at changing the composition and functioning of the soil microbiome will not only improve soil quality, but also conserve organic carbon and reduce greenhouse gas emissions. Further researches and developments in this area are necessary to fulfil the potential of artificially created microbiomes in sustainable agriculture."
+    },
+    {
+      "paperId": "bb3e09b7f5c88ff0e35fe70c1600ae461e48d560",
+      "url": "https://www.semanticscholar.org/paper/bb3e09b7f5c88ff0e35fe70c1600ae461e48d560",
+      "title": "Soil microbiome feedbacks during disturbance-driven forest ecosystem conversion",
+      "venue": "The ISME Journal",
+      "year": 2024,
+      "citationCount": 12,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1093/ismejo/wrae047",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11650388, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "107805352",
+          "name": "A. Nelson"
+        },
+        {
+          "authorId": "9677422",
+          "name": "T. Fegel"
+        },
+        {
+          "authorId": "4969214",
+          "name": "R. Danczak"
+        },
+        {
+          "authorId": "2327857956",
+          "name": "Marcos V Caiafa"
+        },
+        {
+          "authorId": "2123725939",
+          "name": "Holly K. Roth"
+        },
+        {
+          "authorId": "2292234281",
+          "name": "Oliver I Dunn"
+        },
+        {
+          "authorId": "2292237159",
+          "name": "Cosette A Turvold"
+        },
+        {
+          "authorId": "2292235465",
+          "name": "Thomas Borch"
+        },
+        {
+          "authorId": "6786457",
+          "name": "Sydney I. Glassman"
+        },
+        {
+          "authorId": "37020373",
+          "name": "R. Barnes"
+        },
+        {
+          "authorId": "2252972771",
+          "name": "C. C. Rhoades"
+        },
+        {
+          "authorId": "2285883078",
+          "name": "Michael J. Wilkins"
+        }
+      ],
+      "abstract": "Abstract Disturbances cause rapid changes to forests, with different disturbance types and severities creating unique ecosystem trajectories that can impact the underlying soil microbiome. Pile burning—the combustion of logging residue on the forest floor—is a common fuel reduction practice that can have impacts on forest soils analogous to those following high-severity wildfire. Further, pile burning following clear-cut harvesting can create persistent openings dominated by nonwoody plants surrounded by dense regenerating conifer forest. A paired 60-year chronosequence of burn scar openings and surrounding regenerating forest after clear-cut harvesting provides a unique opportunity to assess whether belowground microbial processes mirror aboveground vegetation during disturbance-induced ecosystem shifts. Soil ectomycorrhizal fungal diversity was reduced the first decade after pile burning, which could explain poor tree seedling establishment and subsequent persistence of herbaceous species within the openings. Fine-scale changes in the soil microbiome mirrored aboveground shifts in vegetation, with short-term changes to microbial carbon cycling functions resembling a postfire microbiome (e.g. enrichment of aromatic degradation genes) and respiration in burn scars decoupled from substrate quantity and quality. Broadly, however, soil microbiome composition and function within burn scar soils converged with that of the surrounding regenerating forest six decades after the disturbances, indicating potential microbial resilience that was disconnected from aboveground vegetation shifts. This work begins to unravel the belowground microbial processes that underlie disturbance-induced ecosystem changes, which are increasing in frequency tied to climate change."
+    },
+    {
+      "paperId": "8c404f15220d549e3191c6f861767c6774229531",
+      "url": "https://www.semanticscholar.org/paper/8c404f15220d549e3191c6f861767c6774229531",
+      "title": "Field-scale assessment of soil, water, plant, and soil microbiome in and around Rania-Khan Chandpur Chromium contaminated site, India.",
+      "venue": "Journal of Hazardous Materials",
+      "year": 2024,
+      "citationCount": 14,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jhazmat.2024.133747?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jhazmat.2024.133747, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2274760544",
+          "name": "P. Gupta"
+        },
+        {
+          "authorId": "2162159490",
+          "name": "V. Nair"
+        },
+        {
+          "authorId": "2021084238",
+          "name": "Vivek Dalvi"
+        },
+        {
+          "authorId": "2090080984",
+          "name": "Sumita Dhali"
+        },
+        {
+          "authorId": "2274639344",
+          "name": "Anushree Malik"
+        },
+        {
+          "authorId": "2274617950",
+          "name": "K. Pant"
+        }
+      ],
+      "abstract": "Rania-Khan Chandpur site, (Kanpur Dehat, Uttar Pradesh, India), one of the highly Chromium (Cr) contaminated sites in India due to Chromite Ore Processing Residue (COPR), has been investigated at the field-scale. We found that the area around the COPR dumps was hazardously contaminated with the Cr where its concentrations in the surface water and groundwater were > 40 mgL-1, its maximum contents in the COPRs and in the soils of the adjoining lands were 9.6 wt% and 3.83 wt%, respectively. By exploring the vegetation and microbial distribution across the site, we advocate the appropriateness of Cynodon dactylon, Chrysopogon zizanioides, Cyperus sp., and Typha angustifolia as the most suitable phytoremediation agent because their association with Cr remediating bacterial species (Pseudomonas sp., Clostridium sp. and Bacillus sp.) was strong. Using this remarkable information for the bioremediation projects, this site can be re-vegetated and bioaugmented to remediate Cr in soils, waterlogged ditches, surface water, and in groundwater systems."
+    },
+    {
+      "paperId": "cf8966bc3c6ead10e216fab9be26e462130f4449",
+      "url": "https://www.semanticscholar.org/paper/cf8966bc3c6ead10e216fab9be26e462130f4449",
+      "title": "Alternative stable states of microbiome structure and soil ecosystem functions",
+      "venue": "Environmental Microbiome",
+      "year": 2025,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1186/s40793-025-00688-4",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11887376, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2069393334",
+          "name": "Hiroaki Fujita"
+        },
+        {
+          "authorId": "2238147536",
+          "name": "Shigenobu Yoshida"
+        },
+        {
+          "authorId": "2118856058",
+          "name": "Kenta Suzuki"
+        },
+        {
+          "authorId": "6089850",
+          "name": "Hirokazu Toju"
+        }
+      ],
+      "abstract": "Theory predicts that biological communities can have multiple stable states in terms of their species/taxonomic compositions. The presence of such alternative stable states has been examined in classic ecological studies on the communities of macro-organisms (e.g., distinction between forest and savanna vegetation types). Nonetheless, it remains an essential challenge to extend the target of the discussion on multistability from macro-organismal systems to highly species-rich microbial systems. Identifying alternative stable states of taxonomically diverse microbial communities is a crucial step for predicting and controlling microbiome processes in light of classic ecological studies on community stability. By targeting soil microbiomes, we inferred the stability landscapes of community structure based on a mathematical framework of statistical physics. We compiled a dataset involving 11 archaeal, 332 bacterial, and 240 fungal families detected from > 1,500 agroecosystem soil samples and applied the energy landscape analysis to estimate the stability/instability of observed taxonomic compositions. The statistical analysis suggested that both prokaryotic and fungal community structure could be classified into several stable states. We also found that the inferred alternative stable states differed greatly in their associations with crop disease prevalence in agroecosystems. We further inferred “tipping points”, through which transitions between alternative stable states could occur. Our results suggest that the structure of complex soil microbiomes can be categorized into alternative stable states, which potentially differ in ecosystem-level functioning. Such insights into the relationship between structure, stability, and functions of ecological communities will provide a basis for ecosystem restoration and the sustainable management of agroecosystems."
+    }
+  ]
+}

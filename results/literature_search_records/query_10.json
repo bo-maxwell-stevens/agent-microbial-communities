@@ -1,0 +1,352 @@
+{
+  "query": "soil microbiome assembly across kingdoms",
+  "timestamp_utc": "2026-05-19T13:06:01.927201+00:00",
+  "data": [
+    {
+      "paperId": "0e3110f99f363a3d25599565941ed98b1db379e7",
+      "url": "https://www.semanticscholar.org/paper/0e3110f99f363a3d25599565941ed98b1db379e7",
+      "title": "Seed-borne bacteria drive wheat rhizosphere microbiome assembly via niche partitioning and facilitation",
+      "venue": "Nature Microbiology",
+      "year": 2025,
+      "citationCount": 43,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12055584, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1404790873",
+          "name": "D. Garrido-Sanz"
+        },
+        {
+          "authorId": "2258104034",
+          "name": "Christoph Keel"
+        }
+      ],
+      "abstract": "Microbial communities play a crucial role in supporting plant health and productivity. Reproducible, natural plant-associated microbiomes can help disentangle microbial dynamics across time and space. Here, using a sequential propagation strategy, we generated a complex and reproducible wheat rhizosphere microbiome (RhizCom) to study successional dynamics and interactions between the soil and heritable seed-borne rhizosphere microbiomes (SbRB) in a microcosm. Using 16S rRNA sequencing and genome-resolved shotgun metagenomics, we find that SbRB surpassed native soil microbes as the dominant rhizosphere-associated microbiome source. SbRB genomes were enriched in host-associated traits including degradation of key saccharide (niche partitioning) and cross-feeding interactions that supported partner strains (niche facilitation). In vitro co-culture experiments confirmed that helper SbRB strains facilitated the growth of partner bacteria on disaccharides as sole carbon source. These results reveal the importance of seed microbiota dynamics in microbial succession and community assembly, which could inform strategies for crop microbiome manipulation. A sequential propagation strategy shows how the microbes initially on seeds are key to building complex, reproducible and heritable plant microbiomes."
+    },
+    {
+      "paperId": "30bc8c8ba29e1ab91ba72c2c254ccda177502132",
+      "url": "https://www.semanticscholar.org/paper/30bc8c8ba29e1ab91ba72c2c254ccda177502132",
+      "title": "Succession characteristics and assembly process of soil microbiome at reclaimed farmlands in coal mining area",
+      "venue": "Frontiers in Microbiology",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12336158, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2333723381",
+          "name": "Jianhua Li"
+        },
+        {
+          "authorId": "2330971075",
+          "name": "Zixu Li"
+        },
+        {
+          "authorId": "2374378548",
+          "name": "Yanwen Sun"
+        },
+        {
+          "authorId": "2283322010",
+          "name": "Jinjing Lu"
+        },
+        {
+          "authorId": "2309313048",
+          "name": "Qiang Zhang"
+        },
+        {
+          "authorId": "2192708641",
+          "name": "X. He"
+        },
+        {
+          "authorId": "2363989261",
+          "name": "Minggang Xu"
+        }
+      ],
+      "abstract": "Clarifying the succession patterns and assembly mechanisms of soil bacterial and fungal communities across reclamation chronosequences is essential for restoring soil health and ensuring ecological stability in mining areas. We analyzed soil microbial diversity, composition, co-occurrence network structure, and assembly processes using 16S rDNA/ITS sequencing and null models at 0 (R0), 1 (R1), 6 (R6), and 10 (R10) years of post-reclamation. Results showed that (1) Compared to R0, the R10 treatment resulted in significant increases in soil organic matter (SOM), total nitrogen (TN), available phosphorus (AP), and available potassium (AK) by 2.1-fold, 1.3-fold, 1.5-fold, and 0.4-fold, and also in activities of β-glucosidase (BG), N-acetyl-β-glucosaminidase (NAG), and leucine aminopeptidase (LAP), by 17-fold, 8.7-fold, and 1.8-fold, respectively (p < 0.05). (2) Rising bacterial diversity (Shannon, Chao1) over time, contrasting with fungal diversity that declined initially before recovering. (3) As the reclamation progressed, the network complexity was increased for both bacteria and fungi, improving stability. The number of bacterial keystone taxa was first increased and then decreased, with Bacillota (formerly Firmicutes) being the dominant keystone phylum. Bacteroidetes, Proteobacteria, and Acidobacteria exhibited rapid temporal responses. The fungal keystone taxa increased progressively, with Ascomycota as the dominant keystone phylum, while Basidiomycota and Mortierellomycota responded rapidly. (4) Enhanced bacterial functional potential (chemoheterotrophy, aerobic chemoheterotrophy, nitrification) and fungal saprotrophic capacity (undefined, wood saprotrophs) (5) Community assembly involved both deterministic (bacteria: dominated by heterogeneous selection) and stochastic processes (fungi: dispersal limitation/undominated). The partial least squares path modeling (PLS-PM) analysis showed that both the reclaimed coal mining and undisturbed normal farmland (NL) soils directly influenced microbial diversity and indirectly shaped microbial communities by influencing their assembly processes. These results underscore the critical role of reclamation in rebuilding soil microbial communities and restoring ecological functions in coal-mining areas."
+    },
+    {
+      "paperId": "32517853b837e035b16cc3ec8b2a87f636736484",
+      "url": "https://www.semanticscholar.org/paper/32517853b837e035b16cc3ec8b2a87f636736484",
+      "title": "The response of microbiome assembly within different niches across four stages to the cultivation of glyphosate-tolerant and conventional soybean varieties",
+      "venue": "Frontiers in Microbiology",
+      "year": 2024,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.3389/fmicb.2024.1439735",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11461410, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2304044543",
+          "name": "Shengqian Chao"
+        },
+        {
+          "authorId": "2117104227",
+          "name": "Yu Sun"
+        },
+        {
+          "authorId": "2277784504",
+          "name": "Yin Zhang"
+        },
+        {
+          "authorId": "2277808405",
+          "name": "Yifan Chen"
+        },
+        {
+          "authorId": "2277740591",
+          "name": "Lili Song"
+        },
+        {
+          "authorId": "2209966055",
+          "name": "Peng Li"
+        },
+        {
+          "authorId": "2272779205",
+          "name": "Xueming Tang"
+        },
+        {
+          "authorId": "2239303708",
+          "name": "Jingang Liang"
+        },
+        {
+          "authorId": "2277716151",
+          "name": "Beibei Lv"
+        }
+      ],
+      "abstract": "Introduction Plants are inherently connected with the microbiome, which plays a crucial role in regulating various host plant biological processes, including immunity, nutrient acquisition, and resistance against abiotic and biotic stresses. Many factors affect the interaction between plants and microbiome. Methods and results In this study, microbiome samples were collected from five niches (bulk soil, rhizoplane, root endosphere, phylloplane, and leaf endosphere) across four developmental stages (seedling, flowering, podding, and maturity) of various soybean varieties. Composition and structure of bacterial and fungal communities were analyzed using 16S rRNA gene and ITS (Internally Transcribed Spacer) region amplicon sequencing. It was observed that both niches and developmental stages significantly impact on the assembly and composition of soybean microbiome. However, variety, presence of a transgene, and glyphosate application had minimal effects on microbial communities. The dominant microbiome varied across the five niches, with most containing beneficial microbial communities capable of promoting plant growth or increasing disease resistance. Types and abundance of the dominant microbes affected network stability, potentially resulting in functional changes in different ecological niches. Conclusion This study provides theoretical evidence for microbial protection of plants against diseases and demonstrates that systematic analysis of the composition and diversity of soybean microbiomes can contribute to the development of biological control technologies."
+    },
+    {
+      "paperId": "4f2f1bbc05a926c16d629e020211268ea619e0f4",
+      "url": "https://www.semanticscholar.org/paper/4f2f1bbc05a926c16d629e020211268ea619e0f4",
+      "title": "The Topographic Template: Coordinated Shifts in Soil Chemistry, Microbiome, and Enzymatic Activity Across a Fluvial Landscape",
+      "venue": "Agronomy",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/agronomy15112588?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/agronomy15112588, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2283943444",
+          "name": "Anastasia V. Teslya"
+        },
+        {
+          "authorId": "51071861",
+          "name": "D. V. Poshvina"
+        },
+        {
+          "authorId": "2163868058",
+          "name": "A. Stepanov"
+        },
+        {
+          "authorId": "4860736",
+          "name": "A. Vasilchenko"
+        }
+      ],
+      "abstract": "The soil microbiome is an essential component of agroecosystems. However, managing it remains a challenge due to our limited knowledge of how various environmental factors interact and shape its spatial distribution. This study presents a hierarchical ecological model to explain the assembly of the microbiome in sloping agricultural landscapes. Through a comprehensive analysis of bacterial and fungal communities, as well as the examination of metabolic and phytopathogenic profiles across a topographic gradient, we have demonstrated that topography acts as the main filter, structuring bacterial communities. Land use, on the other hand, serves as a secondary filter, refining fungal functional guilds. Our results suggest that hydrological conditions in floodplains favor the growth of stress-tolerant bacterial communities with low diversity, dominated by Actinomycetota. Fungal communities, on the other hand, are directly influenced by land use. Long-term fallow periods lead to an enrichment of arbuscular mycorrhiza, while agroecosystems shift towards pathogenic and saprotrophic niches. Furthermore, we identify specific topographic positions that may be hotspots for phytopathogenic pressure. These hotspots are linked to certain taxa, such as Ustilaginaceae and Didymellaceae, which may pose a threat to plant health. The derived hierarchical model provides a scientific foundation for topography-aware precision agriculture. It promotes stratified management, prioritizing erosion control and soil restoration on slopes, customizing nutrient inputs in fertile floodplains, and implementing targeted phytosanitary monitoring in identified risk areas. Our research thus offers a practical framework for harnessing soil spatial variability to improve soil health and proactively manage disease risks in agricultural systems."
+    },
+    {
+      "paperId": "2f605120c8b519fdd8b625af4a0c4225a20dc12e",
+      "url": "https://www.semanticscholar.org/paper/2f605120c8b519fdd8b625af4a0c4225a20dc12e",
+      "title": "Soil nitrogen deficiency drives compensatory assembly of nitrogen-cycling functions in the rhizosphere microbiome",
+      "venue": "Plant and Soil",
+      "year": 2024,
+      "citationCount": 10,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-024-06571-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-024-06571-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "49323029",
+          "name": "Yi Ren"
+        },
+        {
+          "authorId": "47600074",
+          "name": "Yulong Duan"
+        },
+        {
+          "authorId": "2289834321",
+          "name": "Jiayu Luo"
+        },
+        {
+          "authorId": "2804990",
+          "name": "Youzhi Miao"
+        },
+        {
+          "authorId": "4162967",
+          "name": "Jiahui Shao"
+        },
+        {
+          "authorId": "50070052",
+          "name": "Zhihui Xu"
+        },
+        {
+          "authorId": "2153284241",
+          "name": "Nan Zhang"
+        },
+        {
+          "authorId": "2239690875",
+          "name": "Qirong Shen"
+        },
+        {
+          "authorId": "2243948779",
+          "name": "Ruifu Zhang"
+        },
+        {
+          "authorId": "5567421",
+          "name": "Weibing Xun"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "505ef7989b257cff14b10911583b406a4c7db969",
+      "url": "https://www.semanticscholar.org/paper/505ef7989b257cff14b10911583b406a4c7db969",
+      "title": "Unveiling Soil Microbiome Adaptation and Survival Strategy Under Vanadium Stress in Nationwide Mining Environments",
+      "venue": "Journal of Geophysical Research: Biogeosciences",
+      "year": 2024,
+      "citationCount": 27,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1029/2023JG007655?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1029/2023JG007655, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2119077735",
+          "name": "Han Zhang"
+        },
+        {
+          "authorId": "2261587187",
+          "name": "Shuo Jiao"
+        },
+        {
+          "authorId": "2281033912",
+          "name": "Yi Xing"
+        },
+        {
+          "authorId": "2293370057",
+          "name": "Bo Jiang"
+        },
+        {
+          "authorId": "152856665",
+          "name": "Shungui Zhou"
+        },
+        {
+          "authorId": "2161753863",
+          "name": "Baogang Zhang"
+        }
+      ],
+      "abstract": "In the soils of vanadium (V) smelters, a diverse array of microorganisms relies on metabolic activities for survival amid stress. However, the characteristics and functions of soil microbiomes in V mining environments remain unexplored on a continental scale. This study thoroughly investigates the microbial diversity, community assembly, and functional potential of soil microbiome across 90 V smelters in China. Alpha diversity decreases significantly along the V gradient, with V emerging as the primary factor influencing community structure, followed by other environmental, climatic, and geographic factors. The null model reveals that V induces homogeneous selection, shaping co‐occurrence patterns and leading to increased number of positive associations, particularly with keystone genera such as f_Gemmatimonadaceae, Nocardioides, Micromonospora, and Rubrobacter under higher V concentrations (>559.6 mg/kg). Moreover, a metagenomic analysis yields 67 metagenome‐assembled genomes, unraveling the potential metabolic pathways of keystone taxa and their likely involvement in the V(V) reduction process. Nitrate and nitrite reductase (nirK, narG), and mtrABC are found to be taxonomically affiliated with Micromonospora. sp, FEN‐1250. sp, Nocardioides. sp, etc. Additionally, the reverse citric acid cycle (rTCA) likely serves as the primary carbon fixation pathway, synthesizing alternative energy for putative V reducers, highlighting a potentially synergistic relationship between autotrophic and heterotrophic processes that supports microbial survival. Our findings comprehensively uncover the driving forces behind soil community variation under V stress, revealing robust strategies possibly employed by indigenous microorganisms to mitigate the impact of V. These insights hold potential for applications in bioremediation."
+    },
+    {
+      "paperId": "af873fa64012ad24b8af6d0427e038a3a29f3fc1",
+      "url": "https://www.semanticscholar.org/paper/af873fa64012ad24b8af6d0427e038a3a29f3fc1",
+      "title": "Tree Species Overcome Edaphic Heterogeneity in Shaping the Urban Orchard Soil Microbiome and Metabolome",
+      "venue": "Horticulturae",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/horticulturae11101163?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/horticulturae11101163, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "144261741",
+          "name": "E. D. Kovacs"
+        },
+        {
+          "authorId": "2135494138",
+          "name": "M. Kovacs"
+        }
+      ],
+      "abstract": "Despite the increasing recognition of the role of urban orchard ecosystems in sustainable urban development, the mechanistic understanding of how tree species soil biochemical heterogeneity drives microbial community assembly, the spatial patterns governing microbe-environment interactions, and their collective contributions to ecosystem multifunctionality remain poorly characterized. This study investigated how Prunus species and soil depth affect microbial biodiversity and metabolomic signatures in an urban orchard in Cluj-Napoca, Romania. Soil samples were collected from five fruit tree species (apricot, peach, plum, cherry, and sour cherry) across three depths (0–10, 10–20, and 20–30 cm), resulting in 225 samples. The microbial community structure was analyzed through phospholipid fatty acid (PLFA) profiling, whereas the soil metabolome was analyzed by mass spectrometry techniques, including gas chromatography–mass spectrometry (GC–MS/MS) and MALDI time-of-flight (TOF/TOF) MS, which identified 489 compounds across 18 chemical classes. The results revealed significant tree species-specific effects on soil microbial biodiversity, with bacterial biomarkers dominating and total microbial biomass varying among species. The soils related to apricot trees presented the highest microbial activity, particularly in the surface layers. Metabolomic analysis revealed 247 distinct KEGG-annotated metabolites, with sour cherry exhibiting unique organic acid profiles and cherry showing distinctive quinone accumulation. Depth stratification influenced both microbial communities and metabolite composition, reflecting oxygen gradients and substrate availability. These findings provide mechanistic insights into urban orchard soil biogeochemistry, suggesting that strategic species selection can harness tree species-soil microbe interactions to optimize urban soil ecosystem services and enhance urban biodiversity conservation."
+    },
+    {
+      "paperId": "a33743ef58bb8645291c8631344868ca1ab296c2",
+      "url": "https://www.semanticscholar.org/paper/a33743ef58bb8645291c8631344868ca1ab296c2",
+      "title": "Disturbance Gradients of Plateau Pika (\n Ochotona curzoniae\n ) Reshape Soil Microbiome Communities in Qinghai–Tibetan Plateau Ecosystems",
+      "venue": "Land Degradation &amp; Development",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/ldr.70355?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/ldr.70355, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2328640735",
+          "name": "Yihong Wang"
+        },
+        {
+          "authorId": "65880580",
+          "name": "Li Jing"
+        },
+        {
+          "authorId": "2397024430",
+          "name": "Wang Suqin"
+        },
+        {
+          "authorId": "2279661514",
+          "name": "Xinyang Chen"
+        },
+        {
+          "authorId": "2055723834",
+          "name": "Wang Rong"
+        },
+        {
+          "authorId": "2279782832",
+          "name": "Zhaoxian Tan"
+        },
+        {
+          "authorId": "2265453242",
+          "name": "Jiapeng Qu"
+        }
+      ],
+      "abstract": "\n \n The plateau pika (\n \n Ochotona curzoniae\n \n ) is recognized as an ecosystem engineer on the Qinghai–Tibetan Plateau (QTP). Despite the critical roles that soil microbiomes play in ecosystem functioning, little is known about how the disturbance behaviors of plateau pikas alter soil microbial community. Here, we investigated the impact of plateau pika disturbance across a gradient of intensities—high (1587 ± 89 burrows·ha\n −1\n ), medium (667 ± 42 burrows·ha\n −1\n ), and low (41 ± 5 burrows·ha\n −1\n )‐on soil microbial composition, community assembly processes, functional profiles, and co‐occurrence network patterns using 16S rRNA sequencing. The results revealed that pika disturbance significantly altered soil microbial composition. Specifically, the relative abundance of\n Proteobacteria\n ,\n Rokubacteria\n and\n Entorrhizomycota\n showed a significant increase with disturbance intensity. Furthermore, the disturbance altered both bacterial and fungal β diversity, resulting in a clear separation between microbial communities under low and high disturbance intensities. Soil pH, carbon and nitrogen contents were significantly correlated with both bacterial and fungal community compositions. Stochastic processes, particularly dispersal limitation, predominate in microbial community assembly and become more pronounced with greater disturbance. Furthermore, higher disturbance intensity resulted in a marked reduction in secondary metabolic functions and increased the complexity of microbial co‐occurrence networks. These findings demonstrate that plateau pika activity drives the restructuring of soil microbiomes across the disturbance gradient. This study provides an ecological perspective for integrating microbial metrics into alpine grassland management and for evaluating the ecological trade‐offs in managing pika populations on the QTP.\n"
+    }
+  ]
+}

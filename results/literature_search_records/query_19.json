@@ -1,0 +1,303 @@
+{
+  "query": "compositional microbiome analysis CLR Aitchison",
+  "timestamp_utc": "2026-05-19T13:06:24.989459+00:00",
+  "data": [
+    {
+      "paperId": "d290c1a00671bda837a47121b3f4d6e53abd15e9",
+      "url": "https://www.semanticscholar.org/paper/d290c1a00671bda837a47121b3f4d6e53abd15e9",
+      "title": "Relationship Between the Subgingival Microbiome and Menopausal Hormone Therapy Use: The Buffalo OsteoPerio Study",
+      "venue": "The Journal of Periodontology",
+      "year": 2022,
+      "citationCount": 8,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/175210/2/jper10966_am.pdf",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9643674, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2164748721",
+          "name": "Ahmed I Soliman"
+        },
+        {
+          "authorId": "2369066",
+          "name": "M. LaMonte"
+        },
+        {
+          "authorId": "4839349",
+          "name": "K. Hovey"
+        },
+        {
+          "authorId": "2465519",
+          "name": "D. McSkimming"
+        },
+        {
+          "authorId": "10554596",
+          "name": "C. Andrews"
+        },
+        {
+          "authorId": "35149407",
+          "name": "P. Diaz"
+        },
+        {
+          "authorId": "48780868",
+          "name": "M. Buck"
+        },
+        {
+          "authorId": "2256178937",
+          "name": "Yijun Sun"
+        },
+        {
+          "authorId": "4352013",
+          "name": "A. Millen"
+        },
+        {
+          "authorId": "1387455896",
+          "name": "J. Wactawski‐Wende"
+        }
+      ],
+      "abstract": "Background: This study investigated the association between menopausal hormone therapy (HT) use and the subgingival microbiome, for which published information is limited. Methods: This cross-sectional study included 1,270 postmenopausal women, aged 53-81 years, who completed clinical examinations. Detailed information on HT use (type, delivery mode, duration) was obtained from questionnaires. HT use was categorized into three groups (never, former, current). 16S rRNA sequencing was performed on subgingival plaque samples obtained during dental examinations. Operational Taxonomic Units were centered log2-ratio (CLR) transformed to account for the compositional data structure. Analysis of variance was used to compare mean microbial relative abundances across HT categories with Benjamini-Hochberg correction. Results: Significantly higher alpha diversity (Shannon Index) and beta diversity (Aitchison distance) was observed in never compared to current HT users (P<0.05, each). Of the total 245 microbial taxa identified, 18 taxa differed significantly among the three HT groups, 11 of which were higher in current users and 7 of which were lower in current users as compared to never users (P<0.05, each). Differences in relative abundance between never and current HT users were materially unchanged after adjustment for age, BMI, and oral hygiene. Conclusion: Relative abundance of several subgingival bacteria differed significantly between never and current HT users in a cohort of postmenopausal women. Additional studies are needed to determine the extent that these relationships might account for the previously reported inverse association between HT use and periodontal disease in older women."
+    },
+    {
+      "paperId": "dc3c457cd9bbfb9ac8ed93fb784e5f62ae3e1835",
+      "url": "https://www.semanticscholar.org/paper/dc3c457cd9bbfb9ac8ed93fb784e5f62ae3e1835",
+      "title": "A New Approach to Compositional Data Analysis using \\(L^{\\infty}\\)-normalization with Applications to Vaginal Microbiome",
+      "venue": "",
+      "year": 2025,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.21543, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Mathematics"
+      ],
+      "authors": [
+        {
+          "authorId": "1745796",
+          "name": "P. Gajer"
+        },
+        {
+          "authorId": "2243231920",
+          "name": "J. Ravel"
+        }
+      ],
+      "abstract": "We introduce a novel approach to compositional data analysis based on $L^{\\infty}$-normalization, addressing challenges posed by zero-rich high-throughput data. Traditional methods like Aitchison's transformations require excluding zeros, conflicting with the reality that omics datasets contain structural zeros that cannot be removed without violating inherent biological structures. Such datasets exist exclusively on the boundary of compositional space, making interior-focused approaches fundamentally misaligned. We present a family of $L^p$-normalizations, focusing on $L^{\\infty}$-normalization due to its advantageous properties. This approach identifies compositional space with the $L^{\\infty}$-simplex, represented as a union of top-dimensional faces called $L^{\\infty}$-cells. Each cell consists of samples where one component's absolute abundance equals or exceeds all others, with a coordinate system identifying it with a d-dimensional unit cube. When applied to vaginal microbiome data, $L^{\\infty}$-decomposition aligns with established Community State Types while offering advantages: each $L^{\\infty}$-CST is named after its dominating component, has clear biological meaning, remains stable under sample changes, resolves cluster-based issues, and provides a coordinate system for exploring internal structure. We extend homogeneous coordinates through cube embedding, mapping data into a d-dimensional unit cube. These embeddings can be integrated via Cartesian product, providing unified representations from multiple perspectives. While demonstrated through microbiome studies, these methods apply to any compositional data."
+    },
+    {
+      "paperId": "e56c9f00e25ee2b50764a78739bd93a77f0a8952",
+      "url": "https://www.semanticscholar.org/paper/e56c9f00e25ee2b50764a78739bd93a77f0a8952",
+      "title": "Understanding the bias of compositional microbiome differential abundance estimation",
+      "venue": "bioRxiv",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.64898/2026.04.28.721392?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.64898/2026.04.28.721392, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "2268131825",
+          "name": "M. Calle"
+        },
+        {
+          "authorId": "2347349115",
+          "name": "M. Pujolassos"
+        },
+        {
+          "authorId": "29158812",
+          "name": "Antoni Susín"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "dcc0c4c30f7c294211ec126953364e768d498bc0",
+      "url": "https://www.semanticscholar.org/paper/dcc0c4c30f7c294211ec126953364e768d498bc0",
+      "title": "Rarefaction is better than robust Aitchison PCA and other compositional data analysis methods at controlling for uneven sequencing effort",
+      "venue": "bioRxiv",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.64898/2026.01.06.697977?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.64898/2026.01.06.697977, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "3118995",
+          "name": "P. Schloss"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "1b7c716319533bbba93a345f6693e0960bd92495",
+      "url": "https://www.semanticscholar.org/paper/1b7c716319533bbba93a345f6693e0960bd92495",
+      "title": "Compositional analysis of microbiome data using the linear decomposition model (LDM)",
+      "venue": "bioRxiv",
+      "year": 2023,
+      "citationCount": 6,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad668/52762454/btad668.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.05.26.542540?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.05.26.542540, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2149297557",
+          "name": "Yi-Juan Hu"
+        },
+        {
+          "authorId": "2662682",
+          "name": "G. Satten"
+        }
+      ],
+      "abstract": "Summary There are compelling reasons to test compositional hypotheses about microbiome data. We present here LDM-clr, an extension of our linear decomposition model (LDM) approach to allow fitting linear models to centered-log-ratio-transformed taxa count data. As LDM-clr is implemented within the existing LDM program, it enjoys all the features supported by LDM, including a compositional analysis of differential abundance at both the taxon and community levels, while allowing for a wide range of covariates and study designs for either association or mediation analysis. Availability and Implementation LDM-clr has been added to the R package LDM, which is available on GitHub at https://github.com/yijuanhu/LDM. Contact yijuan.hu@emory.edu Supplementary information Supplementary data are available at Bioinformatics online."
+    },
+    {
+      "paperId": "2724e5277d735db723eb62e77e28da7bc74178a0",
+      "url": "https://www.semanticscholar.org/paper/2724e5277d735db723eb62e77e28da7bc74178a0",
+      "title": "Compositional analysis of microbiome data using the linear decomposition model (LDM)",
+      "venue": "Bioinform.",
+      "year": 2023,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad668/52762454/btad668.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/bioinformatics/btad668?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/bioinformatics/btad668, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Computer Science",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2149297557",
+          "name": "Yi-Juan Hu"
+        },
+        {
+          "authorId": "2261920102",
+          "name": "Glen A. Satten"
+        }
+      ],
+      "abstract": "SUMMARY\nThere are compelling reasons to test compositional hypotheses about microbiome data. We present here LDM-clr, an extension of our linear decomposition model (LDM) approach to allow fitting linear models to centered-log-ratio-transformed taxa count data. As LDM-clr is implemented within the existing LDM program, this extension enjoys all the features supported by LDM, including a compositional analysis of differential abundance at both the taxon and community levels, while allowing for a wide range of covariates and study designs for either association or mediation analysis.\n\n\nAVAILABILITY AND IMPLEMENTATION\nLDM-clr has been added to the R package LDM, which is available on GitHub at https://github.com/yijuanhu/LDM.\n\n\nSUPPLEMENTARY INFORMATION\nSupplementary materials are available at Bioinformatics online."
+    },
+    {
+      "paperId": "e35d0bf6801ee079a26badd65eadd2bb004d71f3",
+      "url": "https://www.semanticscholar.org/paper/e35d0bf6801ee079a26badd65eadd2bb004d71f3",
+      "title": "Characterization of the Airborne Microbiome in Different Indoor and Outdoor Locations of a University Building Using an Innovative Compositional Data Analysis Approach",
+      "venue": "Atmosphere",
+      "year": 2023,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://www.mdpi.com/2073-4433/14/10/1529/pdf?version=1696432980",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/atmos14101529?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/atmos14101529, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2119263561",
+          "name": "Mattia Fragola"
+        },
+        {
+          "authorId": "40961390",
+          "name": "S. Romano"
+        },
+        {
+          "authorId": "2254475288",
+          "name": "Dalila Peccarrisi"
+        },
+        {
+          "authorId": "2455347",
+          "name": "A. Talà"
+        },
+        {
+          "authorId": "2251908193",
+          "name": "P. Alifano"
+        },
+        {
+          "authorId": "2254475263",
+          "name": "A. Buccolieri"
+        },
+        {
+          "authorId": "34703120",
+          "name": "G. Quarta"
+        },
+        {
+          "authorId": "93261045",
+          "name": "L. Calcagnile"
+        }
+      ],
+      "abstract": "In this work, we investigated the structure of the airborne bacterial community obtained by 16S rRNA gene sequencing performed on aerosol samples from different indoor and outdoor locations. The 48-h aerosol samples were collected in two laboratories, in the corridors, and on the roof of the Mathematics and Physics Department of the University of Salento (Italy). The investigation was carried out through the application of an innovative compositional data analysis approach, mainly based on a centered log-ratio transformation as a standardization procedure, the Aitchison distance for data ordination, and the principal component analysis via singular value decomposition for data clustering. This methodology allowed us to explore the main relationships among samples, identifying different results between indoor and outdoor samples both at the genus level and at the species level. Bacillus and Pseudomonas represented the most abundant genera identified in the analyzed samples. Out of the 21 identified bacterial species with the highest abundances in the collected aerosol samples, Acinetobacter lwoffii, Propionibacterium acnes, Diplorickettsia massiliensis, and Corynebacterium tuberculostearicum were the only four commonly classified as human opportunistic pathogens. Among the genera mostly associated with indoor environments, Hymenobacter and Arthrobacter could be noted as including many species that are unique in being radiation resistant."
+    },
+    {
+      "paperId": "aef538d3dde70c0c2eaaa5fc95bea7e92303a522",
+      "url": "https://www.semanticscholar.org/paper/aef538d3dde70c0c2eaaa5fc95bea7e92303a522",
+      "title": "Variable selection in microbiome compositional data analysis",
+      "venue": "NAR Genomics and Bioinformatics",
+      "year": 2020,
+      "citationCount": 83,
+      "influentialCitationCount": 3,
+      "openAccessPdf": {
+        "url": "https://academic.oup.com/nargab/article-pdf/2/2/lqaa029/34054449/lqaa029.pdf",
+        "status": "GOLD",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7671404, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "29158812",
+          "name": "Antoni Susín"
+        },
+        {
+          "authorId": "2108841635",
+          "name": "Yiwen Wang"
+        },
+        {
+          "authorId": "2265919864",
+          "name": "Kim-Anh Lê Cao"
+        },
+        {
+          "authorId": "2268131825",
+          "name": "M. Calle"
+        }
+      ],
+      "abstract": "Abstract Though variable selection is one of the most relevant tasks in microbiome analysis, e.g. for the identification of microbial signatures, many studies still rely on methods that ignore the compositional nature of microbiome data. The applicability of compositional data analysis methods has been hampered by the availability of software and the difficulty in interpreting their results. This work is focused on three methods for variable selection that acknowledge the compositional structure of microbiome data: selbal, a forward selection approach for the identification of compositional balances, and clr-lasso and coda-lasso, two penalized regression models for compositional data analysis. This study highlights the link between these methods and brings out some limitations of the centered log-ratio transformation for variable selection. In particular, the fact that it is not subcompositionally consistent makes the microbial signatures obtained from clr-lasso not readily transferable. Coda-lasso is computationally efficient and suitable when the focus is the identification of the most associated microbial taxa. Selbal stands out when the goal is to obtain a parsimonious model with optimal prediction performance, but it is computationally greedy. We provide a reproducible vignette for the application of these methods that will enable researchers to fully leverage their potential in microbiome studies."
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "query": "fungi bacteria protist interactions soil",
+  "timestamp_utc": "2026-05-19T13:05:55.237065+00:00",
+  "data": [
+    {
+      "paperId": "0e79f563128e9c8b3487b5dc217e44186627e9f3",
+      "url": "https://www.semanticscholar.org/paper/0e79f563128e9c8b3487b5dc217e44186627e9f3",
+      "title": "Trophic relationships between protists and bacteria and fungi drive the biogeography of rhizosphere soil microbial community and impact plant physiological and ecological functions.",
+      "venue": "Microbiology Research",
+      "year": 2024,
+      "citationCount": 38,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1016/j.micres.2024.127603",
+        "status": "HYBRID",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.micres.2024.127603?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.micres.2024.127603, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2248932318",
+          "name": "Boyan Wang"
+        },
+        {
+          "authorId": "2275240275",
+          "name": "Chen Chen"
+        },
+        {
+          "authorId": "4855427",
+          "name": "Yuan-ming Xiao"
+        },
+        {
+          "authorId": "2218491304",
+          "name": "Kaiyang Chen"
+        },
+        {
+          "authorId": "2242793703",
+          "name": "Juan Wang"
+        },
+        {
+          "authorId": "2164117889",
+          "name": "Shuo Zhao"
+        },
+        {
+          "authorId": "2278580538",
+          "name": "Na Liu"
+        },
+        {
+          "authorId": "2362865550",
+          "name": "Jia-Nan Li"
+        },
+        {
+          "authorId": "2269695989",
+          "name": "Guoying Zhou"
+        }
+      ],
+      "abstract": "Rhizosphere microorganisms play a vital role in enhancing plant health, productivity, and the accumulation of secondary metabolites. Currently, there is a limited understanding of the ecological processes that control the assembly of community. To address the role of microbial interactions in assembly and for functioning of the rhizosphere soil microbiota, we collected rhizosphere soil samples from Anisodus tanguticus on the Tibetan Plateau spanning 1500 kilometers, and sequenced the bacteria, fungi, archaea, and protist communities. We observed a significant but weak distance-decay relationship in the microbial communities of rhizosphere soil. Our comprehensive analysis of spatial, abiotic, and biotic factors showed that trophic relationships between protists and bacteria and fungi predominantly influenced the alpha and beta diversity of bacterial, fungal, and protistan communities, while abiotic factors had a greater impact on archaeal communities, including soil pH, available phosphorus, total phosphorus and mean annual temperature. Importantly, microbial interactions had a more significant influence on Anisodus tanguticus physiological and ecological functions compared to individual microorganisms. Network analyses revealed that bacteria occupy a central position of the co-occurrence network and play a crucial role of connector within this community. The addition of protists increased the stability of bacterial, fungal, and archaeal networks. Overall, our findings indicate that trophic relationships play an important role in assembly and for functioning of the rhizosphere soil microbiota. Bacterial communities serve as a crucial link between different kingdoms of microorganisms in the rhizosphere community. These findings help us to fully harness the beneficial functions of rhizosphere microorganisms for plants and achieve sustainable use of biological resources."
+    },
+    {
+      "paperId": "75641f105397308e0bd4d05e337a46a47120976e",
+      "url": "https://www.semanticscholar.org/paper/75641f105397308e0bd4d05e337a46a47120976e",
+      "title": "Oligotrophic bacteria and pathotrophic fungi moderate multitrophic interactions in semi-arid and arid environments",
+      "venue": "Environmental Microbiome",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12628942, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2261472572",
+          "name": "Premchand Maisnam"
+        },
+        {
+          "authorId": "2261469825",
+          "name": "Thomas C. Jeffries"
+        },
+        {
+          "authorId": "2261470607",
+          "name": "Jerzy Szejgis"
+        },
+        {
+          "authorId": "2201115366",
+          "name": "Dylan Bristol"
+        },
+        {
+          "authorId": "2239970577",
+          "name": "U. N. Nielsen"
+        }
+      ],
+      "abstract": "Future climate projections indicate shifts in intra-annual precipitation patterns, with intensified rainfall events and prolonged dry periods. These changes may alter soil biotic communities and their interactions within food webs, particularly in semi-arid and arid ecosystems. However, the influence of varying rainfall regimes and increasing aridity on multitrophic associations in drylands remains poorly understood. We leveraged a long-term rainfall manipulation experiment across 6 dryland sites in eastern Australia, including 2 arid ecosystems and 4 semi-arid ecosystems with different levels of rainfall (coefficient of variation, CV), resulting in 3 different climatic conditions. Surface soil was collected from replicated plots subjected to increased (+ 65%) or reduced (− 65%) rainfall relative to ambient conditions using rainout shelter. We characterized bacteria, fungi, protist, and nematode communities using high-throughput amplicon sequencing targeting 16S rRNA, ITS, 18S rRNA and 28S rRNA regions, respectively. Multitrophic co-occurrence network among these groups were constructed to assess biotic responses to rainfall and climatic variations. Soil biotic community composition in drylands was primarily shaped by environmental conditions, with rainfall treatments exerted no main effect. Belowground multitrophic co-occurrence networks varied significantly across climatic conditions, with aridity promoting positive bacterial associations. Bacteria, fungi, protist formed highly connected modules, and their interactions were central in maintaining multitrophic network structure. Oligotrophic bacteria and pathotrophic fungi emerged as dominant keystone taxa, with their abundance strongly influenced by mean annual precipitation (MAP), underscoring the role of long-term climatic gradients over short-term rainfall changes. Our findings demonstrate that increasing aridity and rainfall variability reshape soil multitrophic networks in drylands, favoring communities dominated by stress-adapted taxa. The concurrent rise of fungal pathotrophs, potentially driven by declines in protist consumers, may undermine ecosystem resilience. Incorporating multitrophic perspectives into climate impact assessments is essential for anticipating and mitigating emerging threats, such as rising soil-borne pathogens in dryland ecosystems."
+    },
+    {
+      "paperId": "bbceffab66dde85bd811f01e330850d05d49fcf7",
+      "url": "https://www.semanticscholar.org/paper/bbceffab66dde85bd811f01e330850d05d49fcf7",
+      "title": "Soil Protist Diversity and Biotic Interactions Shape Ecosystem Functions Under Climate Change",
+      "venue": "Global Change Biology",
+      "year": 2026,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/gcb.70692?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/gcb.70692, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2265025381",
+          "name": "Hongwei Liu"
+        },
+        {
+          "authorId": "145544125",
+          "name": "Catarina S. C. Martins"
+        },
+        {
+          "authorId": "2153104697",
+          "name": "Guiyao Zhou"
+        },
+        {
+          "authorId": "2316103182",
+          "name": "Ramesha H. Jayaramaiah"
+        },
+        {
+          "authorId": "2265147888",
+          "name": "Haiyang Zhang"
+        },
+        {
+          "authorId": "2144494410",
+          "name": "Jiayu Li"
+        },
+        {
+          "authorId": "2260834447",
+          "name": "Pankaj K. Singh"
+        },
+        {
+          "authorId": "2266566687",
+          "name": "Zhenzhen Yan"
+        },
+        {
+          "authorId": "2167484752",
+          "name": "Juntao Wang"
+        },
+        {
+          "authorId": "2398501407",
+          "name": "Peter B Reich"
+        },
+        {
+          "authorId": "2239967567",
+          "name": "N. Eisenhauer"
+        },
+        {
+          "authorId": "2243974681",
+          "name": "Manuel Delgado-Baquerizo"
+        },
+        {
+          "authorId": "2241969341",
+          "name": "Brajesh K. Singh"
+        }
+      ],
+      "abstract": "Soil protists significantly influence ecosystem multifunctionality (EMF) through their roles in microbial predation, parasitism, and organic matter decomposition. However, the multifaceted contributions of protist diversity, along with its interactions with other microbial groups and plant diversity, to EMF—especially under climate‐induced stresses such as drought—remain poorly understood. To address this knowledge gap, we conducted a factorial microcosm experiment, manipulating microbial diversity (protists, bacteria and fungi), plant species richness, and drought stress. In total, 203 microcosms were established, generating 812 soil samples and 2436 amplicon sequencing libraries. Using structural equation modelling (SEM) and multiple regression analyses, we found that protist diversity was positively correlated with EMF, carbon sequestration, soil organic matter (SOM) decomposition, and nutrient cycling. Furthermore, protist communities exhibited distinct, phylum‐specific relationships with these ecosystem functions. Under drought conditions, microbial interaction networks experienced significant restructuring, with protists emerging as keystone taxa—enhancing protist connectivity and highlighting their central role in ecosystem resilience, especially in relation to leaf carbon dynamics. Our findings provide novel empirical evidence that protists act as multitrophic integrators in soil ecosystems and highlight their role in buffering ecosystems against global environmental change."
+    },
+    {
+      "paperId": "3a17ce6cee66ccb66e7eb24a1d7637b27a918843",
+      "url": "https://www.semanticscholar.org/paper/3a17ce6cee66ccb66e7eb24a1d7637b27a918843",
+      "title": "Soil protist communities form a dynamic hub in the soil microbiome",
+      "venue": "The ISME Journal",
+      "year": 2017,
+      "citationCount": 229,
+      "influentialCitationCount": 1,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/ismej2017171.pdf",
+        "status": "BRONZE",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/ismej.2017.171?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/ismej.2017.171, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology",
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "91197868",
+          "name": "Wu Xiong"
+        },
+        {
+          "authorId": "6879554",
+          "name": "A. Jousset"
+        },
+        {
+          "authorId": "16042966",
+          "name": "Sai Guo"
+        },
+        {
+          "authorId": "50782997",
+          "name": "I. Karlsson"
+        },
+        {
+          "authorId": "7007926",
+          "name": "Qingyun Zhao"
+        },
+        {
+          "authorId": "5244910",
+          "name": "Hua-song Wu"
+        },
+        {
+          "authorId": "3885723",
+          "name": "G. Kowalchuk"
+        },
+        {
+          "authorId": "47927289",
+          "name": "Q. Shen"
+        },
+        {
+          "authorId": "39328983",
+          "name": "Rong Li"
+        },
+        {
+          "authorId": "6893690",
+          "name": "S. Geisen"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "dc57194746a782ae23f5331b89ff44351276cbd6",
+      "url": "https://www.semanticscholar.org/paper/dc57194746a782ae23f5331b89ff44351276cbd6",
+      "title": "Predatory protists reduce bacteria wilt disease incidence in tomato plants",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "citationCount": 44,
+      "influentialCitationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/s41467-024-45150-0.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10821857, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "16042966",
+          "name": "Sai Guo"
+        },
+        {
+          "authorId": "2050131145",
+          "name": "Zixuan Jiao"
+        },
+        {
+          "authorId": "2281787384",
+          "name": "Zhiguang Yan"
+        },
+        {
+          "authorId": "2282156555",
+          "name": "Xinyue Yan"
+        },
+        {
+          "authorId": "49077422",
+          "name": "Xuhui Deng"
+        },
+        {
+          "authorId": "2279058097",
+          "name": "Wu Xiong"
+        },
+        {
+          "authorId": "49409773",
+          "name": "Chengyuan Tao"
+        },
+        {
+          "authorId": "2017947847",
+          "name": "Hongjun Liu"
+        },
+        {
+          "authorId": "2259752275",
+          "name": "Rong Li"
+        },
+        {
+          "authorId": "2255572873",
+          "name": "Qirong Shen"
+        },
+        {
+          "authorId": "3885723",
+          "name": "G. Kowalchuk"
+        },
+        {
+          "authorId": "2265854205",
+          "name": "Stefan Geisen"
+        }
+      ],
+      "abstract": "Soil organisms are affected by the presence of predatory protists. However, it remains poorly understood how predatory protists can affect plant disease incidence and how fertilization regimes can affect these interactions. Here, we characterise the rhizosphere bacteria, fungi and protists over eleven growing seasons of tomato planting under three fertilization regimes, i.e conventional, organic and bioorganic, and with different bacterial wilt disease incidence levels. We find that predatory protists are negatively associated with disease incidence, especially two ciliophoran Colpoda OTUs, and that bioorganic fertilization enhances the abundance of predatory protists. In glasshouse experiments we find that the predatory protist Colpoda influences disease incidence by directly consuming pathogens and indirectly increasing the presence of pathogen-suppressive microorganisms in the soil. Together, we demonstrate that predatory protists reduce bacterial wilt disease incidence in tomato plants via direct and indirect reductions of pathogens. Our study provides insights on the role that predatory protists play in plant disease, which could be used to design more sustainable agricultural practices. Soil organisms are affected by the presence of predatory protists. Here, the authors predatory protists are negatively associated with bacteria wilt disease incidence in tomato plants and that fertilisation enhances the abundance of predatory protists"
+    },
+    {
+      "paperId": "de7252ea09b5bf83d36da198ab76f0d3c3c9ef66",
+      "url": "https://www.semanticscholar.org/paper/de7252ea09b5bf83d36da198ab76f0d3c3c9ef66",
+      "title": "Grazing intensity alters network complexity and predator–prey relationships in the soil microbiome",
+      "venue": "Applied and Environmental Microbiology",
+      "year": 2024,
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1128/aem.00425-24?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1128/aem.00425-24, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "1492133408",
+          "name": "Lennel A. Camuy-Vélez"
+        },
+        {
+          "authorId": "2276982259",
+          "name": "Samiran Banerjee"
+        },
+        {
+          "authorId": "3865574",
+          "name": "K. Sedivec"
+        }
+      ],
+      "abstract": "ABSTRACT Grasslands are recognized as important reservoirs of soil biodiversity. Livestock grazing is implemented as a grassland management strategy to improve soil quality and enhance plant diversity. Soil microbial communities play a pivotal role in grassland ecosystems, so it is important to examine whether grazing practices affect the soil microbiome. Previous studies on grazing have primarily focused on bacteria and fungi, overlooking an important group—protists. Protists are vital in soil microbiomes as they drive nutrient availability and trophic interactions. Determining the impact of grazing on protists and their relationships with bacterial and fungal communities is important for understanding soil microbiome dynamics in grazed ecosystems. In this study, we investigated soil bacterial, fungal, and protist communities under four grazing levels: no grazing, moderate-use grazing, full-use grazing, and heavy-use grazing. Our results showed that heavy grazing led to a greater diversity of protists with specific groups, such as Discoba and Conosa, increasing in abundance. We also found strong associations between protist and bacterial/fungal members, indicating their intricate relationships within the soil microbiome. For example, the abundance of predatory protists increased under grazing while arbuscular mycorrhizal fungi decreased. Notably, arbuscular mycorrhizae were negatively associated with predatory groups. Furthermore, we observed that microbial network complexity increased with grazing intensity, with fungal members playing an important role in the network. Overall, our study reports the impact of temporal grazing intensity on soil microbial dynamics and highlights the importance of considering protist ecology when evaluating the effects of grazing on belowground communities in grassland ecosystems. IMPORTANCE The significance of this study lies in its exploration of the effects of temporal grazing intensity on the dynamics of the soil microbiome, specifically focusing on the often-neglected role of protists. Our findings provide insights into the complex relationships between protists, bacteria, and fungi, emphasizing their impact on trophic interactions in the soil. Gaining a better understanding of these dynamics is essential for developing effective strategies for grassland management and conservation, underscoring the importance of incorporating protist ecology into microbiome studies in grasslands. The significance of this study lies in its exploration of the effects of temporal grazing intensity on the dynamics of the soil microbiome, specifically focusing on the often-neglected role of protists. Our findings provide insights into the complex relationships between protists, bacteria, and fungi, emphasizing their impact on trophic interactions in the soil. Gaining a better understanding of these dynamics is essential for developing effective strategies for grassland management and conservation, underscoring the importance of incorporating protist ecology into microbiome studies in grasslands."
+    },
+    {
+      "paperId": "a69659d05ba837b015460917b5041149dd30c28b",
+      "url": "https://www.semanticscholar.org/paper/a69659d05ba837b015460917b5041149dd30c28b",
+      "title": "Vegetation fine-tunes aridity thresholds in soil biodiversity and function worldwide",
+      "venue": "Plant and Soil",
+      "year": 2024,
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11104-024-06832-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11104-024-06832-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": null,
+      "authors": [
+        {
+          "authorId": "2144167724",
+          "name": "Jianwei Zhang"
+        },
+        {
+          "authorId": "2250161582",
+          "name": "Youzhi Feng"
+        },
+        {
+          "authorId": "152151722",
+          "name": "M. Berdugo"
+        },
+        {
+          "authorId": "2205863925",
+          "name": "Tadeo Sáez‐Sandino"
+        },
+        {
+          "authorId": "3652610",
+          "name": "C. Coleine"
+        },
+        {
+          "authorId": "1399589445",
+          "name": "Laura García-Velázquez"
+        },
+        {
+          "authorId": "2167484752",
+          "name": "Juntao Wang"
+        },
+        {
+          "authorId": "2243974681",
+          "name": "Manuel Delgado-Baquerizo"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "dd47b87dfe0739da4a3b9d16edb50555a180bc4e",
+      "url": "https://www.semanticscholar.org/paper/dd47b87dfe0739da4a3b9d16edb50555a180bc4e",
+      "title": "Bacterial and fungal predator – prey interactions modulate soil aggregation",
+      "venue": "",
+      "year": 2020,
+      "citationCount": 12,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.5194/bg-2020-48",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/bg-2020-48?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/bg-2020-48, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Chemistry"
+      ],
+      "authors": [
+        {
+          "authorId": "4642876",
+          "name": "A. Erktan"
+        },
+        {
+          "authorId": "5718291",
+          "name": "M. Rillig"
+        },
+        {
+          "authorId": "5112627",
+          "name": "A. Carminati"
+        },
+        {
+          "authorId": "6879554",
+          "name": "A. Jousset"
+        },
+        {
+          "authorId": "5609549",
+          "name": "S. Scheu"
+        }
+      ],
+      "abstract": "Abstract. The formation and stabilisation of soil macro-aggregates protects soils from erosion, a major worldwide threat on soils. While the role of bacteria and fungi in soil aggregation is well established, how predators feeding on microbes modify soil aggregation has hardly been tested. Here, we studied how predators modulate the effect of microbial prey on soil aggregation. We focused on two predator – prey interactions: bacterial-based interactions comprising amoebae (Acanthamoeba castellanii) grazing on free-living bacteria (Pseudomonas fluorescens), and fungal-based interactions comprising collembolans (Heteromurus nitidus) grazing on saprotrophic fungi (Chaetomium globosum). We conducted a microcosm experiment lasting six weeks and assessed changes in soil aggregate formation and stabilisation, together with modifications in soil microbial communities (PLFAs). We further traced the food resource consumed by microbes using δ13C isotopic tracing. The protist A. castellanii increased the formation of soil aggregates but decreased their stability, without affecting bacterial abundance and community composition, suggesting that the changes were due to amoebae-mediated changes in the production of bacterial mucilage. Saprotrophic fungi showed the highest positive effect on soil aggregate formation and stabilisation, associated with a more efficient use of particulate organic carbon (chopped litter) added to the microcosms. Adding collembolans decreased the abundance of fungi and their ability to capture carbon of litter origin, with negative consequences on soil aggregation. Our work here has demonstrated that trophic interactions are important for achieving a mechanistic understanding of biological contributions to soil aggregation."
+    }
+  ]
+}

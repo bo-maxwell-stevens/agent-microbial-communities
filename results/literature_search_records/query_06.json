@@ -1,0 +1,494 @@
+{
+  "query": "soil cross kingdom microbial interactions",
+  "timestamp_utc": "2026-05-19T13:05:52.461655+00:00",
+  "data": [
+    {
+      "paperId": "8cfb045feb291922d15ee7478701dc29a3dbc41c",
+      "url": "https://www.semanticscholar.org/paper/8cfb045feb291922d15ee7478701dc29a3dbc41c",
+      "title": "Ubiquitous bacterial polyketides induce cross-kingdom microbial interactions",
+      "venue": "bioRxiv",
+      "year": 2022,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2022.05.09.491136?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2022.05.09.491136, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Biology"
+      ],
+      "authors": [
+        {
+          "authorId": "14409010",
+          "name": "Mario K. C. Krespach"
+        },
+        {
+          "authorId": "40994935",
+          "name": "M. Stroe"
+        },
+        {
+          "authorId": "5605164",
+          "name": "Tina Netzker"
+        },
+        {
+          "authorId": "2164905429",
+          "name": "Maira Rosin"
+        },
+        {
+          "authorId": "2164905084",
+          "name": "Lukas M. Zehner"
+        },
+        {
+          "authorId": "39785980",
+          "name": "A. Komor"
+        },
+        {
+          "authorId": "2164905079",
+          "name": "Johanna M. Beilmann"
+        },
+        {
+          "authorId": "145230160",
+          "name": "Thomas Krüger"
+        },
+        {
+          "authorId": "2650697",
+          "name": "O. Kniemeyer"
+        },
+        {
+          "authorId": "3608658",
+          "name": "V. Schroeckh"
+        },
+        {
+          "authorId": "4028844",
+          "name": "C. Hertweck"
+        },
+        {
+          "authorId": "2064068",
+          "name": "A. Brakhage"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "33e16be6fc92e21a7451e9721ada0071e8bec89d",
+      "url": "https://www.semanticscholar.org/paper/33e16be6fc92e21a7451e9721ada0071e8bec89d",
+      "title": "Mechanistic insights into rhizosphere microbiome assembly in Pinus tabuliformis: The role of cross-kingdom interactions and soil salinity gradients.",
+      "venue": "Fungal Biology",
+      "year": 2025,
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.funbio.2025.101695?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.funbio.2025.101695, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2395448480",
+          "name": "Yilin Luo"
+        },
+        {
+          "authorId": "2385755705",
+          "name": "Haiyun Ding"
+        },
+        {
+          "authorId": "2395593630",
+          "name": "X. Mao"
+        },
+        {
+          "authorId": "2281096248",
+          "name": "Zhixin Kang"
+        },
+        {
+          "authorId": "2395353908",
+          "name": "Boda Li"
+        },
+        {
+          "authorId": "2395659011",
+          "name": "Yong Zhou"
+        }
+      ],
+      "abstract": "Soil salinization caused by desertification and drought severely limits agricultural and forestry development. The rhizosphere core microbiome plays a vital role in helping host plants cope with environmental stress. However, in saline-alkali soils, it remains unclear how bacterial and fungal communities in the rhizosphere of Pinus tabuliformis interact and collectively respond to environmental factors to influence the plant. This study aims to identify the composition and functional potential of the core bacterial and fungal microbiota in the rhizosphere of P. tabuliformis in saline environments, as well as their interactions with environmental factors, thus providing a theoretical basis for utilizing core rhizosphere microbial resources. We performed high-throughput sequencing of root samples from P. tabuliformis at four locations. We analyzed the community structure and functional profiles of bacteria and fungi and their relationships with soil physicochemical properties. The environmental factors most influencing the number of core bacterial species were organic matter (OM), Na+, and total potassium (TK). Meanwhile, total phosphorus (TP) was the most influential soil factor for core fungal species. Correlation analysis showed that TN, TP, and pH significantly affected both bacterial and fungal community variation (P < 0.05). Co-occurrence network analysis indicated complex cross-kingdom interactions between core bacterial and fungal taxa. Functional predictions suggested that bacterial communities exhibit both potential pathogenicity and stress resistance, while fungal communities are more saprotrophic and sensitive to environmental changes. Microbial communities at the SYH site displayed a \"high pathogenicity-low resistance\" profile, contrasting with those at the MC site. Correlation network analysis further uncovered complex mutualistic and competitive relationships among core bacterial and fungal genera. This study demonstrates that P. tabuliformis rhizosphere bacterial and fungal communities respond collaboratively to salinity stress through functional complementarity, such as bacterial enrichment in stress resistance and fungal dominance in saprotrophy. These findings may offer new insights into enhancing the adaptability of P. tabuliformis and improving sandy land ecosystems by targeted management of the soil microbiome."
+    },
+    {
+      "paperId": "5a4fbb00ace620dd546b4e2a57d76ad05a7e582e",
+      "url": "https://www.semanticscholar.org/paper/5a4fbb00ace620dd546b4e2a57d76ad05a7e582e",
+      "title": "Stable-Isotope-Informed, Genome-Resolved Metagenomics Uncovers Potential Cross-Kingdom Interactions in Rhizosphere Soil",
+      "venue": "Msphere",
+      "year": 2021,
+      "citationCount": 53,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://europepmc.org/articles/pmc8550312?pdf=render",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8550312, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2059200120",
+          "name": "Evan P. Starr"
+        },
+        {
+          "authorId": "48806728",
+          "name": "Shengjing Shi"
+        },
+        {
+          "authorId": "3621116",
+          "name": "S. Blazewicz"
+        },
+        {
+          "authorId": "40514527",
+          "name": "B. Koch"
+        },
+        {
+          "authorId": "39616751",
+          "name": "Alexander J. Probst"
+        },
+        {
+          "authorId": "5229966",
+          "name": "B. Hungate"
+        },
+        {
+          "authorId": "1396822954",
+          "name": "J. Pett‐Ridge"
+        },
+        {
+          "authorId": "4741328",
+          "name": "M. Firestone"
+        },
+        {
+          "authorId": "1967107",
+          "name": "J. Banfield"
+        }
+      ],
+      "abstract": "Plants grow in intimate association with soil microbial communities; these microbes can facilitate the availability of essential resources to plants. Thus, plant productivity commonly depends on interactions with rhizosphere bacteria, viruses, and eukaryotes. ABSTRACT The functioning, health, and productivity of soil are intimately tied to a complex network of interactions, particularly in plant root-associated rhizosphere soil. We conducted a stable-isotope-informed, genome-resolved metagenomic study to trace carbon from Avena fatua grown in a 13CO2 atmosphere into soil. We collected paired rhizosphere and nonrhizosphere soil at 6 and 9 weeks of plant growth and extracted DNA that was then separated by density using ultracentrifugation. Thirty-two fractions from each of five samples were grouped by density, sequenced, assembled, and binned to generate 55 unique bacterial genomes that were ≥70% complete. We also identified complete 18S rRNA sequences of several 13C-enriched microeukaryotic bacterivores and fungi. We generated 10 circularized bacteriophage (phage) genomes, some of which were the most labeled entities in the rhizosphere, suggesting that phage may be important agents of turnover of plant-derived C in soil. CRISPR locus targeting connected one of these phage to a Burkholderiales host predicted to be a plant pathogen. Another highly labeled phage is predicted to replicate in a Catenulispora sp., a possible plant growth-promoting bacterium. We searched the genome bins for traits known to be used in interactions involving bacteria, microeukaryotes, and plant roots and found DNA from heavily 13C-labeled bacterial genes thought to be involved in modulating plant signaling hormones, plant pathogenicity, and defense against microeukaryote grazing. Stable-isotope-informed, genome-resolved metagenomics indicated that phage can be important agents of turnover of plant-derived carbon in soil. IMPORTANCE Plants grow in intimate association with soil microbial communities; these microbes can facilitate the availability of essential resources to plants. Thus, plant productivity commonly depends on interactions with rhizosphere bacteria, viruses, and eukaryotes. Our work is significant because we identified the organisms that took up plant-derived organic C in rhizosphere soil and determined that many of the active bacteria are plant pathogens or can impact plant growth via hormone modulation. Further, by showing that bacteriophage accumulate CO2-derived carbon, we demonstrated their vital roles in redistribution of plant-derived C into the soil environment through bacterial cell lysis. The use of stable-isotope probing (SIP) to identify consumption (or lack thereof) of root-derived C by key microbial community members within highly complex microbial communities opens the way for assessing manipulations of bacteria and phage with potentially beneficial and detrimental traits, ultimately providing a path to improved plant health and soil carbon storage."
+    },
+    {
+      "paperId": "b039c3088f3f3ba0cc25b016b0c08b0d02d9d196",
+      "url": "https://www.semanticscholar.org/paper/b039c3088f3f3ba0cc25b016b0c08b0d02d9d196",
+      "title": "Linking soil organic carbon mineralization to microbial interactions during alpine grassland degradation.",
+      "venue": "Journal of Environmental Management",
+      "year": 2025,
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jenvman.2025.127432?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jenvman.2025.127432, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2327181611",
+          "name": "Yang Hu"
+        },
+        {
+          "authorId": "2298206472",
+          "name": "Xinya Sun"
+        },
+        {
+          "authorId": "2352593398",
+          "name": "Haolin Zhang"
+        },
+        {
+          "authorId": "2298202692",
+          "name": "Bicheng Zhang"
+        },
+        {
+          "authorId": "2298216600",
+          "name": "Yubin Wang"
+        },
+        {
+          "authorId": "2261828229",
+          "name": "Hongtao Jia"
+        },
+        {
+          "authorId": "2293236746",
+          "name": "Chao Liang"
+        },
+        {
+          "authorId": "2371142536",
+          "name": "Shaoshan An"
+        }
+      ],
+      "abstract": "Grassland degradation induces substantial losses of soil organic carbon (SOC), which are closely associated with the activities and interactions of various soil microorganisms. However, the response of microorganisms and their interactions to degradation and their relationships with SOC dynamics remain unclear. Here, we established four distinct grassland degradation transects on the Qinghai-Xizang Plateau to investigate the effects of grassland degradation on soil microorganisms (including bacteria, fungi, and protists) and reveal the relationships between microbial network, microbial metabolic activity, and SOC mineralization dynamics. Our findings revealed that grassland degradation increased SOC cumulative mineralization rates by 4.5-47 % and individual microbial metabolic capacity by 10 % to threefold, evidenced by higher cumulative CO2 release per unit SOC and enzyme activity per unit microbial biomass. Grassland degradation increased microbial network complexity, with fungal and cross-kingdom network complexity increasing substantially while bacterial and protistan network complexity decreased. This increase in fungal network complexity was likely driven by community assembly processes and intensified niche overlap among fungi. The enhanced fungal and cross-kingdom interactions may indicate more efficient microbial metabolic networks, thereby accelerating SOC decomposition and loss. Using enhanced microbial network complexity and microbial metabolic capacity as diagnostic indicators can help assess the risk of SOC loss and degradation severity in grassland ecosystems, ultimately improving our ability to predict and manage soil carbon dynamics."
+    },
+    {
+      "paperId": "30f9207d455ffc6eca0040529821bf9b3e9ae195",
+      "url": "https://www.semanticscholar.org/paper/30f9207d455ffc6eca0040529821bf9b3e9ae195",
+      "title": "HT-SIP: a semi-automated stable isotope probing pipeline identifies cross-kingdom interactions in the hyphosphere of arbuscular mycorrhizal fungi",
+      "venue": "Microbiome",
+      "year": 2022,
+      "citationCount": 65,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-022-01391-z",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9700909, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "4915140",
+          "name": "E. Nuccio"
+        },
+        {
+          "authorId": "3621116",
+          "name": "S. Blazewicz"
+        },
+        {
+          "authorId": "3578192",
+          "name": "Marissa Lafler"
+        },
+        {
+          "authorId": "3855838",
+          "name": "A. Campbell"
+        },
+        {
+          "authorId": "1963984292",
+          "name": "A. Kakouridis"
+        },
+        {
+          "authorId": "5774008",
+          "name": "Jeffrey A. Kimbrel"
+        },
+        {
+          "authorId": "13982750",
+          "name": "J. Wollard"
+        },
+        {
+          "authorId": "2372763884",
+          "name": "Dariia Vyshenska"
+        },
+        {
+          "authorId": "39319549",
+          "name": "R. Riley"
+        },
+        {
+          "authorId": "2174749855",
+          "name": "Andy Tomatsu"
+        },
+        {
+          "authorId": "7014880",
+          "name": "R. Hestrin"
+        },
+        {
+          "authorId": "4033240",
+          "name": "R. Malmstrom"
+        },
+        {
+          "authorId": "2166642413",
+          "name": "Mary K. Firestone"
+        },
+        {
+          "authorId": "1396822954",
+          "name": "J. Pett‐Ridge"
+        }
+      ],
+      "abstract": "Background Linking the identity of wild microbes with their ecophysiological traits and environmental functions is a key ambition for microbial ecologists. Of many techniques that strive for this goal, Stable-isotope probing—SIP—remains among the most comprehensive for studying whole microbial communities in situ. In DNA-SIP, actively growing microorganisms that take up an isotopically heavy substrate build heavier DNA, which can be partitioned by density into multiple fractions and sequenced. However, SIP is relatively low throughput and requires significant hands-on labor. We designed and tested a semi-automated, high-throughput SIP (HT-SIP) pipeline to support well-replicated, temporally resolved amplicon and metagenomics experiments. We applied this pipeline to a soil microhabitat with significant ecological importance—the hyphosphere zone surrounding arbuscular mycorrhizal fungal (AMF) hyphae. AMF form symbiotic relationships with most plant species and play key roles in terrestrial nutrient and carbon cycling. Results Our HT-SIP pipeline for fractionation, cleanup, and nucleic acid quantification of density gradients requires one-sixth of the hands-on labor compared to manual SIP and allows 16 samples to be processed simultaneously. Automated density fractionation increased the reproducibility of SIP gradients compared to manual fractionation, and we show adding a non-ionic detergent to the gradient buffer improved SIP DNA recovery. We applied HT-SIP to 13 C-AMF hyphosphere DNA from a 13 CO 2 plant labeling study and created metagenome-assembled genomes (MAGs) using high-resolution SIP metagenomics (14 metagenomes per gradient). SIP confirmed the AMF Rhizophagus intraradices and associated MAGs were highly enriched (10–33 atom% 13 C), even though the soils’ overall enrichment was low (1.8 atom% 13 C). We assembled 212 13 C-hyphosphere MAGs; the hyphosphere taxa that assimilated the most AMF-derived 13 C were from the phyla Myxococcota, Fibrobacterota, Verrucomicrobiota, and the ammonia-oxidizing archaeon genus Nitrososphaera . Conclusions Our semi-automated HT-SIP approach decreases operator time and improves reproducibility by targeting the most labor-intensive steps of SIP—fraction collection and cleanup. We illustrate this approach in a unique and understudied soil microhabitat—generating MAGs of actively growing microbes living in the AMF hyphosphere (without plant roots). The MAGs’ phylogenetic composition and gene content suggest predation, decomposition, and ammonia oxidation may be key processes in hyphosphere nutrient cycling. Video Abstract"
+    },
+    {
+      "paperId": "f210636764e16c0ab7dd4418b3f17f5198b762d7",
+      "url": "https://www.semanticscholar.org/paper/f210636764e16c0ab7dd4418b3f17f5198b762d7",
+      "title": "Cross-kingdom synthetic microbiota supports tomato suppression of Fusarium wilt disease",
+      "venue": "Nature Communications",
+      "year": 2022,
+      "citationCount": 204,
+      "influentialCitationCount": 8,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/s41467-022-35452-6.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9780251, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2148928455",
+          "name": "Xin Zhou"
+        },
+        {
+          "authorId": "2110253761",
+          "name": "Jinting Wang"
+        },
+        {
+          "authorId": "151000688",
+          "name": "Fang-Pu Liu"
+        },
+        {
+          "authorId": "30327968",
+          "name": "Junmin Liang"
+        },
+        {
+          "authorId": "2114872093",
+          "name": "Peng Zhao"
+        },
+        {
+          "authorId": "37237930",
+          "name": "Clement K. M. Tsui"
+        },
+        {
+          "authorId": "2183506885",
+          "name": "Lei Cai"
+        }
+      ],
+      "abstract": "The role of rhizosphere microbiota in the resistance of tomato plant against soil-borne Fusarium wilt disease (FWD) remains unclear. Here, we showed that the FWD incidence was significantly negatively correlated with the diversity of both rhizosphere bacterial and fungal communities. Using the microbiological culturomic approach, we selected 205 unique strains to construct different synthetic communities (SynComs), which were inoculated into germ-free tomato seedlings, and their roles in suppressing FWD were monitored using omics approach. Cross-kingdom (fungi and bacteria) SynComs were most effective in suppressing FWD than those of Fungal or Bacterial SynComs alone. This effect was underpinned by a combination of molecular mechanisms related to plant immunity and microbial interactions contributed by the bacterial and fungal communities. This study provides new insight into the dynamics of microbiota in pathogen suppression and host immunity interactions. Also, the formulation and manipulation of SynComs for functional complementation constitute a beneficial strategy in controlling soil-borne disease."
+    },
+    {
+      "paperId": "00baf19ec00dab5e5cd792d46b5ff6e47ea9375e",
+      "url": "https://www.semanticscholar.org/paper/00baf19ec00dab5e5cd792d46b5ff6e47ea9375e",
+      "title": "π-conjugated microplastics act as hazard amplifiers of antibiotic resistance through cross-kingdom network engineering.",
+      "venue": "Journal of Hazardous Materials",
+      "year": 2026,
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jhazmat.2026.141592?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jhazmat.2026.141592, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2238715467",
+          "name": "Tongyi Yang"
+        },
+        {
+          "authorId": "2347425781",
+          "name": "Ruiqian Yuan"
+        },
+        {
+          "authorId": "2213121755",
+          "name": "Xiujie Wang"
+        },
+        {
+          "authorId": "2336276212",
+          "name": "Linzhi Zhai"
+        },
+        {
+          "authorId": "2274105917",
+          "name": "Xiaona Dong"
+        },
+        {
+          "authorId": "2347987022",
+          "name": "Haifeng Chen"
+        },
+        {
+          "authorId": "2287290914",
+          "name": "Zechong Guo"
+        },
+        {
+          "authorId": "151023836",
+          "name": "Hua-zhe Jiao"
+        },
+        {
+          "authorId": "2377508698",
+          "name": "Li-zhi Huang"
+        },
+        {
+          "authorId": "2145436888",
+          "name": "Yixuan Yang"
+        },
+        {
+          "authorId": "2242897153",
+          "name": "Qian-qian Jia"
+        }
+      ],
+      "abstract": "Microplastics are recognized as environmental vectors for antibiotic resistance genes (ARGs), a role traditionally ascribed to physical mechanisms such as biofilm-enhanced horizontal gene transfer. Here, we uncover a chemistry-driven pathway that fundamentally surpasses the traditional passive vector model. We show that π‑conjugated polystyrene (PS) microplastics serve as powerful chemical hazard amplifyers by specifically concentrating the signaling molecule indole on their surfaces through π-π stacking and electrostatic interactions (binding energy = -128.56 kcal/mol), creating localized interfacial risk hotspots. These hotspots drive the reprogramming of soil microbiomes, as evidenced by distinct transformations in dissolved organic matter (DOM), and promote a cross-kingdom microbial alliance centered on the keystone fungus Pseudeurotium. This fungal hub transmits the amplified indole signal to bacterial degraders, markedly elevating the dissemination risk of clinically relevant ARGs (e.g., sul2). Through an integration of molecular simulations, multi-omics analyses, and causal modeling, our structural equation modeling (SEM) identifies the amplified indole signal as the primary direct driver of ARG abundance (path coefficient β = 0.47)-an effect 23.5 times greater than that of the PS polymer itself. Our findings establish \"Chemical Interfacial-Driven Network Engineering (CIDNE)\" as a pivotal mechanism, redefining how synthetic materials actively reshape microbial networks and escalate environmental resistome risk through molecular-scale interfacial interactions."
+    },
+    {
+      "paperId": "33a8ad8a28b119cc217b6fc4af0757d394b1ddde",
+      "url": "https://www.semanticscholar.org/paper/33a8ad8a28b119cc217b6fc4af0757d394b1ddde",
+      "title": "Enhanced bacteria-fungi associations and soil microbial network stability underpin ecosystem multifunctionality across a 53-year desert restoration chronosequence.",
+      "venue": "Journal of Environmental Management",
+      "year": 2025,
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jenvman.2025.128355?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jenvman.2025.128355, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "authors": [
+        {
+          "authorId": "2061437274",
+          "name": "Qingqing Hou"
+        },
+        {
+          "authorId": "2367370000",
+          "name": "Muhammad Aqeel"
+        },
+        {
+          "authorId": "113755524",
+          "name": "Longwei Dong"
+        },
+        {
+          "authorId": "2326837743",
+          "name": "Jie Peng"
+        },
+        {
+          "authorId": "2108940642",
+          "name": "Ying Sun"
+        },
+        {
+          "authorId": "2326970687",
+          "name": "Fan Li"
+        },
+        {
+          "authorId": "2370754700",
+          "name": "Dong Tang"
+        },
+        {
+          "authorId": "2383810993",
+          "name": "Bodong Yuan"
+        },
+        {
+          "authorId": "2382835089",
+          "name": "Xusheng Guo"
+        },
+        {
+          "authorId": "13247678",
+          "name": "Jinzhi Ran"
+        },
+        {
+          "authorId": "2260834673",
+          "name": "Weigang Hu"
+        },
+        {
+          "authorId": "2382717814",
+          "name": "Xinrong Li"
+        },
+        {
+          "authorId": "2387399031",
+          "name": "Jianming Deng"
+        }
+      ],
+      "abstract": "Soil microorganisms are crucial for the functional restoration of degraded ecosystems, largely depending on their interactions. Yet, the extent to which shifts in soil microbial co-occurrence patterns shape ecosystem functioning during the restoration of desertified ecosystems remains insufficiently elucidated. In this study, we systematically assessed temporal variations in soil microbial co-occurrence networks along a 53-year restoration chronosequence following the establishment of straw checkerboard barriers (SCBs) in the Tengger Desert of China. The results showed that the establishment of SCBs significantly reinforced microbial network complexity and stability, evidenced by increased number of nodes and edges, average degree, connectivity, clustering coefficient, and robustness, coupled with reduced average path length and vulnerability. The prevalence of positive links and cross-kingdom (bacteria-fungi) links also escalated with restoration duration. Soil microbial diversity showed significant correlations with network properties, indicating that enhanced diversity fosters more complex, cooperative, and structurally stable microbial networks. These microbial network properties were tightly coupled with ecosystem multifunctionality, wherein bacteria-fungi links and network stability emerging served as dominant direct drivers, while microbial diversity indirectly influenced multifunctionality via regulating microbial network structure. Collectively, our findings underscore that restoration efforts substantially advance ecosystem multifunctionality by reconfiguring microbial interaction networks, thereby illuminating microbe-driven mechanisms underpinning the ecological restoration of dryland ecosystems."
+    }
+  ]
+}
