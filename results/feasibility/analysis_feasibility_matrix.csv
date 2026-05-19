@@ -1,0 +1,14 @@
+analysis,score,n_full_overlap_basis,primary_assumptions,primary_risks,publishable_now
+compositional ordination,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+PERMANOVA,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+dbRDA,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+variation partitioning,Low feasibility,84,Requires aggressive feature reduction and strict blocked validation,High overfitting or unstable estimates under current n/p,False
+RF + SHAP,Low feasibility,84,Requires aggressive feature reduction and strict blocked validation,High overfitting or unstable estimates under current n/p,False
+multi-kingdom integration,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+co-occurrence networks,Not recommended,84,"Large n, stable associations, compositional correction",High false-positive risk with sparse compositional counts and n about 84 overlap,False
+latent embeddings,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+sparse PCA,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+CCA/RDA,Low feasibility,84,Requires aggressive feature reduction and strict blocked validation,High overfitting or unstable estimates under current n/p,False
+distance-decay analyses,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+beta diversity partitioning,Moderate feasibility,84,"Requires prevalence filtering, compositional transforms, and confounder control",Manageable with constrained design and blocked permutation or CV,True
+stochastic vs deterministic assembly metrics,Low feasibility,84,Requires aggressive feature reduction and strict blocked validation,High overfitting or unstable estimates under current n/p,False

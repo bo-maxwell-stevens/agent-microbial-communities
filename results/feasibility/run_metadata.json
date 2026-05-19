@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-05-19T13:22:43.626749+00:00",
+  "python_version": "3.12.3",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.5",
+  "git_commit": "eb784829b2b24d988d2b07e12a30765935b6fdcc",
+  "input_file_sizes": {
+    "Final_data_with_diversity_prefixed.csv": 81029,
+    "AMF_OTU_table_final.tsv": 192362,
+    "BAC_OTU_table_final.tsv": 84528407,
+    "EUK_OTU_table_final.tsv": 16261370,
+    "ITS_OTU_table_final.tsv": 7712417
+  },
+  "full_overlap_n": 84,
+  "union_n": 143,
+  "meta_n": 99,
+  "parse_warnings_total": 0
+}

@@ -1,0 +1,17 @@
+{
+  "branch": "darkdivnet-microbiome-ideas",
+  "git_commit_start": "eb784829b2b24d988d2b07e12a30765935b6fdcc",
+  "files_written_docs": [
+    "docs/sample_integration_feasibility.md",
+    "docs/sequencing_depth_and_sparsity.md",
+    "docs/analysis_feasibility_matrix.md",
+    "docs/kingdom_decoupling_hypothesis_assessment.md",
+    "docs/recommended_phase1_analysis.md"
+  ],
+  "files_written_results_count": 15,
+  "strongest_feasible_analysis": "Distance-based multi-kingdom coupling analysis on full-overlap cohort with prevalence-filtered CLR-PCA embeddings and blocked permutation tests",
+  "least_defensible_analysis": "Direct co-occurrence network inference across all kingdoms on current overlap",
+  "biggest_statistical_concern": "n about 84 in full overlap relative to extreme dimensionality especially BAC, creating high overfitting and pseudoreplication risk without dimensionality reduction and blocked validation",
+  "biggest_ecological_opportunity": "Quantifying whether plant completeness gradients are accompanied by consistent strengthening or weakening of cross-kingdom compositional coupling",
+  "project_manuscript_feasible_now": true
+}
