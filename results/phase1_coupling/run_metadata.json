@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-05-19T13:52:47.551703+00:00",
+  "python_version": "3.12.3",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.5",
+  "git_commit": "70b0b42c64c9ee00f69af1c8b680619a44ee1e8c",
+  "args": {
+    "metadata": "data/Final_data_with_diversity_prefixed.csv",
+    "amf": "data/AMF_OTU_table_final.tsv",
+    "bac": "data/BAC_OTU_table_final.tsv",
+    "euk": "data/EUK_OTU_table_final.tsv",
+    "its": "data/ITS_OTU_table_final.tsv",
+    "output_dir": "results/phase1_coupling",
+    "prevalence_thresholds": [
+      0.05,
+      0.1
+    ],
+    "n_pcs": 5,
+    "pseudocount": 1e-06,
+    "n_permutations": 99,
+    "seed": 42
+  },
+  "block_column_used": "none",
+  "warnings_count": 1,
+  "input_file_sizes": {
+    "Final_data_with_diversity_prefixed.csv": 81029,
+    "AMF_OTU_table_final.tsv": 192362,
+    "BAC_OTU_table_final.tsv": 84528407,
+    "EUK_OTU_table_final.tsv": 16261370,
+    "ITS_OTU_table_final.tsv": 7712417
+  },
+  "input_file_hashes_sha256": {
+    "Final_data_with_diversity_prefixed.csv": "dc0bc1d5da75d4053e53dd6ef05d3b46a62e660c0acb9749872409c9094d3dba",
+    "AMF_OTU_table_final.tsv": "82066e9f0a18a3a07091682ce6ae2e1cc715744026c859a223c94d0de9a914e1",
+    "BAC_OTU_table_final.tsv": "258673d2fb8bc8a69764b3a77ace98375dc4a55ab6df6f0c8038763cc930ed51",
+    "EUK_OTU_table_final.tsv": "e7bf99868e840b22d6df00cd2a6ae132939d970ad9c176a5da70b38e0c66c479",
+    "ITS_OTU_table_final.tsv": "9de837fc089f6107ef0577a348f63bd690bac10ba1ae4d6f5c262440a67b2f90"
+  }
+}
