@@ -1,0 +1,217 @@
+{
+  "pipeline": "phase1_5_conservative_ordination",
+  "timestamp": "2026-05-20T10:18:44.118628+00:00",
+  "git_commit": "c658d6051e60075fba4f2150b981c1b01dfbc3e8",
+  "python_version": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "command_line": [
+    "scripts/run_phase1_5_conservative_ordination.py"
+  ],
+  "elapsed_seconds": 62.78,
+  "cohort": {
+    "source": "/srv/hermes_projects/agent_microbial_communities/results/phase1_ecological_exploration/cohort_definition.json",
+    "n_samples": 84
+  },
+  "parameters": {
+    "prevalence_thresholds": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "sensitivity_thresholds": [
+      0.005,
+      0.01,
+      0.02,
+      0.03,
+      0.05,
+      0.075,
+      0.1,
+      0.15,
+      0.2
+    ]
+  },
+  "package_versions": {
+    "numpy": "2.4.5",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "sklearn": "1.8.0",
+    "skbio": "0.7.2",
+    "matplotlib": "3.10.9"
+  },
+  "method_availability": {
+    "skbio_pcoa": true,
+    "sklearn_pca": true,
+    "sklearn_mds": true,
+    "scipy_procrustes": true
+  },
+  "input_provenance": {
+    "AMF": {
+      "otu": {
+        "sha256": "82066e9f0a18a3a07091682ce6ae2e1cc715744026c859a223c94d0de9a914e1",
+        "size_bytes": 192362
+      },
+      "meta": {
+        "sha256": "b94561a7ab1dbf51d87574c99ba8ebb63dd3cf7797be082da803118d6852914c",
+        "size_bytes": 3315
+      }
+    },
+    "BAC": {
+      "otu": {
+        "sha256": "258673d2fb8bc8a69764b3a77ace98375dc4a55ab6df6f0c8038763cc930ed51",
+        "size_bytes": 84528407
+      },
+      "meta": {
+        "sha256": "9cb2f198574a953a500e965b2d960431b3ad4a88d4c56cb46cc9706258785c92",
+        "size_bytes": 29264530
+      }
+    },
+    "EUK": {
+      "otu": {
+        "sha256": "e7bf99868e840b22d6df00cd2a6ae132939d970ad9c176a5da70b38e0c66c479",
+        "size_bytes": 16261370
+      },
+      "meta": {
+        "sha256": "d6b75f996255de45d0a89b34b0bc8dfd54d77ff515c500752e6f6162d4efe4cb",
+        "size_bytes": 8949040
+      }
+    },
+    "ITS": {
+      "otu": {
+        "sha256": "9de837fc089f6107ef0577a348f63bd690bac10ba1ae4d6f5c262440a67b2f90",
+        "size_bytes": 7712417
+      },
+      "meta": {
+        "sha256": "b7763b0de093791c23675032e5ac2ebbadf5175b8ab44f3cb206ffe868582dbe",
+        "size_bytes": 6222483
+      }
+    },
+    "META": {
+      "otu": {
+        "sha256": "dc0bc1d5da75d4053e53dd6ef05d3b46a62e660c0acb9749872409c9094d3dba",
+        "size_bytes": 81029
+      }
+    }
+  },
+  "strategies_executed": {
+    "AMF": {
+      "jaccard_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "jaccard_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "clr_0.01": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.05": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.10": {
+        "engine": "sklearn",
+        "success": true
+      }
+    },
+    "BAC": {
+      "jaccard_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "jaccard_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "clr_0.01": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.05": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.10": {
+        "engine": "sklearn",
+        "success": true
+      }
+    },
+    "EUK": {
+      "jaccard_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "jaccard_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "clr_0.01": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.05": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.10": {
+        "engine": "sklearn",
+        "success": true
+      }
+    },
+    "ITS": {
+      "jaccard_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_pcoa": {
+        "engine": "skbio",
+        "success": true
+      },
+      "bray_curtis_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "jaccard_nmds": {
+        "engine": "not_run",
+        "success": false
+      },
+      "clr_0.01": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.05": {
+        "engine": "sklearn",
+        "success": true
+      },
+      "clr_0.10": {
+        "engine": "sklearn",
+        "success": true
+      }
+    }
+  }
+}
