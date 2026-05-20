@@ -2,9 +2,17 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict
 
 import pandas as pd
+
+
+def _serialize(obj):
+    if isinstance(obj, list) and all(isinstance(x, str) for x in obj):
+        return {"count": len(obj), "items": obj}
+    if isinstance(obj, dict):
+        return {k: _serialize(v) for k, v in obj.items()}
+    return obj
 
 
 def build_cohorts(
@@ -19,6 +27,35 @@ def build_cohorts(
         )
 
     sample_ids = list(meta_df[canonical_col].dropna().unique())
+    sample_set = set(sample_ids)
+
+    modality_specific_cohorts = {}
+    for k in ["AMF", "BAC", "EUK", "ITS"]:
+        otu = datasets[k]["otu"]
+        otu_samples = set(otu.index.astype(str))
+        present = sorted(otu_samples & sample_set)
+        missing = sorted(sample_set - otu_samples)
+        modality_specific_cohorts[k] = {
+            "samples_present": present,
+            "samples_missing": missing,
+        }
+
+    otu_sets = {
+        k: set(datasets[k]["otu"].index.astype(str))
+        for k in ["AMF", "BAC", "EUK", "ITS"]
+    }
+    all_microbial = sorted(
+        otu_sets["AMF"] & otu_sets["BAC"] & otu_sets["EUK"] & otu_sets["ITS"]
+    )
+    microbial_plus_metadata = sorted(
+        s for s in all_microbial if s in sample_set
+    )
+
+    region_counts = (
+        meta_df["region"].value_counts().to_dict()
+        if "region" in meta_df.columns
+        else {}
+    )
 
     cohort_info = {
         "cohort_name": "darkdivnet_phase1_cohort",
@@ -30,55 +67,15 @@ def build_cohorts(
         ),
         "total_samples": len(sample_ids),
         "sample_ids": sample_ids,
-        "kingdom_coverage": {},
+        "all_microbial_overlap": all_microbial,
+        "microbial_plus_metadata_overlap": microbial_plus_metadata,
+        "modality_specific_cohorts": modality_specific_cohorts,
+        "region_counts": region_counts,
     }
-
-    for k in ["AMF", "BAC", "EUK", "ITS"]:
-        otu = datasets[k]["otu"]
-        present = [s for s in sample_ids if s in otu.index]
-        cohort_info["kingdom_coverage"][k] = {
-            "samples_present": len(present),
-            "sample_ids": present,
-        }
-
-    cohort_info["all_kingdoms_present"] = [
-        s
-        for s in sample_ids
-        if all(
-            s in datasets[k]["otu"].index
-            for k in ["AMF", "BAC", "EUK", "ITS"]
-        )
-    ]
-    cohort_info["count_all_kingdoms_present"] = len(
-        cohort_info["all_kingdoms_present"]
-    )
-
-    region_counts = (
-        meta_df["region"].value_counts().to_dict()
-        if "region" in meta_df.columns
-        else {}
-    )
-    cohort_info["region_counts"] = region_counts
 
     return cohort_info
 
 
 def write_cohort_definition(cohort_info: Dict, path: Path) -> None:
-    serializable = {}
-    for k, v in cohort_info.items():
-        if isinstance(v, list) and v and isinstance(v[0], str):
-            serializable[k] = {"count": len(v), "items": v}
-        elif isinstance(v, dict):
-            cleaned = {}
-            for kk, vv in v.items():
-                if isinstance(vv, dict) and "sample_ids" in vv:
-                    cleaned[kk] = {
-                        "samples_present": vv["samples_present"],
-                        "sample_ids": vv["sample_ids"],
-                    }
-                else:
-                    cleaned[kk] = vv
-            serializable[k] = cleaned
-        else:
-            serializable[k] = v
+    serializable = _serialize(cohort_info)
     path.write_text(json.dumps(serializable, indent=2))
