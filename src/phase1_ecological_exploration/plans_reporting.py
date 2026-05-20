@@ -39,109 +39,121 @@ def generate_normalization_plan(
     )
     lines.append("")
 
+    lines.append("## Per-Kingdom Summary Statistics")
+    lines.append("")
+    lines.append(
+        "| Kingdom | Samples | OTUs | Read min | Read median | Read max | "
+        "Nonzero min | Nonzero median | Nonzero max | Sparsity |"
+    )
+    lines.append(
+        "|---------|---------|------|----------|-------------|----------|"
+        "-------------|----------------|-------------|----------|"
+    )
     for k in ["AMF", "BAC", "EUK", "ITS"]:
         otu = datasets[k]["otu"]
         total_reads = otu.sum(axis=1)
         nonzero_features = (otu > 0).sum(axis=1)
         sparsity = 1.0 - (otu > 0).sum().sum() / (otu.shape[0] * otu.shape[1])
+        lines.append(
+            f"| {k} | {otu.shape[0]} | {otu.shape[1]} | "
+            f"{int(total_reads.min())} | {int(total_reads.median())} | "
+            f"{int(total_reads.max())} | "
+            f"{int(nonzero_features.min())} | {int(nonzero_features.median())} | "
+            f"{int(nonzero_features.max())} | {sparsity:.4f} |"
+        )
+    lines.append("")
 
-        lines.append(f"## {k} Kingdom")
-        lines.append("")
-        lines.append(f"- Samples: {otu.shape[0]}, OTUs: {otu.shape[1]}")
-        lines.append(
-            f"- Total reads per sample: min={int(total_reads.min())}, "
-            f"median={int(total_reads.median())}, max={int(total_reads.max())}"
-        )
-        lines.append(
-            f"- Nonzero features per sample: min={int(nonzero_features.min())}, "
-            f"median={int(nonzero_features.median())}, max={int(nonzero_features.max())}"
-        )
-        lines.append(f"- Sparsity (fraction zero entries): {sparsity:.4f}")
-        lines.append("")
+    lines.append("## General Recommendations")
+    lines.append("")
+    lines.append(
+        "The following recommendations apply uniformly across all four kingdoms. "
+        "Adjust prevalence thresholds per kingdom based on sparsity and sample size."
+    )
+    lines.append("")
 
-        lines.append("### Prevalence Filtering")
-        lines.append(
-            "- Filter features present in < 5% of samples (recommended minimum)."
-        )
-        lines.append(
-            "- For rare-biosphere analyses, consider a 1% prevalence threshold."
-        )
-        lines.append(
-            "- Remove features with zero counts across all samples."
-        )
-        lines.append("")
+    lines.append("### Prevalence Filtering")
+    lines.append(
+        "- Filter features present in < 5% of samples (recommended minimum)."
+    )
+    lines.append(
+        "- For rare-biosphere analyses, consider a 1% prevalence threshold."
+    )
+    lines.append(
+        "- Remove features with zero counts across all samples."
+    )
+    lines.append("")
 
-        lines.append("### Compositional / CLR Recommendations")
-        lines.append(
-            "- Microbial abundance data are compositional in nature. "
-            "Apply Centered Log-Ratio (CLR) transformation after replacing zeros "
-            "with a multiplicative Bayesian replacement (e.g., cmultRepl in "
-            "zCompositions)."
-        )
-        lines.append(
-            "- CLR is recommended prior to ordination (PCA, RDA) and correlation "
-            "analysis (e.g., SparCC, Spearman on CLR values)."
-        )
-        lines.append(
-            "- For sparse data, consider a pseudo-count of +1 before log-transform "
-            "as a simpler alternative, though CLR is preferable."
-        )
-        lines.append("")
+    lines.append("### Compositional / CLR Recommendations")
+    lines.append(
+        "- Microbial abundance data are compositional in nature. "
+        "Apply Centered Log-Ratio (CLR) transformation after replacing zeros "
+        "with a multiplicative Bayesian replacement (e.g., cmultRepl in "
+        "zCompositions)."
+    )
+    lines.append(
+        "- CLR is recommended prior to ordination (PCA, RDA) and correlation "
+        "analysis (e.g., SparCC, Spearman on CLR values)."
+    )
+    lines.append(
+        "- For sparse data, consider a pseudo-count of +1 before log-transform "
+        "as a simpler alternative, though CLR is preferable."
+    )
+    lines.append("")
 
-        lines.append("### Binary (Presence/Absence) Transformation")
-        lines.append(
-            "- A complementary binary workflow can be run alongside quantitative "
-            "analyses to assess robustness of ecological patterns."
-        )
-        lines.append(
-            "- Binarize at threshold > 0 (any positive count = present)."
-        )
-        lines.append(
-            "- Use for: Jaccard dissimilarity, nestedness analysis (beta diversity "
-            "partitioning), and incidence-based ordination."
-        )
-        lines.append("")
+    lines.append("### Binary (Presence/Absence) Transformation")
+    lines.append(
+        "- A complementary binary workflow can be run alongside quantitative "
+        "analyses to assess robustness of ecological patterns."
+    )
+    lines.append(
+        "- Binarize at threshold > 0 (any positive count = present)."
+    )
+    lines.append(
+        "- Use for: Jaccard dissimilarity, nestedness analysis (beta diversity "
+        "partitioning), and incidence-based ordination."
+    )
+    lines.append("")
 
-        lines.append("### Ordination Recommendations")
-        lines.append(
-            "- Quantitative: Use CLR-transformed values with PCA or RDA."
-        )
-        lines.append(
-            "- Qualitative: Use Hellinger-transformed values with PCA "
-            "(good compromise for sparse data)."
-        )
-        lines.append(
-            "- Beta diversity: Bray-Curtis on rarefied or CLR-transformed data; "
-            "Jaccard on binary data."
-        )
-        lines.append(
-            "- Constrained ordination: RDA with environmental predictors "
-            "(pH, nutrients, climate) from the metadata table."
-        )
-        lines.append("")
+    lines.append("### Ordination Recommendations")
+    lines.append(
+        "- Quantitative: Use CLR-transformed values with PCA or RDA."
+    )
+    lines.append(
+        "- Qualitative: Use Hellinger-transformed values with PCA "
+        "(good compromise for sparse data)."
+    )
+    lines.append(
+        "- Beta diversity: Bray-Curtis on rarefied or CLR-transformed data; "
+        "Jaccard on binary data."
+    )
+    lines.append(
+        "- Constrained ordination: RDA with environmental predictors "
+        "(pH, nutrients, climate) from the metadata table."
+    )
+    lines.append("")
 
-        lines.append("### Robustness / Sensitivity Analysis Suggestions")
-        lines.append(
-            "- Compare results across at least two preprocessing pipelines "
-            "(e.g., CLR + PCA vs. Hellinger + PCA)."
-        )
-        lines.append(
-            "- Subsampling (rarefaction) to minimum library size; repeat "
-            "multiple iterations to assess stability."
-        )
-        lines.append(
-            "- Jackknife / bootstrap resampling of samples to assess "
-            "ordination stability."
-        )
-        lines.append(
-            "- Test impact of prevalence filtering thresholds (1%, 5%, 10%) "
-            "on downstream results."
-        )
-        lines.append(
-            "- Cross-validate constrained ordination with leave-one-out or "
-            "permutation tests."
-        )
-        lines.append("")
+    lines.append("### Robustness / Sensitivity Analysis Suggestions")
+    lines.append(
+        "- Compare results across at least two preprocessing pipelines "
+        "(e.g., CLR + PCA vs. Hellinger + PCA)."
+    )
+    lines.append(
+        "- Subsampling (rarefaction) to minimum library size; repeat "
+        "multiple iterations to assess stability."
+    )
+    lines.append(
+        "- Jackknife / bootstrap resampling of samples to assess "
+        "ordination stability."
+    )
+    lines.append(
+        "- Test impact of prevalence filtering thresholds (1%, 5%, 10%) "
+        "on downstream results."
+    )
+    lines.append(
+        "- Cross-validate constrained ordination with leave-one-out or "
+        "permutation tests."
+    )
+    lines.append("")
 
     output_path.write_text("\n".join(lines))
 
@@ -163,15 +175,16 @@ def generate_analysis_plan(
 
     lines.append("## 1. Cohort Summary")
     lines.append("")
-    n_all = cohort_info.get("count_all_kingdoms_present", "N/A")
+    mp_overlap = cohort_info.get("microbial_plus_metadata_overlap", [])
     total = cohort_info.get("total_samples", "N/A")
     lines.append(f"- **Total samples in cohort**: {total}")
     lines.append(
-        f"- **Samples with data across all 4 kingdoms**: {n_all}"
+        f"- **Samples with data across all 4 kingdoms + metadata**: {len(mp_overlap)}"
     )
-    for k, cov in cohort_info.get("kingdom_coverage", {}).items():
+    for k, cov in cohort_info.get("modality_specific_cohorts", {}).items():
         lines.append(
-            f"  - {k}: {cov['samples_present']} samples"
+            f"  - {k}: {len(cov['samples_present'])} present, "
+            f"{len(cov['samples_missing'])} missing"
         )
     lines.append("")
 
@@ -257,8 +270,11 @@ def generate_runtime_metadata(
         "input_provenance": {},
         "cohort_summary": {
             "total_samples": cohort_info.get("total_samples"),
-            "all_kingdoms_present": cohort_info.get(
-                "count_all_kingdoms_present"
+            "all_microbial_overlap": len(
+                cohort_info.get("all_microbial_overlap", [])
+            ),
+            "microbial_plus_metadata_overlap": len(
+                cohort_info.get("microbial_plus_metadata_overlap", [])
             ),
         },
     }
