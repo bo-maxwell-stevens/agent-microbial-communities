@@ -110,20 +110,18 @@ def read_otu(path: str | Path) -> pd.DataFrame:
     return out
 
 
-def overlap_filter(meta: pd.DataFrame, tables: dict[str, pd.DataFrame], sample_col: str) -> tuple[pd.DataFrame, dict[str, pd.DataFrame], list[str]]:
-    ids = set(meta[sample_col].astype(str).tolist())
+def overlap_filter(tables: dict[str, pd.DataFrame]) -> tuple[dict[str, pd.DataFrame], list[str]]:
+    ids = set.intersection(*[set(t["sample_id"].astype(str).tolist()) for t in tables.values()])
     for t in tables.values():
         ids &= set(t["sample_id"].astype(str).tolist())
     keep = sorted(ids)
-    m = meta[meta[sample_col].astype(str).isin(keep)].copy()
-    m["sample_id"] = m[sample_col].astype(str)
-    m = m.set_index("sample_id").loc[keep].reset_index()
+
     out = {}
     for k, t in tables.items():
         tt = t[t["sample_id"].astype(str).isin(keep)].copy()
         tt = tt.set_index("sample_id").loc[keep].reset_index()
         out[k] = tt
-    return m, out, keep
+    return out, keep
 
 
 def prevalence_filter(table: pd.DataFrame, threshold: float) -> tuple[pd.DataFrame, dict[str, int]]:
@@ -299,7 +297,7 @@ def main() -> None:
     }
     log_checkpoint(outdir, "inputs_loaded", {"sample_col": sample_col})
 
-    meta_ov, tab_ov, keep_ids = overlap_filter(meta, tables, sample_col)
+    tab_ov, keep_ids = overlap_filter(tables)
     log_checkpoint(outdir, "overlap_computed", {"full_overlap_n": len(keep_ids)})
 
     block_col = select_block_column(meta_ov, warnings_list)

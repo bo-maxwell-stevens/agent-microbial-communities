@@ -6,6 +6,9 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent))
 
 from scripts.analysis.phase1_coupling_analysis import (
     clr_transform,
@@ -48,12 +51,11 @@ def synthetic_tables() -> tuple[pd.DataFrame, dict[str, pd.DataFrame]]:
 
 
 def test_sample_alignment_correct():
-    meta, tables = synthetic_tables()
-    m, t, ids = overlap_filter(meta, tables, "canonical")
+    _, tables = synthetic_tables()
+    t, ids = overlap_filter(tables)
     assert ids == ["S1", "S2", "S3"]
-    assert list(m["sample_id"]) == ids
-    for k in t:
-        assert list(t[k]["sample_id"]) == ids
+    for k, table in t.items():
+        assert list(table["sample_id"]) == ids
 
 
 def test_clr_outputs_finite_values():
