@@ -23,3 +23,4 @@ __pycache__/
 .vscode/
 
 .denario_env/
+!results/phase2_confirmatory_coupling/phase2_coupling_summary.csv
