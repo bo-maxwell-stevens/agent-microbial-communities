@@ -38,14 +38,11 @@ def generate_embeddings(matrix, cohort_sample_ids):
 
 
 def compute_procrustes(X, Y):
-    """Perform Procrustes analysis on embeddings."""
     try:
-        assert X.shape == Y.shape, "Embedding shapes mismatch."
-        _, fit, _ = procrustes(X, Y)
-        return {"procrustes_fit": fit}
+        _, _, disparity = procrustes(X, Y)
+        return {"procrustes_fit": float(disparity)}
     except Exception as e:
         return {"procrustes_fit": np.nan, "error": str(e)}
-
 
 def compute_mantel(X, Y):
     """Perform Mantel test using pairwise distances."""
