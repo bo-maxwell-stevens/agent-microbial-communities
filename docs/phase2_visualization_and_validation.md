@@ -27,6 +27,19 @@ The goal of this phase is to add visualization and validation for the existing P
 
 ---
 
+### Virtual Environment Requirement
+
+The Phase 2 visualization and validation scripts require the project's Python virtual environment because `seaborn`, `matplotlib`, and `pandas` are installed there, not necessarily in the system Python.
+
+#### Recommended Commands:
+```bash
+cd /srv/hermes_projects/agent_microbial_communities
+source venv/bin/activate
+python3 scripts/analysis/phase2_validate_outputs.py
+python3 scripts/analysis/phase2_visualize_coupling.py
+```
+---
+
 ## Figures Generated
 - Heatmap: `heatmap_procrustes_fit.png`
 - Heatmap: `heatmap_mantel_spearman.png`

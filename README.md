@@ -48,10 +48,14 @@ The following raw inputs are used by the workflow.
   - Eukaryotic feature annotation table (58,205 rows × 2 columns)
   - Reference metadata for eukaryotic OTUs/features
 
-- `ITS_OTU_table_final.tsv`
-  - ITS fungal abundance table (139 rows × 26,286 columns)
-  - Row-wise samples, with one sample-ID column plus ITS feature abundance columns
+## Phase 2 Virtual Environment Requirement
+Some scripts, such as `scripts/analysis/phase2_visualize_coupling.py` and `scripts/analysis/phase2_validate_outputs.py`, rely on the project's Python virtual environment for dependencies like `seaborn`, `matplotlib`, and `pandas`. To run these scripts:
 
-- `ITS_feature_metadata.tsv`
-  - ITS feature annotation table (26,285 rows × 19 columns)
-  - Reference metadata for ITS sequence hypotheses/features
+```bash
+cd /srv/hermes_projects/agent_microbial_communities
+source venv/bin/activate
+python3 scripts/analysis/phase2_validate_outputs.py
+python3 scripts/analysis/phase2_visualize_coupling.py
+```
+
+Ensure the virtual environment is activated before executing these scripts for proper functionality.
