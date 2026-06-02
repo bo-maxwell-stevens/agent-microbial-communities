@@ -1,0 +1,53 @@
+claim_sentence,citation_ids
+"## Introduction Cross-domain soil microbiome structure reflects simultaneous abiotic filtering, biotic interactions, and host-plant context, making mechanistic interpretation difficult when inference is based on observational co-variation alone [R14, R22, R33].",R14;R22;R33
+"Across soil systems, pH repeatedly emerges as a high-leverage organizer of bacterial and fungal composition and can induce broad cross-domain congruence even when direct interaction pathways are unresolved [R01].",R01
+"Bacteria-fungi coupling is ecologically meaningful because these groups co-regulate decomposition, nutrient turnover, and rhizosphere carbon flow, but high matrix concordance can still reflect common environmental forcing rather than direct trophic interaction [R02, R06, R10].",R02;R06;R10
+"AMF provide a distinct interface between plant roots and soil resource gradients; therefore, AMF-centered patterns are often better interpreted through responsiveness to plant context and edaphic constraints than by raw coupling magnitude alone [R01].",R01
+"Plant diversity and assembly descriptors (alpha diversity, dark diversity, completeness) provide complementary ecological lenses, yet these terms carry different statistical behavior and dependence structure in empirical datasets [R11, R15, R23].",R11;R15;R23
+"We therefore frame quantitative outputs as a layered synthesis of coupling strength, environmental structure, and plant-associated increment, then interpret each layer in ecological rather than purely statistical terms [R34, R36].",R34;R36
+"Soil assembly studies consistently show that deterministic abiotic constraints, especially edaphic gradients, shape both bacterial and fungal composition at scales relevant to observed cross-domain concordance [R05].",R05
+"Thus, high coupling in pH-structured systems is expected even when direct cross-kingdom links vary locally [R01].",R01
+"Ecological interpretation of BAC↔ITS coupling **Nutrient cycling.** BAC↔ITS coupling aligns with known bacterial-fungal complementarity in carbon and nitrogen transformations, where fungi expand substrate access and bacteria accelerate downstream mineralization and metabolite turnover [R02, R06, R10].",R02;R06;R10
+"This supports a process-level interpretation in which decomposition niches are co-structured by environment and community composition simultaneously [R34, R36].",R34;R36
+"**Rhizosphere interactions.** In root-influenced soils, exudate chemistry and rhizodeposition can synchronize bacterial and fungal trajectories, creating pronounced matrix-level coupling without requiring a single dominant interaction mechanism [R09, R28, R30].",R09;R28;R30
+"AMF are tightly coupled to plant carbon allocation and root architecture, so their strongest signals often emerge in plant-context increments rather than in highest global coupling rank [R01].",R01
+"Dark diversity and completeness remain conceptually valuable, but they often depend more strongly on species-pool specification, detection boundaries, and covariance with observed richness [R11, R15, R23].",R11;R15;R23
+"Retaining both Mantel and Procrustes prevents geometric information loss and reduces overconfidence in any one diagnostic lens [R04, R08].",R04;R08
+"Composite coupling is descriptive, permutation resolution constrains p-value granularity in upstream artifacts, and compositional/sparsity properties can influence distance-based behavior and co-variation interpretation [R01, R03, R07].",R01;R03;R07
+"Future directions The next ecological step is targeted validation of mechanism partitions already implied by this synthesis: (i) perturbation or temporal designs that separate shared filtering from direct interaction; (ii) AMF-focused trait and host-context stratification; and (iii) expanded integration of environmental gradients with plant-assembly descriptors in longitudinal settings [R14, R22].",R14;R22
+## References  [R01] Sophie J.,R01
+[R02] Maike Rossmann; J.,R02
+[R03] Antoni Susín; Yiwen Wang; Kim-Anh Lê Cao; M.,R03
+[R04] Vijay Shankar; Richard T.,R04
+[R05] Kristin M.,R05
+[R06] Boyan Wang; Chen Chen; Yuan-ming Xiao; Kaiyang Chen; Juan Wang; Shuo Zhao.,R06
+[R07] Huijuan Zhou; Kejun He; Jun Chen; Xianyang Zhang.,R07
+[R08] Zhenyuan Liu; Ting Zhou; Yongde Cui; Zhengfei Li; Weimin Wang; Yushun Chen.,R08
+[R09] M.,R09
+[R10] Giovana S.,R10
+[R11] M.,R11
+[R12] Sophie J.,R12
+[R13] M.,R13
+[R14] Ye Li; Zengming Chen; Cameron Wagg; Michael J.,R14
+[R15] M.,R15
+[R16] G.,R16
+[R17] Evan P.,R17
+[R18] J.,R18
+[R19] Lin Tan; W.,R19
+[R20] M.,R20
+[R21] T.,R21
+[R22] Ling Ma; Guixiang Zhou; Jiabao Zhang; Zhongjun Jia; Hongtao Zou; Lin Chen.,R22
+[R23] Meelis Pärtel; Riin Tamme; C.,R23
+[R24] Yilin Luo; Haiyun Ding; X.,R24
+[R25] M.,R25
+[R26] M.,R26
+[R27] Wenting Tang; Pekka Korhonen; Jenni Niku; Klaus Nordhausen; Sara Taskinen.,R27
+[R28] Eileen Enderle; Fangbin Hou; Leonardo Hinojosa; Hidde Kottman; Nigâr Kasirga; F.,R28
+[R29] Jian Liang; Hai-Rui Huang; Meng-Yuan Shu; Chae-Woo Ma.,R29
+[R30] H.,R30
+[R31] S.,R31
+[R32] Yuhua Shi; Yanshuo Pan; L.,R32
+[R33] M.,R33
+[R34] Nana Liu; Huifeng Hu; Wenhong Ma; Ye Deng; Qinggang Wang; Ao Luo.,R34
+[R35] Shenghan Gao; Yunbo Fu; Xinyi Peng; Silin Ma; Yurong Liu; Wenli Chen.,R35
+[R36] Menghui Dong; G.,R36
