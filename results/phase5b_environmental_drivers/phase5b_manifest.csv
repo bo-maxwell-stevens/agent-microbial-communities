@@ -1,0 +1,9 @@
+combo_index,pair,domain_1,domain_2,branch,threshold
+0,BAC↔ITS,BAC,ITS,presence/absence,0.05
+1,BAC↔ITS,BAC,ITS,CLR,0.05
+2,AMF↔ITS,AMF,ITS,presence/absence,0.05
+3,AMF↔ITS,AMF,ITS,CLR,0.05
+4,EUK↔ITS,EUK,ITS,presence/absence,0.05
+5,EUK↔ITS,EUK,ITS,CLR,0.05
+6,AMF↔EUK,AMF,EUK,presence/absence,0.05
+7,AMF↔EUK,AMF,EUK,CLR,0.05
