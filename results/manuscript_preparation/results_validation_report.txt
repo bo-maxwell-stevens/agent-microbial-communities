@@ -1,0 +1,4 @@
+results_draft_lines=36
+quantitative_claims=20
+draft_numeric_tokens=70
+unsupported_numeric_tokens=0

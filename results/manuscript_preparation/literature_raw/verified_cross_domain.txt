@@ -1,0 +1,27 @@
+### QUERY: Warming reshaped the microbial hierarchical interactions
+
+[1] Warming reshaped the microbial hierarchical interactions
+Year: 2021
+Authors: Yuqi Zhou, Baoyu Sun, B. Xie, Kai Feng, Zhaojing Zhang
+Citations: 161
+URL: https://www.semanticscholar.org/paper/d1eb20c8a4f7a6487b380b9ee28363cfe2ff1ead
+Abstract: Global warming may alter microbially mediated ecosystem functions through reshaping of microbial diversity and modified microbial interactions. Here, we examined the effects of 5‐year experimental warming on different microbial hierarchical groups in a coastal nontidal soil ecosystem, including prokaryotes (i.e., bacteria and archaea), fungi, and Cercozoa, which is a widespread phylum of protists. Warming significantly altered the diversity and structure of prokaryotic and fungal communities in soil and additionally decreased the complexity of the prokaryotic network and fragmented the cercozoan network. By using the Inter‐Domain Ecological Network approach, the cross‐trophic interactions among prokaryotes, fungi, and Cercozoa were further 
+
+### QUERY: Cross-domain ecological networks of the rhizosphere microbiome
+
+[1] Metagenomic analysis suggests that tomato root-knot nematode infestation disrupts rhizosphere microbial networks, consistent with reduced disease suppression
+Year: 2026
+Authors: Jie Duan, Yang Chen, Xiaojing Zhang, Chenchen Li, Tianmei Gao
+Citations: 0
+URL: https://www.semanticscholar.org/paper/62b8625b96a1d92ab87b78a1836fe8f5d44b1cb9
+Abstract: Introduction The rhizosphere microbiome serves as a critical line of defense for plant health and soil-borne disease suppression. However, the underlying mechanisms by which root-knot nematodes (RKN), a devastating soil-borne pathogen, undermine putative disease-suppressive function through destabilizing microbial interaction networks remain poorly understood. Methods This study employed metagenomic sequencing coupled with microbial co-occurrence network analysis to systematically compare the community structure, interaction network topology, and functional gene profiles of the rhizosphere microbiome between healthy and RKN-infected tomato plants. Results Our findings revealed that RKN infection significantly altered the community structure
+
+### QUERY: Bacterial fungal protistan network interactions soil microbiome
+
+[1] Stronger responses of soil protistan communities to legacy mercury pollution than bacterial and fungal communities in agricultural systems
+Year: 2022
+Authors: Shuai Du, Xin-Qi Li, X. Hao, Hangwei Hu, Jiao Feng
+Citations: 33
+URL: https://www.semanticscholar.org/paper/8cc605f34ca4893c115973d77f625074977483a4
+Abstract: Soil pollution is an important stressor affecting biodiversity and ecosystem functioning. However, we lack a holistic understanding of how soil microbial communities respond to heavy metal pollution in agricultural ecosystems. Here, we explored the distribution patterns and inter-kingdom interactions of entire soil microbiome (including bacteria, fungi, and protists) in 47 paired paddy and upland fields along a gradient of legacy mercury (Hg) pollution. We found that the richness and composition of protistan community had stronger responses to Hg pollution than those of bacterial and fungal communities in both paddy and upland soils. Mercury polluted soils harbored less protistan phototrophs but more protistan consumers. We further revealed
+

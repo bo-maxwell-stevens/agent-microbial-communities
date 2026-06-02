@@ -1,0 +1,56 @@
+
+[1] Historical biome distribution and recent human disturbance shape the diversity of arbuscular mycorrhizal fungi.
+Year: 2017
+Authors: M. Pärtel, M. Öpik, M. Moora, L. Tedersoo, R. Szava-Kovats
+Citations: 74
+URL: https://www.semanticscholar.org/paper/17d3f2390e7f343e881c6071c608659586054d37
+Abstract: 
+
+[2] Global Patterns in Local and Dark Diversity, Species Pool Size and Community Completeness in Ectomycorrhizal Fungi
+Year: 2017
+Authors: M. Pärtel, M. Zobel, M. Öpik, L. Tedersoo
+Citations: 15
+URL: https://www.semanticscholar.org/paper/2bf4af38628b9732dbd36b59458bc8973043ec71
+Abstract: 
+
+[3] Global impoverishment of natural vegetation revealed by dark diversity
+Year: 2025
+Authors: Meelis Pärtel, Riin Tamme, C. P. Carmona, Kersti Riibak, M. Moora
+Citations: 31
+URL: https://www.semanticscholar.org/paper/3c126e3f14a48d2875ff7a66ab84b2594c967cba
+Abstract: Anthropogenic biodiversity decline threatens the functioning of ecosystems and the many benefits they provide to humanity1. As well as causing species losses in directly affected locations, human influence might also reduce biodiversity in relatively unmodified vegetation if far-reaching anthropogenic effects trigger local extinctions and hinder recolonization. Here we show that local plant diversity is globally negatively related to the level of anthropogenic activity in the surrounding region. Impoverishment of natural vegetation was evident only when we considered community completeness: the proportion of all suitable species in the region that are present at a site. To estimate community completeness, we compared the number of recorded 
+
+[4] Species pools, community completeness and invasion: disentangling diversity effects on the establishment of native and alien species.
+Year: 2016
+Authors: J. A. Bennett, Kersti Riibak, Ene Kook, Ü. Reier, Riin Tamme
+Citations: 38
+URL: https://www.semanticscholar.org/paper/39d82f2667eb07a2cca0e6ebd830ead17e0e6533
+Abstract: 
+
+[5] Community Completeness: Linking Local and Dark Diversity within the Species Pool Concept
+Year: 2013
+Authors: M. Pärtel, R. Szava-Kovats, M. Zobel
+Citations: 103
+URL: https://www.semanticscholar.org/paper/ad5e291154b3edb084f90c90f6f9c949aa4db79b
+Abstract: 
+
+[6] Observed and dark diversity of plants’ life-forms are driven by climate and human impacts in a tropical dry forest
+Year: 2024
+Authors: Magno Daniel de Oliveira Gonçalves-Araújo, Carlos Eduardo de Carvalho, Pedro Pequeno, D. Trindade, F. Hughes
+Citations: 8
+URL: https://www.semanticscholar.org/paper/6fa63b2383ca441fbd86d275de7acb811acda048
+Abstract: 
+
+[7] Estimating dark diversity and species pools: an empirical assessment of two methods
+Year: 2016
+Authors: Rob J. Lewis, R. Szava-Kovats, M. Pärtel
+Citations: 87
+URL: https://www.semanticscholar.org/paper/938aa6c9d922ab798b428cc1fdda077265041772
+Abstract: 
+
+[8] Estimating dark diversity and regional species pool in the high-altitude Himalayan habitats
+Year: 2023
+Authors: S. Wani, Rameez Ahmad, F. Dar, Bilal A. Rasray, S. A. Lone
+Citations: 7
+URL: https://www.semanticscholar.org/paper/84654ac00f8f839105418931e77f0b85bb50398d
+Abstract: 

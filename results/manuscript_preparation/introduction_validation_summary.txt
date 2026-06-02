@@ -1,0 +1,5 @@
+papers_selected=36
+unique_topics=9
+duplicate_titles=0
+doi_nonempty=36
+errors=0

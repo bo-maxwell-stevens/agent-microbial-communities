@@ -1,0 +1,13 @@
+table_number,source_file,scientific_claim_supported,placement
+Table 1,results/phase5d_synthesis/final_pair_synthesis.csv,"Integrated synthesis per pair/branch: coupling strength, environmental explained variation, plant-added variation, interpretation label.",main_text
+Table 2,results/phase5d_synthesis/final_coupling_rankings.csv,Ranked coupling summary across BAC/AMF/EUK pairings and branch transforms.,main_text
+Table 3,results/phase5d_synthesis/final_environment_driver_summary.csv,Best environmental model and top predictor assignment for each pair/branch.,main_text
+Table 4,results/phase5d_synthesis/final_plant_diversity_summary.csv,Best plant hypothesis and effect decomposition (alpha/pool/dark/compl) per pair/branch.,main_text
+Supplementary Table S1,results/phase5_bac_integration/phase5_bac_coupling_summary.csv,Underlying Mantel/Procrustes estimates and confidence intervals used by synthesis coupling layer.,supplement
+Supplementary Table S2,results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv,dbRDA model-level fit statistics for primary and geography-sensitivity variants.,supplement
+Supplementary Table S3,results/phase5b_environmental_drivers/phase5b_predictor_ranking.csv,Predictor-level delta adjusted R² rankings for environmental drivers.,supplement
+Supplementary Table S4,results/phase5c_plant_diversity/phase5c_model_comparison.csv,Plant-hypothesis model comparison records used for effect extraction.,supplement
+Supplementary Table S5,results/phase5c_plant_diversity/phase5c_predictor_effects.csv,Predictor effect estimates for plant-diversity covariates across models.,supplement
+Supplementary Table S6,results/phase4_coupling_inference/phase4_mantel_inference.csv,Prior-phase inference layer for pairwise Mantel signal.,supplement
+Supplementary Table S7,results/phase4_coupling_inference/phase4_procrustes_bootstrap.csv,Prior-phase inference layer for Procrustes similarity and uncertainty.,supplement
+Supplementary Table S8,results/phase2_confirmatory_coupling/phase2_coupling_summary.csv,Confirmatory coupling baseline from earlier phase used in interpretation continuity.,supplement

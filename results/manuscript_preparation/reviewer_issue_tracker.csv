@@ -1,0 +1,16 @@
+issue_id,reviewer,issue,severity,already_addressed,supporting_phase,proposed_response
+A1,Reviewer A,AMF-specific conclusions may be rhetorically stronger than AMF coupling magnitude supports,high,partial,Phase 5D,Rephrase AMF claims as comparative and moderate with explicit uncertainty language
+A2,Reviewer A,AMF plant-associated signal may be environmentally confounded,high,partial,Phase 5B;Phase 5D,State environment-structured context before AMF interpretation and avoid causal wording
+A3,Reviewer A,Branch-dependent AMF behavior (presence/absence vs CLR) may affect interpretation,moderate,yes,Phase 2;Phase 4;Phase 5A,Add branch-contrast sentence in Results and caveat in Discussion outline
+A4,Reviewer A,AMF marker/taxonomic resolution limitations are underemphasized,moderate,partial,Methods Draft;Results Storyboard,Add explicit methodological limitation bullet in Caveats section
+A5,Reviewer A,AMF mechanisms inferred from correlations without process-level tests,high,yes,Introduction Package;Results Storyboard,State mechanistic claims as hypotheses/future work not demonstrated mechanisms
+B1,Reviewer B,BAC↔ITS high coupling could primarily reflect environmental filtering rather than direct interaction,critical,partial,Phase 5B;Phase 5D,Lead with environment-structured interpretation and treat interaction as one of multiple explanations
+B2,Reviewer B,Coupling metrics may be interpreted as mechanism too strongly,high,yes,Phase 5D,Add explicit statement that coupling metrics are descriptive associations
+B3,Reviewer B,pH prominence may reflect broader covarying edaphic gradients,moderate,partial,Phase 5B,Frame pH as integrative axis and acknowledge covariance possibility
+B4,Reviewer B,Compositional and sparsity constraints could influence coupling/network patterns,high,yes,Introduction Package;Results Storyboard,Place compositional caveat adjacent to key BAC↔ITS claims
+B5,Reviewer B,Geography-sensitivity fit gains need clearer biological interpretation,moderate,yes,Phase 5B;Phase 5D,Explain geography model as explanatory context not causal proof
+C1,Reviewer C,Averaging Mantel and Procrustes into one coupling score may hide discordance,high,partial,Phase 5D,Report both metrics explicitly before composite summary and discuss mismatches
+C2,Reviewer C,Modest plant ΔR² values may be statistically detectable but biologically small,high,partial,Phase 5C;Phase 5D,Position plant effects as modest/context-dependent increments
+C3,Reviewer C,Alpha diversity may be correlated with other plant metrics and not fully independent,high,partial,Phase 5C,State potential non-independence and avoid exclusivity claims for alpha
+C4,Reviewer C,Permutation count (499) imposes p-value resolution floor,moderate,yes,Methods Draft,Add explicit p-value floor caveat in Methods/Discussion framing
+C5,Reviewer C,Reproducibility risk if manuscript narrative drifts from fixed artifacts,high,yes,Methods Package;Results Package,Anchor claims to inventory files and fixed branch/tag in manuscript text

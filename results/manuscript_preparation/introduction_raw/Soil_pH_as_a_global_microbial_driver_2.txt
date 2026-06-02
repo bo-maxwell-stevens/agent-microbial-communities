@@ -1,0 +1,56 @@
+
+[1] Differential Responses of Bacterial and Fungal Community Structure in Soil to Nitrogen Deposition in Two Planted Forests in Southwest China in Relation to pH
+Year: 2024
+Authors: Zheng Hou, Xiaohua Zhang, Wen Chen, Ziqi Liang, Keqin Wang
+Citations: 8
+URL: https://www.semanticscholar.org/paper/5a886611917db8feee7e8640dfc2903565b238fa
+Abstract: Increased nitrogen deposition profoundly impacts ecosystem nutrient cycling and poses a significant ecological challenge. Soil microorganisms are vital for carbon and nutrient cycling in ecosystems; however, the response of soil microbial communities in subtropical planted coniferous forests to nitrogen deposition remains poorly understood. This study carried out a four-year nitrogen addition experiment in the subtropical montane forests of central Yunnan to explore the microbial community dynamics and the primary regulatory factors in two coniferous forests (P. yunnanensis Franch. and P. armandii Franch.) under prolonged nitrogen addition. We observed that nitrogen addition elicited different responses in soil bacterial and fungal communit
+
+[2] Plants shape soil bacterial community structure via soil pH modulation but show marginal effects on fungal community structure
+Year: 2026
+Authors: Xueting Li, Mengli Li, Xinyu Zhu, Fengqun Meng
+Citations: 0
+URL: https://www.semanticscholar.org/paper/d389159c6197a439de6788751648f6facfd1a13c
+Abstract: 
+
+[3] Natural restoration alters soil microbial community structure, but has contrasting effects on the diversity of bacterial and fungal assemblages in salinized grasslands.
+Year: 2023
+Authors: Weina Wang, Huanjun Liu, Lifei Chen, Kadri Koorem, Yingchao Hu
+Citations: 13
+URL: https://www.semanticscholar.org/paper/44f865fc26c6269dd72cb629a70cb73e9d54f092
+Abstract: Natural restoration has often been considered an effective measure for rehabilitating degraded ecosystems. However, its impact on the structure and diversity of soil microbial communities, particularly within a salinized grassland during its restoration succession, remains unclear. In this study, we examined the effects of natural restoration on the Shannon-Wiener diversity index, Operational Taxonomic Units (OTU) richness, and structure of the soil microbial community of a sodic-saline grassland in China using high-throughput amplicon sequencing data from representative successional chronosequences. Our results indicated that natural restoration resulted in a significant mitigation of the grassland salinization (pH from 9.31 to 8.32 and el
+
+[4] Effects of 7 years experimental warming on soil bacterial and fungal community structure in the Northern Tibet alpine meadow at three elevations.
+Year: 2019
+Authors: Cheng-qun Yu, F. Han, Gang Fu
+Citations: 107
+URL: https://www.semanticscholar.org/paper/a248eb8d403bc34b083e63843e3c0e2c659f7bd2
+Abstract: A warming experiment was established along an altitudinal gradient (low elevation: 4313 m, mid-elevation: 4513 m and high elevation: 4693 m) in alpine meadows of the Northern Tibet to investigate the effects of warming on soil bacterial and fungal community structure. Elevation had significant effects on vegetation community coverage (CC), soil temperature (Ts) and pH, but not soil fungal diversity. Soil bacterial diversity at the high elevation was significantly lower than that at the low and mid-elevations, whereas there was no significant difference of soil bacterial diversity between the low and mid-elevations. After seven years of warming, soil fungal diversity was significantly increased at the mid-elevation but not the low and high e
+
+[5] Soil fungal community is more sensitive than bacterial community to modified materials application in saline–alkali land of Hetao Plain
+Year: 2024
+Authors: Xiaolong Bai, En Zhang, Jinmin Wu, Donghai Ma, Chaohui Zhang
+Citations: 30
+URL: https://www.semanticscholar.org/paper/478a3455770110af3174fbecc75de1aec969cf8d
+Abstract: Soil salinization has become a major challenge that severely threatens crop growth and influences the productivity of agriculture. It is urgent to develop effective management measures to improve saline–alkali soil. Thus, in this study, soil properties, microbial communities, and function under desulfurization gypsum (DE), soil amendment (SA), farm manure (FA), and co-application of desulfurization gypsum, soil amendment, and farm manure (TA) in a field experiment were examined by high-throughput sequencing. The results showed that the application of modified materials is an effective approach in improving saline–alkali soil, especially TA treatment significantly increased the content of available phosphorus (AP), available potassium (AK), 
+
+[6] Plant Species Diversity Improves Soil Physicochemical Traits and Modulates Soil Microbial Community Structure, with a Pronounced Enhancement of Fungal Diversity in Urban Forests
+Year: 2025
+Authors: Yuhang Song, Fang Xu, Ming-Hui Wang, Yuan-Bo Xie, L. Tian
+Citations: 1
+URL: https://www.semanticscholar.org/paper/db39a80c83373a481c0da010216629885d65ae32
+Abstract: Urban parks are key to urban ecosystems, where soil microbe-plant-soil interactions sustain ecosystem services. Using high-throughput sequencing and multivariate statistics, this study explored how plant species diversity affects soil microbial community structure, functional diversity, and environmental drivers. Results showed that fungal and bacterial OTUs differed across plant diversity gradients, with Ascomycota (fungi) and Actinobacteriota/Proteobacteria (bacteria) dominant. Soil organic carbon (SOC) was positively correlated with Verrucomicrobia, while Acidobacteriota increased with lower SOC. Fungi were more sensitive to pH than bacteria. Partial Least Squares Path Modeling (PLS-PM) indicated that plant diversity was significantly po
+
+[7] Does conversion from natural forest to plantation affect fungal and bacterial biodiversity, community structure, and co-occurrence networks in the organic horizon and mineral soil?
+Year: 2019
+Authors: Masataka Nakayama, Shihomi Imamura, T. Taniguchi, R. Tateno
+Citations: 97
+URL: https://www.semanticscholar.org/paper/8ea7c5f3abb2ca97ad83ffcabc5d460388a5d6a6
+Abstract: Abstract Tree species influence the chemical properties of the organic horizon and mineral soil. Microbial communities, including fungi and bacteria, which are the main drivers of nutrient cycles in forest soils, may be affected by tree species via litter chemical properties and root exudation. Therefore, conversion from natural forest to plantation could affect the microbial communities. Here, we aimed to reveal the effects of conversion from natural forest to coniferous plantation on soil microbial community structure, biodiversity, and co-occurrence networks, as well as soil chemical properties. For this purpose, we investigated chemical and microbial properties of the organic horizon and mineral topsoil (0–10 cm depth) in three forest t
+
+[8] Short-term effects of mechanical drainage on fungal and bacterial community structure in a managed grassland soil
+Year: 2016
+Authors: B. Fay, A. Corrigan, R. Murphy
+Citations: 11
+URL: https://www.semanticscholar.org/paper/3b0a4d17bb213fb5e70235d9e32e4f10a61a98e6
+Abstract: 

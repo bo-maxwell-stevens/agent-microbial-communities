@@ -1,0 +1,56 @@
+
+[1] PhyMapNet: A Phylogeny-Guided Bayesian Framework for Reliable Microbiome Network Inference
+Year: 2026
+Authors: M. Shahdoust, R. Aghdam, Golnaz Taheri
+Citations: 0
+URL: https://www.semanticscholar.org/paper/5d991573d673686dc1a9ae51d17ace7fdf95f921
+Abstract: 
+
+[2] Mapping the microbial interactome: Statistical and experimental approaches for microbiome network inference
+Year: 2019
+Authors: Anders B. Dohlman, Xiling Shen
+Citations: 44
+URL: https://www.semanticscholar.org/paper/bbcc50de5aa45fb644dafb7a8a9bb8df352204a2
+Abstract: Advances in high-throughput sequencing have ushered in a new era of research into the gut microbiome and its role in human health and disease. However, due to the unique characteristics of microbiome survey data, their use for the detection of ecological interaction networks remains a considerable challenge, and a field of active methodological development. In this review, we discuss the landscape of existing statistical and experimental methods for detecting and characterizing microbial interactions, as well as the role that host and environmental metabolic signals play in mediating the behavior of these networks. Numerous statistical tools for microbiome network inference have been developed. Yet due to tool-specific biases, the networks 
+
+[3] Deep learning in microbiome analysis: a comprehensive review of neural network models
+Year: 2025
+Authors: Piotr Przymus, Krzysztof Rykaczewski, A. Martín-Segura, J. Truu, E. Carrillo de Santa Pau
+Citations: 40
+URL: https://www.semanticscholar.org/paper/62af01f37ab12b2a3b80c3914ce4cf82a8aa2d96
+Abstract: Microbiome research, the study of microbial communities in diverse environments, has seen significant advances due to the integration of deep learning (DL) methods. These computational techniques have become essential for addressing the inherent complexity and high-dimensionality of microbiome data, which consist of different types of omics datasets. Deep learning algorithms have shown remarkable capabilities in pattern recognition, feature extraction, and predictive modeling, enabling researchers to uncover hidden relationships within microbial ecosystems. By automating the detection of functional genes, microbial interactions, and host-microbiome dynamics, DL methods offer unprecedented precision in understanding microbiome composition an
+
+[4] Microbial network inference for longitudinal microbiome studies with LUPINE
+Year: 2024
+Authors: S. Kodikara, Kim-Anh Lê Cao
+Citations: 8
+URL: https://www.semanticscholar.org/paper/8c51195f87099ec3eb027aaebd45a81e820a0fd5
+Abstract: The microbiome is a complex ecosystem of interdependent taxa that has traditionally been studied through cross-sectional studies. However, longitudinal microbiome studies are becoming increasingly popular. These studies enable researchers to infer taxa associations towards the understanding of coexistence, competition, and collaboration between microbes across time. Traditional metrics for association analysis, such as correlation, are limited due to the data characteristics of microbiome data (sparse, compositional, multivariate). Several network inference methods have been proposed, but have been largely unexplored in a longitudinal setting. We introduce LUPINE (LongitUdinal modelling with Partial least squares regression for NEtwork infe
+
+[5] Statistical computation methods for microbiome compositional data network inference
+Year: 2021
+Authors: Liang Chen, Qiuyan He, Huina Wan, Shun He, Min Deng
+Citations: 1
+URL: https://www.semanticscholar.org/paper/c17bdee4924804018bfc50358b38bf8447247ab5
+Abstract: Microbes can affect processes from food production to human health. Such microbes are not isolated, but rather interact with each other and establish connections with their living environments. Understanding these interactions is essential to an understanding of the organization and complex interplay of microbial communities, as well as the structure and dynamics of various ecosystems. A common and essential approach toward this objective involves the inference of microbiome interaction networks. Although network inference methods in other fields have been studied before, applying these methods to estimate microbiome associations based on compositional data will not yield valid results. On the one hand, features of microbiome data such as c
+
+[6] Impact of Gut Microbiome Modulation on Uremic Toxin Reduction in Chronic Kidney Disease: A Systematic Review and Network Meta-Analysis
+Year: 2025
+Authors: R. Cedillo-Flores, M. A. Cuevas-Budhart, Iván Cavero-Redondo, M. Kappes, M. Ávila-Díaz
+Citations: 24
+URL: https://www.semanticscholar.org/paper/9eda3f5250e45e6cc39db8dd1af1ee5159588e4b
+Abstract: Background/Objectives: Chronic kidney disease is associated with increased intestinal barrier permeability, leading to heightened inflammation and oxidative stress. These changes contribute to complications such as cardiovascular disease, anemia, altered mineral metabolism, and CKD progression. Interventions using prebiotics, probiotics, and synbiotics may mitigate dysbiosis and improve intestinal barrier function, Under this premise, the objective of this network meta-analysis was to evaluate the effect of probiotics, prebiotics, and synbiotics in reducing uremic toxins produced by the gut microbiota in CKD patients. Methods: A systematic review and network meta-analysis of randomized clinical trials (RCTs) was performed in the following d
+
+[7] Statistical Methods for Microbiome Compositional Data Network Inference: A Survey
+Year: 2022
+Authors: Liang Chen, Hui Wan, Qiuyan He, Shun He, Min Deng
+Citations: 6
+URL: https://www.semanticscholar.org/paper/16dace74be97b3b99648935b188d82c30c8593e4
+Abstract: Microbes can be found almost everywhere in the world. They are not isolated, but rather interact with each other and establish connections with their living environments. Studying these interactions is essential to an understanding of the organization and complex interplay of microbial communities, as well as the structure and dynamics of various ecosystems. A widely used approach toward this objective involves the inference of microbiome interaction networks. However, owing to the compositional, high-dimensional, sparse, and heterogeneous nature of observed microbial data, applying network inference methods to estimate their associations is challenging. In addition, external environmental interference and biological concerns also make it m
+
+[8] Investigating the role of gut microbiome in the association between ambient air pollution and type-2 diabetes mellitus: a causal inference approach using review of evidence to date
+Year: 2024
+Authors: S. Mandal, Steena Kuriakose, K. Shridhar
+Citations: 0
+URL: https://www.semanticscholar.org/paper/d7646521f76e197c9ff26a99264edfea29572c0b
+Abstract: Pollutants in ambient air have been linked with type-2 diabetes mellitus (T2DM) in low as well as high pollution scenarios. Mechanisms of action include disruption of endothelial function, imbalance in the autonomic nervous system and direct translocation. Although reductions in exposure to ambient air pollution (AP) could translate to meaningful clinical and public health benefits, policy changes targeting AP are usually at the population level, multisectoral, and time consuming. The human gut microbiome (GM) is an ecosystem within individuals which has been linked with health in both beneficial and detrimental ways. During the last decade, mechanistic and epidemiological research on GM suggests altered microbial diversity and differential

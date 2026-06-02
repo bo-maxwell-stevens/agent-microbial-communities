@@ -1,0 +1,70 @@
+
+[1] Assembly Processes and Co-occurrence Networks of Core and Random Bacterial Communities in Cryoconite-Related Habitats on the Tibetan Plateau
+Year: 2025
+Authors: Yunjie Chen, Yuying Chen, Wenqiang Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/2e21bb18d7c02f207d5bb93e601e86ca91bbadf6
+Abstract: 
+
+[2] Deep insights into the assembly mechanisms, co-occurrence patterns, and functional roles of microbial community in wastewater treatment plants.
+Year: 2024
+Authors: Ziyan Wei, Min Feng, Ding-Xi Zhang, Cheng-Ying Jiang, Ye Deng
+Citations: 6
+URL: https://www.semanticscholar.org/paper/408ff33f1a4e61740a4e22068e8a0ee9ce925277
+Abstract: The understanding of activated sludge microbial status and roles is imperative for improving and enhancing the performance of wastewater treatment plants (WWTPs). In this study, we conducted a deep analysis of activated sludge microbial communities across five compartments (inflow, effluent, and aerobic, anoxic, anaerobic tanks) over temporal scales, employing high-throughput sequencing of 16S rRNA amplicons and metagenome data. Clearly discernible seasonal patterns, exhibiting cyclic variations, were observed in microbial diversity, assembly, co-occurrence network, and metabolic functions. Notably, summer samples exhibited higher α-diversity and were distinctly separated from winter samples. Our analysis revealed that microbial community a
+
+[3] Microbial community assembly and co-occurrence relationship in sediments of the river-dominated estuary and the adjacent shelf in the wet season.
+Year: 2022
+Authors: Meiqing Lu, Xuejing Wang, Hailong Li, J. Jiao, Xin Luo
+Citations: 49
+URL: https://www.semanticscholar.org/paper/8a0157a9c9677177096a9554255ed9c54989add2
+Abstract: In the estuarine ecosystem, microbial community plays a vital role in controlling biogeochemical processes. However, there is currently limited comprehensive study on the deterministic and stochastic processes that drive the microbial community assembly in the estuaries and adjacent shelves. In this study, we systematically investigated the co-occurrence relationship and microbial community assembly in the sediments along a large river-dominated estuary to shelf in the northern South China Sea during the wet season. The sampling sites were divided into estuary, transection, and shelf sections based on their salinity values. The microbial co-occurrence networks, hierarchical partitioning-based canonical analysis, null model, neutral communit
+
+[4] Depth significantly affects plastisphere microbial evenness, assembly and co-occurrence pattern but not richness and composition.
+Year: 2023
+Authors: Zhiqiang Wu, Jianxing Sun, Liting Xu, Hong-bo Zhou, Hai-na Cheng
+Citations: 13
+URL: https://www.semanticscholar.org/paper/e02943c8513a886832a290ecc13eb5b60b63c535
+Abstract: Microplastics have become one of the hot concerns of global marine pollution. In recent years, diversity and abiotic influence factors of plastisphere microbial communities were well documented, but our knowledge of their assembly mechanisms and co-occurrence patterns remains unclear, especially the effects of depth on them. Here, we collected microorganisms on microplastics to investigate how ocean depth affects on microbial diversity, community composition, assembly processes and co-occurrence patterns. Our results indicated that there were similar microbial richness and community compositions but microbial evenness and unique microbes were obviously different in different ocean layers. Our findings also demonstrated that deterministic pr
+
+[5] Deciphering the response mechanism of microorganisms to green tide outbreaks: Diversity, assembly processes, and co-occurrence patterns.
+Year: 2025
+Authors: Yurou Jiang, Wangxinze Shu, Furong Cao, Jiyuan Wan, Tianjing Shi
+Citations: 1
+URL: https://www.semanticscholar.org/paper/28bd14ccd2f97e357f2f30bc76c71378bb80e336
+Abstract: Green tide, a widespread coastal water environmental issue, significantly impacts the ecology of nearshore microorganisms. Despite extensive research on green tides, the dynamics of microbial communities and their assembly mechanisms throughout the development of these events are still not well understood. To elucidate these responses and underlying mechanisms, we conducted a comprehensive study examining the diversity, composition, and ecological dynamics of prokaryotic and microeukaryotic communities at various phases of green tide events by integrating high-throughput sequencing. The results revealed that deterministic processes predominated prokaryotic community assembly during green tide events, transitioning to stochastic processes in
+
+[6] Planting density effect on poplar growth traits and soil nutrient availability, and response of microbial community, assembly and function
+Year: 2024
+Authors: Rongye Qiao, Zhen Song, Yinglong Chen, Mingzhen Xu, Qiqi Yang
+Citations: 14
+URL: https://www.semanticscholar.org/paper/518714d89dd06dbb4c88becb46e7a98979eb7a80
+Abstract: The interaction between soil characteristics and microbial communities is crucial for poplar growth under different planting densities. Yet, little is understood about their relationships and how they respond to primary environmental drivers across varying planting densities. In this study, we investigated poplar growth metrics, soil characteristics, and community assembly of soil bacterial and fungal communities in four poplar genotypes (M1316, BT17, S86, and B331) planted at low, medium, and high densities. Our findings reveal that planting density significantly influenced poplar growth, soil nutrients, and microbial communities (P < 0.05). Lower and medium planting densities supported superior poplar growth, higher soil nutrient levels, 
+
+[7] Geographic Distribution Pattern Determines Soil Microbial Community Assembly Process in Acanthopanax senticosus Rhizosphere Soil
+Year: 2024
+Authors: Mingyu Wang, Xiangyu Xing, Youjia Zhang, X. Sui, Chunying Zheng
+Citations: 9
+URL: https://www.semanticscholar.org/paper/1f237032bdc9df59db8912c2b548107d4a3dd581
+Abstract: The geographic distribution patterns of soil microbial communities associated with cultivated Acanthopanax senticosus plants in Northeast China were investigated. High-throughput sequencing revealed that the diversity and community assembly of bacterial and fungal communities in the inter-root soil varied significantly with geographic location. The study found that bacterial communities were predominantly assembled through stochastic processes at most sites, while fungal communities showed greater variation, with both stochastic and deterministic processes involved. The complexity of bacterial–fungal co-occurrence networks also varied with longitude and latitude, demonstrating both positive and negative interactions. PICRUSt 2.0 and FUNGuil
+
+[8] Effects of polypropylene micro(nano)plastics on soil bacterial and fungal community assembly in saline-alkaline wetlands.
+Year: 2024
+Authors: Lan Zhang, Guorui Zhang, Ziyue Shi, Mengxuan He, Dan Ma
+Citations: 17
+URL: https://www.semanticscholar.org/paper/8ee838a0205cae18b04e409de7e9dfd19e50eefb
+Abstract: Microplastic pollution is a major environmental threat, especially to terrestrial ecosystems. To better understand the effects of microplastics on soil microbiota, the influence of micro-to-nanoscale polypropylene plastics was investigated on microbial community diversity, functionality, co-occurrence, assembly, and their interaction with soil-plant using high-throughput sequencing approaches and multivariate analyses. The results showed that polypropylene micro/nano-plastics mainly reduced bacterial diversity, not fungal, and that plastic size had a stronger effect than concentration on the assembly of microbial communities. Nano-plastics decreased the complexity and connectivity of both bacterial and fungal networks compared to micro-plas
+
+[9] Warming Promotes Deterministic Assembly of Bacterial and Fungal Communities in Drylands
+Year: 2025
+Authors: Ting Xie, Yuwei Lin, Puchao Jia, Xinrong Li
+Citations: 0
+URL: https://www.semanticscholar.org/paper/4afd804786635ce55e121f712487b4faf73ac037
+Abstract: Warming is altering the functioning of desert ecosystems in global drylands. Microbial communities are crucial for maintaining these ecosystems, yet how their co-occurrence networks and assembly mechanisms respond to warming remains unclear. Using 16 S and ITS rRNA amplicon sequencing, we examined bacterial and fungal community composition and structure. Further, we investigated cross-trophic bacterial-fungal interactions via inter-domain ecological network analysis. Warming significantly altered the diversity, composition, and structure of both bacterial and fungal communities. It increased bacterial network complexity but simplified the fungal network. Notably, warming enhanced cross-trophic interactions between bacteria and fungi, facili
+
+[10] Disentangling the assembly patterns and drivers of microbial communities during thermal stratification and mixed periods in a deep-water reservoir.
+Year: 2024
+Authors: He Lv, Meng Yang, Yanxun Cheng, Kai Li, Gang Ji
+Citations: 12
+URL: https://www.semanticscholar.org/paper/c6e2879c07daecace69bd6694430fb1ab9cff587
+Abstract: Effect of periodic thermal stratification in deep-water reservoirs on aquatic ecosystems has been a research hotspot. Nevertheless, there is limited information on the response patterns of microbial communities to environmental changes under such specialized conditions. To fill this gap, samples were collected from a typical deep-water reservoir during the thermal stratification period (SP) and mixed period (MP). Three crucial questions were answered: 1) How microbial communities develop with stratified to mixed succession, 2) how the relative importance of stochastic and deterministic processes to microbial community assembly, shifted in two periods, and 3) how environmental variables drive microbial co-occurrence networks and functional g

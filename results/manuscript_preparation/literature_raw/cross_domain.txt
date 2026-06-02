@@ -1,0 +1,56 @@
+
+[1] Cross-Domain Coupling Network With Lightweight Fully Featured Mapping and Loop Aggregation for Semantic Segmentation of High-Resolution Remote Sensing Images
+Year: 2025
+Authors: Xiaofeng Wang, Bangwei Chen, Yan Chen, Qianchuan Zhang, Kehong Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/6480a75d86285f30619428f7630ddfd9d2561b06
+Abstract: To fully leverage contextual information for the precise segmentation of objects in remote sensing images, while addressing the challenges associated with substantial object scale variations and complex backgrounds, we propose a lightweight cross-domain coupling network (LCCN) tailored for the semantic segmentation of high-resolution remote sensing images (HRSIs). To standardize feature selection and fusion procedures, the LCCN incorporates an innovative encoder–coupler–decoder architecture designed to facilitate key feature extraction and optimization. A cross-domain coupling module (CDCM) is created in the coupler to conduct preliminary feature screening of spaces and dimensions based on channel and spatial attention. It performs multisca
+
+[2] A Cross-Domain Coupling Network for Semantic Segmentation of Remote Sensing Images
+Year: 2024
+Authors: Xin Li, Feng Xu, Feifei Tao, Yao Tong, Hongmin Gao
+Citations: 13
+URL: https://www.semanticscholar.org/paper/423d352a21082c6c54517e960eb5a8b8a0da440b
+Abstract: Semantic segmentation of remote sensing images (RSIs) is critical for various applications, including urban planning, agriculture, and disaster management. Existing methods often fail to capture fine-grained textures and periodic patterns in RSIs, leading to suboptimal results in complex terrains. To address these challenges, we propose a cross-domain coupling network (CDCNet) that leverages both domain-specific extraction and cross-domain coupling (CDC) to enrich contextual cues for semantic inference. Our CDCNet integrates a CDC layer within the encoder-decoder architecture to simultaneously refine representations in the frequency and spatial domains. This approach effectively models fine-grained textures and periodic patterns in the freq
+
+[3] SFDCN: Spatial-Frequency Dual-domain Coupling Network with Strip Attention for Fast Image Deblurring
+Year: 2025
+Authors: Jing Liu, Chaoqun Shi, Xianyu Ge, Yifang Xu, Chongyang Liu
+Citations: 0
+URL: https://www.semanticscholar.org/paper/785947da70d5cb117e94e41a39793fa3a51e3df1
+Abstract: Image deblurring remains a fundamental challenge in the domain of low-level vision, aiming to recover a sharp image from its blurred counterpart. Although recent deep learning-based approaches have demonstrated promising results, they often struggle with the simultaneous optimization of global structure modeling and local detail preservation. To address this limitation, a Spatial-Frequency Dual-domain Coupling Network (SFDCN) is proposed for image deblurring. In the spatial domain, multi-scale local texture features are effectively extracted via wavelet convolution, while in the frequency domain, global structural representations are captured using Fourier convolution. To further enhance cross-domain information exchange, a novel stripe att
+
+[4] Adversarial Sim2Real Transfer via Cross-Domain Coupling Networks: A Single-Source Generalization Approach for Bearing Fault Diagnosis
+Year: 2025
+Authors: Kun Xu, Qi-bin Wang, Xianguang Kong, Guowei Zhang, Ni Liu
+Citations: 1
+URL: https://www.semanticscholar.org/paper/f115ee03c8d7bd0d612bfa7ea5b9e58b4891833c
+Abstract: In recent years, domain generalization-based fault diagnosis methods have achieved impressive results. Most existing methods extract common diagnostic knowledge from multiple source domains and generalize it to unknown domains. However, in real industrial settings, a challenging scenario often arises where only a single domain is available for training, yet diagnosis is needed across many unknown domains. To address this issue, this study proposes a simulation-enhanced multicategory coupled generative adversarial network (MCCGAN) integrated with an adversarial strategy, designed for deployment under unknown operation conditions. Initially, a physical nonlinear vibration model of the bearing is developed to generate ample simulated fault sam
+
+[5] A Dual-Contrast Adaptation Network Coupling Global Context and Geometry Information for Cross-Domain Building Extraction
+Year: 2025
+Authors: Gangxian Xu, M. Deng, Jingru Zhu, Geng Sun, Zhenbo Gou
+Citations: 4
+URL: https://www.semanticscholar.org/paper/3e69eefc63632e940bf6afd9edb2a57c38da65bb
+Abstract: Semantic segmentation of high-resolution remote sensing imagery (HRSI) suffers from the domain shift, resulting in poor performance of the model in another unseen domain. Unsupervised domain adaptation (UDA) semantic segmentation aims to adapt the semantic segmentation model trained on the labeled source domain to an unlabeled target domain. However, the existing UDA semantic segmentation models tend to focus only on the semantic mask information of the building and neglect modeling the structural and boundary information of the building, which leads to irregularities and inaccuracies of prediction results. We propose a dual-contrast adaptation network coupling global context and geometry information for cross-domain building extraction of 
+
+[6] A Siamese Network via Cross-Domain Robust Feature Decoupling for Multi-Source Remote Sensing Image Registration
+Year: 2025
+Authors: Qichao Han, Xiyang Zhi, Shikai Jiang, Wenbin Chen, Yuanxin Huang
+Citations: 4
+URL: https://www.semanticscholar.org/paper/3cec3538bbaf0177a07573413b233511e678028b
+Abstract: Image registration is a prerequisite for many multi-source remote sensing image fusion applications. However, due to differences in imaging factors such as sensor type, imaging time, resolution, and viewing angle, multi-source image registration faces challenges of multidimensional coupling such as radiation, scale, and directional differences. To address this issue, this paper proposes a Siamese network based on cross-domain robust feature decoupling as an image registration framework (CRS-Net), aiming to improve the robustness of multi-source image features across domains, scales, and rotations. Firstly, we design Siamese multiscale encoders and introduce a rotation-invariant convolutional layer without additional training parameters, ach
+
+[7] Cross‐Domain Coupled Convolutional Transformer Network for Concrete Damage Detection
+Year: 2025
+Authors: Shengjun Xu, Rui Shen, Yiliang Liu, Yujie Song, Ren Xin
+Citations: 2
+URL: https://www.semanticscholar.org/paper/6c93fce70f78531b79f94ef716da8bd869fcf8cf
+Abstract: To overcome the challenge where convolutional neural networks (CNNs) struggle to effectively capture the diverse visual features of cracks, spalling, and exposed rebar in concrete structures resulting in inaccurate damage segmentation, a method is proposed, known as the cross‐domain coupled convolutional transformer network for concrete damage detection (DamageNet). First, a dual‐branch encoder architecture combining CNN and transformer is designed with a hierarchical structure that outputs CNN and transformer features at the same resolution, preserving both local perception and global information. Second, a cross‐domain coupling attention module is introduced to integrate the CNN and transformer features effectively, fusing local perceptio
+
+[8] Physics-Informed Neural Network for Cross-Domain Predictive Control of Tapered Amplifier Thermal Stabilization
+Year: 2025
+Authors: Yanpei Shi, Bo Feng, Y. Zhong, Haochen Guo, Bangcheng Han
+Citations: 0
+URL: https://www.semanticscholar.org/paper/6d72538d65e6d24d2f196e9ad65df03e262d8454
+Abstract: Thermally induced laser noise critically limits the sensitivity of quantum sensor arrays using ultra-stable amplified lasers, stemming from nonlinear gain-temperature coupling in tapered amplifiers (TAs). Existing temperature control approaches exhibit limited performance across varying laser power regimes, resulting in either measurement sensitivity degradation or demanding recalibration procedures in quantum precision measurements. This work presents an innovative architecture integrating a specialized physics-informed gated recurrent unit (PI-GRU) network with a model predictive control (MPC) strategy, achieving high stability of TA temperature across multi-power laser operations. By embedding physical soft constraints, we establish a pr

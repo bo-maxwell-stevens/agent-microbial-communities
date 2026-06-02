@@ -1,0 +1,70 @@
+
+[1] Exogenous resources drive convergent successional processes within soil microbial food web in two soil types
+Year: 2026
+Authors: Yujia Cai, Yuhai Chang, J. Ray, Hong J. Di, Ju-Pei Shen
+Citations: 0
+URL: https://www.semanticscholar.org/paper/0fc78d942a14deed5e4f011f910c11649a48ef61
+Abstract: Background Soil microorganisms mediate critical ecosystem processes, including nutrient cycling and climate regulation. However, the extent to which their functional resilience and microbial food web dynamics respond uniformly to organic amendment across two land-use types remain poorly understood. Results In this study, we conducted a 30-day microcosm experiment to investigate how exogenous resources addition restructures the assembly of primary microbial functional groups (bacteria, fungi, and protists) in urine-amended soils under contrasting land-use regimes: intensively managed maize fields and natural woodlands. Results showed that straw addition consistently reduced both OTU richness and Shannon diversity of bacteria (by 8% and15%, r
+
+[2] Warming reshaped the microbial hierarchical interactions
+Year: 2021
+Authors: Yuqi Zhou, Baoyu Sun, B. Xie, Kai Feng, Zhaojing Zhang
+Citations: 161
+URL: https://www.semanticscholar.org/paper/d1eb20c8a4f7a6487b380b9ee28363cfe2ff1ead
+Abstract: Global warming may alter microbially mediated ecosystem functions through reshaping of microbial diversity and modified microbial interactions. Here, we examined the effects of 5‐year experimental warming on different microbial hierarchical groups in a coastal nontidal soil ecosystem, including prokaryotes (i.e., bacteria and archaea), fungi, and Cercozoa, which is a widespread phylum of protists. Warming significantly altered the diversity and structure of prokaryotic and fungal communities in soil and additionally decreased the complexity of the prokaryotic network and fragmented the cercozoan network. By using the Inter‐Domain Ecological Network approach, the cross‐trophic interactions among prokaryotes, fungi, and Cercozoa were further 
+
+[3] Microplastics Trigger Soil Dissolved Organic Carbon and Nutrient Turnover by Strengthening Microbial Network Connectivity and Cross-Trophic Interactions.
+Year: 2025
+Authors: Shenghan Gao, Yunbo Fu, Xinyi Peng, Silin Ma, Yurong Liu
+Citations: 46
+URL: https://www.semanticscholar.org/paper/fc6f06cdde388e3493cd9447e6ece5ab68e0d771
+Abstract: Increasing microplastic (MP) inputs in agricultural soils have gained global attention for their ecological effects, especially on soil organic carbon (SOC) and nutrient turnover. However, the microbial mechanism underlying MP-induced SOC and nutrient dynamics remains poorly understood. Here, we investigated the impacts of two common MPs (polyethylene and polyvinyl chloride) on microbial hierarchical groups (bacteria, fungi, and protists) and the cascading effects on dissolved organic carbon (DOC) and nutrient dynamics in two typical agricultural soils (Mollisol and Ultisol). Our results showed that MP inputs consistently reduced NO3--N concentration but increased the content of DOC and specific dissolved organic matter (DOM) components. De
+
+[4] Enhanced bacteria-fungi associations and soil microbial network stability underpin ecosystem multifunctionality across a 53-year desert restoration chronosequence.
+Year: 2025
+Authors: Qingqing Hou, Muhammad Aqeel, Longwei Dong, Jie Peng, Ying Sun
+Citations: 3
+URL: https://www.semanticscholar.org/paper/33a8ad8a28b119cc217b6fc4af0757d394b1ddde
+Abstract: Soil microorganisms are crucial for the functional restoration of degraded ecosystems, largely depending on their interactions. Yet, the extent to which shifts in soil microbial co-occurrence patterns shape ecosystem functioning during the restoration of desertified ecosystems remains insufficiently elucidated. In this study, we systematically assessed temporal variations in soil microbial co-occurrence networks along a 53-year restoration chronosequence following the establishment of straw checkerboard barriers (SCBs) in the Tengger Desert of China. The results showed that the establishment of SCBs significantly reinforced microbial network complexity and stability, evidenced by increased number of nodes and edges, average degree, connecti
+
+[5] Long-term ammonium nitrate addition strengthens soil microbial cross-trophic interactions in a Tibetan alpine steppe.
+Year: 2025
+Authors: Yang Liu, Yuanhe Yang, Ye Deng, Yunfeng Peng
+Citations: 16
+URL: https://www.semanticscholar.org/paper/b92bcba4b444f27940d83bac7b1be437ba4436ee
+Abstract: Global nitrogen (N) enrichment is modifying microbial interactions, which can be represented by network complexity. While a number of studies have explored how N addition influences the microbial intra-trophic network, its effects on the inter-trophic network have rarely been investigated. Here, we examined the effects of 8 years of multilevel N additions (i.e., 0, 1, 2, 4, 8, 16, 24 and 32 g N m-2 year-1) on inter-trophic interactions of soil microbial communities (i.e., protist-fungi, protist-prokaryote and fungi-prokaryote) in a Tibetan alpine steppe. Generally, there was a first increasing and then saturated trend of the complexity of inter-trophic networks along the N-addition gradient, which contrasts with the simplified or minimal re
+
+[6] Trophic relationships between protists and bacteria and fungi drive the biogeography of rhizosphere soil microbial community and impact plant physiological and ecological functions.
+Year: 2024
+Authors: Boyan Wang, Chen Chen, Yuan-ming Xiao, Kaiyang Chen, Juan Wang
+Citations: 38
+URL: https://www.semanticscholar.org/paper/0e79f563128e9c8b3487b5dc217e44186627e9f3
+Abstract: Rhizosphere microorganisms play a vital role in enhancing plant health, productivity, and the accumulation of secondary metabolites. Currently, there is a limited understanding of the ecological processes that control the assembly of community. To address the role of microbial interactions in assembly and for functioning of the rhizosphere soil microbiota, we collected rhizosphere soil samples from Anisodus tanguticus on the Tibetan Plateau spanning 1500 kilometers, and sequenced the bacteria, fungi, archaea, and protist communities. We observed a significant but weak distance-decay relationship in the microbial communities of rhizosphere soil. Our comprehensive analysis of spatial, abiotic, and biotic factors showed that trophic relationsh
+
+[7] Quantitative stable isotope probing (qSIP) and cross-domain networks reveal bacterial-fungal interactions in the hyphosphere
+Year: 2025
+Authors: Giovana S. Slanzon, M. Yuan, K. Estera-Molina, Aaron Chew, S. Blazewicz
+Citations: 15
+URL: https://www.semanticscholar.org/paper/d3d786e9358dcd5877889917be2582a7fc39dd3e
+Abstract: Interactions between fungi and bacteria have the potential to substantially influence soil carbon dynamics in soil, but we have yet to fully identify these interactions and partners in their natural environment. In this study, we stacked two powerful methods, 13C quantitative stable isotope probing (qSIP) and cross-domain co-occurrence network, to identify interacting fungi and bacteria in a California grassland soil. We used in-field whole plant 13CO2 labeling along with sand-filled ingrowth bags (that trap fungi and hyphae-associated bacteria) to amplify the signal of fungal-bacterial interactions, separate from the bulk soil background. We found a total of 54 bacterial ASVs and 9 fungal OTUs that were significantly 13C-enriched. These we
+
+[8] Linking soil organic carbon mineralization to microbial interactions during alpine grassland degradation.
+Year: 2025
+Authors: Yang Hu, Xinya Sun, Haolin Zhang, Bicheng Zhang, Yubin Wang
+Citations: 1
+URL: https://www.semanticscholar.org/paper/b039c3088f3f3ba0cc25b016b0c08b0d02d9d196
+Abstract: Grassland degradation induces substantial losses of soil organic carbon (SOC), which are closely associated with the activities and interactions of various soil microorganisms. However, the response of microorganisms and their interactions to degradation and their relationships with SOC dynamics remain unclear. Here, we established four distinct grassland degradation transects on the Qinghai-Xizang Plateau to investigate the effects of grassland degradation on soil microorganisms (including bacteria, fungi, and protists) and reveal the relationships between microbial network, microbial metabolic activity, and SOC mineralization dynamics. Our findings revealed that grassland degradation increased SOC cumulative mineralization rates by 4.5-47
+
+[9] Urbanization reduces the stability of soil microbial community by reshaping the diversity and network complexity.
+Year: 2024
+Authors: Fei Zheng, Jingwei Gao, Mingyang Tang, Tao Zhou, Dong Zhu
+Citations: 25
+URL: https://www.semanticscholar.org/paper/fceeee1630e72c6f9c59656794763bb2e82963fd
+Abstract: Rapid urbanization considerably alters soil environment, biodiversity, and stability of terrestrial ecosystems. Soil microbial community, a key component of global biodiversity, plays a pivotal role in ecosystem stability and is highly vulnerable to urbanization. However, effects of urbanization on the diversity, stability, and network structure of soil microbial community remain poorly understood. Herein, we investigated the diversity and stability of soil microbial communities, including bacteria, fungi, and protists, across three regions with different levels of urbanization-urban, suburb, and ecoregion-using high-throughput sequencing techniques. Our results revealed that urbanization led to a notable decrease in the alpha diversity of 
+
+[10] Urban chemical stress disrupts cross-domain microbial networks in river sediments
+Year: 2026
+Authors: Eduardo Acosta, Thomas Backhaus, W. Brack, P. Inostroza
+Citations: 0
+URL: https://www.semanticscholar.org/paper/904ab3ab42f0508161f86669981fdad9c180cbcd
+Abstract: 

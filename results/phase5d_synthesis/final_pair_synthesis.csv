@@ -1,0 +1,9 @@
+pair,branch,coupling strength,environmental explained variation,plant-diversity added variation,interpretation label
+BAC↔ITS,presence/absence,0.574076882833396,0.2646404896636699,0.0089288596935033,strongly coupled/environment structured
+EUK↔ITS,presence/absence,0.53785322102789,0.2220302171250237,0.0108274774892008,strongly coupled/environment structured + plant associated
+EUK↔ITS,CLR,0.5352122894658107,0.1951196315108009,0.0130285181276957,strongly coupled/plant associated
+BAC↔ITS,CLR,0.4617117034628867,0.27766371060129,0.0073233569544135,weakly plant associated
+AMF↔ITS,CLR,0.4600222109441344,0.2039984512426735,0.0165046833063661,weakly coupled but plant associated
+AMF↔ITS,presence/absence,0.4448453208951423,0.2245441119679169,0.0189834474446802,weakly coupled but plant associated
+AMF↔EUK,CLR,0.43297742223223257,0.188136424916488,0.0127861417115402,weakly coupled but plant associated
+AMF↔EUK,presence/absence,0.4003610868919519,0.2055766102891452,0.0171597304914767,weakly coupled but plant associated

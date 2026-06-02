@@ -1,0 +1,71 @@
+
+[1] Arbuscular Mycorrhizal Fungi in the Ecological Restoration of Tropical Forests: A Bibliometric Review
+Year: 2025
+Authors: Yajaira Arévalo, María Eugenia Avila-Salem, Paúl Loján, Narcisa Urgiles-Gómez, D. Pucha-Cofrep
+Citations: 0
+URL: https://www.semanticscholar.org/paper/425bb5e38804f3eed61a9f5b14525973bbc32212
+Abstract: Arbuscular mycorrhizal fungi (AMF) play a vital role in the restoration of tropical forests by enhancing soil fertility, facilitating plant establishment, and improving ecosystem resilience. This study presents a comprehensive bibliometric analysis of global scientific output on AMF in the context of ecological restoration, based on 3835 publications indexed in the Web of Science and Scopus databases from 2001 to 2024. An average annual growth rate of approximately 9.45% was observed, with contributions from 10,868 authors across 880 journals. The most prominent journals included Mycorrhiza (3.34%), New Phytologist (3.00%), and Applied Soil Ecology (2.79%). Thematically, dominant research areas encompassed soil–plant interactions, phytoreme
+
+[2] Cacao – Arbuscular Mycorrhizal Fungi Association: A Review on Its Increased Potential in Improving the Ecology of Cacao Plantations in the Philippines
+Year: 2020
+Authors: Diana P. Paguntalan, I. Buot, N. Aggangan
+Citations: 4
+URL: https://www.semanticscholar.org/paper/3140cdfaa89d2619e8961ef2f59a56990f6a7387
+Abstract: Cacao (Theobroma cacao) is both an economically and ecologically important crop worldwide especially in the Philippines, a tropical country suitable for its growth and cultivation. The association of this crop with arbuscular mycorrhizal fungi (AMF) is an understudied field but the benefits reported from this symbiosis highlights their irreplaceable role in enhancing growth conditions by facilitating the uptake of phosphorus, increasing yield through increased plant health and productivity, and in several ecological aspects such as soil biological dynamics and ecological processes that are carried out in cacao plant community. This paper proposed the different areas of improving cacao ecology that need to gain attention in the Philippines t
+
+[3] [Responses of arbuscular mycorrhizal fungi to elevated atmospheric CO2 concentration and warming: A review].
+Year: 2022
+Authors: Ge Song, Quan-Cheng Wang, Yong Zheng, Ji‐Zheng He
+Citations: 3
+URL: https://www.semanticscholar.org/paper/e3ed4093ccbfde54cdb7dd623927540edf171efb
+Abstract: 
+
+[4] The roles and performance of arbuscular mycorrhizal fungi in intercropping systems
+Year: 2021
+Authors: Minghui Li, Junli Hu, Xiangui Lin
+Citations: 21
+URL: https://www.semanticscholar.org/paper/67f96a6b23db939c52100cd489a2d62e6a8b51a4
+Abstract: 
+
+[5] [Diversity of arbuscular mycorrhizal fungi in special habitats: a review].
+Year: 2013
+Authors: Su Li, Yinquan Wang, Run-jin Liu
+Citations: 6
+URL: https://www.semanticscholar.org/paper/e7ef79c2729ffd2204eec4702fbb8fd491f49da4
+Abstract: 
+
+[6] Methods for identifying and measuring the diversity of ectomycorrhizal fungi
+Year: 2023
+Authors: Daniel Janowski, T. Leski
+Citations: 31
+URL: https://www.semanticscholar.org/paper/90a400db2224b69cbef0d1dcb22c096d1d1764ad
+Abstract: 
+ Mycorrhiza is a mutualistic symbiosis between some plant species and a diverse group of soil fungi. Mycorrhizal symbiosis is categorized into discrete types based on the structural differences and the taxonomic position of involved plants and fungi. The main types of mycorrhiza include arbuscular, ericoid, orchid, monotropoid and ectomycorrhiza, the latter being the main focus of this review. Identifying ectomycorrhizal fungi (EMF) is crucial for understanding the ecology and preservation of rare and endangered plants, fungi and habitats. Thus, since the discovery of ectomycorrhiza, new identification methods have been constantly developed. This review tracks the history of EMF identification methods, presents their limitations and aims t
+
+[7] [Characteristics of arbuscular mycorrhizal fungal diversity and functions in saline-alkali land].
+Year: 2015
+Authors: Haiyang Yang, Shaoxia Guo, Run-jin Liu
+Citations: 7
+URL: https://www.semanticscholar.org/paper/93cc94d6b3e79e6bd4f1e9a1833ecbf0ac458859
+Abstract: 
+
+[8] Mycorrhizas and soil structure.
+Year: 2006
+Authors: M. Rillig, D. Mummey
+Citations: 1386
+URL: https://www.semanticscholar.org/paper/c79ef95b8db2594a322ed28d8f1d8cce54efda68
+Abstract: 
+
+[9] Mycorrhizal ecology on serpentine soils
+Year: 2014
+Authors: D. Southworth, L. Tackaberry, H. Massicotte
+Citations: 18
+URL: https://www.semanticscholar.org/paper/74020a4e471119f26259c7ee121b91f8f19f6b00
+Abstract: 
+
+[10] Soil Microbial Diversity Affects the Plant-Root Colonization by Arbuscular Mycorrhizal Fungi
+Year: 2020
+Authors: D. A. Ferreira, T. F. da Silva, V. Pylro, J. Salles, F. D. Andreote
+Citations: 39
+URL: https://www.semanticscholar.org/paper/89d0dbee774db344d585b67c2144956fbc13b437
+Abstract: 

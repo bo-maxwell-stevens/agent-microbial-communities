@@ -1,0 +1,56 @@
+
+[1] Estimating probabilistic site‐specific species pools and dark diversity from co‐occurrence data
+Year: 2020
+Authors: C. P. Carmona, M. Pärtel
+Citations: 58
+URL: https://www.semanticscholar.org/paper/d08748b0a2150a22311f98978633c99608d009e5
+Abstract: 
+
+[2] Multi‐Decadal Changes in Co‐Occurrence of Migrating Landbirds Are Associated With Species‐Specific Changes in Phenology and Abundance
+Year: 2025
+Authors: Joely G. DeSimone, Evan N. Dalton, Lucaske W DeGroote, M. Fuirst, Sara R Morris
+Citations: 0
+URL: https://www.semanticscholar.org/paper/52ccac6ab95f54409e58345c2b792fed630babd4
+Abstract: Human‐induced changes to the climate and environment have precipitated dramatic declines in abundance and shifts in plant and animal phenologies. These changes have been especially pronounced for migratory species that rely on numerous geographic locations throughout the year. Migratory bird species are notable in the number of species that have experienced both declines in abundance and shifts in phenology over the past 50 years, although the magnitude and direction of changes vary considerably across species. The community‐level impacts of species declines and phenological shifts have been explored in stationary communities, but we know little about the effects of these changes on species relationships during migration seasons when specie
+
+[3] Heterogeneity in recombination rates and accessory gene co-occurrence distinguish Pseudomonas aeruginosa phylogroups
+Year: 2025
+Authors: Samara T. Choudhury, Kathryn R. Piper, Manuela Montoya-Giraldo, O. Ikhimiukor, Jeremy R. Dettman
+Citations: 1
+URL: https://www.semanticscholar.org/paper/555318eaf6080bba575df2e36695641a4dee3c82
+Abstract: ABSTRACT Pseudomonas aeruginosa (class Gammaproteobacteria) is a ubiquitous, ecologically widespread, and metabolically versatile species. It is also an opportunistic pathogen that causes a variety of chronic and acute infections in humans. Its ability to thrive in diverse environments and exhibit a wide range of phenotypes lies in part on its large gene pool, but the processes that govern inter-strain genomic variation remain unclear. Here, we aim to characterize the recombination features and accessory genome structure of P. aeruginosa using 840 globally distributed genome sequences. The species can be subdivided into five phylogenetic sequence clusters (corresponding to known phylogroups), two of which are most prominent. Notable epidemi
+
+[4] Detecting non-neutral modules in species co-occurrence data: principles and application to plant communities
+Year: 2025
+Authors: F. Laroche, B. Ehlers
+Citations: 2
+URL: https://www.semanticscholar.org/paper/1cd36ec901e31acc8177f54e3bc3d3d3335f9d65
+Abstract: Inferring assembly processes from species co-occurrence data is a long-standing challenge in community ecology. Approaches that focus on detecting non-random spatial covariance between species occurrences are limited by the fact that spatial patterns can deviate from randomness for many reasons. Process-based null hypotheses are needed to overcome this limitation. Here, we explored the neutral theory of community ecology as a promising candidate. We built upon a robust property of neutral co-occurrences, the ‘rank consistency’: within a common regional pool, the presence probabilities of two species should be ordered similarly across local sites. We suggested performing pairwise tests of species rank consistency along ecological gradients o
+
+[5] Sample size considerations for species co‐occurrence models
+Year: 2025
+Authors: Amber Cowans, Albert Bonet Bigata, Chris Sutherland
+Citations: 3
+URL: https://www.semanticscholar.org/paper/34bf297cc5899e11feb6f67aaf73d4d1c3e4e89f
+Abstract: Multispecies occupancy models are widely applied to infer interactions in the occurrence of different species, but convergence and estimation issues under realistic sample sizes are common. We conducted a simulation study to evaluate the ability of a recently developed model to recover co-occurrence estimates under varying sample size and interaction scenarios while increasing model complexity in two dimensions: the number of interacting species and the number of covariates. Using both standard and penalized likelihood, we demonstrate that the ability to quantify interactions in species occupancy using this model is highly sensitive to sample size, detection probability and interaction strength. In the simplest scenario, there is high bias 
+
+[6] Tree species-dependent effects of afforestation on soil fungal diversity, functional guilds and co-occurrence networks in northern China.
+Year: 2024
+Authors: Hongling Yang, Bo Yao, Jie Lian, Yongzhong Su, Yulin Li
+Citations: 14
+URL: https://www.semanticscholar.org/paper/6068311dcf5bf73413b4426faab9ea8ca86e8f76
+Abstract: Afforestation exerts a profound impact on soil fungal communities, with the nature and extent of these changes significantly influenced by the specific tree species selected. While extensive research has addressed the aboveground ecological outcomes of afforestation, the nuanced interactions between tree species and soil fungal dynamics remain underexplored. This study investigated the effects of afforestation with Caragana microphylla (CMI), Populus simonii (PSI), and Pinus sylvestris var. mongolica (PSY) on soil fungal diversity, functional guilds, and co-occurrence networks, drawing comparisons with neighboring grasslands. Our findings reveal a significant increase in soil fungal Chao1 richness following afforestation, though the degree 
+
+[7] Estimating dark diversity and regional species pool in the high-altitude Himalayan habitats
+Year: 2023
+Authors: S. Wani, Rameez Ahmad, F. Dar, Bilal A. Rasray, S. A. Lone
+Citations: 7
+URL: https://www.semanticscholar.org/paper/84654ac00f8f839105418931e77f0b85bb50398d
+Abstract: 
+
+[8] Co‐occurrence based assessment of species habitat specialization is affected by the size of species pool: reply to Fridley et al. (2007)
+Year: 2009
+Authors: D. Zelený
+Citations: 43
+URL: https://www.semanticscholar.org/paper/58b8f30350bea32ddbba0f8af7226dedd7b4f6fe
+Abstract: 

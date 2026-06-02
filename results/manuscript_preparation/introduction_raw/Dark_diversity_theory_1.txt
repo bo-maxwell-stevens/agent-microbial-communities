@@ -1,0 +1,56 @@
+
+[1] Dark diversity: shedding light on absent species.
+Year: 2011
+Authors: M. Pärtel, R. Szava-Kovats, M. Zobel
+Citations: 368
+URL: https://www.semanticscholar.org/paper/7aca9e7b37f6a61e65dcfa125c42427efa2fadab
+Abstract: 
+
+[2] Environmental Heterogeneity Drives the Dark Diversity of Global Plant Communities
+Year: 2025
+Authors: Ji‐Zhong Wan, Xiaodan Wang
+Citations: 3
+URL: https://www.semanticscholar.org/paper/47754ea87f9823cca84357e661eb3adc05060b82
+Abstract: 
+
+[3] Linking forest coverage and fragmentation to the dark diversity of plant communities under different forest management practices.
+Year: 2025
+Authors: Ji‐Zhong Wan, Xiaodan Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/64e8a3329990e62d8118f24ce1c2d643b423e086
+Abstract: Dark diversity refers to species that belong to a particular species pool, although they are locally absent from the given sites. To understand the effects of forest coverage and fragmentation on plant species diversity, we examined whether coverage and fragmentation influence the dark diversity of plant communities in forests under different management practices. We compiled a comprehensive database to quantify the observed diversity, dark diversity, and community completeness of managed forests. We used regression models with forest management practice type as a random factor to determine the relationships among observed diversity, dark diversity, and community completeness with forest coverage and fragmentation. We detected significant a
+
+[4] DarkDivNet – A global research collaboration to explore the dark diversity of plant communities
+Year: 2019
+Authors: M. Pärtel, C. P. Carmona, M. Zobel, M. Moora, Kersti Riibak
+Citations: 18
+URL: https://www.semanticscholar.org/paper/f8183399a65a4e1bdf7b1985359b62e388bde4a4
+Abstract: DarkDivNet is a global research collaboration which explores dark diversity — the set of species that are absent from a site despite being suitable under the site conditions and present in the region. Participants of the network survey vascular plant diversity both at local (10 m × 10 m) and regional scales (radius 10 km) using a standardized approach. They also measure simple plant traits and collect soil samples. Observed and dark diversity together form the site‐specific species pool, and the ratio of observed diversity and dark diversity describes community completeness. We shall explore how observed and dark diversity, site‐specific species pool and community completeness vary across natural and anthropogenic gradients. We link plant d
+
+[5] Trait diversity in plant communities maintained by competition for water and light
+Year: 2025
+Authors: Jacob I. Levine, Jonathan M. Levine, S. Pacala
+Citations: 4
+URL: https://www.semanticscholar.org/paper/568472353b4b3a64d689384e9d2af6973d8cef6c
+Abstract: Ecological communities frequently exhibit remarkable taxonomic and trait diversity, and this diversity is consistently shown to regulate ecosystem function and resilience. However, ecologists lack a synthetic theory for how this diversity is maintained when species compete for limited resources, hampering our ability to project the future of biodiversity under climate change. Water‐limited plant communities are an ideal system in which to study these questions given (1) the diversity of hydraulic traits they exhibit, (2) the importance of this diversity for ecosystem productivity and drought resilience, and (3) forecast changes to precipitation and evapotranspiration under climate change. We developed an analytically tractable model of wate
+
+[6] Alpine Grassland Ecological Restoration Approaches Shape Insect Trophic Guild Diversity: A Multi-Dimensional Assessment from Alpha to Dark Diversity
+Year: 2025
+Authors: Kuanyan Tang, Hongru Yue, Haijuan Qu, Yifang Xing, Bing Qin
+Citations: 0
+URL: https://www.semanticscholar.org/paper/a4b698a5effe2a153eb323d6590dea2eb4332194
+Abstract: Simple Summary The degradation of high-altitude grasslands on the Tibetan Plateau threatens both the environment and local livelihoods. Insects play essential roles in keeping these ecosystems healthy, but it was unclear how different grassland restoration methods affect insect communities. Our study compared four approaches: grazing exclusion fencing, no-till reseeding, planting grass, and traditional grazing. We found that no-till reseeding supported the most diverse and balanced insect community, benefiting predators, plant-eaters, and decomposers alike. Grazing exclusion fencing helped plant-eating insects but was less effective for other groups, while planting grass even reduced the diversity of some important insects. Our results sugg
+
+[7] Global impoverishment of natural vegetation revealed by dark diversity
+Year: 2025
+Authors: Meelis Pärtel, Riin Tamme, C. P. Carmona, Kersti Riibak, M. Moora
+Citations: 31
+URL: https://www.semanticscholar.org/paper/3c126e3f14a48d2875ff7a66ab84b2594c967cba
+Abstract: Anthropogenic biodiversity decline threatens the functioning of ecosystems and the many benefits they provide to humanity1. As well as causing species losses in directly affected locations, human influence might also reduce biodiversity in relatively unmodified vegetation if far-reaching anthropogenic effects trigger local extinctions and hinder recolonization. Here we show that local plant diversity is globally negatively related to the level of anthropogenic activity in the surrounding region. Impoverishment of natural vegetation was evident only when we considered community completeness: the proportion of all suitable species in the region that are present at a site. To estimate community completeness, we compared the number of recorded 
+
+[8] Observed and dark diversity of plants’ life-forms are driven by climate and human impacts in a tropical dry forest
+Year: 2024
+Authors: Magno Daniel de Oliveira Gonçalves-Araújo, Carlos Eduardo de Carvalho, Pedro Pequeno, D. Trindade, F. Hughes
+Citations: 8
+URL: https://www.semanticscholar.org/paper/6fa63b2383ca441fbd86d275de7acb811acda048
+Abstract: 

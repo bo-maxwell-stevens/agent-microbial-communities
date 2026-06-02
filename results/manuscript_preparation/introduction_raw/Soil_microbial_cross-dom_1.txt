@@ -1,0 +1,56 @@
+
+[1] Microplastics Trigger Soil Dissolved Organic Carbon and Nutrient Turnover by Strengthening Microbial Network Connectivity and Cross-Trophic Interactions.
+Year: 2025
+Authors: Shenghan Gao, Yunbo Fu, Xinyi Peng, Silin Ma, Yurong Liu
+Citations: 46
+URL: https://www.semanticscholar.org/paper/fc6f06cdde388e3493cd9447e6ece5ab68e0d771
+Abstract: Increasing microplastic (MP) inputs in agricultural soils have gained global attention for their ecological effects, especially on soil organic carbon (SOC) and nutrient turnover. However, the microbial mechanism underlying MP-induced SOC and nutrient dynamics remains poorly understood. Here, we investigated the impacts of two common MPs (polyethylene and polyvinyl chloride) on microbial hierarchical groups (bacteria, fungi, and protists) and the cascading effects on dissolved organic carbon (DOC) and nutrient dynamics in two typical agricultural soils (Mollisol and Ultisol). Our results showed that MP inputs consistently reduced NO3--N concentration but increased the content of DOC and specific dissolved organic matter (DOM) components. De
+
+[2] Quantitative stable isotope probing (qSIP) and cross-domain networks reveal bacterial-fungal interactions in the hyphosphere
+Year: 2025
+Authors: Giovana S. Slanzon, M. Yuan, K. Estera-Molina, Aaron Chew, S. Blazewicz
+Citations: 15
+URL: https://www.semanticscholar.org/paper/d3d786e9358dcd5877889917be2582a7fc39dd3e
+Abstract: Interactions between fungi and bacteria have the potential to substantially influence soil carbon dynamics in soil, but we have yet to fully identify these interactions and partners in their natural environment. In this study, we stacked two powerful methods, 13C quantitative stable isotope probing (qSIP) and cross-domain co-occurrence network, to identify interacting fungi and bacteria in a California grassland soil. We used in-field whole plant 13CO2 labeling along with sand-filled ingrowth bags (that trap fungi and hyphae-associated bacteria) to amplify the signal of fungal-bacterial interactions, separate from the bulk soil background. We found a total of 54 bacterial ASVs and 9 fungal OTUs that were significantly 13C-enriched. These we
+
+[3] Exogenous resources drive convergent successional processes within soil microbial food web in two soil types
+Year: 2026
+Authors: Yujia Cai, Yuhai Chang, J. Ray, Hong J. Di, Ju-Pei Shen
+Citations: 0
+URL: https://www.semanticscholar.org/paper/0fc78d942a14deed5e4f011f910c11649a48ef61
+Abstract: Background Soil microorganisms mediate critical ecosystem processes, including nutrient cycling and climate regulation. However, the extent to which their functional resilience and microbial food web dynamics respond uniformly to organic amendment across two land-use types remain poorly understood. Results In this study, we conducted a 30-day microcosm experiment to investigate how exogenous resources addition restructures the assembly of primary microbial functional groups (bacteria, fungi, and protists) in urine-amended soils under contrasting land-use regimes: intensively managed maize fields and natural woodlands. Results showed that straw addition consistently reduced both OTU richness and Shannon diversity of bacteria (by 8% and15%, r
+
+[4] Water masses and their associated temperature and cross-domain biotic factors co-shape upwelling microbial communities.
+Year: 2022
+Authors: Ping Sun, Ying Wang, Xin Huang, Bangqin Huang, Lei Wang
+Citations: 41
+URL: https://www.semanticscholar.org/paper/d2e5735f9f5c491cc2070a70a48b2fe4ace187a0
+Abstract: Disentangling the drivers and mechanisms that shape microbial communities in a river-influenced coastal upwelling system requires considering a hydrologic dimension that can drive both deterministic and stochastic community assembly by generating hydrological heterogeneity and dispersal events. Additionally, ubiquitous and complex microbial interactions can play a significant role in community structuring. However, how the hydrology, biotic, and abiotic factors collectively shape microbial distribution in the hydrologically complicated river plume-upwelling coupling system remains unknown. Through underway sampling and daily observations, we employed 16S and 18S ribosomal RNA sequencing to disentangle drivers and mechanisms shaping the prot
+
+[5] Urban chemical stress disrupts cross-domain microbial networks in river sediments
+Year: 2026
+Authors: Eduardo Acosta, Thomas Backhaus, W. Brack, P. Inostroza
+Citations: 0
+URL: https://www.semanticscholar.org/paper/904ab3ab42f0508161f86669981fdad9c180cbcd
+Abstract: 
+
+[6] Responses of soil microbial diversity, network complexity and multifunctionality to three land-use changes.
+Year: 2022
+Authors: Yi Yang, Yabo Chai, H. Xie, Lu Zhang, Zhiming Zhang
+Citations: 104
+URL: https://www.semanticscholar.org/paper/b850afa7c259bbc7948dea52e1f2e1e7df4e1ae7
+Abstract: Land-use change is one of the greatest challenges for natural ecosystem services. Soil microbiomes are essential for modulating multiple ecosystem functions. However, little is known about the impact of land-use changes on soil microbial communities and their associated soil functions. In this study, 150 alpine soil samples representing conversion of forests to shrublands or grasslands, and of shrublands to grasslands were investigated for bacterial, fungal and protistan community diversity, co-occurrence network, as well as their relationships with soil multifunctionality via a sampling strategy of space-for-time substitution. The conversion of forest to grassland increased the diversity of fungi and bacteria, and altered the microbial com
+
+[7] Linking soil organic carbon mineralization to microbial interactions during alpine grassland degradation.
+Year: 2025
+Authors: Yang Hu, Xinya Sun, Haolin Zhang, Bicheng Zhang, Yubin Wang
+Citations: 1
+URL: https://www.semanticscholar.org/paper/b039c3088f3f3ba0cc25b016b0c08b0d02d9d196
+Abstract: Grassland degradation induces substantial losses of soil organic carbon (SOC), which are closely associated with the activities and interactions of various soil microorganisms. However, the response of microorganisms and their interactions to degradation and their relationships with SOC dynamics remain unclear. Here, we established four distinct grassland degradation transects on the Qinghai-Xizang Plateau to investigate the effects of grassland degradation on soil microorganisms (including bacteria, fungi, and protists) and reveal the relationships between microbial network, microbial metabolic activity, and SOC mineralization dynamics. Our findings revealed that grassland degradation increased SOC cumulative mineralization rates by 4.5-47
+
+[8] Biodegradable plastic exposure enhances microbial functional diversity while reducing taxonomic diversity across multi-kingdom soil microbiota in cherry tomato fields
+Year: 2025
+Authors: Zhen Shi, Li Xiong, Zhaojie Li, Farooq Shah, Qianhua Yuan
+Citations: 6
+URL: https://www.semanticscholar.org/paper/6c76efe6b3924b1b61d43f5d8888d6a38a22d07c
+Abstract: Plastic films are extensively utilized in agroecosystems, and their residues are accumulating in global soil at a worrying rate. Biodegradable films are employed as a substitute for polyethylene (PE) films due to their rapid degradation rate. Although the taxonomic diversity of soil microbiome in response to biodegradable films has been studied, its alterations in functional diversity remain unexplored. Here, we conduct a two–year field experiment in cherry tomato to address how PE and poly (butylene adipate–co–terephthalate) (PBAT) influences soil microbiota across multi–kingdom (bacteria, fungi, and protists) regarding its taxonomic and functional diversity. The results show that PBAT exposure reduces the taxonomic diversity while increas

@@ -1,0 +1,12 @@
+section,scientific_rigor,clarity,completeness,publication_readiness,overall_section_score
+Abstract,7,8,7,7,7.25
+Introduction,6,7,6,6,6.25
+Methods,7,8,7,7,7.25
+Results,8,8,8,7,7.75
+Discussion,5,7,5,5,5.5
+Conclusions,7,8,6,6,6.75
+Data and code availability,6,7,5,5,5.75
+Author contributions (placeholder),2,6,2,2,3.0
+Acknowledgements (placeholder),2,6,2,2,3.0
+References,6,7,6,6,6.25
+OVERALL,5.6,7.2,5.4,5.3,5.88

@@ -1,0 +1,70 @@
+
+[1] A comparison of microbial composition under three tree ecosystems using the stochastic process and network complexity approaches
+Year: 2022
+Authors: Peng Kang, Yaqing Pan, Pan Yang, Jinpeng Hu, Tongli Zhao
+Citations: 43
+URL: https://www.semanticscholar.org/paper/aff7b4bfe2895e231c446143e25b76e7ba201724
+Abstract: Soil microbes act as “players” in regulating biogeochemical cycles, whereas environmental heterogeneity drives microbial community assembly patterns and is influenced by stochastic and deterministic ecological processes. Currently, the limited understanding of soil microbial community assembly patterns and interactions under temperate forest stand differences pose a challenge in studying the soil microbial involvement during the succession from coniferous to broad-leaved forests. This study investigated the changes in soil bacterial and fungal community diversity and community structure at the regional scale and identified the pathways influencing soil microbial assembly patterns and their interactions. The results showed that broad-leaved 
+
+[2] Soil Bacterial and Fungal Community Composition in Top- and Subsoil From Irrigated Mediterranean Orchards
+Year: 2025
+Authors: Mohamed Mdaini, Eva Lloret, Nadhem Brahim, N. Shimi, Raúl Zornoza
+Citations: 4
+URL: https://www.semanticscholar.org/paper/7574976a009fdfe6dce6a64e0eafae6d54dbdcbc
+Abstract: The soil microbiome, crucial for nutrient cycling and soil health, has been extensively studied in topsoil, yet the subsoil microbiome remains relatively unexamined despite its potential contributions to agroecosystem functionality. This research aimed to bridge this knowledge gap by investigating the interconnections between soil properties and the microbial communities residing in the topsoil and the subsoil of irrigated orchards under a semiarid Mediterranean climate. We collected soil samples from two depths, topsoil (0–10 cm) and subsoil (30–50 cm), noting elevated salinity levels in the topsoil due to irrigation practices. Utilizing high-throughput 16S rRNA gene and ITS1 region amplicon sequencing, we characterized the bacterial and f
+
+[3] Stand ages and soil compartments jointly shape ecosystem multifunctionality via changes in bacterial and fungal diversity and community composition
+Year: 2025
+Authors: Yuxiong Zheng, Adam Frew, E. Egidi, Zhijie Yang, Chengfang Lin
+Citations: 1
+URL: https://www.semanticscholar.org/paper/7d4f135a27b2ce5793a32e36da9017ef48536c7a
+Abstract: 
+
+[4] Changes of bacterial versus fungal community composition along a forest degradation gradient of logged-over tropical rain forests, and their consequences on soil enzyme activities in Malaysian Borneo
+Year: 2024
+Authors: Li‐Hui Jiang, Masayuki Ushio, N. Imai, J. Sugau, Kanehiro Kitayama
+Citations: 10
+URL: https://www.semanticscholar.org/paper/fb9189ac2272133522d40a3a47a4cecf58209c1d
+Abstract: Soil bacterial and fungal communities play different but mutually interrelated roles in releasing enzymes that catalyze organic matter decomposition. In Malaysian Borneo, decreasing litter inputs caused by forest degradation lead to reductions in soil organic carbon (SOC) and C/N ratio. Enzyme activities also decrease with forest degradation. However, it is unclear if/how changes in microbial community compositions affect soil enzymes, despite their importance in ecosystem processes. We investigated how reduced SOC substrate affects microbial community compositions and further influences enzyme activities during forest degradation. We used 16S and ITS amplicon sequencing and ergosterol extraction to derive microbial absolute and relative ab
+
+[5] Different and unified responses of soil bacterial and fungal community composition and predicted functional potential to 3 years’ drought stress in a semiarid alpine grassland
+Year: 2023
+Authors: Qian Wan, Lei Li, Bo Liu, Zhihao Zhang, Yalan Liu
+Citations: 40
+URL: https://www.semanticscholar.org/paper/cfcd3b37ee3bf88b324c5c866c6cf13cae3c5a8c
+Abstract: Introduction Soil microbial communities are key to functional processes in terrestrial ecosystems, and they serve as an important indicator of grasslands status. However, the responses of soil microbial communities and functional potential to drought stress in semiarid alpine grasslands remain unclear. Methods Here, a field experiment was conducted under ambient precipitation as a control, −20% and −40% of precipitation to explore the responses of soil microbial diversity, community composition, and predicted functional potential to drought stress in a semiarid alpine grassland located in the northwest of China. Moreover, 16S rRNA gene and ITS sequencing were used to detect bacterial and fungal communities, and the PICRUST and FUNGuild data
+
+[6] Compared with soil fungal diversity and microbial network complexity, soil bacterial diversity drives soil multifunctionality during the restoration process.
+Year: 2024
+Authors: Xiaoqian Gong, S. Jarvie, Jia Wen, Nier Su, Yongzhi Yan
+Citations: 55
+URL: https://www.semanticscholar.org/paper/882332974a9d88401627e0d1b6ad4dffcc9540b1
+Abstract: Understanding factors driving soil multifunctionality can help with terrestrial ecosystem restoration. Soil microbial diversity and network complexity are two important factors influencing ecosystem multifunctionality. However, their effects on soil multifunctionality are still unclear. Based on high-throughput sequencing, we analyzed soil microbial alpha diversity and network complexity and their relative impacts on soil multifunctionality during the aerial seeding restoration process from 1983 to 2017 in Mu Us sandy land, China, a region threatened by desertification. Our results showed soil bacterial and fungal alpha diversity and multifunctionality increased with aerial seeding restoration. We found the community composition of soil bac
+
+[7] Changes in Soil Bacterial and Fungal Community Composition and Response of Functional Groups to Different Proportions of N/P/K Fertilizer Short-Term Supply in Torreya grandis Soil
+Year: 2023
+Authors: Chenliang Yu, Qi Wang, C. Kong, Yuanyuan Guan, Yi Li
+Citations: 5
+URL: https://www.semanticscholar.org/paper/fba10af4cf32c3dc2005b69f5fab95c88e32799b
+Abstract: 
+
+[8] Effects of Biochar Amendment on Nitrous Oxide Emission, Bacterial and Fungal Community Composition in a Tobacco-Planting Soil
+Year: 2023
+Authors: Yuan Tang, Weichang Gao, Yi Chen, Qinghai Zhang, Jianzhong Cheng
+Citations: 5
+URL: https://www.semanticscholar.org/paper/a4c1349ad3bf2723e492c71f9589c002c8d45e2c
+Abstract: 
+
+[9] Unravelling belowground fungal community assembly: Niche drives diversity and function, geography shapes stability and composition
+Year: 2025
+Authors: Pei-shan Zhao, Guodong Ding, Qiyan Li, Yilin Liu, Yue-Xiao Ren
+Citations: 1
+URL: https://www.semanticscholar.org/paper/a71604d441233d05e6ec068b6a0b686c87cd8b07
+Abstract: 
+
+[10] Soil pH amendment alters the abundance, diversity, and composition of microbial communities in two contrasting agricultural soils
+Year: 2024
+Authors: Ruonan Xiong, Xinhua He, Nan Gao, Qing Li, Zijian Qiu
+Citations: 80
+URL: https://www.semanticscholar.org/paper/03b8d4b662c13f0c05a778c6e08333d8df55645d
+Abstract: ABSTRACT Soil microorganisms are the most active participants in terrestrial ecosystems, and have key roles in biogeochemical cycles and ecosystem functions. Despite the extensive research on soil pH as a key predictor of microbial community and composition, a limitation of these studies lies in determining whether bacterial and/or fungal communities are directly or indirectly influenced by pH. We conducted a controlled laboratory experiment to investigate the effects of soil pH amendment (+/- 1–2 units) with six levels on soil microbial communities in two contrasting Chinese agricultural soils (pH 8.43 in Dezhou, located in the North China Plain, Shandong vs pH 6.17 in Wuxi, located in the Taihu Lake region, Jiangsu, east China). Results s
