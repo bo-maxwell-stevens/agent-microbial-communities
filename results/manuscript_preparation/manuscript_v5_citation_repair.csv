@@ -1,0 +1,39 @@
+claim_id,original_reference,action,replacement_reference,justification
+CR-R01,R01,C) rewrite claim to match available evidence,R01,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R02,R02,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R03,R03,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R04,R04,C) rewrite claim to match available evidence,R04,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R05,R05,C) rewrite claim to match available evidence,R05,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R06,R06,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R07,R07,A) replace with a better citation,R33;R34,Method-specific claim now cites canonical Mantel methodology/limitations papers instead of peripheral or non-method papers.
+CR-R08,R08,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R09,R09,A) replace with a better citation,R33;R34,Method-specific claim now cites canonical Mantel methodology/limitations papers instead of peripheral or non-method papers.
+CR-R10,R10,A) replace with a better citation,R33;R34,Method-specific claim now cites canonical Mantel methodology/limitations papers instead of peripheral or non-method papers.
+CR-R11,R11,C) rewrite claim to match available evidence,R11,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R12,R12,C) rewrite claim to match available evidence,R12,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R13,R13,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R14,R14,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R15,R15,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R16,R16,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R17,R17,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R18,R18,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R19,R19,C) rewrite claim to match available evidence,R19,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R20,R20,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R21,R21,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R22,R22,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R23,R23,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R24,R24,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R25,R25,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R26,R26,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R27,R27,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R28,R28,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R29,R29,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R30,R30,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R31,R31,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R32,R32,B) remove citation,,Citation removed because manuscript claim either did not require external citation (dataset-specific result) or reference was only topically related without direct support.
+CR-R33,R33,C) rewrite claim to match available evidence,R33,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R34,R34,C) rewrite claim to match available evidence,R34,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R35,R35,C) rewrite claim to match available evidence,R35,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R36,R36,C) rewrite claim to match available evidence,R36,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R37,R37,C) rewrite claim to match available evidence,R37,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.
+CR-R38,R38,C) rewrite claim to match available evidence,R38,Reference retained but claim text narrowed to descriptive scope directly supported by this source; mechanistic/causal language removed.

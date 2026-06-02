@@ -1,0 +1,7 @@
+word_count=3078
+reference_count=38
+figures_referenced=1;2;3;4;5
+tables_referenced=1;2;3;4
+unsupported_claims=2
+weakly_supported_claims=4
+remaining_vulnerabilities=causal_inference_limits;predictor_non_independence;metric_divergence_overaggregation_risk;citation_relevance_curation_needed

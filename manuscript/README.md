@@ -1,17 +1,11 @@
 # Manuscript Package
 
-- Manuscript version: v2 internal review draft
-- Source markdown: `docs/manuscript_v2.md`
-- Generated DOCX: `manuscript/manuscript_v2.docx`
-- Copied markdown output: `manuscript/manuscript_v2.md`
-- Analysis checkpoint/tag used: `v0.8-phase5c-plant-diversity`
-- Draft status: Internal review draft (not final submission)
-- Date generated: 2026-06-02
-
-## Review / comment workflow
-1. Open `manuscript/manuscript_v2.docx` in Word.
-2. Add comments/suggested edits using Track Changes and comments.
-3. Save reviewed DOCX and share back to the project workflow.
-4. Sync accepted revisions back into `docs/manuscript_v2.md` in the next revision cycle.
-
-Comments can be made in Word and synced back for revision.
+- manuscript version: V5
+- source markdown: manuscript/manuscript_v5.md
+- DOCX path: manuscript/manuscript_v5.docx
+- note: internal review draft
+- date generated: 2026-06-02 17:06:38 UTC
+- stable analysis checkpoint: v0.8-phase5c-plant-diversity
+- latest manuscript checkpoint to be created: v1.0-manuscript-v5-internal-review
+- instruction: download DOCX from GitHub and review/comment in Word
+- docx generation method: fallback
