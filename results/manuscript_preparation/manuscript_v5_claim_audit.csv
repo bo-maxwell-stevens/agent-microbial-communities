@@ -1,0 +1,13 @@
+claim_id,claim_text,classification,evidence_basis,conservative_rewrite
+CLM-01,Integrated coupling is highest for BAC↔ITS presence/absence (0.574).,directly supported,Phase 5D integration tables and Figure 1 values.,No rewrite required.
+CLM-02,EUK↔ITS pairings rank next in integrated coupling (0.538 and 0.535).,directly supported,Phase 5D integration tables and Figure 1 values.,No rewrite required.
+CLM-03,Environmental structure is substantial (dbRDA adjusted R² 0.188–0.278).,directly supported,Phase 5B summaries and Table 3.,No rewrite required.
+CLM-04,pH is a recurrent high-ranking environmental predictor in this dataset.,supported with caveat,Phase 5B predictor rankings; external context from R05/R19.,"Clarify this is dataset-specific ranking, not universal dominance."
+CLM-05,Plant-diversity increments are modest but repeatable (approx. 0.007–0.019).,directly supported,Phase 5C hypothesis comparison outputs and Table 4.,No rewrite required.
+CLM-06,Alpha effects exceed dark-diversity and completeness effects on average.,directly supported,Integrated summary means in V4 results and supporting tables.,No rewrite required.
+CLM-07,AMF-linked pairings show elevated plant-responsiveness despite lower coupling magnitude.,supported with caveat,Phase 5D joint interpretation of coupling vs delta-R².,"State as comparative pattern, not AMF-specific mechanism."
+CLM-08,BAC↔ITS coupling indicates direct bacteria–fungi interaction.,speculative,Observational coupling cannot establish mechanism.,Rewritten to: BAC↔ITS coupling is robust association-level concordance compatible with shared filtering and possible interaction.
+CLM-09,Mantel and Procrustes are interchangeable tests of the same signal.,speculative,Methodological distinction supported by analysis behavior and R33/R34 context.,Rewritten to: Mantel and Procrustes are complementary diagnostics with non-equivalent sensitivities.
+CLM-10,Composite coupling score is inferential evidence of mechanism.,speculative,Composite index is descriptive ranking construct.,Rewritten to: composite score is ranking aid; inferential statements remain metric-specific.
+CLM-11,Plant-diversity terms are primary drivers of cross-domain coupling.,speculative,Observed effect sizes are modest incremental deltas.,"Rewritten to: plant-diversity terms provide secondary, context-dependent explanatory increment."
+CLM-12,Findings establish causal ecological pathways.,speculative,Study is observational synthesis without intervention/time-series tests.,Rewritten to explicitly limit to association-level interpretation and causal uncertainty.
