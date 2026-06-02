@@ -1,0 +1,12 @@
+section,v1_scientific_rigor,v2_scientific_rigor,delta_scientific_rigor,v1_clarity,v2_clarity,delta_clarity,v1_completeness,v2_completeness,delta_completeness,v1_publication_readiness,v2_publication_readiness,delta_publication_readiness,v1_overall_section_score,v2_overall_section_score,delta_overall_section_score
+Abstract,7.0,8,1.0,8.0,8,0.0,7.0,8,1.0,7.0,8,1.0,7.25,8.0,0.75
+Introduction,6.0,8,2.0,7.0,8,1.0,6.0,8,2.0,6.0,8,2.0,6.25,8.0,1.75
+Methods,7.0,8,1.0,8.0,8,0.0,7.0,8,1.0,7.0,8,1.0,7.25,8.0,0.75
+Results,8.0,8,0.0,8.0,8,0.0,8.0,8,0.0,7.0,8,1.0,7.75,8.0,0.25
+Discussion,5.0,8,3.0,7.0,8,1.0,5.0,8,3.0,5.0,8,3.0,5.5,8.0,2.5
+Conclusions,7.0,8,1.0,8.0,8,0.0,6.0,8,2.0,6.0,8,2.0,6.75,8.0,1.25
+Data and code availability,6.0,7,1.0,7.0,8,1.0,5.0,7,2.0,5.0,7,2.0,5.75,7.25,1.5
+Author contributions (placeholder),2.0,2,0.0,6.0,6,0.0,2.0,2,0.0,2.0,2,0.0,3.0,3.0,0.0
+Acknowledgements (placeholder),2.0,2,0.0,6.0,6,0.0,2.0,2,0.0,2.0,2,0.0,3.0,3.0,0.0
+References,6.0,6,0.0,7.0,7,0.0,6.0,6,0.0,6.0,6,0.0,6.25,6.25,0.0
+OVERALL,5.6,6.5,0.9,7.2,7.5,0.3,5.4,6.5,1.1,5.3,6.5,1.2,5.88,6.75,0.87

@@ -1,0 +1,56 @@
+
+[1] Ecological forces dictate microbial community assembly processes in bioreactor systems.
+Year: 2023
+Authors: Shuang Li, S. Müller
+Citations: 7
+URL: https://www.semanticscholar.org/paper/39f18df4c59055d5f107e931cd4edc23f4f98b21
+Abstract: Microbial communities are indispensable for future biotechnology to produce valuable platform chemicals and reduce the exploitation of fossil resources. Yet, the stability of microbial communities in classical continuous reactor setups is best brief or non-existent. This is due to ecological forces such as stochastic and deterministic properties of communities that contribute to rapid changes in structure and function to varying degrees. The review highlights the differences between these two properties, provides tools for their estimation, and gives an outlook on overcoming instabilities of microbial communities in biotechnological reactor systems.
+
+[2] Patterns and Processes of Microbial Community Assembly
+Year: 2013
+Authors: D. Nemergut, S. K. Schmidt, T. Fukami, S. O’Neill, T. Bilinski
+Citations: 1547
+URL: https://www.semanticscholar.org/paper/671626d90886405674a5d17ebca798b81459ec93
+Abstract: 
+
+[3] Microbial community assembly in engineered bioreactors.
+Year: 2024
+Authors: Savanna K. Smith, Joseph E. Weaver, J. Ducoste, F. D. L. de los Reyes
+Citations: 23
+URL: https://www.semanticscholar.org/paper/7e71036201595b102a2cb337563c2fee60797382
+Abstract: Microbial community assembly (MCA) processes that shape microbial communities in environments are being used to analyze engineered bioreactors such as activated sludge systems and anaerobic digesters. The goal of studying MCA is to be able to understand and predict the effect of design and operation procedures on bioreactor microbial composition and function. Ultimately, this can lead to bioreactors that are more efficient, resilient, or resistant to perturbations. This review summarizes the ecological theories underpinning MCA, evaluates MCA analysis methods, analyzes how these MCA-based methods are applied to engineered bioreactors, and extracts lessons from case studies. Furthermore, we suggest future directions in MCA research in engine
+
+[4] Implications of Soil Microbial Community Assembly for Ecosystem Restoration: Patterns, Process, and Potential
+Year: 2023
+Authors: E. Graham, J. Knelman
+Citations: 58
+URL: https://www.semanticscholar.org/paper/b83f205c026d7456ebcc44360acda52e901dcab4
+Abstract: 
+
+[5] Peer Review #1 of "Deterministic processes dominate soil microbial community assembly in subalpine coniferous forests on the Loess Plateau (v0.1)"
+Year: 2019
+Authors: 
+Citations: 0
+URL: https://www.semanticscholar.org/paper/de967c675e34f3f241f3d168d00fa48e04cb6c66
+Abstract: 
+
+[6] Peer Review #1 of "Deterministic processes dominate soil microbial community assembly in subalpine coniferous forests on the Loess Plateau (v0.2)"
+Year: 2019
+Authors: 
+Citations: 0
+URL: https://www.semanticscholar.org/paper/3e8e62ff9703902c8892c1edc37441aac31a7c7d
+Abstract: 
+
+[7] Peer Review #1 of "Deterministic processes dominate soil microbial community assembly in subalpine coniferous forests on the Loess Plateau (v0.3)"
+Year: 2019
+Authors: 
+Citations: 0
+URL: https://www.semanticscholar.org/paper/bc3d2ba0cf7e7bbab3755f57434bfbf2f52f0365
+Abstract: 
+
+[8] Peer Review #2 of "Deterministic processes dominate soil microbial community assembly in subalpine coniferous forests on the Loess Plateau (v0.1)"
+Year: 2019
+Authors: V. Souza
+Citations: 0
+URL: https://www.semanticscholar.org/paper/7cab092331aeab434aa578b90e72fb6d7125f56f
+Abstract: 

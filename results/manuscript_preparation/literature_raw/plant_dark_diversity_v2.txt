@@ -1,0 +1,70 @@
+
+[1] Environmental Heterogeneity Drives the Dark Diversity of Global Plant Communities
+Year: 2025
+Authors: Ji‐Zhong Wan, Xiaodan Wang
+Citations: 3
+URL: https://www.semanticscholar.org/paper/47754ea87f9823cca84357e661eb3adc05060b82
+Abstract: 
+
+[2] DarkDivNet – A global research collaboration to explore the dark diversity of plant communities
+Year: 2019
+Authors: M. Pärtel, C. P. Carmona, M. Zobel, M. Moora, Kersti Riibak
+Citations: 18
+URL: https://www.semanticscholar.org/paper/f8183399a65a4e1bdf7b1985359b62e388bde4a4
+Abstract: DarkDivNet is a global research collaboration which explores dark diversity — the set of species that are absent from a site despite being suitable under the site conditions and present in the region. Participants of the network survey vascular plant diversity both at local (10 m × 10 m) and regional scales (radius 10 km) using a standardized approach. They also measure simple plant traits and collect soil samples. Observed and dark diversity together form the site‐specific species pool, and the ratio of observed diversity and dark diversity describes community completeness. We shall explore how observed and dark diversity, site‐specific species pool and community completeness vary across natural and anthropogenic gradients. We link plant d
+
+[3] Dark diversity reveals importance of biotic resources and competition for plant diversity across habitats
+Year: 2020
+Authors: Camilla Fløjgaard, Jose W. Valdez, L. Dalby, J. Moeslund, K. Clausen
+Citations: 24
+URL: https://www.semanticscholar.org/paper/eaaa3f93b1c04387c602117c06797dfb12e8945e
+Abstract: Abstract Species richness is the most commonly used metric to quantify biodiversity. However, examining dark diversity, the group of missing species which can potentially inhabit a site, can provide a more thorough understanding of the processes influencing observed biodiversity and help evaluate the restoration potential of local habitats. So far, dark diversity has mainly been studied for specific habitats or large‐scale landscapes, while less attention has been given to variation across broad environmental gradients or as a result of local conditions and biotic interactions. In this study, we investigate the importance of local environmental conditions in determining dark diversity and observed richness in plant communities across broad 
+
+[4] Dark diversity reveals importance of biotic resources and competition for plant diversity across broad environmental gradients
+Year: 2019
+Authors: Camilla Fløjgaard, Jose W. Valdez, L. Dalby, J. Moeslund, K. Clausen
+Citations: 2
+URL: https://www.semanticscholar.org/paper/c0e0f34357a0fbc503b7900e628d4e149af72e86
+Abstract: Species richness is the most commonly used metric to quantify biodiversity. However, examining dark diversity, the group of missing species which can potentially inhabit a site, can provide a more thorough understanding of the processes influencing observed biodiversity and help evaluate the restoration potential of local habitats. So far, dark diversity has mainly been studied for specific habitats or largescale landscapes while less attention has been given to variation across broad environmental gradients or as a result of local conditions and biotic interactions. In this study, we investigate the importance of local environmental conditions in determining dark diversity and observed richness in plant communities across broad environment
+
+[5] Community Completeness: Linking Local and Dark Diversity within the Species Pool Concept
+Year: 2013
+Authors: M. Pärtel, R. Szava-Kovats, M. Zobel
+Citations: 103
+URL: https://www.semanticscholar.org/paper/ad5e291154b3edb084f90c90f6f9c949aa4db79b
+Abstract: 
+
+[6] Community Completeness: Linking Local and Dark Diversity within the Species Pool Concept
+Year: 2013
+Authors: M. Pärtel, R. Szava-Kovats, M. Zobel
+Citations: 0
+URL: https://www.semanticscholar.org/paper/9cdcb650ce4041d4b38b1566249ac7317132256a
+Abstract: 
+
+[7] Dark diversity: shedding light on absent species.
+Year: 2011
+Authors: M. Pärtel, R. Szava-Kovats, M. Zobel
+Citations: 368
+URL: https://www.semanticscholar.org/paper/7aca9e7b37f6a61e65dcfa125c42427efa2fadab
+Abstract: 
+
+[8] Linking forest coverage and fragmentation to the dark diversity of plant communities under different forest management practices.
+Year: 2025
+Authors: Ji‐Zhong Wan, Xiaodan Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/64e8a3329990e62d8118f24ce1c2d643b423e086
+Abstract: Dark diversity refers to species that belong to a particular species pool, although they are locally absent from the given sites. To understand the effects of forest coverage and fragmentation on plant species diversity, we examined whether coverage and fragmentation influence the dark diversity of plant communities in forests under different management practices. We compiled a comprehensive database to quantify the observed diversity, dark diversity, and community completeness of managed forests. We used regression models with forest management practice type as a random factor to determine the relationships among observed diversity, dark diversity, and community completeness with forest coverage and fragmentation. We detected significant a
+
+[9] The Relationship between the Functional Diversity of Plant Communities and the Functions of Ecosystems
+Year: 2025
+Authors: Yuli Niu
+Citations: 1
+URL: https://www.semanticscholar.org/paper/b7242f07fd7353adbb52716521fd07c966b729d2
+Abstract: This paper reviews the concept and research methods of plant community functional diversity, as well as the influence of functional traits on community assembly and ecosystem functions. Plant community functional diversity refers to the values and distribution range of functional traits of species within a community, which is an important aspect of biodiversity research. Studies have shown that functional diversity is an important predictor of ecosystem functions and is closely related to the resource utilization strategies, stability, disturbance resistance, and recovery capacity of communities. Although research on functional diversity has made certain progress, there are still challenges, including how to select appropriate functional tr
+
+[10] Global impoverishment of natural vegetation revealed by dark diversity
+Year: 2025
+Authors: Meelis Pärtel, Riin Tamme, C. P. Carmona, Kersti Riibak, M. Moora
+Citations: 31
+URL: https://www.semanticscholar.org/paper/3c126e3f14a48d2875ff7a66ab84b2594c967cba
+Abstract: Anthropogenic biodiversity decline threatens the functioning of ecosystems and the many benefits they provide to humanity1. As well as causing species losses in directly affected locations, human influence might also reduce biodiversity in relatively unmodified vegetation if far-reaching anthropogenic effects trigger local extinctions and hinder recolonization. Here we show that local plant diversity is globally negatively related to the level of anthropogenic activity in the surrounding region. Impoverishment of natural vegetation was evident only when we considered community completeness: the proportion of all suitable species in the region that are present at a site. To estimate community completeness, we compared the number of recorded 

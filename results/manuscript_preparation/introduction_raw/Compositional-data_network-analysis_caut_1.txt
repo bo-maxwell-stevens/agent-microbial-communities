@@ -1,0 +1,61 @@
+
+[1] Microbial co-occurrence network demonstrates spatial and climatic trends for global soil diversity
+Year: 2024
+Authors: Nikos Pechlivanis, Georgios Karakatsoulis, Konstantinos Kyritsis, M. Tsagiopoulou, S. Sgardelis
+Citations: 26
+URL: https://www.semanticscholar.org/paper/1fca21b25e6fd9ac9d351e1b43fee21176b20d2f
+Abstract: Despite recent research efforts to explore the co-occurrence patterns of diverse microbes within soil microbial communities, a substantial knowledge-gap persists regarding global climate influences on soil microbiota behaviour. Comprehending co-occurrence patterns within distinct geoclimatic groups is pivotal for unravelling the ecological structure of microbial communities, that are crucial for preserving ecosystem functions and services. Our study addresses this gap by examining global climatic patterns of microbial diversity. Using data from the Earth Microbiome Project, we analyse a meta-community co-occurrence network for bacterial communities. This method unveils substantial shifts in topological features, highlighting regional and cl
+
+[2] ggClusterNet 2: An R package for microbial co‐occurrence networks and associated indicator correlation patterns
+Year: 2025
+Authors: Tao Wen, Yongxin Liu, Lanlan Liu, Guoqing Niu, Zhexu Ding
+Citations: 28
+URL: https://www.semanticscholar.org/paper/5dcfd37e6c2c4ff2524e47d8e3ba9d6207514923
+Abstract: Abstract Since its initial release in 2022, ggClusterNet has become a vital tool for microbiome research, enabling microbial co‐occurrence network analysis and visualization in over 300 studies. To address emerging challenges, including multi‐factor experimental designs, multi‐treatment conditions, and multi‐omics data, we present a comprehensive upgrade with four key components: (1) A microbial co‐occurrence network pipeline integrating network computation (Pearson/Spearman/SparCC correlations), visualization, topological characterization of network and node properties, multi‐network comparison with statistical testing, network stability (robustness) analysis, and module identification and analysis; (2) Network mining functions for multi‐f
+
+[3] Precipitation Alleviates Adverse Effects of Nitrogen and Phosphorus Enrichment on Soil Microbial Co-Occurrence Network Complexity and Stability in Karst Shrubland
+Year: 2025
+Authors: Jiangnan Li, Jie Zhao, Xionghui Liao, Xianwen Long, Wenyu Wang
+Citations: 2
+URL: https://www.semanticscholar.org/paper/6426eb9eea9763d0ab4c89d333cc9826dd6bc96b
+Abstract: The karst region is highly ecologically fragile due to its unique geology and poor water and nutrient retention. Despite long-term restoration, vegetation often remains in the secondary shrubland stage. Soil microorganisms play a vital role in maintaining ecosystem functions, but how microbial communities respond to combined water and nitrogen-phosphorus nutrient changes in karst shrubland remains poorly understood. This knowledge gap hinders effective restoration strategies in karst shrublands. Here, the effects of water, nitrogen, and phosphorous additions and their interactions on soil physico-chemical properties, soil microbial abundance, diversity, community composition, and the co-occurrence network were explored. A full factorial exp
+
+[4] Introducing Legumes into Wheat–Maize Rotation Complicates Soil Microbial Co-Occurrence Network and Reduces Soil Allelochemicals in Succeeding Wheat Season
+Year: 2025
+Authors: Yaqian Yan, Haiyang Jin, Fei Zheng, Xiwen Yang, Hang Song
+Citations: 3
+URL: https://www.semanticscholar.org/paper/08f2b930b2d09146555ef80debfcfdfd53269907
+Abstract: Increasing species richness through rotation is considered a promising measure to enhance agroecosystem functions and services. However, the legacy effects of introducing legumes into a wheat–maize rotation in the North China Plain on soil microecology, especially the soil metabolome, in the succeeding wheat season have not been elucidated. This study established three cropping systems: (1) a continuous winter wheat–summer maize rotation (M), (2) a winter wheat–summer peanut (summer maize) rotation (PM), and (3) a winter wheat–summer soybean (summer maize) rotation (SM). The soil physicochemical properties, microbial communities, and metabolomes were analyzed at the stage of the succeeding wheat crop. Introducing peanuts or soybeans into a 
+
+[5] Co-occurrence network analysis reveals the alterations of the skin microbiome and metabolome in adults with mild to moderate atopic dermatitis
+Year: 2024
+Authors: P. W. P. Gomes, H. Mannochio-Russo, Junhong Mao, H. Zhao, Jacob Ancira
+Citations: 21
+URL: https://www.semanticscholar.org/paper/18f745be4521c266c31dd719fdf812c6c4862aa0
+Abstract: ABSTRACT Skin microbiome can be altered in patients with atopic dermatitis (AD). An understanding of the changes from healthy to atopic skin can help develop new targets for treatment by identifying microbial and molecular biomarkers. This study investigates the skin microbiome and metabolome of healthy adult subjects and lesion (ADL) and non-lesion (ADNL) of AD patients by 16S rRNA gene sequencing and mass spectrometry, respectively. Samples from AD patients showed alterations in the diversity and composition of the skin microbiome, with ADL skin having the greatest divergence. Staphylococcus species, especially S. aureus, were significantly increased in AD patients. Metabolomic profiles were also different between the groups. Dipeptide de
+
+[6] Increased soil multifunctionality is determined by altered bacterial–fungal–protistan compositions and co‐occurrence network complexity during vegetation restoration in a Karst region, southwest China
+Year: 2025
+Authors: Yalong Kang, Linjun Shen, Canfeng Li, Yong Huang, Liding Chen
+Citations: 14
+URL: https://www.semanticscholar.org/paper/c713cf503557dbd6accb7ebb486cd7cf6731b366
+Abstract: 
+
+
+Vegetation restoration is essential to manage rocky desertification and restore ecological functions in the karst region of southwest China. However, the contributions of soil multitrophic microbial diversity and network complexity for the multifunctionality of karst ecosystem during vegetation restoration remain poorly explored, despite the established significance of soil microbial communities in regulating various ecosystem functions.
+
+This study aimed to investigate the diversity of bacterial, fungal and protistan communities and their hierarchical co‐occurrence networks, as well as their relationships with soil ecosystem multifunctionality (SMF), in two different vegetation restoration modes: natural forest (NF) and artificial fores
+
+[7] Microbial co-occurrence network and its key microorganisms in soil with permanent application of composted tannery sludge.
+Year: 2021
+Authors: Caroline Kie Ishimoto, A. Aono, J. Nagai, H. Sousa, A. Miranda
+Citations: 34
+URL: https://www.semanticscholar.org/paper/03808ed84c182bb62fef4810651753e3ddc17641
+Abstract: 
+
+[8] Correlation with viruses enhances network complexity and stability of co-occurrence prokaryotes across the oceans
+Year: 2025
+Authors: Bo Wang, Yantao Liang, Kaiyue Lian, Chuyu Zhang, Meiaoxue Han
+Citations: 6
+URL: https://www.semanticscholar.org/paper/f5acbc9b0ef90e53c8083abed122b5f70cfa1cd9
+Abstract: ABSTRACT Viruses play critical roles in shaping microbial distribution, organization, and ecological functions. However, the mechanisms behind the association and structuring of microbiomes with viruses still remain largely unknown. To understand how viruses affect the assembly of marine microbiomes, the network complexity and stability of prokaryotic microbiomes with/without viruses were analyzed and compared using the Tara Ocean Project data set, including samples collected from the Indian Ocean (IO), South Pacific Ocean (SPO), North Pacific Ocean (NPO), Mediterranean Sea, and South Atlantic Ocean. The network complexity of prokaryotic communities was substantially different across oceans, being high in the IO and low in the SPO and NPO. 

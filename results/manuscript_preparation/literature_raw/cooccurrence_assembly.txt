@@ -1,0 +1,56 @@
+
+[1] Incorporating phylogenetic metrics to microbial co‐occurrence networks based on amplicon sequences to discern community assembly processes
+Year: 2019
+Authors: M. Goberna, A. Montesinos‐Navarro, A. Valiente‐Banuet, Y. Colin, Alicia Gómez-Fernández
+Citations: 61
+URL: https://www.semanticscholar.org/paper/f414048ae3d999c2db5f59b842668c851c9fac78
+Abstract: Co‐occurrence network analysis based on amplicon sequences is increasingly used to study microbial communities. Patterns of co‐existence or mutual exclusion between pairs of taxa are often interpreted as reflecting positive or negative biological interactions. However, other assembly processes can underlie these patterns, including species failure to reach distant areas (dispersal limitation) and tolerate local environmental conditions (habitat filtering). We provide a tool to quantify the relative contribution of community assembly processes to microbial co‐occurrence patterns, which we applied to explore soil bacterial communities in two dry ecosystems. First, we sequenced a bacterial phylogenetic marker in soils collected across multiple
+
+[2] Improved effect of antibiotic treatments on the hippocampal spatial memory dysfunction of mice induced by high fluoride exposure: Insight from assembly processes and co-occurrence networks of gut microbial community.
+Year: 2025
+Authors: Ning Sun, Jinge Xin, Zhifang Zhao, Yu Chen, Baoxing Gan
+Citations: 1
+URL: https://www.semanticscholar.org/paper/c138ccdab83280c42eb4ce6c54e1a62a7a40436b
+Abstract: High fluoride exposure was widely demonstrated to be related with brain memory impairment. Since the absorption of F- enters the body mainly through the gastrointestinal tract, studying the effects of excessive intake of fluoride on brain memory function in various gut microbiome states might have profound implications for the prevention of fluorosis because growing evidence revealed the significance of the "microbiota-gut-brain" axis (MGBA). In the present study, we aimed to illustrate the potential mechanism of gut microbiota on high fluoride exposure-induced hippocampal lesions and spatial memory dysfunction in mice by the various intestinal microecological environments, which were constructed by antibiotic treatment. Mice fed with norma
+
+[3] Insights into Ecological Features of Microbial Dark Matter Within the Symbiotic Community During Alexandrium pacificum Bloom: Co-Occurrence Interactions and Assembly Processes
+Year: 2025
+Authors: Yanlu Qiao, Shuo Wang, Lingzhe Wang, Shijie Li, Feng Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/a03580b2c3b665ba0656ba0258a1b5e9f27473c1
+Abstract: The symbiotic microbiome constitutes a consortium that has been persistently domesticated by a specific algal species, fostering a close and enduring association with the host. The majority of microbial taxa remain uncharacterized. These unknown microbes, often referred to as “microbial dark matter (MDM)”, have important ecological contributions. Given the challenges in discerning symbiotic microbes in natural environments, herein, ecological characteristics of MDM and known taxa within symbiotic communities were investigated in a simulated bloom process using Alexandrium pacificum without antibiotic treatment. Specifically, increased diversification was observed in MDM along the bloom process. Higher trophic interaction and less vulnerabil
+
+[4] Stochastic process dominated community assembly during high-temperature Daqu storage, leading to reduced microbial co-occurrence network complexity.
+Year: 2025
+Authors: Zilun Lei, Zhiguo Huang, Yi Zhang, Congzhi Lyu, Jun Huang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/0c867e0ac068e958f3a4b428908e4e32fad9cf51
+Abstract: To elucidate the ecological mechanisms of high-temperature Daqu (HTD) maturation during storage, this study integrated high-throughput 16S rRNA and ITS amplicon sequencing with metabolomic profiling of both volatile and non-volatile compounds across heterogeneous production environments. Our results demonstrated that the storage process acted as an environmental filter, selectively enriching stress-tolerant microbial taxa such as Kroppenstedtia, Virgibacillus, and Thermoascus, while reshaping metabolic profiles to increase alcohols, aldehydes, and pyrazines and decrease esters. Neutral community model and null model analyses revealed that microbial community assembly was predominantly governed by stochastic processes, modulated by environme
+
+[5] Spatial and temporal change determined co-occurrence networks stability and community assembly processes of epipelagic seawater microbial community in the Nordic Sea.
+Year: 2022
+Authors: Xiaowen Yu, Xueyu Gao, Li Shang, Xiaoyu Wang, Yutian Jiao
+Citations: 11
+URL: https://www.semanticscholar.org/paper/b910275b23a61ca496ee27367986c44e5cc51660
+Abstract: The Nordic Sea has a vital impact on the global climate change, occupies a significant status in the physical oceanography research, on account of its intersection of complex ocean currents. To explore the influence of seasonal and spatial heterogeneity in its epipelagic seawater on the microbial community structure, a total of 54 seawater samples from 18 stations and 3 water layers (0 m, 50 m, 100 m) were collected in the summer of 2017 and the autumn of 2018 from the Norwegian Sea, the Greenland Sea and the vicinity of Jan Mayen Island in the Nordic Sea. Alpha- and Beta- diversity analysis showed that significant differences were found between characteristic bacterial groups in detached or mixed currents of corresponding seasons, as endem
+
+[6] Continuous Cropping Alters Soil Microbial Community Assembly and Co-Occurrence Network Complexity in Arid Cotton Fields
+Year: 2025
+Authors: Jian Chen, Xiaopeng Yang, Dongdong Zhong, Zhen Huo, Renhua Sun
+Citations: 6
+URL: https://www.semanticscholar.org/paper/4b1ac2a33d9562a7463531a39840745866b699a9
+Abstract: This study examines the impact of continuous cropping (short-term: 1–8 years; medium-term: 9–15 years; long-term: 16–30 years) on soil microbial community diversity, co-occurrence networks, and assembly processes in Xinjiang’s cotton region, a globally recognized arid zone. The results are as follows. Soil physicochemical analyses showed that as continuous cropping duration increased, soil organic matter and total nitrogen significantly decreased, whereas available phosphorus and potassium increased, and the soil’s aggregate structure degraded. Microbial community analysis indicated that long-term continuous cropping notably increased the richness of bacterial species (Chao1 index) and altered fungal communities’ diversity and composition, 
+
+[7] Microbial community assembly and co-occurrence patterns in Sanmen bay: A comparative analysis before and after nuclear power plant operation.
+Year: 2024
+Authors: Zhen Bao, Fengyuan Zhang, Qunfen Zhao, Qingxi Han, Junfeng Liu
+Citations: 3
+URL: https://www.semanticscholar.org/paper/543a01ac252d19d00beeae9d36156de8a978e456
+Abstract: The limited availability of historical data has resulted in the ongoing debate regarding the short-term effects of thermal discharge from nuclear power plants (NPPs) on microbial communities, including both prokaryotes and microeukaryotes. This study focused on the co-occurrence patterns, assembly processes, and community functions in the eutrophic coastal waters of Sanmen Bay (SMB) before and after NPP operation. Gammaproteobacteria and Alphaproteobacteria were the dominant prokaryotic taxa, while Dinoflagellates consistently maintained their prevalence in SMB. This suggests that short-term thermal discharge does not significantly alter the composition of microbial communities. The co-occurrence networks were primarily composed of Gammapro
+
+[8] Ecological influences of sulfadiazine on rhizosphere soil microbial communities in ryegrass (Lolium perenne L.)-soil potting systems: Perspectives on diversity, co-occurrence networks, and assembly processes.
+Year: 2024
+Authors: Ping Li, Chengguang Chen, Jin-Xin Wang, Ling Liu, Zhi-Hua Li
+Citations: 5
+URL: https://www.semanticscholar.org/paper/6522854210ed960da58530204a5e9697d3663444
+Abstract: Microorganisms in the soil are crucial constituents of land ecosystems, significantly influencing their structure and functionality. However, the accumulation of antibiotics in agricultural practices may negatively affect these microbial communities. The objective of this study was to explore the ecological effects of the sulfonamide drug sulfadiazine (SDZ) on the rhizosphere soil microbial communities of ryegrass (Lolium perenne L.). A potting system experiment was constructed by exposing for 45 days after treatments with different initial concentrations of SDZ (0, 1, 10, and 30 mg/kg) to assess the effects of SDZ on soil microbial diversity, bacterial-fungal co-occurrence networks, and community assembly processes. The findings indicated 

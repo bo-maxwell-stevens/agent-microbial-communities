@@ -1,0 +1,56 @@
+
+[1] Mycorrhizas and soil structure.
+Year: 2006
+Authors: M. Rillig, D. Mummey
+Citations: 1386
+URL: https://www.semanticscholar.org/paper/c79ef95b8db2594a322ed28d8f1d8cce54efda68
+Abstract: 
+
+[2] Cacao – Arbuscular Mycorrhizal Fungi Association: A Review on Its Increased Potential in Improving the Ecology of Cacao Plantations in the Philippines
+Year: 2020
+Authors: Diana P. Paguntalan, I. Buot, N. Aggangan
+Citations: 4
+URL: https://www.semanticscholar.org/paper/3140cdfaa89d2619e8961ef2f59a56990f6a7387
+Abstract: Cacao (Theobroma cacao) is both an economically and ecologically important crop worldwide especially in the Philippines, a tropical country suitable for its growth and cultivation. The association of this crop with arbuscular mycorrhizal fungi (AMF) is an understudied field but the benefits reported from this symbiosis highlights their irreplaceable role in enhancing growth conditions by facilitating the uptake of phosphorus, increasing yield through increased plant health and productivity, and in several ecological aspects such as soil biological dynamics and ecological processes that are carried out in cacao plant community. This paper proposed the different areas of improving cacao ecology that need to gain attention in the Philippines t
+
+[3] Fungal Facilitation in Rangelands: Do Arbuscular Mycorrhizal Fungi Mediate Resilience and Resistance in Sagebrush Steppe?
+Year: 2019
+Authors: Matthew Hovland, R. Mata-González, R. Schreiner, T. Rodhouse
+Citations: 22
+URL: https://www.semanticscholar.org/paper/9dc52c0281c5f446f6ec1fd23bd4df35fa2cbf34
+Abstract: Abstract Arbuscular mycorrhizal fungi (AMF) may exert profound influences on ecosystem resilience and invasion resistance in rangelands. Maintenance of plant community structure through ecological feedback mechanisms such as facilitation of nutrient cycling and uptake by host plants, physical and chemical contributions to soil structural stability, and mediation of plant competition suggest AMF may be important facilitators in stressful arid environments. Plant-AMF interactions could influence succession by increasing native plant community resilience to drought, grazing, and fire and resistance to exotic plant invasion. However, invasive exotic plants may benefit from associations with, as well as alter, native AMF communities. Furthermore
+
+[4] The Impact of Flooding on Soil Microbial Communities and Their Functions: A Review
+Year: 2025
+Authors: A. Das, Da-Sol Lee, Youn-Ji Woo, Sharmin Sultana, A. Mahmud
+Citations: 29
+URL: https://www.semanticscholar.org/paper/a56ba5839b3f300053a56ff1d1d17c561140ea91
+Abstract: Soil microorganisms provide multifaceted benefits, including maintaining soil nutrient dynamics, improving soil structure, and instituting decomposition, all of which are important to soil health. Unpredictable weather events, including flooding from heavy rainfall, flash floods, and seawater intrusion, profoundly impact soil ecology, which is primarily challenged by flooding stress, and imbalances these microbial communities and their functions. This disturbance impairs the symbiotic exchanges between microbes and plants by limiting root exudates and habitats for microbes, as well as nutrient acquisition efficiency for plants. Therefore, this review comprehensively examines the changes in soil microbial communities that occur under floodin
+
+[5] Arbuscular mycorrhizal fungi and soil microbial communities under nitrogen deposition in nutrient-limited grasslands: a systematic review
+Year: 2025
+Authors: Muhammad Numan Ali, Md. Akramul Islam, Saddam Saqib, Muhammad Sufhan Tahir, Tahir Saadu
+Citations: 1
+URL: https://www.semanticscholar.org/paper/1991248625d6d5cbf1e2671174a4489c5e07c003
+Abstract: 
+
+[6] Arbuscular mycorrhizal fungi (AMF): a pathway to sustainable soil health, carbon sequestration, and greenhouse gas mitigation
+Year: 2025
+Authors: Sadhana Shukla, Nidhi Didwania, R. Choudhary
+Citations: 26
+URL: https://www.semanticscholar.org/paper/71c9bdd83b847ea0af8d4502bb9db7b5ce17af11
+Abstract: 
+
+[7] Ecology of Soil-Dwelling Insects and their Influence on Crop Health: A Review
+Year: 2025
+Authors: A. Thanuja, B. Dori, C. Panigrahi, Saransh Kumar Gautam, Jyoti Gawaria
+Citations: 3
+URL: https://www.semanticscholar.org/paper/63e00e86d55dcad80999d1e6c7bea10460776492
+Abstract: Soil-dwelling insects play indispensable roles in regulating soil health, nutrient cycling, plant productivity, and ecological stability within agroecosystems. As integral components of the soil food web, these organisms function as decomposers, herbivores, predators, mutualists, and bioindicators, facilitating organic matter breakdown, microbial regulation, and natural pest suppression. Their habitat preferences, vertical stratification, and functional niches are governed by soil moisture, texture, organic content, and vegetation diversity. Through litter fragmentation and bioturbation, insects like termites, beetles, and ants enhance soil aggregation, aeration, and nutrient mobilization, directly influencing crop health and yield. Interac
+
+[8] Associations of Arbuscular Mycorrhizal Fungi (AMF) for Enhancements in Soil Fertility and Promotion of Plant Growth: A Review
+Year: 2024
+Authors: Leta AjemaGebisa
+Citations: 5
+URL: https://www.semanticscholar.org/paper/b2aa3be80798148d706f3b240596a5c5c959573d
+Abstract: Arbuscular Mycorrhizal Fungi are used for soil fertility enhancements and stimulating plant growth in which they association with other organisms like terrestrial plants. Mycorrhizas create an association between fungi and the roots of plants. Therefore, the review was made to point out important fungal species involved in fungal plant interaction and their major roles in agriculture as well as ecosystem. 80% of plants form associations with mycorrhizal fungi. The fungal are used to use their different organs like chain, arbuscular, vesicle, supportive cells and spore to interact with the other plant/ plat’s organ. The mycorrhizal fungi can be categorized into two principal classifications based on their anatomical interactions with the roo

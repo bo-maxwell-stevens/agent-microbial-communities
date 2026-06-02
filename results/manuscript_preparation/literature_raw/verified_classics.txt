@@ -1,0 +1,90 @@
+### QUERY: The diversity and biogeography of soil bacterial communities
+
+[1] The diversity and biogeography of soil bacterial communities.
+Year: 2006
+Authors: N. Fierer, R. B. Jackson
+Citations: 5221
+URL: https://www.semanticscholar.org/paper/84dfd525de87ba9cb287c86036418ee90cb0ffd3
+Abstract: 
+
+### QUERY: pH as a predictor of soil bacterial community structure at the continental scale
+
+[1] Pyrosequencing-Based Assessment of Soil pH as a Predictor of Soil Bacterial Community Structure at the Continental Scale
+Year: 2009
+Authors: C. Lauber, M. Hamady, R. Knight, N. Fierer
+Citations: 3585
+URL: https://www.semanticscholar.org/paper/4ffe1329ca7bd34d1efdb19eaf49f500e138574d
+Abstract: 
+
+### QUERY: Soil bacterial and fungal communities across a pH gradient in an arable soil
+
+[1] Soil bacterial and fungal communities across a pH gradient in an arable soil
+Year: 2010
+Authors: J. Rousk, J. Rousk, E. Bååth, P. Brookes, C. Lauber
+Citations: 3818
+URL: https://www.semanticscholar.org/paper/35f64f3c7185ea8a988b065fbf2cd0bf48996cb5
+Abstract: 
+
+### QUERY: Dark diversity in species pools
+
+[1] Estimating probabilistic site‐specific species pools and dark diversity from co‐occurrence data
+Year: 2020
+Authors: C. P. Carmona, M. Pärtel
+Citations: 58
+URL: https://www.semanticscholar.org/paper/d08748b0a2150a22311f98978633c99608d009e5
+Abstract: 
+
+### QUERY: DarkDivNet A global research collaboration to explore the dark diversity of plant communities
+
+[1] DarkDivNet – A global research collaboration to explore the dark diversity of plant communities
+Year: 2019
+Authors: M. Pärtel, C. P. Carmona, M. Zobel, M. Moora, Kersti Riibak
+Citations: 18
+URL: https://www.semanticscholar.org/paper/f8183399a65a4e1bdf7b1985359b62e388bde4a4
+Abstract: DarkDivNet is a global research collaboration which explores dark diversity — the set of species that are absent from a site despite being suitable under the site conditions and present in the region. Participants of the network survey vascular plant diversity both at local (10 m × 10 m) and regional scales (radius 10 km) using a standardized approach. They also measure simple plant traits and collect soil samples. Observed and dark diversity together form the site‐specific species pool, and the ratio of observed diversity and dark diversity describes community completeness. We shall explore how observed and dark diversity, site‐specific species pool and community completeness vary across natural and anthropogenic gradients. We link plant d
+
+### QUERY: Microbial interactions from networks an introduction
+
+[1] Altered gut microbial networks and metabolic pathways in multiple system atrophy: a comparative 16S rRNA study
+Year: 2025
+Authors: Po-Chun Liu, Shao-Ying Cheng, Chih-Chi Li, Yu-ke Wang, Y. Tseng
+Citations: 0
+URL: https://www.semanticscholar.org/paper/eccf2e78e17bb255e8554a2316cfb59be62d273e
+Abstract: Introduction The alterations in the gut microbial network in multiple system atrophy (MSA) remain poorly understood. This study aimed to identify key gut microbial interaction networks in MSA through comprehensive multimodal analyses. Methods Demographic information and frozen fecal specimens were collected from 119 participants [MSA, n = 26; Parkinson’s disease (PD), n = 66; healthy control (HC), n = 27]. Raw amplicons of the bacterial 16S rRNA V3–V4 gene region were processed using two methods: DADA2-denoising and clustering into operational taxonomic units. We conducted univariate and multivariable analyses to assess the differential abundance of bacterial genera and predicted metabolic pathways using four statistical methods: ANCOM, ANC
+
+### QUERY: Quantifying community assembly processes and identifying features that impose them
+
+[1] Quantifying community assembly processes and identifying features that impose them
+Year: 2013
+Authors: J. Stegen, Xueju Lin, J. Fredrickson, Xingyuan Chen, D. Kennedy
+Citations: 2027
+URL: https://www.semanticscholar.org/paper/2b1ae271fd6690fd1215fbe21477c267114b8fa2
+Abstract: 
+
+### QUERY: Patterns and Processes of Microbial Community Assembly
+
+[1] Patterns and Processes of Microbial Community Assembly
+Year: 2013
+Authors: D. Nemergut, S. K. Schmidt, T. Fukami, S. O’Neill, T. Bilinski
+Citations: 1547
+URL: https://www.semanticscholar.org/paper/671626d90886405674a5d17ebca798b81459ec93
+Abstract: 
+
+### QUERY: Incorporating phylogenetic metrics to microbial co-occurrence networks based on amplicon sequences to discern community assembly processes
+
+[1] Incorporating phylogenetic metrics to microbial co‐occurrence networks based on amplicon sequences to discern community assembly processes
+Year: 2019
+Authors: M. Goberna, A. Montesinos‐Navarro, A. Valiente‐Banuet, Y. Colin, Alicia Gómez-Fernández
+Citations: 61
+URL: https://www.semanticscholar.org/paper/f414048ae3d999c2db5f59b842668c851c9fac78
+Abstract: Co‐occurrence network analysis based on amplicon sequences is increasingly used to study microbial communities. Patterns of co‐existence or mutual exclusion between pairs of taxa are often interpreted as reflecting positive or negative biological interactions. However, other assembly processes can underlie these patterns, including species failure to reach distant areas (dispersal limitation) and tolerate local environmental conditions (habitat filtering). We provide a tool to quantify the relative contribution of community assembly processes to microbial co‐occurrence patterns, which we applied to explore soil bacterial communities in two dry ecosystems. First, we sequenced a bacterial phylogenetic marker in soils collected across multiple
+
+### QUERY: Mycorrhizal fungal diversity determines plant biodiversity ecosystem variability and productivity
+
+[1] Mycorrhizal fungal diversity determines plant biodiversity, ecosystem variability and productivity
+Year: 1998
+Authors: M. V. D. Heijden, J. Klironomos, M. Ursic, P. Moutoglis, R. Streitwolf-Engel
+Citations: 3570
+URL: https://www.semanticscholar.org/paper/7f66f74d21e5c61f8ce91c36a054fa6b0da230c2
+Abstract: 
+

@@ -1,0 +1,56 @@
+
+[1] Dark diversity: shedding light on absent species.
+Year: 2011
+Authors: M. Pärtel, R. Szava-Kovats, M. Zobel
+Citations: 368
+URL: https://www.semanticscholar.org/paper/7aca9e7b37f6a61e65dcfa125c42427efa2fadab
+Abstract: 
+
+[2] Exploring the abyss through recent advances in microbial profiling technologies
+Year: 2025
+Authors: T. Sushmitha, K. K. Tamilmani, H. Murugesan, V. R. Rangamaran, Dharani Gopal
+Citations: 1
+URL: https://www.semanticscholar.org/paper/82f7a7a3fdb3bd971d9b6b8c8b8d01fa5028de65
+Abstract: 
+
+[3] Re-sistance in the Age of Cooption by the Political Right
+Year: 2022
+Authors: J. Abramo
+Citations: 2
+URL: https://www.semanticscholar.org/paper/22584eb5f98a5ae21c7a1f0ec182e5e2280dc952
+Abstract: Abstract:This essay explores new avenues towards challenging inequity in these dark times. In these dark times, neoliberalism has coopted discourses that once challenged inequality and systems of power. Social justice, diversity, and identity politics—once powerful discourses that challenged inequality—have now been adopted by those in power to sustain neoliberalism and systemic inequalities. Using the concept of “re-sistence” rather than “resistance,” I argue for new forms of resistance. Rather than standing firm, relying upon common areas of focus, including identity politics, music educations interested in social justice might look for new forms of resistance, adapting to the changing terrain of neoliberalism and its cooption of previous
+
+[4] Astrophysical objects with extreme energy release: observations and theory
+Year: 2017
+Authors: A. Bykov
+Citations: 0
+URL: https://www.semanticscholar.org/paper/cb243e30d1d94178155f545ef514548d4f2d7049
+Abstract: Supernovae release extreme amounts of energy and produce major chemical elements in galaxies. They are extraordinary phenomena that give rise to the emission of neutrinos, gravitational waves, and broad spectra of electromagnetic radiation, and accelerate particles to ultra-relativistic energies. Observations of supernovae have led to the discovery of the accelerated expansion of the Universe and the introduction of the ‘dark energy’ concept. Recent observations and theoretical models have revealed diverse supernova-related phenomena, the diversity resulting from variations both in the energy release mechanisms and in the properties of circumstellar matter. Supernova remnants and, in particular, gamma-ray bursts originating from compact ste
+
+[5] Understanding the Photo What You'll Learn Why It's Important Charles Darwin and Natural Selection Natural Selection and the Evidence for Evolution
+Year: None
+Authors: D. Lyon, California Standards
+Citations: 0
+URL: https://www.semanticscholar.org/paper/3112ccf222c8b72a20267bbe2793ee65d95b3a6f
+Abstract: 
+
+[6] Book Review; R.L. Peterson, H.B. Massicotte and L.H. Melville. Mycorrhizas: Anatomy and Cell Biology, NRC Research Press, Ottawa/CABI Publishing, Wallingford, 2004. 173 pp. $69.95
+Year: 2005
+Authors: T. Kuyper
+Citations: 1
+URL: https://www.semanticscholar.org/paper/cfe4f2cfce81133edb052dba14f757689f71319c
+Abstract: 
+
+[7] Toward the Full Operationalization of the Dark Diversity Concept in Environmental Impact Assessments: A Call to Revise International EIA Standards
+Year: 2026
+Authors: G. Bacaro, F. Fonda
+Citations: 0
+URL: https://www.semanticscholar.org/paper/538a5db36ec7288e0ed8af6e6c804ecf71b491ed
+Abstract: Environmental impact assessments and related safeguard standards are key tools for mitigating the ecological damage of development projects; however, they predominantly evaluate what is observed during baseline surveys. This approach, which is inherently constrained by imperfect detectability, seasonality, and uneven sampling effort, leads to a chronic underestimation of an ecosystem's true biotic potential, with direct consequences for the mitigation hierarchy (avoidance, minimization, restoration, and offsets) and for strategies that aim to meet the “no net loss” of biodiversity target. This paper proposes the systematic integration of “dark diversity”, that is, the set of species ecologically suited to a site but currently absent, into t
+
+[8] Identification of the missing links in parasite–host networks using the dark diversity concept: a case study with two taxonomic groups of ectoparasitic arthropods and small mammalian hosts
+Year: 2022
+Authors: B. Krasnov, M. Vinarski, N. Korallo-Vinarskaya, G. Shenbrot, I. Khokhlova
+Citations: 3
+URL: https://www.semanticscholar.org/paper/658785389d02c9235999bab3b662102eee695fe0
+Abstract: Dark diversity (DD) is represented by species that may potentially inhabit a locality but are absent. We applied this approach to identify missing species and links in the interaction networks of fleas and gamasid mites with small mammals and asked (a) which factors affect host, parasite or interaction (= link) DD and (b) whether the probability of an interaction to be missing is associated with the host and/or the parasite traits. The DD of both parasite taxa increased with an increase in host DD. The DD of interactions increased with an increase in the DD of the respective parasite taxon. The quantity of missing flea–host links was affected by environment, whereas that of mite–host links was affected by host DD. The values of the probabil

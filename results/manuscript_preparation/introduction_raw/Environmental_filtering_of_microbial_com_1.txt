@@ -1,0 +1,58 @@
+
+[1] Environmental Filtering of Microbial Communities in Agricultural Soil Shifts with Crop Growth
+Year: 2015
+Authors: S. Hargreaves, Ryan J Williams, K. Hofmockel
+Citations: 68
+URL: https://www.semanticscholar.org/paper/ceb8bad65b98d20fae28e954d39e28cdd83ab4be
+Abstract: Plant and soil properties cooperatively structure soil microbial communities, with implications for ecosystem functioning. However, the extent to which each factor contributes to community structuring is not fully understood. To quantify the influence of plants and soil properties on microbial diversity and composition in an agricultural context, we conducted an experiment within a corn-based annual cropping system and a perennial switchgrass cropping system across three topographic positions. We sequenced barcoded 16S ribosomal RNA genes from whole soil three times throughout a single growing season and across two years in July. To target the belowground effects of plants, we also sampled rhizosphere soil in July. We hypothesized that micr
+
+[2] Climate warming enhances biodiversity and stability of grassland soil phosphorus-cycling microbial communities
+Year: 2025
+Authors: Zijian Wang, I. Han, Jangho Lee, Guangyu Li, Peisheng He
+Citations: 7
+URL: https://www.semanticscholar.org/paper/6a3be700f00809f02886bc5f2bf9687eb887602a
+Abstract: Abstract Climate warming poses significant challenges to global phosphorus sustainability, an essential component of Earth biogeochemistry cycling and water-food-energy nexus. Despite the crucial role of polyphosphate-accumulating organism as key functional microbial agents in phosphorus cycling, the impacts of global climate warming on polyphosphate accumulating organism communities remain largely enigmatic. This study investigates the effects of climate warming on the taxonomic, network, and functional profiles of soil bacterial polyphosphate-accumulating organisms, leveraging fluorescence-activated cell sorting and single-cell Raman spectroscopy. Climate warming enhances both taxonomic and functional biodiversity of polyphosphate-accumul
+
+[3] Soil pH and nitrate shape deterministic assembly of microbial communities in agricultural soils via Nitrososphaeria
+Year: 2025
+Authors: Huizhen Yan, Yunhua Zhang, Zhiguo Zhang, Ze Zhao, Lu Zhang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/ffea877242eba9f3f25041faec0f991c39b3941a
+Abstract: ABSTRACT Understanding the assembly mechanisms of soil microbial communities is critical for maintaining nitrogen cycling in agricultural ecosystems, which underpins soil fertility and sustains crop productivity. While environmental filtering and biotic interactions shape these communities, our understanding of how functional taxa interact with soil properties across extensive agricultural landscapes remains limited. Here, we investigated the influence of environmental factors on the Chinese agricultural soil microbiome, integrating assessments of microbiota diversity, composition, and assembly process. The results indicated that soil pH and moisture were among the strongest abiotic factors explaining the agricultural soil microbiota compos
+
+[4] Plant identity and environmental filtering are the key drivers of bacterial community structure in four desert plant species from the Sahara Desert in Morocco
+Year: 2025
+Authors: Hafsa Debbagh-Nour, Said Khourchi, Ayoub El Mouttaqi, Rachid Elfermi, Anass Bourazza
+Citations: 3
+URL: https://www.semanticscholar.org/paper/8dbdbb5caa39bab1e51bc85bf182295fe68d0e72
+Abstract: Plant microbiome is a very wide research area playing a major role in agriculture and plant health. This study investigates the interactions between root-associated bacterial communities and soil physico-chemical characteristics of four Moroccan desert plant species: Lavandula coronopifolia Poir. (n = 20), Lycium intricatum Boiss. (n = 20), Nitraria retusa Asch. (n = 20) and Searsia tripartita (Ucria) Moffett. (n = 20). Soil samples were collected in the rhizosphere of each plant species, and root samples from four different sites, with five random samples per site. Elemental chemical composition of soil sample was analyzed using the X-Ray fluorescence spectrometry and soil carbon, i.e., organic carbon (SOC) and inorganic carbon (SIC) were 
+
+[5] Effects of the Combined Application of Arbuscular Mycorrhizal Fungi and Reconstructed Microbial Communities on Soil Functional Restoration
+Year: 2026
+Authors: Yinli Bi, Bing-jie Ni, Kun Wang
+Citations: 1
+URL: https://www.semanticscholar.org/paper/afcbbee9e3744eec56dec9e872f9d4d81393bce8
+Abstract: 
+ 
+ Open‐pit mining severely disrupts ecosystems in the Yellow River Basin. Microbial reclamation strategies can accelerate soil functional recovery, yet the mechanisms underlying synergistic interactions between reconstructed microbial communities and arbuscular mycorrhizal fungi (AMF) remain poorly understood. The work elucidated the effects and driving mechanisms of AMF and reconstructed microbial communities on soil functional restoration to promote plant growth and root expansion. It was hypothesized that AMF inoculation combined with reconstructed microbial communities would reshape rhizosphere community assembly through environmental filtering and niche enrichment, which would enrich soil nutrient availability. Six treatments were es
+
+[6] Environmental filtering shapes divergent bacterial strategies and genomic traits across soil niches
+Year: 2026
+Authors: T. Goodall, Robert I. Griffiths, B. Emmett, Briony Jones, A. Thorpe
+Citations: 0
+URL: https://www.semanticscholar.org/paper/2d351f7dc9ac901da505a37a33e17c88d71579c4
+Abstract: 
+
+[7] Environmental filtering drives the establishment of the distinctive rhizosphere, bulk, and root nodule bacterial communities of Sophora davidii in hilly and gully regions of the Loess Plateau of China
+Year: 2022
+Authors: L. Jing, Jia-min Ai, Xiao-dong Liu, Ying Jiang, Chao-chao Zheng
+Citations: 11
+URL: https://www.semanticscholar.org/paper/99ceacd793bbf93c728a8b83576062284284dd68
+Abstract: In addition to the rhizobia, other non-rhizobial endophytes (NREs) have been simultaneously isolated from the root nodules. The existence of NREs in leguminous root nodules is a universal phenomenon, and they have the potential to enhance legume survival, especially under conditions of environmental stress. However, the diversity and biogeographic patterns of microbial communities inhabiting root nodules are not well studied or understood. Here, we explored and characterized the diversity of NRE bacteria by using 16S rRNA gene high-throughput amplicon sequencing. Additionally, we compared the biogeography and co-occurrence patterns in review of the bacterial microbiota inhabiting the rhizosphere, the bulk soil and the root nodule bacterial 
+
+[8] Soil bacterial communities are shaped by temporal and environmental filtering: evidence from a long-term chronosequence.
+Year: 2015
+Authors: Z. Freedman, D. Zak
+Citations: 108
+URL: https://www.semanticscholar.org/paper/030077c21d8a339169724d61d05bc7d8a531154e
+Abstract: 

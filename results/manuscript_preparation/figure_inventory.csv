@@ -1,0 +1,8 @@
+figure_number,source_file,scientific_claim_supported,placement
+Figure 1,results/phase5d_synthesis/final_coupling_network.png,Integrated cross-domain coupling strengths across pairings identify BAC↔ITS and EUK↔ITS as strongest coupled combinations.,main_text
+Figure 2,results/phase5d_synthesis/final_driver_heatmap.png,"Environmental contribution profiles are pair-specific, with pH-linked signal recurrent among top-ranked combinations.",main_text
+Figure 3,results/phase5d_synthesis/final_plant_hypothesis_comparison.png,Plant diversity hypothesis B (alpha-inclusive) provides the strongest added explanatory gain across focal pairings.,main_text
+Figure 4,results/phase5c_plant_diversity/phase5c_model_delta_adj_r2.png,"Across pair-branch combinations, plant predictors add modest but consistent adjusted R² over abiotic baseline models.",main_text
+Figure 5,results/phase5c_plant_diversity/phase5c_pair_comparisons.png,AMF-centered pairings show lower coupling strength but retained plant-associated contributions compared with BAC-inclusive pairings.,main_text
+Supplementary Figure S1,results/phase5d_synthesis/final_analysis_flowchart.png,Workflow provenance: Phase 2/4 + 5B + 5C outputs are integrated into synthesis-only Phase 5D artifacts.,supplement
+Supplementary Figure S2,results/phase5c_plant_diversity/phase5c_hypothesis_rankings.png,Relative ranking of plant-diversity hypotheses across pair-branch combinations.,supplement

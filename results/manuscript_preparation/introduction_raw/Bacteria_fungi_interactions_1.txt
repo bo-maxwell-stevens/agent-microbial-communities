@@ -1,0 +1,56 @@
+
+[1] Weather factors, soil microbiome, and bacteria-fungi interactions as drivers of the epiphytic phyllosphere communities of romaine lettuce.
+Year: 2023
+Authors: M. Brandl, M. Mammel, Ivan Simko, Taylor K S Richter, Solomon T. Gebru
+Citations: 23
+URL: https://www.semanticscholar.org/paper/1d798a9840786564cd76f53ebf92c83a26005832
+Abstract: Lettuce is associated with seasonal outbreaks of Shiga toxin-producing Escherichia coli (STEC) infections. Little is known about how various biotic and abiotic factors affect the lettuce microbiome, which in turn impacts STEC colonization. We characterized the lettuce phyllosphere and surface soil bacterial, fungal, and oomycete communities at harvest in late-spring and -fall in California using metagenomics. Harvest season and field type, but not cultivar, significantly influenced the microbiome composition of leaves and surface soil near plants. Phyllosphere and soil microbiome compositions were correlated with specific weather factors. The relative abundance of Enterobacteriaceae, but not E. coli, was enriched on leaves (5.2%) compared t
+
+[2] Revealing the hidden world of soil microbes: Metagenomic insights into plant, bacteria, and fungi interactions for sustainable agriculture and ecosystem restoration.
+Year: 2024
+Authors: M. Jagadesh, Munmun Dash, A. Kumari, Santosh Kumar Singh, K. Verma
+Citations: 59
+URL: https://www.semanticscholar.org/paper/bef531e148192fce5f047c071646deff6b4aa97d
+Abstract: The future of agriculture is questionable under the current climate change scenario. Climate change and climate-related calamities directly influence biotic and abiotic factors that control agroecosystems, endangering the safety of the world's food supply. The intricate interactions between soil microorganisms, including plants, bacteria, and fungi, play a pivotal role in promoting sustainable agriculture and ecosystem restoration. Soil microbes play a major part in nutrient cycling, including soil organic carbon (SOC), and play a pivotal function in the emission and depletion of greenhouse gases, including CH4, CO2, and N2O, which can impact the climate. At this juncture, developing a triumphant metagenomics approach has greatly increased 
+
+[3] Impacts of Soil Microbiome Variations on Root Colonization by Fungi and Bacteria and on the Metabolome of Populus tremula × alba
+Year: 2020
+Authors: L. Mangeot-Peter, T. Tschaplinski, N. Engle, C. Veneault-Fourrey, Francis Martin
+Citations: 39
+URL: https://www.semanticscholar.org/paper/f6d4c598ae2548cfdd8be8e9bd94a2078d8e9ee2
+Abstract: Trees depend on beneficial interactions between roots and soil microbes for their nutrition and protection against stresses. The soil microbiome provides the main reservoir of microbes for root colonization and is subject to natural variations that can affect its composition. It is not clear whether the tree’s root system is able to buffer the natural variations occurring in the soil microbiome to capture a stable and effective microbiome or whether these variations affect its microbiome to impact its physiology. To address this question, we planted cuttings of Gray Poplar (Populus tremula × alba clone 717-1B4) in natural soil taken from a poplar stand under the same tree over two consecutive years and grew them in a greenhouse. We analyzed
+
+[4] Soil Microbiome: Diversity, Benefits and Interactions with Plants
+Year: 2023
+Authors: Poonam Chauhan, Neha Sharma, A. Tapwal, Ajay Kumar, G. Verma
+Citations: 139
+URL: https://www.semanticscholar.org/paper/7a2c85f32608660fa11c19409496bc85c8c423dd
+Abstract: Plant roots aid the growth and functions of several kinds of microorganisms such as plant growth-promoting rhizobacteria, mycorrhizal fungi, endophytic bacteria, actinomycetes, nematodes, protozoans which may impart significant impacts on plant health and growth. Plant soil–microbe interaction is an intricate, continuous, and dynamic process that occurs in a distinct zone known as the rhizosphere. Plants interact with these soil microbes in a variety of ways, including competitive, exploitative, neutral, commensal, and symbiotic relationships. Both plant and soil types were found to have an impact on the community diversity and structure of the rhizosphere, or vice versa. The diversity of microorganisms in soil is thought to be essential fo
+
+[5] Mechanistic insights into rhizosphere microbiome assembly in Pinus tabuliformis: The role of cross-kingdom interactions and soil salinity gradients.
+Year: 2025
+Authors: Yilin Luo, Haiyun Ding, X. Mao, Zhixin Kang, Boda Li
+Citations: 2
+URL: https://www.semanticscholar.org/paper/33e16be6fc92e21a7451e9721ada0071e8bec89d
+Abstract: Soil salinization caused by desertification and drought severely limits agricultural and forestry development. The rhizosphere core microbiome plays a vital role in helping host plants cope with environmental stress. However, in saline-alkali soils, it remains unclear how bacterial and fungal communities in the rhizosphere of Pinus tabuliformis interact and collectively respond to environmental factors to influence the plant. This study aims to identify the composition and functional potential of the core bacterial and fungal microbiota in the rhizosphere of P. tabuliformis in saline environments, as well as their interactions with environmental factors, thus providing a theoretical basis for utilizing core rhizosphere microbial resources. 
+
+[6] Soil microbiome dynamics and their role in sustainable agriculture
+Year: 2025
+Authors: Madhulika, Chahat Kaundal, Buddhisatya Dowarah, Perul Bisen, Subhajit Banerjee
+Citations: 0
+URL: https://www.semanticscholar.org/paper/d5254681c1c880cdd977f07e40e02936f8f48ad4
+Abstract: The soil microbiome, comprising bacteria, fungi, archaea, viruses, and protozoa, plays a pivotal role in maintaining soil health, nutrient cycling, and plant productivity. With increasing global food demand and environmental degradation, understanding soil microbiome dynamics is essential for sustainable agricultural practices. This review explores the composition, functions, and interactions of soil microbial communities, emphasizing their role in nutrient cycling, disease suppression, and plant growth promotion. Recent advances in metagenomics, transcriptomics, and bioinformatics have enhanced our understanding of microbial diversity and functionality. Additionally, we discuss how agricultural practices such as crop rotation, organic amen
+
+[7] Multitrophic interactions in the rhizosphere microbiome of wheat: from bacteria and fungi to protists.
+Year: 2020
+Authors: Maike Rossmann, J. Pérez-Jaramillo, V. N. Kavamura, J. Chiaramonte, K. Dumack
+Citations: 92
+URL: https://www.semanticscholar.org/paper/42d03d0b39981b892d93906ab599f2fb05e02344
+Abstract: Plants modulate the soil microbiota by root exudation assembling a complex rhizosphere microbiome with organisms spanning different trophic levels. Here, we assessed the diversity of bacterial, fungal and cercozoan communities in landraces and modern varieties of wheat. The dominant taxa within each group were the bacterial phyla Proteobacteria, Actinobacteria and Acidobacteria; the fungi phyla Ascomycota, Chytridiomycota and Basidiomycota; and the Cercozoa classes Sarcomonadea, Thecofilosea and Imbricatea. We showed that microbial networks of the wheat landraces formed a more intricate network topology than that of modern wheat cultivars, suggesting that breeding selection resulted in a reduced ability to recruit specific microbes in the r
+
+[8] Plant–soil–microbiome interactions: mechanisms, advances, and challenges in sustainable agriculture and healthy agroecosystems
+Year: 2026
+Authors: Jacek Panek, A. Gryta, Wiktoria Maj, Mateusz Mącik, K. Oszust
+Citations: 3
+URL: https://www.semanticscholar.org/paper/f32726bb0fe836172573f85b85f975b4b248767c
+Abstract: The focus of this article is to summarize current knowledge of plant-associated microbiomes, which play a key role in plant health and in maintaining soil quality. Such microbiomes, comprising bacteria, fungi, archaea, algae, nematodes, and protists, perform various functions, including nutrient transformation, pathogen protection, and stress mitigation. Microbial communities are commonly used as an indicator of ecosystem health. Soil microbiome diversity depends on environmental factors (including biotic and abiotic stresses), which can alter microbial composition, thereby modifying microbial interactions and plant resilience. Biofertilizers, biopreparations, and microbial inoculants or consortia have been utilized in agriculture to enhanc

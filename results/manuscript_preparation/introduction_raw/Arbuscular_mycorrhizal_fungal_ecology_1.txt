@@ -1,0 +1,86 @@
+
+[1] Global arbuscular mycorrhizal fungal diversity and abundance decreases with soil available phosphorus
+Year: 2023
+Authors: Xiaocui Ma, Xia Xu, Qinghong Geng, Yiqi Luo, C. Ju
+Citations: 63
+URL: https://www.semanticscholar.org/paper/1afaedd44d9111c321ab08feaa618bb5341df93e
+Abstract: Aim: Arbuscular mycorrhizal
+
+[2] Dominance, diversity, and niche breadth in arbuscular mycorrhizal fungal communities.
+Year: 2022
+Authors: J. Davison, Martti Vasar, Siim‐Kaarel Sepp, J. Oja, S. Al-Quraishy
+Citations: 16
+URL: https://www.semanticscholar.org/paper/7e8baa636337d652ac2d78ac0ada27636606d9e2
+Abstract: Classical theory identifies resource competition as the major structuring force of biotic communities and predicts that: (i) levels of dominance and richness in communities are inversely related, (ii) narrow niches allow dense 'packing' in niche space and thus promote diversity, and (iii) dominants are generalists with wide niches, such that locally abundant taxa also exhibit wide distributions. Current empirical support, however, is mixed. We tested these expectations using published data on arbuscular mycorrhizal (AM) fungal community composition worldwide. We recorded the expected negative relationship between dominance and richness and, to a degree, the positive association between local and global dominance. However, contrary to expect
+
+[3] Global Change Alters the Abundance and Community Structure of Arbuscular Mycorrhizal Fungi and Influences Plant Mycorrhizal Benefit
+Year: 2025
+Authors: Ai‐tian Ren, Meng‐Li Wang, He‐Miao Gao, B. Mickan, Long‐Yi Yuan
+Citations: 0
+URL: https://www.semanticscholar.org/paper/d4f1235a3db33833250a6f1fce31c18a441d3cc8
+Abstract: 
+ 
+ 
+ Arbuscular mycorrhizal (AM) fungi play critical roles in ecosystem services and exhibit sensitivity to global change factors (GCFs). However, the interactive effects of multiple GCFs on AM fungal communities, and whether changes in AM fungal communities have a feedback effect on plant–mycorrhizal benefits under global change remain poorly understood.
+ 
+ 
+ 
+ Global.
+ 
+ 
+ 
+ 
+ 1990
+ –
+ 2022.
+ 
+ 
+ 
+ 
+ Arbuscular mycorrhizal fungi; arbuscular mycorrhizal plant hosts.
+ 
+ 
+ 
+ We synthesised 1646 observations of arbuscular mycorrhizal (AM) fungal communities from field experiments to evaluate how manipulated GCFs affect their abundance and community structure and to determine the potential consequences for outcomes of plant–mycorrhizal fungal
+
+[4] Diversity and composition of arbuscular mycorrhizal fungal communities in the cropland black soils of China
+Year: 2020
+Authors: Xiancan Zhu, Wen-ying Yang, F. Song, Xiangnan Li
+Citations: 41
+URL: https://www.semanticscholar.org/paper/f49bf02e6784ad9f5dfaa6cc0f3c532eb1ac75f8
+Abstract: Abstract The black soil zone is a critical agricultural production region in China. Arbuscular mycorrhizal fungi (AMF) play key role in the functioning of agricultural ecosystems, but are little known in the black soil zone. We here estimated the diversity and composition of the AMF communities from ten maize cropland soils across the black soil zone of northeast China using MiSeq sequencing. Our results showed that all sequences from the 10 soil sites were classified into 4 orders, 9 families, and 12 genera, and Glomerales was the most abundance taxa. The composition and diversity of the AMF communities was affected by soil organic C, N, P and pH.
+
+[5] Arbuscular mycorrhizal fungal communities and global change: an uncertain future.
+Year: 2018
+Authors: T. A. Cotton
+Citations: 83
+URL: https://www.semanticscholar.org/paper/da5dfeba1fbfa17f0c0d290566fb7ca39cfa282b
+Abstract: Arbuscular mycorrhizal (AM) fungi are amongst the most common and functionally important symbionts of terrestrial plants and are highly likely to be affected by global change. The potential consequences of this on plant growth and carbon and nutrient cycling has led to a growing demand for their inclusion in global change models. However, our understanding of their responses to environmental change remains limited. This review provides an overview of recent experiments attempting to predict the effects of atmospheric and climatic change on AM fungal community diversity, composition and functioning. This includes rising atmospheric carbon dioxide and tropospheric ozone levels, altered water availability, warming and nitrogen deposition. Chan
+
+[6] The global impact of land reclamation on arbuscular mycorrhizal fungi depends on climate, vegetation type and agricultural management practices
+Year: 2026
+Authors: Huaisong Wang, Yinan Zhao, Jialing Xu, R. Guo, Mingming Wang
+Citations: 1
+URL: https://www.semanticscholar.org/paper/e60a587bd66ba8ac8700763d0d23b8d71e6412a5
+Abstract: 
+ 
+ 
+ 
+ Growing populations and food demand have driven cropland expansion, but this has resulted in a decline in soil quality and posed major threats to global biodiversity. Arbuscular mycorrhizal (AM) fungi form symbiotic associations with most terrestrial plants, enhancing the adaptive capacity of these plants in adverse environments and playing a crucial role in maintaining soil health. However, the global impact of land reclamation on AM fungi and its driving factors remains unclear, creating a critical knowledge gap for sustainable land use.
+ 
+ 
+ Based on 501 paired observations from 94 publications, we conducted a global meta‐analysis to explore the impacts of land reclamation on AM fungi and the roles of climate, vegetation types an
+
+[7] Biogeographic Patterns of Arbuscular Mycorrhizal Fungal Communities Along a Land-Use Intensification Gradient in the Subtropical Atlantic Forest Biome
+Year: 2021
+Authors: Gessiane Ceola, Dennis Goss-Souza, Joana Alves, António Alves da Silva, S. L. Stürmer
+Citations: 10
+URL: https://www.semanticscholar.org/paper/bded255dbb1b5f1440873df9d0731a1cdd7c6ca7
+Abstract: 
+
+[8] The rise and fall of arbuscular mycorrhizal fungal diversity during ecosystem retrogression
+Year: 2015
+Authors: Manuela Krüger, F. Teste, E. Laliberté, H. Lambers, M. Coghlan
+Citations: 60
+URL: https://www.semanticscholar.org/paper/50facd20a47854c2c2bc9231e29ed53f47c54295
+Abstract: Ecosystem retrogression following long‐term pedogenesis is attributed to phosphorus (P) limitation of primary productivity. Arbuscular mycorrhizal fungi (AMF) enhance P acquisition for most terrestrial plants, but it has been suggested that this strategy becomes less effective in strongly weathered soils with extremely low P availability. Using next generation sequencing of the large subunit ribosomal RNA gene in roots and soil, we compared the composition and diversity of AMF communities in three contrasting stages of a retrogressive >2‐million‐year dune chronosequence in a global biodiversity hotspot. This chronosequence shows a ~60‐fold decline in total soil P concentration, with the oldest stage representing some of the most severely P‐

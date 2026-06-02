@@ -1,0 +1,62 @@
+
+[1] Soil microbial communities as potential regulators of N2O sources in highly acidic soils
+Year: 2023
+Authors: Junhui Yin, Huaihai Chen, Pengpeng Duan, K. Zhu, Naihui Li
+Citations: 20
+URL: https://www.semanticscholar.org/paper/61adaaaa30057bbf30a89dcb97fe220df9c6982d
+Abstract: 
+
+[2] Effects of nitrogen deposition on microbial communities in grassland ecosystems: Pronounced responses of archaea.
+Year: 2025
+Authors: Tengqi Xu, Zhouchang Zhang, Yufan Wang, Jinyi Zhang, Yiqiong Zhang
+Citations: 6
+URL: https://www.semanticscholar.org/paper/804b012588014b238f64435cf7195eeac8d4f468
+Abstract: 
+
+[3] Elevated CO
+ 2
+ shifts soil microbial communities from
+ K
+ ‐ to
+ r
+ ‐strategists
+Year: 2021
+Authors: Yuan Sun, Cuiting Wang, Jinyan Yang, Jiahui Liao, Han Y. H. Chen
+Citations: 72
+URL: https://www.semanticscholar.org/paper/1e0b372734a132cefac26708f1b99b1a8b751f1e
+Abstract: Aims: Soil microbes are key to myriad processes in terrestrial ecosystems. Elevated CO 2 represents a dominant driver of global climate change; however, it remains un-clear to what extent elevated CO 2 impacts soil microbial communities at ecosystem and global scales. Here, we sought to address the following questions: (a) Do the compositions of microbial communities shift from K - to r - strategists under elevated CO 2 ? (b) What is the extent of the compositional shifts of microbial communities affected by elevated CO 2 concentrations, experimental duration, ecosystem types and/or background climates? (c) Are the responses of microbial communities to elevated CO 2 associated with changes in soil pH and carbon and nitrogen availabilities? 
+
+[4] Combined effects of acidification and warming on soil denitrification and microbial community
+Year: 2025
+Authors: Peiyuan Xu, Meng-Ke Gao, Yu-Chen Li, Jun Ye, Jian-Qiang Su
+Citations: 4
+URL: https://www.semanticscholar.org/paper/10c4d4be944b7094e863ff03b1579ce3d854f01e
+Abstract: In light of the challenges posed by contemporary global warming and soil acidification, the respective effects of pH and temperature on soil microbiome and functions have been explored. However, the combined influence of acidification and warming on soil denitrification and active microbial communities are still unclear. Here, we conducted a microcosm experiment to investigate the influences of increasing temperature and acidification on active microbes such as bacteria and eukaryotic microbes. Denitrification rate in soil were detected using a C2H2 inhibition method. The results showed that the Shannon index of bacterial communities exhibited significant enhancement in response to warming and acidification, whereas their community patterns
+
+[5] Invasive plants decrease microbial capacity to nitrify and denitrify compared to native California grassland communities
+Year: 2017
+Authors: C. Carey, J. Blankinship, V. Eviner, C. Malmstrom, S. Hart
+Citations: 22
+URL: https://www.semanticscholar.org/paper/6e370a2c8ab74df8f9ded8604362c1368c55a7cb
+Abstract: 
+
+[6] Biogeographical patterns in soil bacterial communities across the Arctic region
+Year: 2019
+Authors: Lucie A. Malard, M. Z. Anwar, C. Jacobsen, D. Pearce
+Citations: 77
+URL: https://www.semanticscholar.org/paper/f247de5fb0146b5f2e51912da2055b63d89b0453
+Abstract: The considerable microbial diversity of soils, their variety and key role in biogeochemical cycling has led to growing interest in their global distribution and the impact that environmental change might have at the regional level. In the broadest study of Arctic soil bacterial communities to date, we used high-throughput DNA sequencing to investigate the bacterial diversity from 200 independent Arctic soil samples from 43 sites. We quantified the impact of spatial and environmental factors on bacterial community structure using variation partitioning analysis, illustrating a non-random distribution across the region. pH was confirmed as the key environmental driver structuring Arctic soil bacterial communities, while total organic carbon, 
+
+[7] Bacteria Respond Stronger Than Fungi Across a Steep Wood Ash-Driven pH Gradient
+Year: 2021
+Authors: Carla Cruz-Paredes, Toke Bang‐Andreasen, S. Christensen, F. Ekelund, T. Frøslev
+Citations: 26
+URL: https://www.semanticscholar.org/paper/6ecdb1bb0015359fd9801972ecb760065da3b4e8
+Abstract: Soil pH is probably the most important variable explaining bacterial richness and community composition locally as well as globally. In contrast, pH effects on fungi appear to be less pronounced, but also less studied. Here we analyze the community responses of bacteria and fungi in parallel over a local extreme pH gradient ranging from 4 to 8. We established the pH gradient by applying strongly alkaline wood ash in dosages of 0, 3, 9, 15, 30, and 90 t ha–1 to replicated plots in a Picea abies plantation and assessed bacterial and fungal community composition using high throughput amplicon sequencing 1 year after ash application. At the same time, the experiment investigated if returning wood ash to plantation forests pose any immediate thr
+
+[8] Niche specialization of terrestrial archaeal ammonia oxidizers
+Year: 2011
+Authors: C. Gubry-Rangin, B. Hai, C. Quince, M. Engel, B. Thomson
+Citations: 424
+URL: https://www.semanticscholar.org/paper/6214e21e81b8609b8a20e621c041107b2c6c04b2
+Abstract: 

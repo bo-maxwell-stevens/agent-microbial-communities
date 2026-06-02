@@ -1,0 +1,56 @@
+
+[1] TACKLING THE SOIL MICROBIOME – CHALLENGES AND OPORTUNITIES
+Year: 2024
+Authors: A. Mlesnita
+Citations: 0
+URL: https://www.semanticscholar.org/paper/7077e8c1a485cfa8845052bad5913aa2867293ee
+Abstract: The health of the terrestrial ecosystems is directly dependent on the microbial composition that fulfills essential functions, such as sustaining plant growth, nutrient cycling and carbon sequestration. The study of the soil microbiome has gained popularity in the last decades due to its significant impact on the health of the environment and its inhabitants. This review explores the diversity and functions of soil microbial communities, with a particular focus on microbial dark matter, a subset of organisms that cannot be cultured through classical microbiological techniques. The evolution of DNA extraction methods and sequencing technologies coupled with the transition from amplicon sequencing to metagenome-assembled genomes (MAGs) and co
+
+[2] Shining a light on the dark world of plant root–microbe interactions
+Year: 2017
+Authors: P. Poole
+Citations: 55
+URL: https://www.semanticscholar.org/paper/d0383f28d0eca44d6e360df85d34e78349779c0d
+Abstract: 
+
+[3] Agri-plastics in soils drive changes in the rhizosphere bacterial community and plant transcriptome in Arabidopsis.
+Year: 2025
+Authors: Dohui Lee, Eunji Lee, Yeon Su Lee, Min Kyoung Shin, J. Yang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/c8f3652e2ddc39bc5d1839c13ad28f6714b7382c
+Abstract: Farmers use plastic mulching films to suppress weeds and protect plants from biotic and abiotic stresses; however, these films can become a source of microplastics in ecosystems. To better understand how plastic film-derived microplastics influence the rhizosphere microbiome and plant health, we examined the effects of plastic residues on Arabidopsis thaliana grown in treated soils. Plastic residues (≥5 mm) were mixed with agricultural soils at 5% (w/w) and incubated at 25°C and 80% relative humidity in the dark for 120 days to allow microbial community stabilization. Neither the presence of plastics, soil incubation, nor their interaction significantly affected seedling growth or flowering time. However, rhizobacterial compositions were si
+
+[4] Microbial interactions mediate the fairy ring type effects on alpine meadow plant communities on the Tibetan plateau
+Year: 2026
+Authors: Zhihua Wu, Shiting Cao, Sisong Tu, Yuyin Zhang, Ming Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/28f669c375e7cb838b38a9270458b5a53e7eff73
+Abstract: The Fairy ring (FR) is a circular formation created by the mycelium of the FR fungus during its dynamic proliferation in the soil. FRs were categorized into three types based on their varying effects on adjacent plants. Type I FRs (T1) cause extensive damage with wilting and necrosis, Type II FRs (T2) promote growth with dark-green zones, and Type III FRs (T3) feature fruiting bodies with minimal impact on vegetation. T2 FR often display conspicuous growth-promoting zones and thus are studied more frequently than other types. Here we compare three FR types—Agrocybe sp. (T1), Agaricus campestris (T2), and Clitocybe sp. (T3)—across zones (ON (beneath the fruiting body)/IN (20 cm inward from the ON zone) /OUT (20 cm outward from the ON zone) a
+
+[5] Soil properties and plant diversity co-regulate ecosystem multifunctionality of subalpine primary dark coniferous forest on the eastern Qinghai-Tibetan Plateau
+Year: 2023
+Authors: Feifan Li, Zuomin Shi, Shunsheng Liu, Gexi Xu, Miaomiao Zhang
+Citations: 14
+URL: https://www.semanticscholar.org/paper/f7e716a95343b94e526e8eeedd9156a86150e354
+Abstract: 
+
+[6] Soil microbiome mediates positive plant diversity-productivity relationships in late successional grassland species.
+Year: 2019
+Authors: Guangzhou Wang, P. Schultz, Alice G. Tipton, Junling Zhang, Fusuo Zhang
+Citations: 92
+URL: https://www.semanticscholar.org/paper/2848996a2bbb7d5ef5bd60b1913a66e41abdb691
+Abstract: Which processes drive the productivity benefits of biodiversity remain a critical, but unanswered question in ecology. We tested whether the soil microbiome mediates the diversity-productivity relationships among late successional plant species. We found that productivity increased with plant richness in diverse soil communities, but not with low-diversity mixtures of arbuscular mycorrhizal fungi or in pasteurised soils. Diversity-interaction modelling revealed that pairwise interactions among species best explained the positive diversity-productivity relationships, and that transgressive overyielding resulting from positive complementarity was only observed with the late successional soil microbiome, which was both the most diverse and exh
+
+[7] Changes in Soil Microbiome Mediated by Root Volatiles Enhanced Manganese Tolerance of an Invasive Plant Species
+Year: 2025
+Authors: Jieren Jin, Tiantian Lin, Danfeng Liu, Yi Wang, Xiao Xu
+Citations: 4
+URL: https://www.semanticscholar.org/paper/e3a811407e9eb0d7931803e478404959514685ce
+Abstract: Many invasive plants exhibit high heavy metal tolerance, but the roles of root‐associated soil microbiomes in this process remain poorly understood. Heavy metal stress can alter the release of plant volatile organic compounds (VOCs), potentially influencing plant‐soil feedbacks. This study utilised an aggressive invasive plant species Phytolacca americana as a study model, to assess the effects of different levels of soil manganese (Mn) stress on the emissions of root VOCs, and their subsequent influence on soil microbial communities. Results obtained here indicated that elevated Mn stress levels notably increased the quantity and altered the composition of root VOCs, subsequently influencing the diversity and composition of soil microbiome
+
+[8] Cover crop root exudates impact soil microbiome functional trajectories in agricultural soils
+Year: 2024
+Authors: V. Seitz, Bridget B. McGivern, M. Borton, J. Chaparro, M. Schipanski
+Citations: 67
+URL: https://www.semanticscholar.org/paper/12189750a4cb48e1bd79f5631b8368bba69611f7
+Abstract: Cover cropping is an agricultural practice that uses secondary crops to support the growth of primary crops through various mechanisms including erosion control, weed suppression, nutrient management, and enhanced biodiversity. Cover crops may elicit some of these ecosystem services through chemical interactions with the soil microbiome via root exudation, or the release of plant metabolites from roots. Phytohormones are one metabolite type exuded by plants that activate the rhizosphere microbiome, yet managing this chemical interaction remains an untapped mechanism for optimizing plant-soil-microbiome interactions. Currently, there is limited understanding on the diversity of cover crop phytohormone root exudation patterns and our aim was 

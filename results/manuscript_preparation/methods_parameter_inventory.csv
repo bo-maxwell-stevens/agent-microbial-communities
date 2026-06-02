@@ -1,0 +1,51 @@
+parameter,value,source_script,source_line_or_section
+phase2_pseudocount,1e-6,scripts/run_phase2_confirmatory_coupling.py,line 28
+phase2_n_components,10,scripts/run_phase2_confirmatory_coupling.py,line 29
+phase2_thresholds,0.05;0.10,scripts/run_phase2_confirmatory_coupling.py,line 30
+phase2_branches,presence/absence;CLR,scripts/run_phase2_confirmatory_coupling.py,line 31
+phase2_pairs,EUK↔ITS;AMF↔ITS;AMF↔EUK,scripts/run_phase2_confirmatory_coupling.py,line 32
+phase2_distance_presence_absence,jaccard,scripts/run_phase2_confirmatory_coupling.py,lines 148-150
+phase2_distance_clr,euclidean,scripts/run_phase2_confirmatory_coupling.py,lines 154-157
+phase2_pca_solver,full,scripts/run_phase2_confirmatory_coupling.py,line 118
+phase4_pseudocount,1e-6,scripts/analysis/phase4_coupling_inference.py,line 33
+phase4_n_components,10,scripts/analysis/phase4_coupling_inference.py,line 34
+phase4_thresholds,0.05;0.10,scripts/analysis/phase4_coupling_inference.py,line 35
+phase4_branches,presence/absence;CLR,scripts/analysis/phase4_coupling_inference.py,line 36
+phase4_pairs,AMF↔ITS;AMF↔EUK;EUK↔ITS,scripts/analysis/phase4_coupling_inference.py,line 37
+phase4_random_seed,20260601,scripts/analysis/phase4_coupling_inference.py,line 39
+phase4_permutations,499,scripts/analysis/phase4_coupling_inference.py,line 40
+phase4_bootstraps,120,scripts/analysis/phase4_coupling_inference.py,line 41
+phase4_ci_percentiles,2.5;97.5,scripts/analysis/phase4_coupling_inference.py,bootstrap CI section
+phase5a_pseudocount,1e-6,scripts/analysis/phase5_bac_integration.py,line 30
+phase5a_n_components,10,scripts/analysis/phase5_bac_integration.py,line 31
+phase5a_thresholds,0.05;0.10,scripts/analysis/phase5_bac_integration.py,line 32
+phase5a_branches,presence/absence;CLR,scripts/analysis/phase5_bac_integration.py,line 33
+phase5a_random_seed,20260601,scripts/analysis/phase5_bac_integration.py,line 43
+phase5a_permutations,499,scripts/analysis/phase5_bac_integration.py,line 44
+phase5a_bootstraps,120,scripts/analysis/phase5_bac_integration.py,line 45
+phase5b_threshold_default,0.05,scripts/analysis/phase5b_environmental_drivers.py,line 37
+phase5b_permutations_default,499,scripts/analysis/phase5b_environmental_drivers.py,line 38
+phase5b_base_seed,20260602,scripts/analysis/phase5b_environmental_drivers.py,line 39
+phase5b_primary_predictors,pH_KCl;N_pct;bio12now.100;alpha;compl,scripts/analysis/phase5b_environmental_drivers.py,line 41
+phase5b_bio12_numeric_suffix,100,scripts/analysis/phase5b_environmental_drivers.py,line 41 (bio12now.100)
+phase5b_geography_predictors,lat;lon,scripts/analysis/phase5b_environmental_drivers.py,line 42
+phase5b_pseudocount,1e-6,scripts/analysis/phase5b_environmental_drivers.py,line 50
+phase5b_n_components,10,scripts/analysis/phase5b_environmental_drivers.py,line 51
+phase5b_pcoa_max_axes,12,scripts/analysis/phase5b_environmental_drivers.py,line 191
+phase5b_forbid_n_plus_c_pct,True,scripts/analysis/phase5b_environmental_drivers.py,predictor policy validation block
+phase5c_threshold_default,0.05,scripts/analysis/phase5c_plant_diversity_hypotheses.py,line 44
+phase5c_permutations_default,499,scripts/analysis/phase5c_plant_diversity_hypotheses.py,line 45
+phase5c_base_seed,20260603,scripts/analysis/phase5c_plant_diversity_hypotheses.py,line 46
+phase5c_hypothesis_models_primary,7,scripts/analysis/phase5c_plant_diversity_hypotheses.py,line 51 + model map A-G
+phase5c_pseudocount,1e-6,scripts/analysis/phase5c_plant_diversity_hypotheses.py,line 88
+phase5c_n_components,10,scripts/analysis/phase5c_plant_diversity_hypotheses.py,line 89
+phase5d_coupling_strength_threshold,0.50,scripts/analysis/phase5d_synthesis.py,line 218
+phase5d_environment_adj_r2_threshold,0.20,scripts/analysis/phase5d_synthesis.py,"lines 218, 220, 224"
+phase5d_plant_delta_threshold,0.01,scripts/analysis/phase5d_synthesis.py,"lines 218, 222, 226"
+phase5d_low_plant_delta_threshold,0.005,scripts/analysis/phase5d_synthesis.py,line 224
+analysis_cohort_n,84,results/phase2_confirmatory_coupling/sample_cohort_used.csv,row_count
+python_version,3.12.3,.venv runtime,sys.version
+numpy_version,2.4.5,.venv runtime,import numpy
+pandas_version,3.0.3,.venv runtime,import pandas
+scipy_version,1.17.1,.venv runtime,import scipy
+scikit_learn_version,1.8.0,.venv runtime,import sklearn

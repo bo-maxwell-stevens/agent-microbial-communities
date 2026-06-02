@@ -1,0 +1,56 @@
+
+[1] Microbial community assembly in soil aggregates: A dynamic interplay of stochastic and deterministic processes
+Year: 2021
+Authors: Menghui Dong, G. Kowalchuk, Hongjun Liu, Wu Xiong, Xuhui Deng
+Citations: 42
+URL: https://www.semanticscholar.org/paper/6f6286247d3454f3cf70e5db38134aee0a2592c3
+Abstract: Abstract Understanding how distinct processes operate in mediating community assembly is a long-standing theme in (microbial) ecology. Particularly in soil microbial communities, we still lack a fundamental appreciation of how assembly processes structure communities at the fine-scale level of soil aggregates. In this study, samples from a long-term agricultural field subjected to different fertilization regimes were used to quantify the relative influences of stochastic and deterministic processes on soil bacterial community assembly. First, we found bacterial communities to be more phylogenetically clustered in larger soil aggregates comparatively to small aggregates (Spearman's r = −0.366, P
+
+[2] Relative Importance of Deterministic and Stochastic Processes on Soil Microbial Community Assembly in Temperate Grasslands
+Year: 2021
+Authors: Nana Liu, Huifeng Hu, Wenhong Ma, Ye Deng, Qinggang Wang
+Citations: 51
+URL: https://www.semanticscholar.org/paper/739791f04cefc38e2b673f582e6acd3568a85ca5
+Abstract: Changes in species composition across communities, i.e., β-diversity, is a central focus of ecology. Compared to macroorganisms, the β-diversity of soil microbes and its drivers are less studied. Whether the determinants of soil microbial β-diversity are consistent between soil depths and between abundant and rare microorganisms remains controversial. Here, using the 16S-rRNA of soil bacteria and archaea sampled at different soil depths (0–10 and 30–50 cm) from 32 sites along an aridity gradient of 1500 km in the temperate grasslands in northern China, we compared the effects of deterministic and stochastic processes on the taxonomic and phylogenetic β-diversity of soil microbes. Using variation partitioning and null models, we found that t
+
+[3] Effect of Multiyear Biodegradable Plastic Mulch on Soil Microbial Community, Assembly, and Functioning
+Year: 2025
+Authors: Xiaowei Liu, Zongyu Wen, Wei Zhou, Wentao Dong, Huiqing Ren
+Citations: 10
+URL: https://www.semanticscholar.org/paper/698053998c206c817b534e7085a1d49ca815111e
+Abstract: The increasing use of biodegradable plastic mulch like polybutylene adipate terephthalate (PBAT) has raised concerns about its long-term environmental impact. In this study, we investigated the effects of multiyear PBAT mulch application on bacterial and fungal communities, assembly mechanisms, and key ecological functions. The microbial community diversity and composition were significantly altered after multiyear biodegradable plastic mulching. We observed that PBAT treatment enriched specific bacterial genera, such as Pantoea, potentially involved in plastic degradation, and fungal genera like Cephaliophora and Stephanosporaceae, which may play a role in organic matter decomposition. A null model analysis revealed that bacterial communit
+
+[4] Stochastic Forces in Microbial Community Assembly: Founding Community Size Governs Divergent Ecological Trajectories
+Year: 2025
+Authors: Ibuki Hayashi, M. Sánchez‐Pinillos, Hirokazu Toju
+Citations: 0
+URL: https://www.semanticscholar.org/paper/9677371650310d11515bef2cd122284e6e864d63
+Abstract: 
+
+[5] Soil Phosphorus Availability Controls Deterministic and Stochastic Processes of Soil Microbial Community along an Elevational Gradient in Subtropical Forests
+Year: 2023
+Authors: Rong-Shu Chen, Jing Zhu, Lan Jiang, Lan Liu, Cheng Gao
+Citations: 11
+URL: https://www.semanticscholar.org/paper/91caeb0302de15451a971becab750fe0af1e4936
+Abstract: Revealing the assembly mechanisms of the soil microbial community, which is crucial to comprehend microbial biodiversity, is a central focus in ecology. The distribution patterns of microbial elevational diversity have been extensively studied, but their assembly processes and drivers remain unclear. Therefore, it is essential to unravel the relationship between the deterministic and stochastic processes of the microbial community assembly and elevational gradients. Here, our study built upon previous physicochemical analyses of soil samples collected along an elevational gradient (900–1500 m) in Daiyun mountain, a subtropical forest located in southeastern China. Using the phylogenetic-bin-based null model analysis (icamp) and multiple reg
+
+[6] Planting density effect on poplar growth traits and soil nutrient availability, and response of microbial community, assembly and function
+Year: 2024
+Authors: Rongye Qiao, Zhen Song, Yinglong Chen, Mingzhen Xu, Qiqi Yang
+Citations: 14
+URL: https://www.semanticscholar.org/paper/518714d89dd06dbb4c88becb46e7a98979eb7a80
+Abstract: The interaction between soil characteristics and microbial communities is crucial for poplar growth under different planting densities. Yet, little is understood about their relationships and how they respond to primary environmental drivers across varying planting densities. In this study, we investigated poplar growth metrics, soil characteristics, and community assembly of soil bacterial and fungal communities in four poplar genotypes (M1316, BT17, S86, and B331) planted at low, medium, and high densities. Our findings reveal that planting density significantly influenced poplar growth, soil nutrients, and microbial communities (P < 0.05). Lower and medium planting densities supported superior poplar growth, higher soil nutrient levels, 
+
+[7] Geographic Distribution Pattern Determines Soil Microbial Community Assembly Process in Acanthopanax senticosus Rhizosphere Soil
+Year: 2024
+Authors: Mingyu Wang, Xiangyu Xing, Youjia Zhang, X. Sui, Chunying Zheng
+Citations: 9
+URL: https://www.semanticscholar.org/paper/1f237032bdc9df59db8912c2b548107d4a3dd581
+Abstract: The geographic distribution patterns of soil microbial communities associated with cultivated Acanthopanax senticosus plants in Northeast China were investigated. High-throughput sequencing revealed that the diversity and community assembly of bacterial and fungal communities in the inter-root soil varied significantly with geographic location. The study found that bacterial communities were predominantly assembled through stochastic processes at most sites, while fungal communities showed greater variation, with both stochastic and deterministic processes involved. The complexity of bacterial–fungal co-occurrence networks also varied with longitude and latitude, demonstrating both positive and negative interactions. PICRUSt 2.0 and FUNGuil
+
+[8] Soil microbial community assembly drives ecosystem multifunctionality under grazing disturbance by regulating diversity and network structure
+Year: 2026
+Authors: Kangwei Jiang, Cheng Lv, Yafei Wang, Hong Li, Reyimu Tuerxunnayi
+Citations: 1
+URL: https://www.semanticscholar.org/paper/d07a104e2cf3067989fc58c761cfc8c267a975db
+Abstract: In the context of global climate change, overgrazing has impacted ecosystem multifunctionality (EMF). However, the influence of different characteristics of microbial communities on EMF under grazing pressures remains unclear. In this study, we examined how microbial community diversity, co-occurrence network structure, and assembly processes influence ecosystem function and multifunctionality under three grazing pressures: light grazing, heavy grazing, and grazing exclusion. Our results show that light grazing significantly increased microbial community diversity, richness, network complexity, and stability compared to heavy grazing. Soil bacterial and fungal communities were predominantly shaped by stochastic processes. As grazing pressur

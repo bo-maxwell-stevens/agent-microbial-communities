@@ -1,0 +1,8 @@
+manuscript_word_count=1934
+abstract_word_count=230
+references_cited=12
+figure_mentions_unique=2
+table_mentions_unique=3
+numeric_tokens_in_body=81
+unsupported_numeric_tokens=0
+unsupported_list=

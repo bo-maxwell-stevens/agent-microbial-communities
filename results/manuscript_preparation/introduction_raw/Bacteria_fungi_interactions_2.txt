@@ -1,0 +1,56 @@
+
+[1] [Soil carbon and nitrogen dynamics affect bacterial and fungal communities and their interactions: a review].
+Year: 2025
+Authors: Xinyuan Liu, Yue Li, Ziyan Wei, Zhujun Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/e5b526a37a7a14f9f4bcb8c152f9df519e42f9a3
+Abstract: 
+
+[2] Mechanisms and implications of bacterial–fungal competition for soil resources
+Year: 2024
+Authors: Chaoqun Wang, Y. Kuzyakov
+Citations: 474
+URL: https://www.semanticscholar.org/paper/546abd7b341a1b2c2a307dcde7aea2f09a5cb4d4
+Abstract: Abstract Elucidating complex interactions between bacteria and fungi that determine microbial community structure, composition, and functions in soil, as well as regulate carbon (C) and nutrient fluxes, is crucial to understand biogeochemical cycles. Among the various interactions, competition for resources is the main factor determining the adaptation and niche differentiation between these two big microbial groups in soil. This is because C and energy limitations for microbial growth are a rule rather than an exception. Here, we review the C and energy demands of bacteria and fungi—the two major kingdoms in soil—the mechanisms of their competition for these and other resources, leading to niche differentiation, and the global change impac
+
+[3] Methods for Studying Bacterial–Fungal Interactions in the Microenvironments of Soil
+Year: 2021
+Authors: E. Mandolini, M. Probst, U. Peintner
+Citations: 15
+URL: https://www.semanticscholar.org/paper/9340e61debbe95416daab9e74e6ff74f846c14dd
+Abstract: Due to their small size, microorganisms directly experience only a tiny portion of the environmental heterogeneity manifested in the soil. The microscale variations in soil properties constrain the distribution of fungi and bacteria, and the extent to which they can interact with each other, thereby directly influencing their behavior and ecological roles. Thus, to obtain a realistic understanding of bacterial–fungal interactions, the spatiotemporal complexity of their microenvironments must be accounted for. The objective of this review is to further raise awareness of this important aspect and to discuss an overview of possible methodologies, some of easier applicability than others, that can be implemented in the experimental design in t
+
+[4] Plant–Soil Microbial Interaction: Differential Adaptations of Beneficial vs. Pathogenic Bacterial and Fungal Communities to Climate-Induced Drought
+Year: 2024
+Authors: N. Loiko, M. N. Islam
+Citations: 20
+URL: https://www.semanticscholar.org/paper/78097a3e9e601df7f2600915269999b792647e15
+Abstract: Climate change and the increasing frequency and severity of drought events pose significant challenges for sustainable agriculture worldwide. Soil microorganisms, both beneficial and pathogenic, play a crucial role in mediating plant–environment interactions and shaping the overall functioning of agroecosystems. This review summarizes current knowledge on the adaptive mechanisms used by different groups of plant-beneficial soil microorganisms—rhizobacteria and arbuscular mycorrhizal fungi (AMF)—as well as phytopathogenic bacteria and fungi, in response to drought. The review focuses on identifying the commonalities and differences in the survival strategies of these groups of beneficial and pathogenic soil microorganisms under drought condi
+
+[5] Influence of Various Bacterial and Fungal Strains on Fruit Cuttings: A Review
+Year: 2024
+Authors: Gurjeet Singh, Ritik Thakur, Naveen Saha, Vishakha Saini, Sakshi Sharma
+Citations: 0
+URL: https://www.semanticscholar.org/paper/040432d17f33149e7dddb3c1578b6f632a10f5fd
+Abstract: Microbes, especially bacteria and fungi, play a significant role in the plant's multiplication outcome as well as in regulating the success of economic yield. There are some beneficial interactions made by the various fungi and bacteria, such as Pseudomonas aeruginosa, Bacillus subtilis, and endophytic fungi, which may be responsible for plant vigor, growth, shoot and root development. Bacterial and fungal strains engaged in the uptake, utilization and nutrient transportation in the earth's pores influence the distribution of essential vitamins and minerals for plant development. We may conclude that the influence of various bacterial and fungal strains on fruit cuttings is a complex and multifaceted issue. It is clear that advanced researc
+
+[6] Soil antimony-microbe interactions: A review.
+Year: 2025
+Authors: Libo Pan, Xiao Guan, Yanjun Chen, Bo Liu, Yanling Qiu
+Citations: 3
+URL: https://www.semanticscholar.org/paper/a83f6d03f964f3bf9c4d7032f9220893bce35dd2
+Abstract: 
+
+[7] A Public Health Perspective on Optimizing Biofertilizer Application for Sustainable Plant Growth: Evaluating Soil Health, Yield Performance, and Microbial Interactions in Crop Agriculture
+Year: 2025
+Authors: Umair Sarfraz, H. Rizvi, M. Zulqarnain, Unsa Ayaz, M. Akhtar
+Citations: 0
+URL: https://www.semanticscholar.org/paper/ccc956cdb7ee09d04d67a0d33c71299a98822e36
+Abstract: Chemical fertilizers are overused, so people across the world are now looking for environmentally friendly ways to cultivate crops. The impact of biofertilizer use on soil, crop production and microbiological activity is studied in wheat and maize. The work was completed in different parts of Pakistan, where four combination approaches were assessed: a control, NPK fertilizer, biofertilizer-only and an approach of 50% NPK joined with biofertilizer. Biofertilizer and combined treatments increased soil organic carbon, nutrients, bacterial and fungal population and activity levels of enzymes more than the control and NPK-only plots. Moreover, important benefits could be seen in plant development, as the root length, shoot height, chlorophyll l
+
+[8] Oxalic acid, a molecule at the crossroads of bacterial-fungal interactions.
+Year: 2019
+Authors: Fabio Palmieri, Aislinn Estoppey, Geoffrey L. House, Andrea Lohberger, S. Bindschedler
+Citations: 101
+URL: https://www.semanticscholar.org/paper/911e3d3c32cc3f594eb1e83d799e687a610e38f3
+Abstract: Oxalic acid is the most ubiquitous and common low molecular weight organic acid produced by living organisms. Oxalic acid is produced by fungi, bacteria, plants, and animals. The aim of this review is to give an overview of current knowledge about the microbial cycling of oxalic acid through ecosystems. Here we review the production and degradation of oxalic acid, as well as its implications in the metabolism for fungi, bacteria, plants, and animals. Indeed, fungi are well known producers of oxalic acid, while bacteria are considered oxalic acid consumers. However, this framework may need to be modified, because the ability of fungi to degrade oxalic acid and the ability of bacteria to produce it, have been poorly investigated. Finally, we 

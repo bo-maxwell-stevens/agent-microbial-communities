@@ -1,0 +1,36 @@
+### QUERY: Global assessment of arbuscular mycorrhizal fungus diversity reveals very low endemism
+
+[1] Global assessment of arbuscular mycorrhizal fungus diversity reveals very low endemism
+Year: 2015
+Authors: J. Davison, M. Moora, M. Öpik, A. Adholeya, L. Ainsaar
+Citations: 733
+URL: https://www.semanticscholar.org/paper/0f1a1e17bb652b1f486b0c0e5226aee56a25b7db
+Abstract: 
+
+### QUERY: Arbuscular mycorrhizal fungi and plant diversity
+
+[1] Arbuscular mycorrhizal fungi and plant diversity drive restoration of nitrogen‐cycling microbial communities
+Year: 2021
+Authors: Jichen Wang, Jiang Wang, Ji‐Zheng He, Yong-guan Zhu, Neng-Hu Qiao
+Citations: 24
+URL: https://www.semanticscholar.org/paper/6babdb5e5468a5b2d00e302bee8a3e9661b9a065
+Abstract: Soil microbial communities, key players of many crucial ecosystem functions, are susceptible to environmental disturbances, which might cause the loss of microbial diversity and functions. However, few ecological concepts and practices have been developed for rescuing stressed soil microbial communities. Here, we manipulated an experiment with or without arbuscular mycorrhizal fungi (AMF) inoculation and at three levels (one, three and six species) of plant diversity to disentangle how the AMF and vegetation rescue soil nitrogen (N) ‐cycling microbial loop from simulated degraded soil ecosystem. Our results showed that AMF inoculation improved the restoration of soil N‐cycling microbial communities. This improved restoration was related to 
+
+### QUERY: Dark diversity reveals importance of biotic resources and competition for plant diversity across broad environmental gradients
+
+[1] Dark diversity reveals importance of biotic resources and competition for plant diversity across broad environmental gradients
+Year: 2019
+Authors: Camilla Fløjgaard, Jose W. Valdez, L. Dalby, J. Moeslund, K. Clausen
+Citations: 2
+URL: https://www.semanticscholar.org/paper/c0e0f34357a0fbc503b7900e628d4e149af72e86
+Abstract: Species richness is the most commonly used metric to quantify biodiversity. However, examining dark diversity, the group of missing species which can potentially inhabit a site, can provide a more thorough understanding of the processes influencing observed biodiversity and help evaluate the restoration potential of local habitats. So far, dark diversity has mainly been studied for specific habitats or largescale landscapes while less attention has been given to variation across broad environmental gradients or as a result of local conditions and biotic interactions. In this study, we investigate the importance of local environmental conditions in determining dark diversity and observed richness in plant communities across broad environment
+
+### QUERY: Estimating probabilistic site specific species pools and dark diversity from co occurrence data
+
+[1] Estimating probabilistic site‐specific species pools and dark diversity from co‐occurrence data
+Year: 2020
+Authors: C. P. Carmona, M. Pärtel
+Citations: 58
+URL: https://www.semanticscholar.org/paper/d08748b0a2150a22311f98978633c99608d009e5
+Abstract: 
+

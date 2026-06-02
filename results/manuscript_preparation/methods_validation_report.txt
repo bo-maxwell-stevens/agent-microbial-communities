@@ -1,0 +1,12 @@
+Methods traceability validation report
+branch=phase5d-synthesis
+head=5eb42525e60946cb73e9dc28c8c6b3c9e04a7d48
+nearest_tag=v0.8-phase5c-plant-diversity
+methods_lines=31
+parameter_rows=50
+draft_numeric_tokens=36
+unsupported_numeric_tokens=0
+unsupported_list=
+missing_method_details=none
+git_status_tracked_clean=yes
+git_status_all_entries=7

@@ -1,0 +1,56 @@
+
+[1] Mechanistic insights into rhizosphere microbiome assembly in Pinus tabuliformis: The role of cross-kingdom interactions and soil salinity gradients.
+Year: 2025
+Authors: Yilin Luo, Haiyun Ding, X. Mao, Zhixin Kang, Boda Li
+Citations: 2
+URL: https://www.semanticscholar.org/paper/33e16be6fc92e21a7451e9721ada0071e8bec89d
+Abstract: Soil salinization caused by desertification and drought severely limits agricultural and forestry development. The rhizosphere core microbiome plays a vital role in helping host plants cope with environmental stress. However, in saline-alkali soils, it remains unclear how bacterial and fungal communities in the rhizosphere of Pinus tabuliformis interact and collectively respond to environmental factors to influence the plant. This study aims to identify the composition and functional potential of the core bacterial and fungal microbiota in the rhizosphere of P. tabuliformis in saline environments, as well as their interactions with environmental factors, thus providing a theoretical basis for utilizing core rhizosphere microbial resources. 
+
+[2] High Arctic seawater and coastal soil microbiome co-occurrence and composition structure and their potential hydrocarbon biodegradation
+Year: 2024
+Authors: Nastasia J. Freyria, Esteban Góngora, Charles W. Greer, L. Whyte
+Citations: 9
+URL: https://www.semanticscholar.org/paper/ea9c94f529e7961487acd69624194648485c2ce1
+Abstract: Abstract The accelerated decline in Arctic sea-ice cover and duration is enabling the opening of Arctic marine passages and improving access to natural resources. The increasing accessibility to navigation and resource exploration and production brings risks of accidental hydrocarbon releases into Arctic waters, posing a major threat to Arctic marine ecosystems where oil may persist for many years, especially in beach sediment. The composition and response of the microbial community to oil contamination on Arctic beaches remain poorly understood. To address this, we analyzed microbial community structure and identified hydrocarbon degradation genes among the Northwest Passage intertidal beach sediments and shoreline seawater from five high 
+
+[3] Spatiotemporal dynamics of multi-kingdom microbiome interactions drive CNPS cycling in landfills.
+Year: 2025
+Authors: Wenqing Hong, Shu Yang, Weixi Shu, G. Price, Liyan Song
+Citations: 1
+URL: https://www.semanticscholar.org/paper/4e4f0b362009009ab998a091246d8bbcc0b53415
+Abstract: Landfill ecosystems represent significant terrestrial carbon sinks, where municipal solid waste (MSW) undergoes decomposition and transformation through biochemical reactions mediated by multi-kingdom microbiome. However, the spatial and temporal characterization of microbial interactions and collaboration within these multi-kingdom microbiomes remain largely unknown. In this study, we reveal the hierarchical and collaborative mechanisms by which multi-kingdom microbiomes drive carbon, nitrogen, phosphorus, and sulfur cycling across a 30-meter landfilling depth, corresponding to a landfilling age of 1 to 4 years. Through integration of metagenomics and network analyses, we elucidated vertical succession patterns in microbial community struc
+
+[4] Cross-Kingdom Synthetic Microbiota Suppresses Wheat Fusarium Crown Rot by Remodeling the Rhizosphere Microbiome and Metabolome
+Year: 2026
+Authors: Qian Zhou, Xusheng Gao, Qiong Wu, Weijun Zeng, Wenzhi Cao
+Citations: 4
+URL: https://www.semanticscholar.org/paper/937729689dcdfa91be38f518e34eaa619f9f4b7a
+Abstract: Fusarium crown rot (FCR) of wheat lacks sustainable control. We assembled a cross-kingdom synthetic microbial community (SMC) of Trichoderma harzianum T19 and five Bacillus strains and tested it in nonsterile soil challenged with Fusarium pseudograminearum. The SMC treatment significantly suppressed FCR, reducing the disease severity index by approximately 70%. Wheat growth and yield were simultaneously enhanced. In the rhizosphere, SMC improved soil health by elevating soil organic matter and nitrogen levels by over 50%, while mitigating pathogen-induced nutrient imbalances and boosting nutrient-cycling enzyme activities. Amplicon sequencing revealed that SMC suppressed pathogenic Fusarium in the rhizosphere and enriched beneficial microbe
+
+[5] Altered gut mycobiome and cross-kingdom microbial interactions in systemic lupus erythematosus
+Year: 2025
+Authors: Zheng Wang, Y. Xing, Mingxi Xu, Changming Chen, Qing Zhu
+Citations: 1
+URL: https://www.semanticscholar.org/paper/74da1829c031530f34dbfe6fbe1f61cd96f40974
+Abstract: Systemic lupus erythematosus (SLE) is a complex autoimmune disorder shaped by host genetics and environmental exposures, including the gut microbiota. While bacterial dysbiosis in SLE is well characterized, the role of the gut mycobiome and its cross-kingdom interactions remains largely unexplored. Using fecal metagenomic sequencing from 117 SLE patients and 115 healthy controls (HCs), we established a non-redundant fungal genome catalog and revealed significant alterations in fungal composition, function, and cross-kingdom ecology. Fungal diversity was increased in SLE, with enrichment of potentially pathogenic taxa such as Candida, Malassezia, and Trichophyton, and depletion of commensal genera such as Pichia. Functional analysis showed e
+
+[6] Genetic Diversification of Tomato and Agricultural Soil Management Shaped the Rhizospheric Microbiome of Tomato (Solanum lycopersicum)
+Year: 2025
+Authors: Máximo González, Juan Pablo Araya-Angel, Ashlie Muñoz, Adalid Alfaro-Flores, Massimiliano Cardinale
+Citations: 4
+URL: https://www.semanticscholar.org/paper/d45a5fffe58e5aefbf1de2bb0b86d7e4f2a62af7
+Abstract: The domestication process not only reduced the allelic diversity of tomato genotypes but also affected the genetic traits associated to microbial recruitment, their composition, and their diversity in different compartments of the plant host. Additionally, this process included the transition from natural to agricultural soils, which differ in nutrient availability, physicochemical properties, and agricultural practices. Therefore, modern cultivars may fail to recruit microbial taxa beneficial to their wild relatives, potentially losing important ecological functions. In this study, we analyzed the phylogenetic relationship and the rhizosphere microbiota of four tomato genotypes, Solanum chilense (wild species), S. lycopersicum var. cerasif
+
+[7] A Single Application of Compost Can Leave Lasting Impacts on Soil Microbial Community Structure and Alter Cross-Domain Interaction Networks
+Year: 2022
+Authors: Steven Heisey, R. Ryals, T. Maaz, Nhu H. Nguyen
+Citations: 44
+URL: https://www.semanticscholar.org/paper/c8c09e6d969c82963bf2d7573c168fd9b972fa3f
+Abstract: Our current understanding suggests that nutrient management strategies applied to agricultural soils over multiple years are required to cause major and stable shifts in soil microbial communities. However, some studies suggest that agricultural soils can benefit even from sporadic, single additions of organic matter. Here we investigate how single additions of high-quality organic matter can cause significant shifts in microbial soil communities over multiple cropping cycles. We grew radishes in a tropical Oxisol soil for six crop cycles after a single application of a high-nitrogen compost or urea. At planting and before biomass harvest, we sampled soils influenced by the radish rhizosphere and sequenced bacterial and archaeal 16S and fun
+
+[8] π-conjugated microplastics act as hazard amplifiers of antibiotic resistance through cross-kingdom network engineering.
+Year: 2026
+Authors: Tongyi Yang, Ruiqian Yuan, Xiujie Wang, Linzhi Zhai, Xiaona Dong
+Citations: 0
+URL: https://www.semanticscholar.org/paper/00baf19ec00dab5e5cd792d46b5ff6e47ea9375e
+Abstract: Microplastics are recognized as environmental vectors for antibiotic resistance genes (ARGs), a role traditionally ascribed to physical mechanisms such as biofilm-enhanced horizontal gene transfer. Here, we uncover a chemistry-driven pathway that fundamentally surpasses the traditional passive vector model. We show that π‑conjugated polystyrene (PS) microplastics serve as powerful chemical hazard amplifyers by specifically concentrating the signaling molecule indole on their surfaces through π-π stacking and electrostatic interactions (binding energy = -128.56 kcal/mol), creating localized interfacial risk hotspots. These hotspots drive the reprogramming of soil microbiomes, as evidenced by distinct transformations in dissolved organic matt

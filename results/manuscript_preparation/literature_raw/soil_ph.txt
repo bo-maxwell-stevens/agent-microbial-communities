@@ -1,0 +1,59 @@
+
+[1] Uranium contamination mediating soil and ore microbial community assembly at four mining sites, South China
+Year: 2025
+Authors: Hongyu Chen, Yizhi Sheng, Shuaidi Wang, Yu Chen, Zhiyuan Qiao
+Citations: 11
+URL: https://www.semanticscholar.org/paper/c057a01f2e365cf4f221e638b723b17654400e35
+Abstract: Uranium mining presents significant environmental challenges, particularly through radiological contamination affecting soil and water bodies. While soil microbial communities are known to be influenced by geochemical factors like pH and nutrient availability, their responses to severe uranium contamination in mine tailing environments remain poorly understood. This study investigated microbial community distributions in soils and uranium ores at four uranium mining sites in South China to explore microbial adaptations to uranium contamination. Uranium concentrations ranged from 170 to 18,000 mg/kg, with the most severely contaminated samples dominated by Cyanobacteria, which comprised up to 49.17% of the microbial community. Proteobacteria
+
+[2] Biochar dose-dependent modulation of soil phosphorus availability and microbial community assembly: decoding synergistic mechanisms of biochar-npk interactions in a decade-long fertilization regime
+Year: 2025
+Authors: Tong Zhang, Chunsheng Ni, Yu Bai, Jinfeng Yang, Xiaori Han
+Citations: 2
+URL: https://www.semanticscholar.org/paper/b450c6795867dc76097654a0d0935979a62fef21
+Abstract: 
+
+[3] Soil pH and total phosphorus regulate bacterial community assembly in slope restoration areas of the Tibetan Plateau's metal mining areas.
+Year: 2025
+Authors: Huanyu Zhou, Xiaotong Liu, Xianlei Gao, Yan Wang, Lanlan Ye
+Citations: 4
+URL: https://www.semanticscholar.org/paper/d43d79568e87dfe27830c008985e7db1c8989406
+Abstract: Microbial community development is a crucial aspect of soil restoration. The employment of frame beams in conjunction with external soil has demonstrated efficacy in the rehabilitation of degraded roadside ecosystems within mining regions. Nonetheless, the effects of frame beams on the composition and stability of soil bacterial communities remain inadequately comprehended. We conducted a one-time soil sampling on a three-year restored slope in a large - scale metal mining area on the Tibetan Plateau, providing a snapshot of the current conditions and evaluating the restoration progress. Frame beams with external soil covers were applied at three different altitudes: A1 (4800-5000 m), A2 (4500-4700 m), and A3 (4200-4400 m). Restoration sign
+
+[4] Unraveling negative biotic interactions determining soil microbial community assembly and functioning
+Year: 2021
+Authors: S. Romdhane, A. Spor, J. Aubert, D. Bru, M. Breuil
+Citations: 195
+URL: https://www.semanticscholar.org/paper/969e74a54b3d9a2e2f9044ca99d6910c600eaa71
+Abstract: Microbial communities play important roles in all ecosystems and yet a comprehensive understanding of the ecological processes governing the assembly of these communities is missing. To address the role of biotic interactions between microorganisms in assembly and for functioning of the soil microbiota, we used a top-down manipulation approach based on the removal of various populations in a natural soil microbial community. We hypothesized that removal of certain microbial groups will strongly affect the relative fitness of many others, therefore unraveling the contribution of biotic interactions in shaping the soil microbiome. Here we show that 39% of the dominant bacterial taxa across treatments were subjected to competitive interactions
+
+[5] Polyethylene microplastics alter soil microbial community assembly and ecosystem multifunctionality.
+Year: 2023
+Authors: Ziqiang Liu, Jiahao Wen, Zhenxiu Liu, Hui Wei, Jiaen Zhang
+Citations: 115
+URL: https://www.semanticscholar.org/paper/4378e4a69ac6c924e11103d17cab92f5512787e7
+Abstract: Although pervasive microplastics (MPs) pollution in terrestrial ecosystems invites increasing global concern, impact of MPs on soil microbial community assembly and ecosystem multifunctionality received relatively little attention. Here, we manipulated a mesocosm experiment to investigate how polyethylene MPs (PE MPs; 0, 1%, and 5%, w/w) influence ecosystem functions including plant production, soil quality, microbial community diversity and assembly, enzyme activities in carbon (C), nitrogen (N) and phosphorus (P) cycling, and multifunctionality in the maize-soil continuum. Results showed that PE MPs exerted negligible effect on plant biomass (dry weight). The treatment of 5% PE MPs caused declines in the availability of soil water, C and 
+
+[6] Environmental Stresses Constrain Soil Microbial Community Functions by Regulating Deterministic Assembly and Niche Width
+Year: 2025
+Authors: Xiaojun Wang, Jie Wang, Ji Chen, T. Bezemer, Zilin Song
+Citations: 6
+URL: https://www.semanticscholar.org/paper/c2650b12025ad9e64a464444ba96067f7b575567
+Abstract: Increasing evidence indicates that the loss of soil microbial α‐diversity triggered by environmental stress negatively impacts microbial functions; however, the effects of microbial α‐diversity on community functions under environmental stress are poorly understood. Here, we investigated the changes in bacterial and fungal α‐ diversity along gradients of five natural stressors (temperature, precipitation, plant diversity, soil organic C and pH) across 45 grasslands in China and evaluated their connection with microbial functional traits. By quantifying the five environmental stresses into an integrated stress index, we found that the bacterial and fungal α‐diversity declined under high environmental stress across three soil layers (0–20 cm,
+
+[7] The effects of wildfires on soil microbial community structure, network and assembly in
+ Larix gmelinii
+ forest
+Year: 2025
+Authors: Wen Zhao, Reyila Mumin, Junning Li, Jiamao Huang, Shun Liu
+Citations: 0
+URL: https://www.semanticscholar.org/paper/da27a7cb92dfaf1f98f06f2f6de4a0dc1090d7b9
+Abstract: 
+ As a vital component of the boreal forest, Larix gmelinii forests face severe threats from frequent wildfires. Soil microorganisms play a key role in forest ecosystems by participating in biogeochemical cycles and maintaining close association with plants. To elucidate the effects of wildfires on soil microorganisms in L. gmelinii forests, we collected soil samples from burned and unburned forests in Northeast China during both summer and winter for amplicon sequencing. The results showed that wildfires significantly increased soil microbial diversity and markedly altered soil microbial community structure. Soil pH was the most important factor influencing microbial community diversity and composition. Compared with unburned networks, the
+
+[8] Halophyte-Specific Rhizosphere Effects Drive the Differentiation of Microbial Community Assembly in a Desert-Grassland Salt Marsh
+Year: 2026
+Authors: Rong Wang, Jinpeng Hu, Jialu Li, Zixuan Chen, Bahetijiang Ayala
+Citations: 0
+URL: https://www.semanticscholar.org/paper/c6a4349c2b94ab076372b0f2b0d065b3caf113f9
+Abstract: Arid salt marsh ecosystems endure chronic water scarcity and high salinity stress, with the stability of their functions inextricably linked to the pivotal role of the rhizosphere microenvironment of halophytes. This study focused on three typical halophytes (Kalidium cuspidatum, Nitraria tangutorum, Reaumuria soongarica) in the Jiantan wetland, and deeply explore how these halophytes differently regulate the soil microenvironment through the rhizosphere effect. The results showed that the rhizosphere soil of Kalidium cuspidatum had higher pH, Na+, and K+ contents, while the rhizosphere soil of R. soongarica had higher total carbon, soil organic carbon, alkali-hydrolyzable nitrogen, and microbial biomass. Microbial community analysis reveal

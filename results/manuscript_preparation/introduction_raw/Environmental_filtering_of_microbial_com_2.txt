@@ -1,0 +1,56 @@
+
+[1] Soil Microbiome Response Is Key to Improving Soil Health Across Multiple Agroecosystems in Inland Pacific Northwest
+Year: 2026
+Authors: Kaone L. Abanikannda, Tarah Sullivan
+Citations: 0
+URL: https://www.semanticscholar.org/paper/7691b288b581344e7503e5e1e9cb8ceb6e855766
+Abstract: The soil microbiome is a complex assemblage of microorganisms that are important in restoring and maintaining soil function, ecosystem stability, and sustainable agroecosystem development. However, soil microbial responses to environmental or land-use gradients in agroecosystems and the consequent implications for soil functional integrity and sustainable agroecosystem development remain poorly understood. In this review, we present the current state of the science on: (1) shifts in microbial community composition in response to environmental or land-use gradients within conventional dryland small grains farms, temperate evergreen forests, and riparian areas in the inland Pacific Northwest (iPNW) where the precipitation regime is considered
+
+[2] Biochar-derived dissolved organic matter (BDOM) and its influence on soil microbial community composition, function, and activity: A review
+Year: 2023
+Authors: Muhammad Azeem, T. Sun, P. G. Jeyasundar, Ruixia Han, Hui Li
+Citations: 62
+URL: https://www.semanticscholar.org/paper/7cbfe3998d8bc06e3dd294fcb60b0bb4d4078438
+Abstract: Abstract Biochar-derived dissolved organic matter (BDOM) plays key roles in soil ecosystem by affecting soil physicochemical and biological properties and supplying nutrients to soil microbes. It can either enhance or suppress the growth of certain soil microorganisms, depending on its composition and content of labile organic compounds. This review aims to discuss and summarize the role of BDOM in modifying soil microbial functioning, microbial community structure, and enzymatic activity. We mainly focus on the role of BDOM as a function of its concentration, type of feedstock biomass, and pyrolysis temperature (PT). Results show that saw dust- and manure-based biochars produce higher BDOM concentrations than straw-, bone-, and sludge-base
+
+[3] Mechanisms for sulfadiazine effective mitigation in biochar-amended soil: From antibiotic resistance to soil microbial community composition and function.
+Year: 2025
+Authors: Linlin Qiu, Luxi Niu, Muhammad Nafees, Shuyu Zhou, Weihong Wu
+Citations: 7
+URL: https://www.semanticscholar.org/paper/e4cddf7bacfd159e4e56b739a28c4d40198e7bba
+Abstract: Sulfonamide residues in soil have the potential to affect soil microbial community and promote the dissemination of antibiotic resistance. Biochar is a strong candidate for soil enhancement, however, its feasibility and mechanisms in controlling the burden of antibiotic resistance and restoring soil quality under antibiotic contamination require systematic evaluation. Thus, a pot experiment using Anthrosol soil amended with 3 % woody biochar was conducted to evaluate the efficacy in mitigating the inhibition of plant growth, antibiotic resistance genes (ARGs) proliferation, and microbial community disruption at an environmentally relevant (feedlot-adjacent soil equivalence) and a tenfold elevated concentration. Results showed that biochar e
+
+[4] Fairy ring‐induced soil potassium depletion gradients reshape microbial community composition in a montane grassland
+Year: 2022
+Authors: Antonio Rodríguez, M. Ibáñez, R. Bol, N. Brüggemann, A. Lobo
+Citations: 6
+URL: https://www.semanticscholar.org/paper/f6939ba19dda389cf0ee4f2360477a9fc945b73f
+Abstract: Fairy rings promoting circular greening belts in the vegetation can shape soil microbial communities by altering soil conditions. Knowledge about soil variables involved in this process is incomplete. We characterised the soil microbial communities of six fairy rings in a montane grassland using phospholipid fatty acid (PLFA) profiling, and studied if changes in soil properties corresponded to changes in soil microbial PLFA patterns. Exchangeable potassium (K) decreased inside the current rings, while soil moisture increased in the zones where the greening belts were two years before sampling (R2015). Fairy ring associated changes in PLFA composition were highly related to soil K. Gram‐negative bacteria were associated with the zones outsid
+
+[5] Response of soil microbial community composition and function to prolonged heavy metal exposure
+Year: 2025
+Authors: Zhigang Zhao, Yongfeng Wang, Linghao Kong, Liyuan Zhao, Yachao Li
+Citations: 8
+URL: https://www.semanticscholar.org/paper/f8da571654652d444122bf0acdf5aba9c585625d
+Abstract: 
+
+[6] Linking bacterial community composition to soil salinity along environmental gradients
+Year: 2018
+Authors: Kristin M. Rath, N. Fierer, D. Murphy, J. Rousk
+Citations: 422
+URL: https://www.semanticscholar.org/paper/d00c46b5c0a95da3cc3b45fb2d1995dfec68ecdf
+Abstract: Salinization is recognized as a threat to soil fertility worldwide. A challenge in understanding the effects of salinity on soil microbial communities is the fact that it can be difficult to disentangle the effects of salinity from those of other variables that may co-vary with salinity. Here we use a trait-based approach to identify direct effects of salinity on soil bacterial communities across two salinity gradients. Through dose–response relationships between salinity and bacterial growth, we quantified distributions of the trait salt tolerance within the communities. Community salt tolerance was closely correlated with soil salinity, indicating a strong filtering effect of salinity on the bacterial communities. Accompanying the increas
+
+[7] Temperature and soil moisture control microbial community composition in an arctic–alpine ecosystem along elevational and micro-topographic gradients
+Year: 2019
+Authors: K. Frindte, Roland Pape, K. Werner, J. Löffler, C. Knief
+Citations: 154
+URL: https://www.semanticscholar.org/paper/b17c83704c26e4eaa0078adde623f12fdb7c8121
+Abstract: 
+
+[8] Using landscape and depth gradients to decouple the impact of correlated environmental variables on soil microbial community composition
+Year: 2007
+Authors: V. Allison, Zhanna Yermakov, R. Miller, J. Jastrow, R. Matamala
+Citations: 137
+URL: https://www.semanticscholar.org/paper/5f65476397541f438e036873787387b8c486d63b
+Abstract: 

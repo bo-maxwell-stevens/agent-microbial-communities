@@ -1,0 +1,63 @@
+
+[1] Decoupling predictors of arbuscular mycorrhizal fungal α- and β-diversity: Plant phylogeny versus functional traits in an alpine artificial grassland of Three-River Source Region
+Year: 2026
+Authors: Guo-xi Shi, Yingli Ma, Ning Wu, Meiling Guo, Xinchuang Wang
+Citations: 0
+URL: https://www.semanticscholar.org/paper/f9377012dbad0c09acb87122aafcd9441222c0aa
+Abstract: 
+
+[2] Arbuscular Mycorrhizal Fungi Orchestrate Soil Microbial Community Assembly Along a Salix cupularis Restoration Chronosequence in a Desertified Alpine Grassland
+Year: 2026
+Authors: Xueqi Cai, Xingpeng Hu, Fei Yan, Dongming Chen, Bingxue Xiao
+Citations: 2
+URL: https://www.semanticscholar.org/paper/a20b561d4d40139db3cdfd72b567a168b6c52736
+Abstract: ABSTRACT Belowground microbes are emerging targets for ecosystem restoration. Understanding the assembly mechanisms of these microbial communities is critical for predicting ecosystem trajectories and optimizing restoration interventions. Arbuscular mycorrhizal fungi (AMF) are hypothesized to be key drivers of these eco‐evolutionary dynamics as a crucial and unique functional group associating with approximately 80% of terrestrial plant species. However, relatively little empirical information is available on the role of AMF in the soil microbial community assembly. Here, we used Salix cupularis, a native pioneer shrub species of desertified alpine meadows, to investigate the temporal dynamics of soil rhizosphere microbial communities acros
+
+[3] Experimentally altered rainfall regimes and host root traits affect grassland arbuscular mycorrhizal fungal communities
+Year: 2018
+Authors: C. Deveautour, S. Donn, S. Power, Alison E. Bennett, J. Powell
+Citations: 73
+URL: https://www.semanticscholar.org/paper/5394dfeffbfeda6fd96587c25643853fd182e05f
+Abstract: Future climate scenarios predict changes in rainfall regimes. These changes are expected to affect plants via effects on the expression of root traits associated with water and nutrient uptake. Associated microorganisms may also respond to these new precipitation regimes, either directly in response to changes in the soil environment or indirectly in response to altered root trait expression. We characterized arbuscular mycorrhizal (AM) fungal communities in an Australian grassland exposed to experimentally altered rainfall regimes. We used Illumina sequencing to assess the responses of AM fungal communities associated with four plant species sampled in different watering treatments and evaluated the extent to which shifts were associated w
+
+[4] Plant phylogeny, traits and fungal community composition as drivers of plant–soil feedbacks
+Year: 2025
+Authors: Christopher J. Sweeney, M. Semchenko, F. D. de Vries, B. V. van Dongen, R. Bardgett
+Citations: 6
+URL: https://www.semanticscholar.org/paper/e589e1d3e65a0ee0df4446b5d4d4c6a02bbb932d
+Abstract: Plant–soil feedbacks (PSFs) are key drivers of plant community dynamics. However, our understanding of the factors moderating PSFs remains limited. We examined how plant phylogenetic relatedness and functional traits determine PSFs via their influence on rhizosphere fungal communities, especially arbuscular mycorrhizal fungi (AMF) and fungal pathotrophs. We conducted a glasshouse PSF experiment using 21 temperate grassland plant species, where each focal species was exposed to soils conditioned by heterospecific plants of increasing phylogenetic dissimilarity. We tested whether phylogenetic distance between plant species, functional traits or the degree to which species associate with AMF or fungal pathotrophs, explained the magnitude and d
+
+[5] Light availability and light demand of plants shape the arbuscular mycorrhizal fungal communities in their roots.
+Year: 2020
+Authors: Lena Neuenkamp, M. Zobel, Kadri Koorem, T. Jairus, J. Davison
+Citations: 32
+URL: https://www.semanticscholar.org/paper/d87845ecf91d57501bbbf047d057dcd4a8c75585
+Abstract: Plants involved in the arbuscular mycorrhizal (AM) symbiosis trade photosynthetically derived carbon for fungal-provided soil nutrients. However, little is known about how plant light demand and ambient light conditions influence root-associating AM fungal communities. We conducted a manipulative field experiment to test whether plants' shade-tolerance influences their root AM fungal communities in open and shaded grassland sites. We found similar light-dependent shifts in AM fungal community structure for experimental bait plant roots and the surrounding soil. Yet, deviation from the surrounding soil towards lower AM fungal beta-diversity in the roots of shade-intolerant plants in shade suggested preferential carbon allocation to specific 
+
+[6] The global impact of land reclamation on arbuscular mycorrhizal fungi depends on climate, vegetation type and agricultural management practices
+Year: 2026
+Authors: Huaisong Wang, Yinan Zhao, Jialing Xu, R. Guo, Mingming Wang
+Citations: 1
+URL: https://www.semanticscholar.org/paper/e60a587bd66ba8ac8700763d0d23b8d71e6412a5
+Abstract: 
+ 
+ 
+ 
+ Growing populations and food demand have driven cropland expansion, but this has resulted in a decline in soil quality and posed major threats to global biodiversity. Arbuscular mycorrhizal (AM) fungi form symbiotic associations with most terrestrial plants, enhancing the adaptive capacity of these plants in adverse environments and playing a crucial role in maintaining soil health. However, the global impact of land reclamation on AM fungi and its driving factors remains unclear, creating a critical knowledge gap for sustainable land use.
+ 
+ 
+ Based on 501 paired observations from 94 publications, we conducted a global meta‐analysis to explore the impacts of land reclamation on AM fungi and the roles of climate, vegetation types an
+
+[7] Temporal dynamics of mycorrhizal fungal communities and co‐associations with grassland plant communities following experimental manipulation of rainfall
+Year: 2019
+Authors: C. Deveautour, S. Power, K. Barnett, R. Ochoa-Hueso, S. Donn
+Citations: 48
+URL: https://www.semanticscholar.org/paper/d1bca404689e26bec5b7a7e8042dbb9838703db4
+Abstract: Climate models project overall a reduction in rainfall amounts and shifts in the timing of rainfall events in mid‐latitudes and sub‐tropical dry regions, which threatens the productivity and diversity of grasslands. Arbuscular mycorrhizal (AM) fungi may help plants to cope with expected changes but may also be impacted by changing rainfall, either via the direct effects of low soil moisture on survival and function or indirectly via changes in the plant community. In an Australian mesic grassland (former pasture) system, we characterized plant and AM fungal communities every 6 months for nearly 4 years to two altered rainfall regimes: (a) ambient, (b) rainfall reduced by 50% relative to ambient over the entire year and (c) total summer rain
+
+[8] Anthropogenic land use shapes the composition and phylogenetic structure of soil arbuscular mycorrhizal fungal communities.
+Year: 2014
+Authors: M. Moora, J. Davison, M. Öpik, M. Metsis, Ülle Saks
+Citations: 156
+URL: https://www.semanticscholar.org/paper/a6fdd06600120764c5b54294499b4fb8eb6de57e
+Abstract: 
