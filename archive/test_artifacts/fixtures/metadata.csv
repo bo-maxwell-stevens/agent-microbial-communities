@@ -1,0 +1,4 @@
+canonical,Region,SiteID,alpha,gamma,dark
+S1,A,1,0.1,2.0,1.5
+S2,B,2,0.2,3.0,2.5
+S3,A,1,0.3,4.0,3.5

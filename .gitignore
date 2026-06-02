@@ -24,3 +24,10 @@ __pycache__/
 
 .denario_env/
 !results/phase2_confirmatory_coupling/phase2_coupling_summary.csv
+venv/
+scripts/analysis/env/
+denario_runs/
+data_denario_links/
+idea_generation_output/
+input_files/
+opencode.json.backup
