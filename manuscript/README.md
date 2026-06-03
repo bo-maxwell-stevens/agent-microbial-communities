@@ -1,10 +1,9 @@
 # Manuscript Package
 
-- manuscript version: V6
-- source markdown: manuscript/manuscript_v6.md
-- DOCX path: manuscript/manuscript_v6.docx
-- note: internal review draft
-- date generated: 2026-06-02 17:20 UTC
-- stable analysis checkpoint: v0.8-phase5c-plant-diversity
-- manuscript checkpoint to be created: v1.1-manuscript-v6-internal-review
+- manuscript version: V8
+- source markdown: manuscript/manuscript_v8.md
+- DOCX path: manuscript/manuscript_v8.docx
+- note: Figure 1 replaced with global cohort/environmental-context figure based on final matched cohort (n=84)
+- date generated: 2026-06-03
+- stable analysis checkpoint: v1.2-figure1-global-context
 - instruction: download DOCX from GitHub and review/comment in Word
