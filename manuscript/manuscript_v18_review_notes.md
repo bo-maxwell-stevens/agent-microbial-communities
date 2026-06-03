@@ -34,7 +34,7 @@ Checked and confirmed consistency for:
 - sample size (`n = 84`)
 - pair counts and integrated-pair framing
 - prevalence thresholds (`0.05`, `0.10`)
-- permutation counts (`499`)
+- permutation counts (`999`)
 - environmental predictor framing (`pH_KCl`, `N_pct`, `bio12`, geography sensitivity)
 - plant-diversity hypothesis set (A–G vs abiotic baseline)
 

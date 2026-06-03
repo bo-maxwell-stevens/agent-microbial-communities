@@ -26,7 +26,7 @@
 ## Reproducibility parameters preserved in Methods
 - Prevalence thresholds: 0.05 and 0.10
 - CLR pseudocount: 1×10⁻⁶
-- Permutations: 499
+- Permutations: 999
 - Procrustes bootstraps: 120
 - Percentile interval summary: 2.5th–97.5th
 - Integrated synthesis thresholds: coupling ≥0.50, env adj. R² ≥0.20, plant Δ adj. R² ≥0.01; low-plant <0.005

@@ -13,7 +13,7 @@ set -euo pipefail
 
 REPO_ROOT="$HOME/projects/agent_microbial_communities"
 SCRIPT="scripts/analysis/phase5c_plant_diversity_hypotheses.py"
-PERMUTATIONS="${PERMUTATIONS:-499}"
+PERMUTATIONS="${PERMUTATIONS:-999}"
 
 cd "$REPO_ROOT"
 source "$REPO_ROOT/.venv/bin/activate"

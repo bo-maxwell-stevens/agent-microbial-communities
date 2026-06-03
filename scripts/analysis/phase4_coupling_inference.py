@@ -37,7 +37,7 @@ BRANCHES = ["presence/absence", "CLR"]
 PAIRS = [("AMF", "ITS"), ("AMF", "EUK"), ("EUK", "ITS")]
 
 RANDOM_SEED = 20260601
-N_PERMUTATIONS = 499
+N_PERMUTATIONS = 999
 N_BOOTSTRAPS = 120
 
 

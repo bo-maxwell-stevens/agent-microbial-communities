@@ -42,7 +42,7 @@ DEFAULT_OUTPUT_DIR = Path("results/phase5c_plant_diversity")
 DEFAULT_PAIRS = ["BAC↔ITS", "AMF↔ITS", "EUK↔ITS", "AMF↔EUK"]
 DEFAULT_BRANCHES = ["presence/absence", "CLR"]
 DEFAULT_THRESHOLD = 0.05
-DEFAULT_PERMUTATIONS = 499
+DEFAULT_PERMUTATIONS = 999
 BASE_RANDOM_SEED = 20260603
 
 ABIOTIC_BASE = ["pH_KCl", "N_pct", "bio12now.100"]
@@ -903,7 +903,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--combine-checkpoints", action="store_true", help="Combine all combo checkpoints into final outputs")
     parser.add_argument("--figures-only", action="store_true", help="Render figures from existing combined outputs only")
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Output directory")
-    parser.add_argument("--permutations", type=int, default=DEFAULT_PERMUTATIONS, help="Permutation count (default 499)")
+    parser.add_argument("--permutations", type=int, default=DEFAULT_PERMUTATIONS, help="Permutation count (default 999)")
     parser.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD, help="Prevalence threshold")
     parser.add_argument("--single-pair", type=str, default=None, help="Optional filter, e.g. BAC↔ITS")
     parser.add_argument("--single-branch", type=str, default=None, help="Optional filter: presence/absence or CLR")

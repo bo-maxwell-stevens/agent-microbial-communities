@@ -28,7 +28,7 @@ Checked consistency among abstract, methods, results, and conclusions for:
 - sample size (`n=84`)
 - pair counts (6 analyzed; 4 integrated)
 - representation counts (presence/absence + CLR)
-- permutation counts (499)
+- permutation counts (999)
 - environmental predictors (`pH_KCl`, `N_pct`, `bio12`, + geography sensitivity)
 - plant-diversity hypotheses (A–G vs abiotic baseline)
 

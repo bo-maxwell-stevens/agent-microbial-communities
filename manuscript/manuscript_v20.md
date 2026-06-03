@@ -57,7 +57,7 @@ Plant-diversity hypotheses were structured to distinguish realized local diversi
 To compare ecological signal layers across pair×representation combinations, we integrated three outputs: (i) coupling magnitude from Mantel-Procrustes summaries, (ii) environmental explained variation from best-performing dbRDA formulations, and (iii) added plant-diversity variation from best non-baseline plant models. For consistent interpretation across pairings, summaries were evaluated using descriptive thresholds (coupling strength ≥0.50, environmental adjusted R² ≥0.20, and plant-diversity Δ adjusted R² ≥0.01; low-plant criterion <0.005). These thresholds were used as interpretive guides for comparative synthesis and not as replacements for permutation-based inference.
 
 ### 2.8 Statistical analyses
-All inferences in this manuscript were derived from completed analysis outputs, and no analyses were rerun during manuscript preparation. Significance testing for Mantel, dbRDA, and model-comparison layers used permutation-based inference (999 permutations). Procrustes uncertainty was estimated by bootstrap resampling (120 replicates), and uncertainty intervals were summarized with percentile limits (2.5th–97.5th). Across analytical layers, effect-size comparison and ranking focused on adjusted R² and Δ adjusted R² to support consistent interpretation across differing predictor structures.
+All inferences in this manuscript were derived from completed analysis outputs, and no analyses were rerun during manuscript preparation. Permutation-based inference used 999 permutations. Procrustes uncertainty was estimated by bootstrap resampling (120 replicates), and uncertainty intervals were summarized with percentile limits (2.5th–97.5th). Across analytical layers, effect-size comparison and ranking focused on adjusted R² and Δ adjusted R² to support consistent interpretation across differing predictor structures.
 
 
 ## Results
@@ -66,14 +66,14 @@ Figure 1 defines the matched cohort (n = 84), and Figures 2–5 present a connec
 ### 3.1 Cross-domain coupling patterns
 Cross-domain coupling was strongest for BAC↔ITS, especially in presence/absence space (coupling strength 0.574; Fig. 2). EUK↔ITS remained close behind across both representations (0.538 and 0.535), and total coupling values spanned 0.319–0.574 across 12 pair×representation combinations, indicating broad but uneven synchrony among domains.
 
-Mantel and Procrustes highlighted complementary biological structure rather than a single ranking. BAC↔ITS showed the strongest distance-matrix concordance (Mantel ρ = 0.584, p = 0.002), whereas EUK↔ITS in CLR showed the highest geometric alignment (Procrustes similarity = 0.683). Together, these patterns indicate that pairings can align strongly in community-distance structure without being identical in ordination geometry, and vice versa.
+Mantel and Procrustes highlighted complementary biological structure rather than a single ranking. BAC↔ITS showed the strongest distance-matrix concordance (Mantel ρ = 0.584, p = 0.001), whereas EUK↔ITS in CLR showed the highest geometric alignment (Procrustes similarity = 0.683). Together, these patterns indicate that pairings can align strongly in community-distance structure without being identical in ordination geometry, and vice versa.
 
 This dominant BAC↔ITS signal was stable across prevalence thresholds (Mantel ρ = 0.597 at 0.05; 0.571 at 0.10). BAC↔EUK presence/absence remained comparatively weak and declined at the more conservative cutoff (ρ = 0.143, p = 0.018).
 
 ### 3.2 Environmental structure of coupled turnover
 To keep cross-layer comparisons consistent, environmental synthesis focused on the four pairs carried into integration (BAC↔ITS, EUK↔ITS, AMF↔ITS, AMF↔EUK; Fig. 3). BAC↔ITS again showed the most pronounced environmental structuring (dbRDA adjusted R² = 0.278 in CLR; 0.265 in presence/absence), and explained variation across integrated pairings ranged from 0.188 to 0.278 (mean 0.223).
 
-Environmental effects were coherent across pairings: geography-sensitive models were selected in all integrated cases, pH_KCl was the top predictor throughout, geography sensitivity was consistently positive (Δadjusted R² = 0.008–0.022), and pH contributions remained substantial (0.092–0.151). Model-level permutation tests were significant across pair×representation combinations (p = 0.002).
+Environmental effects were coherent across pairings: geography-sensitive models were selected in all integrated cases, pH_KCl was the top predictor throughout, geography sensitivity was consistently positive (Δadjusted R² = 0.008–0.022), and pH contributions remained substantial (0.092–0.151). Model-level permutation tests were significant across pair×representation combinations (p = 0.001).
 
 ### 3.3 Plant-diversity contrasts across pairings
 Plant-diversity effects were modest but consistently positive overall, with the largest gains concentrated in AMF-linked relationships (Fig. 4). Hypothesis-level summaries showed the highest mean gains for alpha-containing structure (model B), followed by pooled and dark-diversity formulations (models F and D), while completeness-only structure (model E) was negative on average.
@@ -87,7 +87,35 @@ EUK↔ITS is intermediate, retaining high coupling with moderate environmental a
 
 
 ## Discussion
-Across Figures 1 to 5, the most defensible interpretation is layered: (i) strong cross-domain concordance, (ii) substantial environmental structuring with strong pH influence, and (iii) additional but smaller plant-diversity increments, especially for alpha-containing hypotheses.
+### Cross-domain structure is strong but uneven
+Across Figures 1–5, the central ecological signal is not simply that communities are coupled, but that coupling strength is strongly domain-pair dependent. BAC↔ITS repeatedly occupies the top tier across representations, indicating that bacterial–fungal turnover is the most coherent cross-domain axis in this dataset. EUK↔ITS remains intermediate, while AMF-linked pairings tend to sit lower in absolute coupling rank but show distinct responsiveness patterns in downstream analyses. This layered structure is important because it argues against a single “whole-soil microbiome” coupling regime; instead, different domain interfaces appear to operate under different constraint sets.
+
+This interpretation is consistent with broader cross-kingdom ecology, where multi-domain interactions are often structured around specific biological interfaces rather than uniform whole-community synchronization (Xiong et al., 2017; Zhou et al., 2022). In that context, the BAC↔ITS dominance observed here is plausibly the signature of broad bacterial–saprotrophic/pathotrophic fungal co-responses to shared resource and edaphic gradients, while AMF-linked relationships may reflect tighter plant-mediated filtering windows.
+
+### Environmental filtering is a first-order organizer, with pH as a recurrent axis
+The environmental layer indicates substantial deterministic structure, with pH-centered predictor contributions recurring across pair-representation combinations. Taken together with the dbRDA profiles, this supports an interpretation in which environmental filtering is not a background effect but a first-order organizer of cross-domain community geometry. In practical terms, the dominant signal is that shifts in abiotic context (especially pH-related chemistry) coincide with coordinated reconfiguration of between-domain composition.
+
+This is aligned with microbial assembly literature showing that deterministic filtering can dominate when strong environmental gradients are present, even when dispersal and biotic contingencies remain active (Menéndez-Serra et al., 2023). It also aligns with rhizosphere and soil studies reporting pH-linked compositional turnover across multiple microbial groups (Fu et al., 2023). Our results therefore fit a conservative ecological reading: deterministic environmental sorting defines most of the large-scale cross-domain scaffold, and other influences are superimposed on that scaffold rather than replacing it.
+
+### Plant-diversity effects are modest in magnitude but biologically non-random
+Relative to the abiotic layer, plant-diversity increments are smaller on average, but they are consistently positive for the strongest hypotheses and non-randomly distributed across domain pairs. The key point is not large effect size; it is patterned sensitivity. AMF-linked relationships show disproportionate responsiveness to plant-diversity framing, whereas BAC↔ITS remains strongest overall in coupling and environmental structure.
+
+This asymmetry is ecologically coherent. AMF are positioned at a direct plant–soil interface and are therefore expected to track plant composition and host-related filtering more closely than many free-living bacterial–fungal components. Recent cross-domain and AMF-hyphosphere work supports this view, showing that AMF-associated compartments can concentrate interaction structure and resource-mediated linkages among microbial groups (Nuccio et al., 2022; Camenzind et al., 2018). Under this interpretation, plant-diversity signals in our synthesis are neither noise nor dominant drivers; they are targeted modifiers superimposed on stronger abiotic organization.
+
+### Coupling interpreted through dark-diversity and completeness logic
+The dark-diversity/completeness framing is useful here as an interpretive bridge rather than a replacement for observed composition analyses. Completeness-oriented logic asks how much of the suitable community is realized under current local filters, which helps contextualize why coupling can be strong in some domain pairs but weaker in others even within the same sites. In other words, pair-specific coupling differences can be read as differences in realized overlap within potentially suitable multi-domain assemblage space.
+
+Methodologically, this interpretation follows the same caution emphasized in dark-diversity literature: absences in suitable conditions can emerge from multiple mechanisms, including dispersal limitation, establishment constraints, and interaction-mediated exclusion (Fujinuma and Pärtel, 2023). Our synthesis does not disentangle those mechanisms directly, but it provides a structured comparative map of where these constraints are most likely to matter for cross-domain coordination.
+
+### Deterministic vs stochastic assembly: interpretation without overreach
+The results are most consistent with a deterministic-leaning assembly regime at the analyzed scale, with stochasticity and contingency still contributing to residual variation. This balance is critical: deterministic dominance in variance-structure metrics does not imply a fully predictable system, only that environmental constraints explain a substantial fraction of observed organization.
+
+Accordingly, the integrated coupling framework should be read as a descriptive integration layer, not an inferential test of mechanism hierarchy. It is useful for comparing relative signal strength across coupling, environmental structuring, and plant-diversity increments, but it does not by itself identify causal pathways.
+
+### Inference boundaries and future integration priorities
+Two inference boundaries are especially important. First, correlation-based cross-domain association summaries can identify coherent co-variation but cannot by themselves establish direct interactions or directionality (Berry and Widder, 2014). Second, representation choices and prevalence thresholds can shift apparent effect magnitudes even when rank-order patterns remain stable, so robustness should be judged by convergence of qualitative conclusions rather than by over-interpretation of small numeric differences.
+
+Within those boundaries, the core story is stable and ecologically interpretable: BAC↔ITS provides the strongest shared compositional axis; pH-centered environmental filtering provides the dominant organizing gradient; plant-diversity effects are modest but structured; and AMF-linked pairings contribute disproportionate plant-responsive sensitivity. Framed this way, the synthesis supports a multi-layer view of belowground organization in which abiotic filtering sets the broad template and biotic coupling channels domain-specific responses within that template.
 
 ## Conclusions
 Using only committed outputs and reviewer-directed restructuring, v8 shows that cross-domain coupling is strong but heterogeneously structured; environmental gradients explain a substantial share of variation; and plant-diversity effects are positive but generally smaller than environmental effects, with alpha-associated increments ranking highest on average.
@@ -114,3 +142,12 @@ Figure 5. Integrated ecological synthesis network. Network-style integration of 
 - Pedregosa, F., et al. (2011). Scikit-learn. Journal of Machine Learning Research.
 - Hunter, J. D. (2007). Matplotlib. Computing in Science and Engineering.
 - Waskom, M. (2021). seaborn: statistical data visualization. Journal of Open Source Software.
+
+- Berry, D., and Widder, S. (2014). Deciphering microbial interactions and detecting keystone species with co-occurrence networks. Frontiers in Microbiology.
+- Menéndez-Serra, M., Ontiveros, V. J., Cáliz, J., Alonso, D., and Casamayor, E. O. (2023). Understanding stochastic and deterministic assembly processes in microbial communities along temporal, spatial and environmental scales. Molecular Ecology.
+- Fu, X., Huang, Y., Fu, Q., et al. (2023). Critical transition of soil microbial diversity and composition triggered by plant rhizosphere effects. Frontiers in Plant Science.
+- Xiong, W., Jousset, A., Guo, S., et al. (2017). Soil protist communities form a dynamic hub in the soil microbiome. The ISME Journal.
+- Zhou, X., Wang, J., Liu, F.-P., et al. (2022). Cross-kingdom synthetic microbiota supports tomato suppression of Fusarium wilt disease. Nature Communications.
+- Nuccio, E., Blazewicz, S., Lafler, M., et al. (2022). HT-SIP: a semi-automated stable isotope probing pipeline identifies cross-kingdom interactions in the hyphosphere of arbuscular mycorrhizal fungi. Microbiome.
+- Camenzind, T., Hammer, E. C., Lehmann, J., et al. (2018). Arbuscular mycorrhizal fungal and soil microbial communities in African Dark Earths. FEMS Microbiology Ecology.
+- Fujinuma, J., and Pärtel, M. (2023). Decomposing dark diversity affinities of species and sites using Bayesian method: What accounts for absences of species at suitable sites? Methods in Ecology and Evolution.

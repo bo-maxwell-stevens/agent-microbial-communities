@@ -40,7 +40,7 @@ All manuscript values remained aligned with these outputs after rounding where b
 ### Pairs, representations, permutations, predictors, hypotheses
 - Pair counts: 6 analyzed pairs overall; 4 carried into integrated synthesis.
 - Representations: presence/absence + CLR (both consistently described).
-- Permutations: 499 consistently stated for Mantel/dbRDA/model-comparison layers.
+- Permutations: 999 consistently stated for Mantel/dbRDA/model-comparison layers.
 - Environmental predictors/geography sensitivity framing consistent with outputs.
 - Plant-diversity model set A–G vs abiotic baseline consistent.
 

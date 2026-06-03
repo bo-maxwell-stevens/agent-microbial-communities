@@ -34,7 +34,7 @@ sbatch scripts/hpc/phase5c_plant_diversity_hypotheses_array.slurm
 
 Optional permutation override:
 ```bash
-PERMUTATIONS=499 sbatch scripts/hpc/phase5c_plant_diversity_hypotheses_array.slurm
+PERMUTATIONS=999 sbatch scripts/hpc/phase5c_plant_diversity_hypotheses_array.slurm
 ```
 
 ## 3) Monitor
@@ -50,7 +50,7 @@ cd ~/projects/agent_microbial_communities
 source .venv/bin/activate
 python3 scripts/analysis/phase5c_plant_diversity_hypotheses.py \
   --combine-checkpoints \
-  --permutations 499 \
+  --permutations 999 \
   --include-geography-sensitivity
 ```
 

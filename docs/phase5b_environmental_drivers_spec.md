@@ -48,7 +48,7 @@ Per tier, it reports:
 - `r2`
 - `adjusted_r2`
 - `pseudo_f`
-- permutation p-value (`N_PERMUTATIONS`, default `499`)
+- permutation p-value (`N_PERMUTATIONS`, default `999`)
 - leave-one-predictor-out ranking (`delta_r2`, `delta_adj_r2`)
 
 ## HPC resumability modes
@@ -56,7 +56,7 @@ Per tier, it reports:
 - `--single-combo --combo-index <0..7>`
 - `--combine-checkpoints`
 - `--output-dir <path>`
-- `--permutations <int>` (default 499)
+- `--permutations <int>` (default 999)
 - `--figures-only`
 
 ### Checkpoint contract
@@ -77,7 +77,7 @@ Checkpoint contains both summary and predictor-ranking records for:
 
 ## Reproducibility
 - deterministic seed base with combo-index offset
-- fixed default permutation count (499)
+- fixed default permutation count (999)
 - explicit combo manifest
 
 ## Validation gates

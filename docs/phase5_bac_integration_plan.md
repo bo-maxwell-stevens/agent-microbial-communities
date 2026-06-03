@@ -29,7 +29,7 @@ Extend deterministic Phase 2 + Phase 4 cross-domain coupling to include BAC and 
 ## Methods reused
 - Presence/absence branch: prevalence filter -> binary transform -> Jaccard distance -> deterministic PCoA
 - CLR branch: prevalence filter -> relative abundance -> CLR transform -> Euclidean distance -> deterministic PCA (svd_solver="full")
-- Mantel permutation inference: N_PERMUTATIONS=499 (seeded)
+- Mantel permutation inference: N_PERMUTATIONS=999 (seeded)
 - Procrustes bootstrap: N_BOOTSTRAPS=120 (seeded)
 
 ## Outputs

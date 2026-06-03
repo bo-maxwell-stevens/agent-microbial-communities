@@ -100,7 +100,7 @@
 - Are Mantel vs Procrustes discrepancies explicitly interpreted instead of averaged away?
 - Are ΔR² increments (e.g., ~0.01) biologically meaningful, or statistically detectable but small?
 - Is alpha diversity independently informative versus correlated proxies?
-- Are permutation count limits (499) and p-value floor interpretation sufficiently transparent?
+- Are permutation count limits (999) and p-value floor interpretation sufficiently transparent?
 
 ### 4) Additional analyses they might request
 - Additional robustness analyses for metric discordance and effect-size stability.
