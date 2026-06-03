@@ -5,6 +5,6 @@ filtering_summary_n_samples,84,PASS,results/phase1_coupling/filtering_summary.cs
 domains_present_in_final_cohort,AMF|BAC|EUK|ITS,PASS,results/phase1_coupling/filtering_summary.csv kingdom rows with n_samples=84
 coordinate_fields_present,lat|lon,PASS,data/Final_data_with_diversity_prefixed.csv
 environment_fields_present,pH_KCl|bio12now.100,PASS,data/Final_data_with_diversity_prefixed.csv
-plant_metric_fields_present,alpha|dark|pool|compl,PASS,data/Final_data_with_diversity_prefixed.csv
+plant_metric_fields_present,alpha|dark|pool,PASS,data/Final_data_with_diversity_prefixed.csv
 no_coordinate_overplotting_required,84,PASS,"Unique (lat, lon) pairs in final 84-sample cohort"
 invented_numbers_check,Derived directly from committed metadata/results files,PASS,No synthetic counts or inferred sample sizes

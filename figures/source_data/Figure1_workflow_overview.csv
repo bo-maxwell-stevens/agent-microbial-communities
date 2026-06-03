@@ -1,6 +1,0 @@
-step,input_tables,core_output_for_figures
-Phase 2 Confirmatory Coupling,"phase2_coupling_summary, sample_cohort_used",Pairwise Mantel + Procrustes metrics
-Phase 5A Coupling Integration,phase5_bac_coupling_summary,Cross-pair coupling hierarchy
-Phase 5B Environmental Drivers,"phase5b_dbRDA_summary, phase5b_predictor_ranking",dbRDA adjusted R² and predictor effects
-Phase 5C Plant Diversity Hypotheses,"phase5c_model_comparison, phase5c_hypothesis_summary",A–G hypothesis performance
-Phase 5D Synthesis,final_pair_synthesis + final summaries,Integrated coupling-environment-plant synthesis

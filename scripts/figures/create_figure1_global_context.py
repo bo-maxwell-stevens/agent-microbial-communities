@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import urllib.request
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -15,11 +16,12 @@ COHORT_CSV = ROOT / 'results/phase1_coupling/cohort_summary.csv'
 FILTERING_CSV = ROOT / 'results/phase1_coupling/filtering_summary.csv'
 METADATA_CSV = ROOT / 'data/Final_data_with_diversity_prefixed.csv'
 
-OUT_PNG = ROOT / 'figures/main/figure1_global_context.png'
-OUT_SVG = ROOT / 'figures/main/figure1_global_context.svg'
-OUT_SOURCE = ROOT / 'figures/source_data/figure1_global_context_source_data.csv'
-OUT_VALIDATION = ROOT / 'figures/source_data/figure1_validation_summary.csv'
-OUT_CAPTION = ROOT / 'figures/captions/figure1_caption.md'
+FIGURE_STEM = 'Figure1_global_cohort_environmental_context'
+OUT_PNG = ROOT / f'figures/main/{FIGURE_STEM}.png'
+OUT_SVG = ROOT / f'figures/main/{FIGURE_STEM}.svg'
+OUT_SOURCE = ROOT / f'figures/source_data/{FIGURE_STEM}_source_data.csv'
+OUT_VALIDATION = ROOT / f'figures/source_data/{FIGURE_STEM}_validation_summary.csv'
+OUT_CAPTION = ROOT / f'figures/captions/{FIGURE_STEM}.md'
 
 
 def ensure_dirs() -> None:
@@ -39,11 +41,61 @@ def pick_precip_column(df: pd.DataFrame) -> str:
     raise ValueError('No precipitation column found')
 
 
+def iter_polygons(coords):
+    if not coords:
+        return
+    first = coords[0]
+    if isinstance(first, (float, int)):
+        return
+    if first and isinstance(first[0], (float, int)):
+        yield coords
+    else:
+        for c in coords:
+            yield from iter_polygons(c)
+
+
+def draw_world_basemap(ax) -> None:
+    # Ocean backdrop
+    ax.add_patch(plt.Rectangle((-180, -90), 360, 180, color='#eaf3fb', zorder=0))
+
+    url = 'https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json'
+    land_drawn = False
+    try:
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            geo = json.loads(resp.read().decode('utf-8'))
+        for feat in geo.get('features', []):
+            geom = feat.get('geometry') or {}
+            for poly in iter_polygons(geom.get('coordinates', [])):
+                if len(poly) < 3:
+                    continue
+                xs = [p[0] for p in poly]
+                ys = [p[1] for p in poly]
+                ax.fill(xs, ys, facecolor='#f4f1e8', edgecolor='#b9b4a8', linewidth=0.35, zorder=1)
+                land_drawn = True
+    except Exception:
+        pass
+
+    # Fallback coarse continents if remote basemap unavailable
+    if not land_drawn:
+        rough = [
+            [(-170, 8), (-55, 8), (-55, 72), (-170, 72)],   # N. America
+            [(-82, -55), (-35, -55), (-35, 12), (-82, 12)], # S. America
+            [(-20, -35), (55, -35), (55, 35), (-20, 35)],   # Africa
+            [(-10, 35), (160, 35), (160, 75), (-10, 75)],   # Eurasia north
+            [(35, 5), (150, 5), (150, 35), (35, 35)],       # S. Asia
+            [(110, -45), (155, -45), (155, -10), (110, -10)]# Australia
+        ]
+        for poly in rough:
+            xs = [p[0] for p in poly]
+            ys = [p[1] for p in poly]
+            ax.fill(xs, ys, facecolor='#f4f1e8', edgecolor='#b9b4a8', linewidth=0.35, zorder=1)
+
+
 def build_dataset() -> tuple[pd.DataFrame, dict]:
     final_n, cohort_ids = load_final_cohort_ids()
     meta = pd.read_csv(METADATA_CSV)
     precip_col = pick_precip_column(meta)
-    required = ['canonical', 'lat', 'lon', 'pH_KCl', precip_col, 'alpha', 'dark', 'pool', 'compl']
+    required = ['canonical', 'lat', 'lon', 'pH_KCl', precip_col, 'alpha', 'dark', 'pool']
     missing = [c for c in required if c not in meta.columns]
     if missing:
         raise ValueError(f'Missing required columns: {missing}')
@@ -54,7 +106,7 @@ def build_dataset() -> tuple[pd.DataFrame, dict]:
     if subset['canonical'].nunique() != final_n or len(subset) != final_n:
         raise ValueError('Final cohort size mismatch vs committed results')
 
-    if subset[['lat', 'lon', 'pH_KCl', 'precipitation', 'alpha', 'dark', 'pool', 'compl']].isna().any().any():
+    if subset[['lat', 'lon', 'pH_KCl', 'precipitation', 'alpha', 'dark', 'pool']].isna().any().any():
         raise ValueError('Required figure fields contain missing values')
 
     full_overlap = int(pd.read_csv(COHORT_CSV).loc[lambda d: d['dataset'] == 'FULL_OVERLAP', 'n_samples'].iloc[0])
@@ -69,7 +121,7 @@ def build_dataset() -> tuple[pd.DataFrame, dict]:
         'domains_with_final_n': '|'.join(kingdoms_with_84),
         'coordinate_fields': 'lat|lon',
         'environment_fields': 'pH_KCl|bio12now.100',
-        'plant_fields': 'alpha|dark|pool|compl',
+        'plant_fields': 'alpha|dark|pool',
         'metadata_rows_selected': len(subset),
         'metadata_unique_ids_selected': int(subset['canonical'].nunique()),
         'metadata_lat_non_null': int(subset['lat'].notna().sum()),
@@ -79,7 +131,6 @@ def build_dataset() -> tuple[pd.DataFrame, dict]:
         'metadata_alpha_non_null': int(subset['alpha'].notna().sum()),
         'metadata_dark_non_null': int(subset['dark'].notna().sum()),
         'metadata_pool_non_null': int(subset['pool'].notna().sum()),
-        'metadata_compl_non_null': int(subset['compl'].notna().sum()),
         'unique_coordinate_pairs': int(subset[['lat', 'lon']].drop_duplicates().shape[0]),
     }
     return subset, validation_meta
@@ -93,7 +144,7 @@ def write_validation_summary(meta: dict) -> None:
         ('domains_present_in_final_cohort', meta['domains_with_final_n'], 'PASS' if meta['domains_with_final_n'] == 'AMF|BAC|EUK|ITS' else 'FAIL', 'results/phase1_coupling/filtering_summary.csv kingdom rows with n_samples=84'),
         ('coordinate_fields_present', meta['coordinate_fields'], 'PASS' if meta['metadata_lat_non_null'] == meta['final_n_from_json'] and meta['metadata_lon_non_null'] == meta['final_n_from_json'] else 'FAIL', 'data/Final_data_with_diversity_prefixed.csv'),
         ('environment_fields_present', meta['environment_fields'], 'PASS' if meta['metadata_ph_non_null'] == meta['final_n_from_json'] and meta['metadata_precip_non_null'] == meta['final_n_from_json'] else 'FAIL', 'data/Final_data_with_diversity_prefixed.csv'),
-        ('plant_metric_fields_present', meta['plant_fields'], 'PASS' if all(meta[k] == meta['final_n_from_json'] for k in ['metadata_alpha_non_null', 'metadata_dark_non_null', 'metadata_pool_non_null', 'metadata_compl_non_null']) else 'FAIL', 'data/Final_data_with_diversity_prefixed.csv'),
+        ('plant_metric_fields_present', meta['plant_fields'], 'PASS' if all(meta[k] == meta['final_n_from_json'] for k in ['metadata_alpha_non_null', 'metadata_dark_non_null', 'metadata_pool_non_null']) else 'FAIL', 'data/Final_data_with_diversity_prefixed.csv'),
         ('no_coordinate_overplotting_required', str(meta['unique_coordinate_pairs']), 'PASS' if meta['unique_coordinate_pairs'] == meta['final_n_from_json'] else 'WARN', 'Unique (lat, lon) pairs in final 84-sample cohort'),
         ('invented_numbers_check', 'Derived directly from committed metadata/results files', 'PASS', 'No synthetic counts or inferred sample sizes'),
     ]
@@ -115,12 +166,13 @@ def plot_figure(df: pd.DataFrame) -> None:
     gs = fig.add_gridspec(2, 2, wspace=0.28, hspace=0.28)
 
     axA = fig.add_subplot(gs[0, 0])
-    axA.scatter(df['lon'], df['lat'], s=42, color='#1f78b4', edgecolor='white', linewidth=0.5, alpha=0.92)
+    draw_world_basemap(axA)
+    axA.scatter(df['lon'], df['lat'], s=36, color='#1f78b4', edgecolor='white', linewidth=0.45, alpha=0.95, zorder=3)
     axA.set_xlim(-180, 180)
     axA.set_ylim(-60, 85)
     axA.set_xlabel('Longitude (°)')
     axA.set_ylabel('Latitude (°)')
-    axA.grid(True, linestyle=':', linewidth=0.7, alpha=0.5)
+    axA.grid(True, linestyle=':', linewidth=0.6, alpha=0.35, zorder=2)
     axA.text(0.00, 1.05, 'A. Final analytical cohort', transform=axA.transAxes, fontsize=14, fontweight='bold', ha='left')
 
     axB = fig.add_subplot(gs[0, 1])
@@ -131,8 +183,8 @@ def plot_figure(df: pd.DataFrame) -> None:
     axB.text(0.00, 1.05, 'B. Environmental gradient space', transform=axB.transAxes, fontsize=14, fontweight='bold', ha='left')
 
     axC = fig.add_subplot(gs[1, 0])
-    metric_order = ['alpha', 'dark', 'pool', 'compl']
-    metric_colors = ['#6a3d9a', '#ff7f00', '#b15928', '#e31a1c']
+    metric_order = ['alpha', 'dark', 'pool']
+    metric_colors = ['#6a3d9a', '#ff7f00', '#b15928']
     values = [df[m].values for m in metric_order]
     box = axC.boxplot(values, patch_artist=True, showfliers=False, widths=0.55)
     for patch, col in zip(box['boxes'], metric_colors):
@@ -172,7 +224,7 @@ def plot_figure(df: pd.DataFrame) -> None:
 def write_caption() -> None:
     caption = '''# Figure 1. Global cohort and environmental context of the cross-domain microbiome analysis
 
-Figure 1 summarizes the final matched cohort used for cross-domain microbiome analyses (n = 84 samples) and its environmental and plant-diversity context using only committed repository metadata and result artifacts. **Panel A** shows the global spatial distribution of the final analytical cohort using verified latitude/longitude coordinates for each retained sample. **Panel B** places the same cohort in environmental gradient space with soil pH (KCl) and annual precipitation (bio12now.100), the precipitation variable used in Phase 5B environmental-driver analyses. **Panel C** shows cohort-wide distributions of plant-diversity metrics (alpha, dark, pool, compl). **Panel D** summarizes the matched-domain design and pair sets carried into downstream analyses (BAC↔ITS, EUK↔ITS, AMF↔ITS, AMF↔EUK), with all four microbial domains present across the final 84-sample overlap.
+Figure 1 summarizes the final matched cohort used for cross-domain microbiome analyses (n = 84 samples) and its environmental and plant-diversity context using only committed repository metadata and result artifacts. **Panel A** shows the global spatial distribution of the final analytical cohort using a basemap with verified latitude/longitude coordinates for each retained sample. **Panel B** places the same cohort in environmental gradient space with soil pH (KCl) and annual precipitation (bio12now.100), the precipitation variable used in Phase 5B environmental-driver analyses. **Panel C** shows cohort-wide distributions of plant-diversity metrics (alpha, dark, pool). **Panel D** summarizes the matched-domain design and pair sets carried into downstream analyses (BAC↔ITS, EUK↔ITS, AMF↔ITS, AMF↔EUK), with all four microbial domains present across the final 84-sample overlap.
 
 Subsequent figures analyze coupling strength hierarchy, environmental-driver structure, and plant-diversity contributions on this same final matched cohort.
 '''
