@@ -1,0 +1,17 @@
+pair,branch,model_type,adjusted_r2,permutation_p
+AMF↔EUK,CLR,geography_sensitivity,0.188136424916488,0.002
+AMF↔EUK,CLR,primary,0.1801817809155823,0.002
+AMF↔EUK,presence/absence,geography_sensitivity,0.2055766102891452,0.002
+AMF↔EUK,presence/absence,primary,0.1920598427730468,0.002
+AMF↔ITS,CLR,geography_sensitivity,0.2039984512426735,0.002
+AMF↔ITS,CLR,primary,0.1945206199630251,0.002
+AMF↔ITS,presence/absence,geography_sensitivity,0.2245441119679169,0.002
+AMF↔ITS,presence/absence,primary,0.2058673861847888,0.002
+BAC↔ITS,CLR,geography_sensitivity,0.27766371060129,0.002
+BAC↔ITS,CLR,primary,0.2692370394403598,0.002
+BAC↔ITS,presence/absence,geography_sensitivity,0.2646404896636699,0.002
+BAC↔ITS,presence/absence,primary,0.24387333219503,0.002
+EUK↔ITS,CLR,geography_sensitivity,0.1951196315108009,0.002
+EUK↔ITS,CLR,primary,0.1847177386400049,0.002
+EUK↔ITS,presence/absence,geography_sensitivity,0.2220302171250237,0.002
+EUK↔ITS,presence/absence,primary,0.2001367643471849,0.002

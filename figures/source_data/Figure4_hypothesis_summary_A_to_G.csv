@@ -1,0 +1,8 @@
+hypothesis_id,hypothesis_name,mean_delta_adjusted_r2,mean_adjusted_r2,overall_rank
+A,abiotic_base,0.0,0.2011096622162697,6.0
+B,abiotic_plus_alpha,0.0131927769023595,0.2143024391186293,1.0
+C,abiotic_plus_dark,0.0028621241043173,0.203971786320587,5.0
+D,abiotic_plus_pool,0.0086994875071581,0.2098091497234279,3.0
+E,abiotic_plus_compl,-0.0037318452969595,0.19737781691931,7.0
+F,abiotic_plus_alpha_dark,0.0109863689238267,0.2120960311400965,2.0
+G,abiotic_plus_pool_compl,0.0077569206670854,0.2088665828833552,4.0
