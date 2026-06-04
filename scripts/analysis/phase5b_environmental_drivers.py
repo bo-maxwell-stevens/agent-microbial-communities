@@ -36,6 +36,8 @@ DEFAULT_PAIRS = ["BAC↔ITS", "AMF↔ITS", "EUK↔ITS", "AMF↔EUK"]
 DEFAULT_BRANCHES = ["presence/absence", "CLR"]
 DEFAULT_THRESHOLD = 0.05
 DEFAULT_PERMUTATIONS = 999
+DEFAULT_CLR_DISTANCE_STRATEGY = "direct_aitchison"
+VALID_CLR_DISTANCE_STRATEGIES = ("direct_aitchison", "pca10")
 BASE_RANDOM_SEED = 20260602
 
 PRIMARY_PREDICTORS = ["pH_KCl", "N_pct", "bio12now.100", "alpha", "compl"]
@@ -167,21 +169,25 @@ def pca_table(table: pd.DataFrame, n_components: int = N_COMPONENTS) -> pd.DataF
     return pd.DataFrame(coords, index=table.index, columns=cols)
 
 
-def branch_distance(table: pd.DataFrame, branch: str) -> np.ndarray:
+def branch_distance(table: pd.DataFrame, branch: str, clr_distance_strategy: str = DEFAULT_CLR_DISTANCE_STRATEGY) -> np.ndarray:
     if branch == "presence/absence":
         binary = to_presence_absence(table)
         return pdist(binary.to_numpy(dtype=np.float64), metric="jaccard")
     if branch == "CLR":
         rel = to_relative_abundance(table)
         clr = clr_transform(rel)
-        reduced = pca_table(clr)
-        return pdist(reduced.to_numpy(dtype=np.float64), metric="euclidean")
+        if clr_distance_strategy == "direct_aitchison":
+            return pdist(clr.to_numpy(dtype=np.float64), metric="euclidean")
+        if clr_distance_strategy == "pca10":
+            reduced = pca_table(clr)
+            return pdist(reduced.to_numpy(dtype=np.float64), metric="euclidean")
+        raise ValueError(f"Unsupported CLR distance strategy: {clr_distance_strategy}")
     raise ValueError(f"Unsupported branch: {branch}")
 
 
-def combined_pair_distance(table_a: pd.DataFrame, table_b: pd.DataFrame, branch: str) -> np.ndarray:
-    d_a = branch_distance(table_a, branch)
-    d_b = branch_distance(table_b, branch)
+def combined_pair_distance(table_a: pd.DataFrame, table_b: pd.DataFrame, branch: str, clr_distance_strategy: str = DEFAULT_CLR_DISTANCE_STRATEGY) -> np.ndarray:
+    d_a = branch_distance(table_a, branch, clr_distance_strategy=clr_distance_strategy)
+    d_b = branch_distance(table_b, branch, clr_distance_strategy=clr_distance_strategy)
     D_a = squareform(d_a)
     D_b = squareform(d_b)
     D = 0.5 * (D_a + D_b)
@@ -305,6 +311,7 @@ def run_pair_branch(
     predictors: list[str],
     permutations: int,
     seed: int,
+    clr_distance_strategy: str,
 ) -> tuple[dict, pd.DataFrame]:
     d1, d2 = parse_pair(pair_label)
 
@@ -324,7 +331,7 @@ def run_pair_branch(
     t1 = t1.reindex(common_ids)
     t2 = t2.reindex(common_ids)
 
-    d_combined = combined_pair_distance(t1, t2, branch)
+    d_combined = combined_pair_distance(t1, t2, branch, clr_distance_strategy=clr_distance_strategy)
     Y = pcoa_coords(d_combined)
 
     X_arr = X.to_numpy(dtype=float)
@@ -346,6 +353,7 @@ def run_pair_branch(
         "pseudo_f": float(pseudo_f_obs),
         "permutation_p": float(p_perm),
         "permutations": int(permutations),
+        "clr_distance_strategy": clr_distance_strategy,
     }
     ranking.insert(0, "branch", branch)
     ranking.insert(0, "pair", pair_label)
@@ -362,6 +370,7 @@ def combo_to_checkpoint_rows(
     branch: str,
     threshold: float,
     permutations: int,
+    clr_distance_strategy: str,
 ) -> pd.DataFrame:
     seed = combo_seed(combo_index)
 
@@ -383,6 +392,7 @@ def combo_to_checkpoint_rows(
             predictors=predictors,
             permutations=permutations,
             seed=model_seed,
+            clr_distance_strategy=clr_distance_strategy,
         )
 
         summary_row = {
@@ -439,7 +449,7 @@ def write_single_checkpoint(paths: dict[str, Path], combo_index: int, rows_df: p
     return ckpt
 
 
-def run_single_combo(paths: dict[str, Path], combo_index: int, threshold: float, permutations: int) -> Path:
+def run_single_combo(paths: dict[str, Path], combo_index: int, threshold: float, permutations: int, clr_distance_strategy: str) -> Path:
     manifest = build_combo_manifest(threshold=threshold)
     if combo_index < 0 or combo_index >= len(manifest):
         raise IndexError(f"combo_index out of range: {combo_index}; expected 0..{len(manifest)-1}")
@@ -457,6 +467,7 @@ def run_single_combo(paths: dict[str, Path], combo_index: int, threshold: float,
         branch=branch,
         threshold=threshold,
         permutations=permutations,
+        clr_distance_strategy=clr_distance_strategy,
     )
     ckpt = write_single_checkpoint(paths, combo_index, rows_df, overwrite=False)
     elapsed = time.time() - start
@@ -591,7 +602,7 @@ def combine_checkpoints(paths: dict[str, Path], threshold: float, render_figures
     print(f"Wrote {paths['metadata']}")
 
 
-def run_full_serial(paths: dict[str, Path], threshold: float, permutations: int) -> None:
+def run_full_serial(paths: dict[str, Path], threshold: float, permutations: int, clr_distance_strategy: str) -> None:
     manifest = build_combo_manifest(threshold=threshold)
     rows = []
     start_all = time.time()
@@ -608,6 +619,7 @@ def run_full_serial(paths: dict[str, Path], threshold: float, permutations: int)
                 branch=branch,
                 threshold=t,
                 permutations=permutations,
+                clr_distance_strategy=clr_distance_strategy,
             )
         )
     elapsed = time.time() - start_all
@@ -625,6 +637,7 @@ def run_full_serial(paths: dict[str, Path], threshold: float, permutations: int)
         "runtime_seconds": elapsed,
         "expected_combos": int(len(manifest)),
         "permutations": int(permutations),
+        "clr_distance_strategy": clr_distance_strategy,
     }
     paths["metadata"].write_text(json.dumps(run_meta, indent=2))
     make_figures(summary_df, pair_rankings, paths)
@@ -649,6 +662,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--figures-only", action="store_true", help="Render figures from existing combined outputs only.")
     parser.add_argument("--permutations", type=int, default=DEFAULT_PERMUTATIONS, help="Permutation count (default 999).")
     parser.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD, help="Prevalence threshold used in combo manifest.")
+    parser.add_argument("--clr-distance-strategy", choices=VALID_CLR_DISTANCE_STRATEGIES, default=DEFAULT_CLR_DISTANCE_STRATEGY, help="CLR branch distance strategy: direct_aitchison (default) or pca10 sensitivity.")
     return parser.parse_args()
 
 
@@ -675,6 +689,7 @@ def main() -> None:
             combo_index=args.combo_index,
             threshold=args.threshold,
             permutations=args.permutations,
+            clr_distance_strategy=args.clr_distance_strategy,
         )
         did_anything = True
 
@@ -683,7 +698,7 @@ def main() -> None:
         did_anything = True
 
     if not did_anything:
-        run_full_serial(paths, threshold=args.threshold, permutations=args.permutations)
+        run_full_serial(paths, threshold=args.threshold, permutations=args.permutations, clr_distance_strategy=args.clr_distance_strategy)
 
 
 if __name__ == "__main__":

@@ -57,3 +57,21 @@
   1. `23` claims remain `not_found` in numeric-claim audit.
   2. `10` claims remain `needs_human_review`.
 - Recommendation: **ready for expert coauthor review on permutation consistency**, with the above unresolved claim-audit rows flagged for adjudication.
+
+
+## 2026-06-04 strict 999 remediation re-verification (continuation)
+
+- Generated (UTC): 2026-06-04T14:57:42.129026+00:00
+- Phase 4 999-consistent: yes
+- Phase 5A 999-consistent: yes
+- Phase 5B 999-consistent: yes
+- Phase 5C 999-consistent: yes
+- Canonical stale 499 permutation fields: 0
+- p-value floor checks pass: yes
+- Numeric claims audited: 100
+- Numeric claim status counts: {'verified': 67, 'not_found': 23, 'mismatch': 8, 'needs_human_review': 2}
+- Mismatches remaining: 8
+- P-value mismatches remaining: 1
+- Pre-999 archive snapshots preserved: 5
+- Validation suite: py_compile PASS; targeted pytest PASS (16); full pytest PASS (21); git diff --check PASS.
+- Commit/tag decision: BLOCKED (mismatches remain; do not commit/tag until manuscript numeric mismatches are fully resolved).

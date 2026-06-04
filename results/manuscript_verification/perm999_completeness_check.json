@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T09:54:17.079904+00:00",
+  "generated": "2026-06-04T14:52:19.936284+00:00",
   "rows": [
     {
       "phase": "phase4",
@@ -153,9 +153,9 @@
       "canonical_perm_values": [
         999
       ],
-      "p_col": null,
-      "p_min": null,
-      "p_max": null,
+      "p_col": "permutation_p",
+      "p_min": 0.001,
+      "p_max": 0.001,
       "required_cols_present": true,
       "missing_required_cols": []
     },
@@ -163,8 +163,8 @@
       "phase": "phase5c_models",
       "canonical_path": "results/phase5c_plant_diversity/phase5c_model_comparison.csv",
       "canonical_exists": true,
-      "canonical_mtime": "2026-06-04T08:49:59.127593+00:00",
-      "canonical_size": 28593,
+      "canonical_mtime": "2026-06-04T14:20:57.694870+00:00",
+      "canonical_size": 30096,
       "canonical_rows": 112,
       "canonical_cols": [
         "record_type",
@@ -186,6 +186,7 @@
         "pseudo_f",
         "permutation_p",
         "permutations",
+        "clr_distance_strategy",
         "predictor",
         "full_r2",
         "reduced_r2",
@@ -210,8 +211,8 @@
       "phase": "phase5c_effects",
       "canonical_path": "results/phase5c_plant_diversity/phase5c_predictor_effects.csv",
       "canonical_exists": true,
-      "canonical_mtime": "2026-06-04T08:49:59.153694+00:00",
-      "canonical_size": 218475,
+      "canonical_mtime": "2026-06-04T14:20:57.706642+00:00",
+      "canonical_size": 222333,
       "canonical_rows": 576,
       "canonical_cols": [
         "record_type",
@@ -233,6 +234,7 @@
         "pseudo_f",
         "permutation_p",
         "permutations",
+        "clr_distance_strategy",
         "predictor",
         "full_r2",
         "reduced_r2",
@@ -247,9 +249,63 @@
       "canonical_perm_values": [
         999
       ],
-      "p_col": null,
-      "p_min": null,
-      "p_max": null,
+      "p_col": "permutation_p",
+      "p_min": 0.001,
+      "p_max": 0.001,
+      "required_cols_present": true,
+      "missing_required_cols": []
+    },
+    {
+      "phase": "phase5c_pair_rankings",
+      "canonical_path": "results/phase5c_plant_diversity/phase5c_pair_rankings.csv",
+      "canonical_exists": true,
+      "canonical_mtime": "2026-06-04T14:20:57.709595+00:00",
+      "canonical_size": 14576,
+      "canonical_rows": 72,
+      "canonical_cols": [
+        "record_type",
+        "combo_index",
+        "pair",
+        "branch",
+        "threshold",
+        "model_scope",
+        "hypothesis_id",
+        "hypothesis_name",
+        "seed",
+        "n_samples",
+        "n_features_domain1",
+        "n_features_domain2",
+        "n_predictors",
+        "predictor_set",
+        "r2",
+        "adjusted_r2",
+        "pseudo_f",
+        "permutation_p",
+        "permutations",
+        "clr_distance_strategy",
+        "predictor",
+        "full_r2",
+        "reduced_r2",
+        "delta_r2",
+        "full_adj_r2",
+        "reduced_adj_r2",
+        "delta_adj_r2",
+        "baseline_adjusted_r2",
+        "delta_adjusted_r2_vs_base",
+        "rank_type",
+        "mean_delta_adjusted_r2",
+        "mean_adjusted_r2",
+        "mean_r2",
+        "min_permutation_p",
+        "max_permutation_p"
+      ],
+      "canonical_perm_col": "permutations",
+      "canonical_perm_values": [
+        999.0
+      ],
+      "p_col": "permutation_p",
+      "p_min": 0.001,
+      "p_max": 0.001,
       "required_cols_present": true,
       "missing_required_cols": []
     }
@@ -261,6 +317,35 @@
     "phase5b_summary": true,
     "phase5b_predictor": true,
     "phase5c_models": true,
-    "phase5c_effects": true
-  }
+    "phase5c_effects": true,
+    "phase5c_pair_rankings": true
+  },
+  "phase_permutation_values": {
+    "phase4": [
+      999
+    ],
+    "phase5a": [
+      999
+    ],
+    "phase5b_summary": [
+      999
+    ],
+    "phase5b_predictor": [
+      999
+    ],
+    "phase5c_models": [
+      999
+    ],
+    "phase5c_effects": [
+      999
+    ],
+    "phase5c_pair_rankings": [
+      999.0
+    ],
+    "phase5c_metadata": [
+      999
+    ]
+  },
+  "canonical_stale_499_hits": [],
+  "canonical_stale_499_count": 0
 }

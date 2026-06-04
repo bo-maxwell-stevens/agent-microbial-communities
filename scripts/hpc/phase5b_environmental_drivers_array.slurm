@@ -21,7 +21,8 @@ source ~/projects/agent_microbial_communities/.venv/bin/activate
 python3 scripts/analysis/phase5b_environmental_drivers.py \
   --single-combo \
   --combo-index "${SLURM_ARRAY_TASK_ID}" \
-  --permutations 999
+  --permutations 999 \
+  --clr-distance-strategy direct_aitchison
 
 # After all array tasks complete, combine explicitly:
 # python3 scripts/analysis/phase5b_environmental_drivers.py --combine-checkpoints

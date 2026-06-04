@@ -23,4 +23,5 @@ python3 "$SCRIPT" \
   --single-combo \
   --combo-index "${SLURM_ARRAY_TASK_ID}" \
   --permutations "$PERMUTATIONS" \
+  --clr-distance-strategy direct_aitchison \
   --include-geography-sensitivity

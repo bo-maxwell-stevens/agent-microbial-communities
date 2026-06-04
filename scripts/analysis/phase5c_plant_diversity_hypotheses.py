@@ -43,6 +43,8 @@ DEFAULT_PAIRS = ["BAC↔ITS", "AMF↔ITS", "EUK↔ITS", "AMF↔EUK"]
 DEFAULT_BRANCHES = ["presence/absence", "CLR"]
 DEFAULT_THRESHOLD = 0.05
 DEFAULT_PERMUTATIONS = 999
+DEFAULT_CLR_DISTANCE_STRATEGY = "direct_aitchison"
+VALID_CLR_DISTANCE_STRATEGIES = ("direct_aitchison", "pca10")
 BASE_RANDOM_SEED = 20260603
 
 ABIOTIC_BASE = ["pH_KCl", "N_pct", "bio12now.100"]
@@ -227,21 +229,25 @@ def pca_table(table: pd.DataFrame, n_components: int = N_COMPONENTS) -> pd.DataF
     return pd.DataFrame(coords, index=table.index, columns=cols)
 
 
-def branch_distance(table: pd.DataFrame, branch: str) -> np.ndarray:
+def branch_distance(table: pd.DataFrame, branch: str, clr_distance_strategy: str = DEFAULT_CLR_DISTANCE_STRATEGY) -> np.ndarray:
     if branch == "presence/absence":
         binary = to_presence_absence(table)
         return pdist(binary.to_numpy(dtype=np.float64), metric="jaccard")
     if branch == "CLR":
         rel = to_relative_abundance(table)
         clr = clr_transform(rel)
-        reduced = pca_table(clr)
-        return pdist(reduced.to_numpy(dtype=np.float64), metric="euclidean")
+        if clr_distance_strategy == "direct_aitchison":
+            return pdist(clr.to_numpy(dtype=np.float64), metric="euclidean")
+        if clr_distance_strategy == "pca10":
+            reduced = pca_table(clr)
+            return pdist(reduced.to_numpy(dtype=np.float64), metric="euclidean")
+        raise ValueError(f"Unsupported CLR distance strategy: {clr_distance_strategy}")
     raise ValueError(f"Unsupported branch: {branch}")
 
 
-def combined_pair_distance(table_a: pd.DataFrame, table_b: pd.DataFrame, branch: str) -> np.ndarray:
-    d_a = branch_distance(table_a, branch)
-    d_b = branch_distance(table_b, branch)
+def combined_pair_distance(table_a: pd.DataFrame, table_b: pd.DataFrame, branch: str, clr_distance_strategy: str = DEFAULT_CLR_DISTANCE_STRATEGY) -> np.ndarray:
+    d_a = branch_distance(table_a, branch, clr_distance_strategy=clr_distance_strategy)
+    d_b = branch_distance(table_b, branch, clr_distance_strategy=clr_distance_strategy)
     D_a = squareform(d_a)
     D_b = squareform(d_b)
     D = 0.5 * (D_a + D_b)
@@ -358,7 +364,7 @@ def combo_seed(combo_index: int) -> int:
     return int(BASE_RANDOM_SEED + combo_index * 20011)
 
 
-def prepare_pair_branch_context(pair_label: str, branch: str, threshold: float) -> dict:
+def prepare_pair_branch_context(pair_label: str, branch: str, threshold: float, clr_distance_strategy: str) -> dict:
     d1, d2 = parse_pair(pair_label)
 
     cohort = pd.read_csv(COHORT_FILE)
@@ -373,7 +379,7 @@ def prepare_pair_branch_context(pair_label: str, branch: str, threshold: float) 
     t2 = prevalence_filter_table(t2, threshold)
 
     # Compute microbial coupling response once per pair×branch combo.
-    d_combined = combined_pair_distance(t1, t2, branch)
+    d_combined = combined_pair_distance(t1, t2, branch, clr_distance_strategy=clr_distance_strategy)
     Y_full = pcoa_coords(d_combined)
 
     meta = pd.read_csv(DATA_DIR / "Final_data_with_diversity_prefixed.csv", low_memory=False)
@@ -389,6 +395,7 @@ def prepare_pair_branch_context(pair_label: str, branch: str, threshold: float) 
         "t1": t1,
         "t2": t2,
         "Y_full": Y_full,
+        "clr_distance_strategy": clr_distance_strategy if branch == "CLR" else "jaccard_presence_absence",
         "meta": meta,
     }
 
@@ -398,6 +405,7 @@ def evaluate_predictor_set(
     predictors: list[str],
     permutations: int,
     seed: int,
+    clr_distance_strategy: str = DEFAULT_CLR_DISTANCE_STRATEGY,
 ) -> tuple[dict, pd.DataFrame]:
     meta = context["meta"]
     sample_ids = context["sample_ids"]
@@ -440,6 +448,7 @@ def evaluate_predictor_set(
         "pseudo_f": float(pseudo_f_obs),
         "permutation_p": float(p_perm),
         "permutations": int(permutations),
+        "clr_distance_strategy": clr_distance_strategy,
     }
 
     predictor_effects.insert(0, "branch", context["branch"])
@@ -458,11 +467,12 @@ def combo_to_checkpoint_rows(
     threshold: float,
     permutations: int,
     include_geography_sensitivity: bool,
+    clr_distance_strategy: str,
 ) -> pd.DataFrame:
     seed0 = combo_seed(combo_index)
 
     # Expensive microbial response calculation done once per combo.
-    context = prepare_pair_branch_context(pair_label=pair, branch=branch, threshold=threshold)
+    context = prepare_pair_branch_context(pair_label=pair, branch=branch, threshold=threshold, clr_distance_strategy=clr_distance_strategy)
 
     scopes = ["primary"]
     if include_geography_sensitivity:
@@ -484,6 +494,7 @@ def combo_to_checkpoint_rows(
                 predictors=predictors,
                 permutations=permutations,
                 seed=model_seed,
+                clr_distance_strategy=clr_distance_strategy,
             )
 
             summary_row = {
@@ -561,6 +572,7 @@ def run_single_combo(
     threshold: float,
     permutations: int,
     include_geography_sensitivity: bool,
+    clr_distance_strategy: str = DEFAULT_CLR_DISTANCE_STRATEGY,
     pair_filter: str | None = None,
     branch_filter: str | None = None,
 ) -> Path:
@@ -582,6 +594,7 @@ def run_single_combo(
         threshold=threshold,
         permutations=permutations,
         include_geography_sensitivity=include_geography_sensitivity,
+        clr_distance_strategy=clr_distance_strategy,
     )
     ckpt = write_single_checkpoint(paths, combo_index, rows_df, overwrite=False)
     elapsed = time.time() - start
@@ -837,6 +850,7 @@ def run_full_serial(
     threshold: float,
     permutations: int,
     include_geography_sensitivity: bool,
+    clr_distance_strategy: str,
     pair_filter: str | None = None,
     branch_filter: str | None = None,
 ) -> None:
@@ -858,6 +872,7 @@ def run_full_serial(
                 threshold=t,
                 permutations=permutations,
                 include_geography_sensitivity=include_geography_sensitivity,
+                clr_distance_strategy=clr_distance_strategy,
             )
         )
 
@@ -877,6 +892,7 @@ def run_full_serial(
         "runtime_seconds": elapsed,
         "expected_combos": int(len(manifest)),
         "permutations": int(permutations),
+        "clr_distance_strategy": clr_distance_strategy,
         "include_geography_sensitivity": bool(include_geography_sensitivity),
         "model_count_primary": len(HYPOTHESIS_MODELS),
         "model_count_total_scopes": len(HYPOTHESIS_MODELS) * (2 if include_geography_sensitivity else 1),
@@ -907,6 +923,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD, help="Prevalence threshold")
     parser.add_argument("--single-pair", type=str, default=None, help="Optional filter, e.g. BAC↔ITS")
     parser.add_argument("--single-branch", type=str, default=None, help="Optional filter: presence/absence or CLR")
+    parser.add_argument("--clr-distance-strategy", choices=VALID_CLR_DISTANCE_STRATEGIES, default=DEFAULT_CLR_DISTANCE_STRATEGY, help="CLR branch distance strategy: direct_aitchison (default) or pca10 sensitivity.")
     parser.add_argument(
         "--include-geography-sensitivity",
         action="store_true",
@@ -944,6 +961,7 @@ def main() -> None:
             threshold=args.threshold,
             permutations=args.permutations,
             include_geography_sensitivity=args.include_geography_sensitivity,
+            clr_distance_strategy=args.clr_distance_strategy,
             pair_filter=args.single_pair,
             branch_filter=args.single_branch,
         )
@@ -966,6 +984,7 @@ def main() -> None:
             threshold=args.threshold,
             permutations=args.permutations,
             include_geography_sensitivity=args.include_geography_sensitivity,
+            clr_distance_strategy=args.clr_distance_strategy,
             pair_filter=args.single_pair,
             branch_filter=args.single_branch,
         )

@@ -21,7 +21,8 @@ source ~/projects/agent_microbial_communities/.venv/bin/activate
 
 python3 scripts/analysis/phase5_bac_integration.py \
   --single-combo \
-  --combo-index "${SLURM_ARRAY_TASK_ID}"
+  --combo-index "${SLURM_ARRAY_TASK_ID}" \
+  --clr-distance-strategy direct_aitchison
 
 # After array completion, run combine mode separately:
 # python3 scripts/analysis/phase5_bac_integration.py --combine-checkpoints

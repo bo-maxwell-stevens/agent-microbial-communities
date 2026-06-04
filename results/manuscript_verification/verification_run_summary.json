@@ -1,10 +1,11 @@
 {
-  "generated": "2026-06-04T09:54:17.079904+00:00",
+  "generated": "2026-06-04T14:52:19.936284+00:00",
   "numeric_claim_rows": 100,
   "numeric_status_counts": {
     "verified": 67,
     "not_found": 23,
-    "needs_human_review": 10
+    "mismatch": 8,
+    "needs_human_review": 2
   },
   "pair_scope_rows": 5,
   "pair_scope_status_counts": {
@@ -54,7 +55,7 @@
       "pair_labels": NaN,
       "source_output": "manuscript/manuscript_v22.md",
       "status": "verified",
-      "notes": "Heuristic check for explicit transition from six pair coupling scope to four pair downstream scope."
+      "notes": "Heuristic check for explicit transition from six-pair coupling scope to four-pair downstream scope."
     }
   ],
   "permutation_values": {
@@ -75,10 +76,17 @@
     ],
     "phase5c_effects": [
       999
+    ],
+    "phase5c_pair_rankings": [
+      999.0
+    ],
+    "phase5c_metadata": [
+      999
     ]
   },
   "perm999_all_canonical": true,
-  "mismatch_rows": 0,
+  "mismatch_rows": 8,
   "pvalue_claim_rows": 11,
-  "pvalue_mismatch_rows": 0
+  "pvalue_mismatch_rows": 1,
+  "canonical_stale_499_count": 0
 }
