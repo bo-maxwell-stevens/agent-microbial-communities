@@ -1,0 +1,11 @@
+[FULL] combo_index=0, pair=BAC↔ITS, branch=presence/absence, threshold=0.05
+[FULL] combo_index=1, pair=BAC↔ITS, branch=CLR, threshold=0.05
+[FULL] combo_index=2, pair=AMF↔ITS, branch=presence/absence, threshold=0.05
+[FULL] combo_index=3, pair=AMF↔ITS, branch=CLR, threshold=0.05
+[FULL] combo_index=4, pair=EUK↔ITS, branch=presence/absence, threshold=0.05
+[FULL] combo_index=5, pair=EUK↔ITS, branch=CLR, threshold=0.05
+[FULL] combo_index=6, pair=AMF↔EUK, branch=presence/absence, threshold=0.05
+[FULL] combo_index=7, pair=AMF↔EUK, branch=CLR, threshold=0.05
+Wrote figures: /tmp/phase5b_perm999_rerun_20260604T082903Z/figures/phase5b_combo_adjusted_r2.png, /tmp/phase5b_perm999_rerun_20260604T082903Z/figures/phase5b_pair_rankings.png
+PHASE5B_DONE
+runtime_seconds=721.633

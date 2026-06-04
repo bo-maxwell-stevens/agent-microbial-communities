@@ -1,0 +1,6 @@
+analysis_scope,expected_pair_count,observed_pair_count,pair_labels,source_output,status,notes
+coupling_analyses,6,6,AMF↔EUK | AMF↔ITS | BAC↔AMF | BAC↔EUK | BAC↔ITS | EUK↔ITS,results/phase5_bac_integration/phase5_bac_coupling_summary.csv,verified,
+environmental_drivers,4,4,AMF↔EUK | AMF↔ITS | BAC↔ITS | EUK↔ITS,results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv,verified,
+plant_diversity,4,4,AMF↔EUK | AMF↔ITS | BAC↔ITS | EUK↔ITS,results/phase5c_plant_diversity/phase5c_model_comparison.csv,verified,
+integrated_synthesis,4,4,AMF↔EUK | AMF↔ITS | BAC↔ITS | EUK↔ITS,results/phase5d_synthesis/final_pair_synthesis.csv,verified,
+manuscript_transition_language,6->4 explained,present,,manuscript/manuscript_v22.md,verified,Heuristic check for explicit transition from six pair coupling scope to four pair downstream scope.

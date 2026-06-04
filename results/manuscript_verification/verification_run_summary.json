@@ -1,0 +1,84 @@
+{
+  "generated": "2026-06-04T09:54:17.079904+00:00",
+  "numeric_claim_rows": 100,
+  "numeric_status_counts": {
+    "verified": 67,
+    "not_found": 23,
+    "needs_human_review": 10
+  },
+  "pair_scope_rows": 5,
+  "pair_scope_status_counts": {
+    "verified": 5
+  },
+  "pair_scopes": [
+    {
+      "analysis_scope": "coupling_analyses",
+      "expected_pair_count": "6",
+      "observed_pair_count": "6",
+      "pair_labels": "AMF\u2194EUK | AMF\u2194ITS | BAC\u2194AMF | BAC\u2194EUK | BAC\u2194ITS | EUK\u2194ITS",
+      "source_output": "results/phase5_bac_integration/phase5_bac_coupling_summary.csv",
+      "status": "verified",
+      "notes": NaN
+    },
+    {
+      "analysis_scope": "environmental_drivers",
+      "expected_pair_count": "4",
+      "observed_pair_count": "4",
+      "pair_labels": "AMF\u2194EUK | AMF\u2194ITS | BAC\u2194ITS | EUK\u2194ITS",
+      "source_output": "results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv",
+      "status": "verified",
+      "notes": NaN
+    },
+    {
+      "analysis_scope": "plant_diversity",
+      "expected_pair_count": "4",
+      "observed_pair_count": "4",
+      "pair_labels": "AMF\u2194EUK | AMF\u2194ITS | BAC\u2194ITS | EUK\u2194ITS",
+      "source_output": "results/phase5c_plant_diversity/phase5c_model_comparison.csv",
+      "status": "verified",
+      "notes": NaN
+    },
+    {
+      "analysis_scope": "integrated_synthesis",
+      "expected_pair_count": "4",
+      "observed_pair_count": "4",
+      "pair_labels": "AMF\u2194EUK | AMF\u2194ITS | BAC\u2194ITS | EUK\u2194ITS",
+      "source_output": "results/phase5d_synthesis/final_pair_synthesis.csv",
+      "status": "verified",
+      "notes": NaN
+    },
+    {
+      "analysis_scope": "manuscript_transition_language",
+      "expected_pair_count": "6->4 explained",
+      "observed_pair_count": "present",
+      "pair_labels": NaN,
+      "source_output": "manuscript/manuscript_v22.md",
+      "status": "verified",
+      "notes": "Heuristic check for explicit transition from six pair coupling scope to four pair downstream scope."
+    }
+  ],
+  "permutation_values": {
+    "phase4": [
+      999
+    ],
+    "phase5a": [
+      999
+    ],
+    "phase5b_summary": [
+      999
+    ],
+    "phase5b_predictor": [
+      999
+    ],
+    "phase5c_models": [
+      999
+    ],
+    "phase5c_effects": [
+      999
+    ]
+  },
+  "perm999_all_canonical": true,
+  "mismatch_rows": 0,
+  "pvalue_claim_rows": 11,
+  "pvalue_mismatch_rows": 0
+}

@@ -1,23 +1,10 @@
 {
   "analysis": "phase5c_plant_diversity_hypotheses",
-  "generated_at_epoch": 1780411287.6929908,
-  "n_checkpoints": 8,
-  "n_model_comparison_rows": 112,
-  "n_predictor_effect_rows": 576,
-  "n_pair_rankings_rows": 72,
-  "n_hypothesis_summary_rows": 12,
+  "mode": "full_serial",
+  "runtime_seconds": 313.8328788280487,
   "expected_combos": 8,
-  "permutations_present": [
-    499
-  ],
-  "include_geography_sensitivity": false,
+  "permutations": 999,
+  "include_geography_sensitivity": true,
   "model_count_primary": 7,
-  "model_count_total_scopes": 7,
-  "output_files": {
-    "model_comparison": "results/phase5c_plant_diversity/phase5c_model_comparison.csv",
-    "predictor_effects": "results/phase5c_plant_diversity/phase5c_predictor_effects.csv",
-    "pair_rankings": "results/phase5c_plant_diversity/phase5c_pair_rankings.csv",
-    "hypothesis_summary": "results/phase5c_plant_diversity/phase5c_hypothesis_summary.csv",
-    "manifest": "results/phase5c_plant_diversity/phase5c_manifest.csv"
-  }
+  "model_count_total_scopes": 14
 }

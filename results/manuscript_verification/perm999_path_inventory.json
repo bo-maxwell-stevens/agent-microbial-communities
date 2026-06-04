@@ -1,0 +1,96 @@
+{
+  "generated": "2026-06-04T09:54:17.079904+00:00",
+  "perm999_candidates": [
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/archive_pre_999_sync/20260603T171330Z",
+      "is_dir": true,
+      "mtime": "2026-06-03T17:13:30.069931+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/archive_pre_999_sync/20260604T090054Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T09:00:54.344490+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/archive_pre_999_sync/20260604T094703Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T09:47:03.548444+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/tmp/phase5a_perm999_rerun_20260604T071107Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T07:11:09.022669+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/tmp/phase5a_perm999_rocket_20260604T093653Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T09:46:46.753677+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/tmp/phase5b_perm999_rerun_20260604T082903Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T08:57:56.843947+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/tmp/phase5c_perm999_geo_rerun_20260604T084444Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T08:57:57.650639+00:00",
+      "size": 4096
+    },
+    {
+      "path": "/tmp/phase5c_perm999_rerun_20260604T082930Z",
+      "is_dir": true,
+      "mtime": "2026-06-04T08:36:45.186277+00:00",
+      "size": 4096
+    }
+  ],
+  "canonical_files": [
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/phase4_coupling_inference/phase4_mantel_inference.csv",
+      "exists": true,
+      "mtime": "2026-06-03T18:12:08.669156+00:00",
+      "size": 2299
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/phase5_bac_integration/phase5_bac_mantel_inference.csv",
+      "exists": true,
+      "mtime": "2026-06-04T09:46:46.597390+00:00",
+      "size": 4282
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv",
+      "exists": true,
+      "mtime": "2026-06-04T08:41:05.553085+00:00",
+      "size": 3350
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/phase5b_environmental_drivers/phase5b_predictor_ranking.csv",
+      "exists": true,
+      "mtime": "2026-06-04T08:41:05.557485+00:00",
+      "size": 31458
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/phase5c_plant_diversity/phase5c_model_comparison.csv",
+      "exists": true,
+      "mtime": "2026-06-04T08:49:59.127593+00:00",
+      "size": 28593
+    },
+    {
+      "path": "/srv/hermes_projects/agent_microbial_communities/results/phase5c_plant_diversity/phase5c_predictor_effects.csv",
+      "exists": true,
+      "mtime": "2026-06-04T08:49:59.153694+00:00",
+      "size": 218475
+    }
+  ],
+  "phase5a_hpc_run": {
+    "job_id": "66369837",
+    "run_id": "phase5a_perm999_20260604T093653Z",
+    "source_dir": "/tmp/phase5a_perm999_rocket_20260604T093653Z"
+  }
+}
