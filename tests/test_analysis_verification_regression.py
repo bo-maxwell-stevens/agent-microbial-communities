@@ -33,15 +33,15 @@ def test_expected_phase_output_files_exist():
 def test_expected_row_counts_and_columns_contract():
     contracts = {
         "results/phase2_confirmatory_coupling/phase2_coupling_summary.csv": (12, {"pair", "branch", "threshold", "procrustes_fit", "mantel_spearman"}),
-        "results/phase4_coupling_inference/phase4_summary.csv": (6, {"pair", "branch", "rank_overall"}),
+        "results/phase4_coupling_inference/phase4_summary.csv": (12, {"pair", "branch", "rank_overall"}),
         "results/phase4_coupling_inference/phase4_mantel_inference.csv": (12, {"pair", "branch", "mantel_perm_pvalue", "n_permutations"}),
         "results/phase5_bac_integration/phase5_bac_coupling_summary.csv": (12, {"pair", "branch", "rank_overall"}),
-        "results/phase5_bac_integration/phase5_bac_mantel_inference.csv": (24, {"pair", "branch", "mantel_perm_pvalue", "n_permutations"}),
-        "results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv": (16, {"pair", "branch", "adjusted_r2", "permutation_p", "permutations"}),
-        "results/phase5b_environmental_drivers/phase5b_predictor_ranking.csv": (96, {"pair", "branch", "predictor", "delta_adj_r2", "permutations"}),
-        "results/phase5c_plant_diversity/phase5c_model_comparison.csv": (112, {"pair", "branch", "hypothesis_id", "adjusted_r2", "delta_adjusted_r2_vs_base", "permutations"}),
+        "results/phase5_bac_integration/phase5_bac_mantel_inference.csv": (12, {"pair", "branch", "mantel_perm_pvalue", "n_permutations"}),
+        "results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv": (24, {"pair", "branch", "adjusted_r2", "permutation_p", "permutations"}),
+        "results/phase5b_environmental_drivers/phase5b_predictor_ranking.csv": (144, {"pair", "branch", "predictor", "delta_adj_r2", "permutations"}),
+        "results/phase5c_plant_diversity/phase5c_model_comparison.csv": (168, {"pair", "branch", "hypothesis_id", "adjusted_r2", "delta_adjusted_r2_vs_base", "permutations"}),
         "results/phase5c_plant_diversity/phase5c_hypothesis_summary.csv": (12, {"hypothesis_id", "hypothesis_name", "overall_rank"}),
-        "results/phase5d_synthesis/final_pair_synthesis.csv": (8, {"pair", "branch", "interpretation label"}),
+        "results/phase5d_synthesis/final_pair_synthesis.csv": (12, {"pair", "branch", "interpretation label"}),
     }
     for rel, (n_rows, cols) in contracts.items():
         df = _read(rel)
@@ -57,9 +57,9 @@ def test_pair_scope_counts_across_outputs():
     p5d_pairs = set(_read("results/phase5d_synthesis/final_pair_synthesis.csv")["pair"].astype(str))
 
     assert len(p5a_pairs) == 6
-    assert len(p5b_pairs) == 4
-    assert len(p5c_pairs) == 4
-    assert len(p5d_pairs) == 4
+    assert len(p5b_pairs) == 6
+    assert len(p5c_pairs) == 6
+    assert len(p5d_pairs) == 6
     assert p5b_pairs == p5c_pairs == p5d_pairs
 
 

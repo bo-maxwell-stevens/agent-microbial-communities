@@ -26,7 +26,7 @@ python3 scripts/analysis/phase5b_environmental_drivers.py --write-manifest
 Manifest path:
 - `results/phase5b_environmental_drivers/phase5b_combo_manifest.csv`
 
-Expected rows: **8** (`4 pairs × 2 branches`).
+Expected rows: **12** (`6 pairs × 2 branches`).
 
 ## 4) Single-combo smoke test
 ```bash
@@ -68,7 +68,7 @@ Combined outputs:
 
 ## 8) Validation checklist
 - [ ] `.venv/bin/python -m py_compile scripts/analysis/phase5b_environmental_drivers.py`
-- [ ] `python3 scripts/analysis/phase5b_environmental_drivers.py --write-manifest` creates 8-row manifest
+- [ ] `python3 scripts/analysis/phase5b_environmental_drivers.py --write-manifest` creates 12-row manifest
 - [ ] one-combo smoke test writes `checkpoints/combo_0.csv`
 - [ ] `pytest -q` passes
 - [ ] `git diff --check` is clean

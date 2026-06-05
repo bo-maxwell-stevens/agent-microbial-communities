@@ -1,12 +1,12 @@
 {
   "analysis": "phase5c_plant_diversity_hypotheses",
-  "generated_at_epoch": 1780582857.711738,
-  "n_checkpoints": 8,
-  "n_model_comparison_rows": 112,
-  "n_predictor_effect_rows": 576,
-  "n_pair_rankings_rows": 72,
+  "generated_at_epoch": 1780660293.201363,
+  "n_checkpoints": 12,
+  "n_model_comparison_rows": 168,
+  "n_predictor_effect_rows": 864,
+  "n_pair_rankings_rows": 108,
   "n_hypothesis_summary_rows": 12,
-  "expected_combos": 8,
+  "expected_combos": 12,
   "permutations_present": [
     999
   ],

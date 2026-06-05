@@ -32,9 +32,9 @@ SUMMARY_OUT = f"{RESULTS_DIR}/phase4_summary.csv"
 
 PSEUDOCOUNT = 1e-6
 N_COMPONENTS = 10
-THRESHOLDS = [0.05, 0.10]
+THRESHOLDS = [0.05]
 BRANCHES = ["presence/absence", "CLR"]
-PAIRS = [("AMF", "ITS"), ("AMF", "EUK"), ("EUK", "ITS")]
+PAIRS = [("BAC", "AMF"), ("BAC", "ITS"), ("BAC", "EUK"), ("AMF", "ITS"), ("AMF", "EUK"), ("EUK", "ITS")]
 
 RANDOM_SEED = 20260601
 N_PERMUTATIONS = 999
@@ -377,7 +377,8 @@ def main() -> None:
     ensure_dirs()
 
     cohort = pd.read_csv(COHORT_FILE)["Sample_ID"].astype(str).tolist()
-    tables = {name: align_samples(load_otu_table(name), cohort) for name in ["AMF", "EUK", "ITS"]}
+    domains = sorted({d for pair in PAIRS for d in pair})
+    tables = {name: align_samples(load_otu_table(name), cohort) for name in domains}
 
     base_rng = np.random.default_rng(RANDOM_SEED)
 

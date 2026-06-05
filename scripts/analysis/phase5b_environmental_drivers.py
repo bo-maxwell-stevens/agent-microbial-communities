@@ -4,7 +4,7 @@ Phase 5B Environmental Drivers
 Resumable HPC-oriented dbRDA-style workflow for approved Phase 5B predictors.
 
 Modes:
-- --write-manifest: write 8-row pair×branch combo manifest.
+- --write-manifest: write 12-row pair×branch combo manifest.
 - --single-combo --combo-index N: run exactly one combo and write one checkpoint CSV.
 - --combine-checkpoints: combine all checkpoint CSVs into final outputs.
 - (no mode flags): run full serial workflow locally.
@@ -32,7 +32,7 @@ DATA_DIR = Path("data")
 COHORT_FILE = Path("results/phase2_confirmatory_coupling/sample_cohort_used.csv")
 DEFAULT_OUTPUT_DIR = Path("results/phase5b_environmental_drivers")
 
-DEFAULT_PAIRS = ["BAC↔ITS", "AMF↔ITS", "EUK↔ITS", "AMF↔EUK"]
+DEFAULT_PAIRS = ["BAC↔AMF", "BAC↔ITS", "BAC↔EUK", "AMF↔ITS", "AMF↔EUK", "EUK↔ITS"]
 DEFAULT_BRANCHES = ["presence/absence", "CLR"]
 DEFAULT_THRESHOLD = 0.05
 DEFAULT_PERMUTATIONS = 999
@@ -654,7 +654,7 @@ def render_figures_from_existing_outputs(paths: dict[str, Path]) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Phase 5B environmental-driver dbRDA-style workflow")
-    parser.add_argument("--write-manifest", action="store_true", help="Write 8-row combo manifest and exit if no other mode is selected.")
+    parser.add_argument("--write-manifest", action="store_true", help="Write 12-row combo manifest and exit if no other mode is selected.")
     parser.add_argument("--single-combo", action="store_true", help="Run one combo (pair+branch) and write one checkpoint.")
     parser.add_argument("--combo-index", type=int, default=None, help="0-based combo index used with --single-combo.")
     parser.add_argument("--combine-checkpoints", action="store_true", help="Combine all combo checkpoints into final outputs.")

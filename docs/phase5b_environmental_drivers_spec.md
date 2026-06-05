@@ -25,17 +25,18 @@ Phase 5B evaluates environmental predictors of cross-domain coupling with a **db
 
 ## Pair/branch design (Phase 5B combos)
 Pairs:
+- `BAC↔AMF`
 - `BAC↔ITS`
+- `BAC↔EUK`
 - `AMF↔ITS`
-- `EUK↔ITS`
 - `AMF↔EUK`
-
+- `EUK↔ITS`
 Branches:
 - `presence/absence`
 - `CLR`
 
 Manifest cardinality:
-- `4 pairs × 2 branches = 8 combos`
+- `6 pairs × 2 branches = 12 combos`
 
 ## Analysis implementation
 Script: `scripts/analysis/phase5b_environmental_drivers.py`

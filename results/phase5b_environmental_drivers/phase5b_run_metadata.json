@@ -1,7 +1,18 @@
 {
   "analysis": "phase5b_environmental_drivers",
-  "mode": "full_serial",
-  "runtime_seconds": 721.6326274871826,
-  "expected_combos": 8,
-  "permutations": 999
+  "generated_at_epoch": 1780660427.8488667,
+  "n_checkpoints": 12,
+  "n_summary_rows": 24,
+  "n_ranking_rows": 144,
+  "n_pair_rankings_rows": 12,
+  "expected_combos": 12,
+  "permutations_present": [
+    999
+  ],
+  "output_files": {
+    "summary": "results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv",
+    "ranking": "results/phase5b_environmental_drivers/phase5b_predictor_ranking.csv",
+    "pair_rankings": "results/phase5b_environmental_drivers/phase5b_pair_rankings.csv",
+    "manifest": "results/phase5b_environmental_drivers/phase5b_manifest.csv"
+  }
 }

@@ -39,7 +39,7 @@ DATA_DIR = Path("data")
 COHORT_FILE = Path("results/phase2_confirmatory_coupling/sample_cohort_used.csv")
 DEFAULT_OUTPUT_DIR = Path("results/phase5c_plant_diversity")
 
-DEFAULT_PAIRS = ["BAC↔ITS", "AMF↔ITS", "EUK↔ITS", "AMF↔EUK"]
+DEFAULT_PAIRS = ["BAC↔AMF", "BAC↔ITS", "BAC↔EUK", "AMF↔ITS", "AMF↔EUK", "EUK↔ITS"]
 DEFAULT_BRANCHES = ["presence/absence", "CLR"]
 DEFAULT_THRESHOLD = 0.05
 DEFAULT_PERMUTATIONS = 999

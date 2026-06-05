@@ -2,7 +2,7 @@
 #SBATCH --job-name=phase5c_plant_hyp
 #SBATCH --account=uthpc
 #SBATCH --partition=main
-#SBATCH --array=0-7
+#SBATCH --array=0-11
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=04:00:00

@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=04:00:00
-#SBATCH --array=0-7
+#SBATCH --array=0-11
 #SBATCH --output=logs/phase5b_env_array_%A_%a.out
 #SBATCH --error=logs/phase5b_env_array_%A_%a.err
 

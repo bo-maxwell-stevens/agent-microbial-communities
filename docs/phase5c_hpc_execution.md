@@ -14,7 +14,7 @@ Phase 5C tests hypothesis-based DarkDivNet biodiversity model sets against cross
   - G: + pool + compl
 - Geography is sensitivity-only (`latitude + longitude`) and is run via `--include-geography-sensitivity`.
 
-Combos: 4 microbial pairs × 2 branches = 8 SLURM array tasks.
+Combos: 6 microbial pairs × 2 branches = 12 SLURM array tasks.
 
 ## 1) Write manifest
 ```bash
@@ -23,7 +23,7 @@ source .venv/bin/activate
 python3 scripts/analysis/phase5c_plant_diversity_hypotheses.py --write-manifest
 ```
 
-Expected manifest: `results/phase5c_plant_diversity/phase5c_combo_manifest.csv` with 8 rows.
+Expected manifest: `results/phase5c_plant_diversity/phase5c_combo_manifest.csv` with 12 rows.
 
 ## 2) Submit array (DO NOT run until approved)
 ```bash
@@ -44,7 +44,7 @@ sacct -j <jobid> --format=JobID,State,Elapsed,MaxRSS
 ls -lh logs/phase5c_plant_hyp_<jobid>_*.{out,err}
 ```
 
-## 4) Combine checkpoints (after all 0..7 complete)
+## 4) Combine checkpoints (after all 0..11 complete)
 ```bash
 cd ~/projects/agent_microbial_communities
 source .venv/bin/activate
@@ -66,4 +66,4 @@ Under `results/phase5c_plant_diversity/`:
 - `phase5c_pair_comparisons.png`
 
 Checkpoint folder:
-- `checkpoints/combo_0.csv` … `combo_7.csv`
+- `checkpoints/combo_0.csv` … `combo_11.csv`

@@ -1,0 +1,37 @@
+{
+  "phase4_thresholds_literal": true,
+  "phase5a_thresholds_literal": true,
+  "phase4_n_permutations_999": true,
+  "phase5a_n_permutations_999": true,
+  "phase5a_default_direct_aitchison": true,
+  "phase4_threshold_values": [
+    0.05
+  ],
+  "phase4_n_permutations_values": [
+    999
+  ],
+  "phase4_pairs_count": 6,
+  "phase5a_threshold_values": [
+    0.05
+  ],
+  "phase5a_permutations_values": [
+    999
+  ],
+  "phase5a_pairs_count": 6,
+  "phase5b_threshold_values": [
+    0.05
+  ],
+  "phase5b_permutations_values": [
+    999
+  ],
+  "phase5b_pairs_count": 6,
+  "phase5c_threshold_values": [
+    0.05
+  ],
+  "phase5c_permutations_values": [
+    999
+  ],
+  "phase5c_pairs_count": 6,
+  "phase5d_pairs_count": 6,
+  "all_phases_six_pairs_complete": true
+}

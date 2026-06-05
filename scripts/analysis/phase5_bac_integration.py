@@ -29,7 +29,7 @@ COHORT_FILE = f"{PHASE2_RESULTS_DIR}/sample_cohort_used.csv"
 
 PSEUDOCOUNT = 1e-6
 N_COMPONENTS = 10
-THRESHOLDS = [0.05, 0.10]
+THRESHOLDS = [0.05]
 BRANCHES = ["presence/absence", "CLR"]
 PAIRS = [
     ("BAC", "AMF"),
