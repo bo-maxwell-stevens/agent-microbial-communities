@@ -1,0 +1,4 @@
+threshold,phase5a_top_pair,phase5b_top_predictor,phase5c_top_hypothesis,phase5c_top_plant_responsive_pair,phase5c_top_plant_responsive_branch
+prevalence_none,EUK↔ITS,pH_KCl,abiotic_plus_alpha,AMF↔ITS,CLR
+prevalence_005,BAC↔ITS,pH_KCl,abiotic_plus_alpha,AMF↔ITS,presence/absence
+prevalence_010,BAC↔ITS,pH_KCl,abiotic_plus_alpha,AMF↔ITS,presence/absence

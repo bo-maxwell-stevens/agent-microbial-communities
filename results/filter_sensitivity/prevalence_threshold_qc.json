@@ -1,0 +1,29 @@
+{
+  "canonical_decision": "prevalence_005",
+  "significance_shift_vs_prevalence_none": {
+    "prevalence_005": {
+      "phase5b": {
+        "gained": 0,
+        "lost": 0,
+        "compared_calls": 176
+      },
+      "phase5c": {
+        "gained": 0,
+        "lost": 0,
+        "compared_calls": 56
+      }
+    },
+    "prevalence_010": {
+      "phase5b": {
+        "gained": 0,
+        "lost": 0,
+        "compared_calls": 176
+      },
+      "phase5c": {
+        "gained": 0,
+        "lost": 0,
+        "compared_calls": 56
+      }
+    }
+  }
+}
