@@ -1,0 +1,21 @@
+metric,value,source_file,notes
+original samples (canonical inventory),143,results/dataset_qc_v2/canonical_sample_inventory.csv,Unique sample_id count.
+original sites (site_id available),99,results/feasibility/sample_presence_matrix.csv,Unique non-null site.id values.
+country count,NA,not_found_in_inspected_metadata_tables,No country column found in inspected metadata/results tables.
+samples after quality filtering if available,99,results/phase1_coupling/cohort_summary.csv,META cohort size used downstream (samples with environmental metadata).
+samples after domain matching (BAC+ITS+EUK+AMF),112,results/dataset_qc_v2/canonical_sample_inventory.csv,Four-domain overlap before requiring META.
+final cohort size,84,results/phase2_confirmatory_coupling/sample_cohort_used.csv; results/phase1_coupling/cohort_summary.csv,Matches Phase 2 cohort and FULL_OVERLAP.
+BAC sample count,140,results/phase1_coupling/cohort_summary.csv,Per-domain sample count in cohort summary.
+ITS sample count,139,results/phase1_coupling/cohort_summary.csv,Per-domain sample count in cohort summary.
+EUK sample count,135,results/phase1_coupling/cohort_summary.csv,Per-domain sample count in cohort summary.
+AMF sample count,120,results/phase1_coupling/cohort_summary.csv,Per-domain sample count in cohort summary.
+BAC↔ITS overlap count,137,results/dataset_qc_v2/canonical_sample_inventory.csv,Computed as intersection of per-domain availability flags.
+BAC↔EUK overlap count,135,results/dataset_qc_v2/canonical_sample_inventory.csv,Computed as intersection of per-domain availability flags.
+BAC↔AMF overlap count,117,results/dataset_qc_v2/canonical_sample_inventory.csv,Computed as intersection of per-domain availability flags.
+ITS↔EUK overlap count,132,results/dataset_qc_v2/canonical_sample_inventory.csv,Computed as intersection of per-domain availability flags.
+ITS↔AMF overlap count,117,results/dataset_qc_v2/canonical_sample_inventory.csv,Computed as intersection of per-domain availability flags.
+EUK↔AMF overlap count,114,results/dataset_qc_v2/canonical_sample_inventory.csv,Computed as intersection of per-domain availability flags.
+Phase 2 pair/branch combinations,6,results/phase2_confirmatory_coupling/phase2_coupling_summary.csv,AMF↔EUK (CLR); AMF↔EUK (presence/absence); AMF↔ITS (CLR); AMF↔ITS (presence/absence); EUK↔ITS (CLR); EUK↔ITS (presence/absence)
+Phase 5A pair/branch combinations,12,results/phase5_bac_integration/phase5_combo_manifest.csv,AMF↔EUK (CLR); AMF↔EUK (presence/absence); AMF↔ITS (CLR); AMF↔ITS (presence/absence); BAC↔AMF (CLR); BAC↔AMF (presence/absence); BAC↔EUK (CLR); BAC↔EUK (presence/absence); BAC↔ITS (CLR); BAC↔ITS (presence/absence); EUK↔ITS (CLR); EUK↔ITS (presence/absence)
+Phase 5B pair/branch combinations,8,results/phase5b_environmental_drivers/phase5b_combo_manifest.csv,AMF↔EUK (CLR); AMF↔EUK (presence/absence); AMF↔ITS (CLR); AMF↔ITS (presence/absence); BAC↔ITS (CLR); BAC↔ITS (presence/absence); EUK↔ITS (CLR); EUK↔ITS (presence/absence)
+Phase 5C pair/branch combinations,8,results/phase5c_plant_diversity/phase5c_model_comparison.csv,AMF↔EUK (CLR); AMF↔EUK (presence/absence); AMF↔ITS (CLR); AMF↔ITS (presence/absence); BAC↔ITS (CLR); BAC↔ITS (presence/absence); EUK↔ITS (CLR); EUK↔ITS (presence/absence)
