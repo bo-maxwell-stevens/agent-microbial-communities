@@ -59,3 +59,5 @@ python3 scripts/analysis/phase2_visualize_coupling.py
 ```
 
 Ensure the virtual environment is activated before executing these scripts for proper functionality.
+
+If pip resolves to a different Python interpreter on your system, prefer uv pip or python -m pip to avoid installing packages into the wrong environment.
