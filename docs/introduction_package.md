@@ -46,7 +46,7 @@ Mapped in `introduction_topic_map.csv`; full library in `introduction_reference_
 - Methodological caution: compositional data and network inference uncertainty.
 
 ## Source files used
-- `docs/manuscript_blueprint.md`
+- `manuscript/manuscript_blueprint.md`
 - `docs/phase5d_synthesis_summary.md`
 - `results/manuscript_preparation/citation_inventory.csv`
 - `results/manuscript_preparation/introduction_reference_library.csv`

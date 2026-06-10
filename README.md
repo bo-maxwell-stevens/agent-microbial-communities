@@ -61,3 +61,9 @@ python3 scripts/analysis/phase2_visualize_coupling.py
 Ensure the virtual environment is activated before executing these scripts for proper functionality.
 
 If pip resolves to a different Python interpreter on your system, prefer uv pip or python -m pip to avoid installing packages into the wrong environment.
+
+## Additional utility scripts
+- `scripts/figures/regenerate_manuscript_figures.py` — Rebuilds manuscript figure set from existing analysis outputs.
+- `scripts/literature/run_darkdivnet_literature_search.py` — Runs the DarkDivNet-focused literature retrieval workflow.
+- `scripts/literature/summarize_darkdivnet_context.py` — Summarizes retrieved DarkDivNet literature context into project-ready notes.
+

@@ -9,11 +9,10 @@
 - Blocking strategy: attempts `site.id` then `region`; falls back to unblocked permutations when repeated groups are unavailable.
 
 ## Operational robustness additions
-- Checkpoint logging to `results/phase1_coupling/checkpoints.log`.
-- Intermediate pre-expensive-step snapshot in `results/phase1_coupling/intermediate_summary.json`.
 - Deduplicated/timestamped warning emission in `results/phase1_coupling/warnings.log`.
+- Runtime metadata (`runtime_seconds`, environment, input hashes/sizes) in `results/phase1_coupling/run_metadata.json`.
 - Lightweight exponential retry/backoff for transient failures in long-running steps.
-- Runtime metadata (`runtime_seconds`, environment, input hashes/sizes) in `run_metadata.json`.
+- The script can also emit checkpoint/intermediate files (`checkpoints.log`, `intermediate_summary.json`) during full runs, but these are not always preserved in committed result snapshots.
 
 ## Sample cohort
 - META: 99
