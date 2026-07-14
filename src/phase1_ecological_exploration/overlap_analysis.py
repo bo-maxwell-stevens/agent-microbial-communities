@@ -1,53 +1,49 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict
 
 import pandas as pd
 
 
 def compute_overlap_summary(
-    datasets: Dict,
+    communities: dict[str, pd.DataFrame],
+    sample_manifest: pd.DataFrame,
 ) -> pd.DataFrame:
     kingdom_keys = ["AMF", "BAC", "EUK", "ITS"]
-    sample_sets = {}
-    for k in kingdom_keys:
-        sample_sets[k] = set(datasets[k]["otu"].index.astype(str))
 
-    meta_samples = set(datasets["META"]["otu"].iloc[:, 0].astype(str))
+    sample_sets = {
+        modality: set(communities[modality].index.astype(str))
+        for modality in kingdom_keys
+    }
+    meta_samples = set(sample_manifest["sample_id"].astype(str))
 
-    pairs = []
+    pair_rows = []
     all_keys = kingdom_keys + ["META"]
-    for i, k1 in enumerate(all_keys):
-        for k2 in all_keys[i + 1 :]:
-            s1 = sample_sets.get(k1, meta_samples)
-            s2 = sample_sets.get(k2, meta_samples)
-            overlap = len(s1 & s2)
-            pairs.append(
+    for i, left in enumerate(all_keys):
+        for right in all_keys[i + 1 :]:
+            left_set = sample_sets.get(left, meta_samples)
+            right_set = sample_sets.get(right, meta_samples)
+            overlap = len(left_set.intersection(right_set))
+            union_size = len(left_set.union(right_set))
+            pair_rows.append(
                 {
-                    "dataset_1": k1,
-                    "dataset_2": k2,
+                    "dataset_1": left,
+                    "dataset_2": right,
                     "overlap_count": overlap,
-                    "dataset_1_size": len(s1),
-                    "dataset_2_size": len(s2),
-                    "jaccard": (
-                        round(
-                            overlap / len(s1 | s2), 4
-                        )
-                        if s1 | s2
-                        else 0.0
-                    ),
+                    "dataset_1_size": len(left_set),
+                    "dataset_2_size": len(right_set),
+                    "jaccard": round(overlap / union_size, 4) if union_size else 0.0,
                 }
             )
 
-    rows = []
-    for k in kingdom_keys:
-        otu = datasets[k]["otu"]
-        present = sum(1 for s in meta_samples if s in otu.index)
-        absent = len(meta_samples) - present
-        rows.append(
+    summary_rows = []
+    for modality in kingdom_keys:
+        otu = communities[modality]
+        present = sum(1 for s in sample_manifest["sample_id"].astype(str) if s in otu.index)
+        absent = len(sample_manifest) - present
+        summary_rows.append(
             {
-                "kingdom": k,
+                "kingdom": modality,
                 "samples_in_otu_table": len(otu),
                 "samples_in_meta": present,
                 "samples_missing_from_meta": absent,
@@ -55,22 +51,18 @@ def compute_overlap_summary(
             }
         )
 
-    summary_rows = []
-    for r in rows:
-        summary_rows.append(r)
-    for p in pairs:
+    for pair in pair_rows:
         summary_rows.append(
             {
-                "kingdom": f"{p['dataset_1']}_vs_{p['dataset_2']}",
-                "samples_in_otu_table": p["overlap_count"],
-                "samples_in_meta": p["dataset_1_size"],
-                "samples_missing_from_meta": p["dataset_2_size"],
-                "otu_count": p["jaccard"],
+                "kingdom": f"{pair['dataset_1']}_vs_{pair['dataset_2']}",
+                "samples_in_otu_table": pair["overlap_count"],
+                "samples_in_meta": pair["dataset_1_size"],
+                "samples_missing_from_meta": pair["dataset_2_size"],
+                "otu_count": pair["jaccard"],
             }
         )
 
-    result = pd.DataFrame(summary_rows)
-    return result
+    return pd.DataFrame(summary_rows)
 
 
 def write_overlap_summary(df: pd.DataFrame, path: Path) -> None:

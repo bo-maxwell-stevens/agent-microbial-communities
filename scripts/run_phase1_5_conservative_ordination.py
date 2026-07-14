@@ -34,9 +34,10 @@ import pandas as pd
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
+from src.data_loading import load_project_data
 from src.phase1_ecological_exploration.dataset_loader import (
-    load_all_datasets,
-    file_sha256,
+    build_input_provenance,
+    to_legacy_datasets,
 )
 from src.phase1_ecological_exploration.ordination_analysis import (
     run_ordination_strategies,
@@ -79,30 +80,26 @@ def _check_package_version(pkg_name: str) -> str:
         return "not_available"
 
 
-def _load_cohort_sample_ids(cohort_path: Path, repo_root: Path, datasets: Dict) -> List[str]:
-    if cohort_path.exists():
-        with open(cohort_path) as f:
-            cohort = json.load(f)
-        samples = cohort.get("microbial_plus_metadata_overlap", [])
-        if isinstance(samples, dict):
-            samples = samples.get("items", [])
-        logger.info("Loaded %d cohort samples from %s", len(samples), cohort_path)
-        return samples
-    logger.warning("Cohort file %s not found; reconstructing intersection", cohort_path)
-    meta_df = datasets["META"]["otu"]
-    canonical_col = "canonical"
-    if canonical_col not in meta_df.columns:
-        raise KeyError(f"Column '{canonical_col}' not found in META dataset")
-    sample_set = set(meta_df[canonical_col].dropna().unique())
-    otu_sets = {
-        k: set(datasets[k]["otu"].index.astype(str))
-        for k in ["AMF", "BAC", "EUK", "ITS"]
-    }
-    all_microbial = sorted(
-        otu_sets["AMF"] & otu_sets["BAC"] & otu_sets["EUK"] & otu_sets["ITS"]
-    )
-    samples = sorted(s for s in all_microbial if s in sample_set)
-    logger.info("Reconstructed %d cohort samples deterministically", len(samples))
+def _load_cohort_sample_ids(cohort_path: Path) -> List[str]:
+    if not cohort_path.exists():
+        raise FileNotFoundError(
+            f"Required cohort file not found: {cohort_path}. "
+            "Run scripts/run_phase1_ecological_exploration.py first."
+        )
+
+    with open(cohort_path) as f:
+        cohort = json.load(f)
+
+    samples = cohort.get("microbial_plus_metadata_overlap", [])
+    if isinstance(samples, dict):
+        samples = samples.get("items", [])
+
+    if not isinstance(samples, list) or not all(isinstance(x, str) for x in samples):
+        raise ValueError(
+            f"Unexpected microbial_plus_metadata_overlap payload in {cohort_path}"
+        )
+
+    logger.info("Loaded %d cohort samples from %s", len(samples), cohort_path)
     return samples
 
 
@@ -205,10 +202,12 @@ def main() -> None:
     t_start = time.time()
 
     logger.info("Loading datasets from %s ...", data_dir)
-    datasets, provenance = load_all_datasets(data_dir)
+    project_data = load_project_data(data_dir)
+    datasets = to_legacy_datasets(project_data)
+    provenance = build_input_provenance(data_dir)
 
     logger.info("Loading cohort sample IDs ...")
-    sample_ids = _load_cohort_sample_ids(cohort_path, repo_root, datasets)
+    sample_ids = _load_cohort_sample_ids(cohort_path)
 
     cohort_used = pd.DataFrame({"sample_id": sorted(sample_ids)})
     cohort_path_out = results_dir / "sample_cohort_used.csv"

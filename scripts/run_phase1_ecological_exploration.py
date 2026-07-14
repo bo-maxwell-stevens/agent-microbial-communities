@@ -18,20 +18,22 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from src.phase1_ecological_exploration.dataset_loader import (
-    load_all_datasets,
-)
+from src.data_loading import build_sample_manifest, load_project_data
 from src.phase1_ecological_exploration.cohort_builder import (
     build_cohorts,
     write_cohort_definition,
+)
+from src.phase1_ecological_exploration.dataset_loader import (
+    build_input_provenance,
+    to_legacy_datasets,
 )
 from src.phase1_ecological_exploration.overlap_analysis import (
     compute_overlap_summary,
     write_overlap_summary,
 )
 from src.phase1_ecological_exploration.plans_reporting import (
-    generate_normalization_plan,
     generate_analysis_plan,
+    generate_normalization_plan,
     generate_runtime_metadata,
 )
 
@@ -69,17 +71,28 @@ def main() -> None:
     results_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"[phase1] Loading datasets from {data_dir} ...")
-    datasets, provenance = load_all_datasets(data_dir)
+    project_data = load_project_data(data_dir)
+    sample_manifest = build_sample_manifest(project_data)
+
+    datasets = to_legacy_datasets(project_data)
+    provenance = build_input_provenance(data_dir)
 
     print("[phase1] Building cohort definition ...")
-    cohort_info = build_cohorts(datasets)
+    cohort_info = build_cohorts(
+        communities=project_data.communities,
+        metadata=project_data.metadata,
+        sample_manifest=sample_manifest,
+    )
 
     cohort_path = results_dir / "cohort_definition.json"
     write_cohort_definition(cohort_info, cohort_path)
     print(f"  -> {cohort_path}")
 
     print("[phase1] Computing dataset overlap summary ...")
-    overlap_df = compute_overlap_summary(datasets)
+    overlap_df = compute_overlap_summary(
+        communities=project_data.communities,
+        sample_manifest=sample_manifest,
+    )
     overlap_path = results_dir / "dataset_overlap_summary.csv"
     write_overlap_summary(overlap_df, overlap_path)
     print(f"  -> {overlap_path}")
@@ -97,7 +110,12 @@ def main() -> None:
     print("[phase1] Generating runtime metadata ...")
     meta_path = results_dir / "runtime_metadata.json"
     generate_runtime_metadata(
-        datasets, provenance, cohort_info, repo_root, meta_path, argv=sys.argv
+        datasets,
+        provenance,
+        cohort_info,
+        repo_root,
+        meta_path,
+        argv=sys.argv,
     )
     print(f"  -> {meta_path}")
 

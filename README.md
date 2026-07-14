@@ -67,3 +67,33 @@ If pip resolves to a different Python interpreter on your system, prefer uv pip 
 - `scripts/literature/run_darkdivnet_literature_search.py` — Runs the DarkDivNet-focused literature retrieval workflow.
 - `scripts/literature/summarize_darkdivnet_context.py` — Summarizes retrieved DarkDivNet literature context into project-ready notes.
 
+## Centralized data loading and schema contract
+
+Project-wide loading lives in `src/data_loading.py` via:
+
+- `load_project_data(data_dir)`
+- `build_sample_manifest(project_data)`
+
+Schema/validation contract:
+
+- OTU tables are `samples × features`.
+- Sample IDs come from the first OTU-table column.
+- Metadata sample IDs must use `canonical`.
+- Explicit feature ID columns are:
+  - AMF: `VT`
+  - BAC: `OTU`
+  - EUK: `OTU`
+  - ITS: `SH`
+- OTU matrices are validated as numeric, non-negative counts with unique sample IDs and feature IDs.
+- Feature metadata is validated to be positionally aligned with each abundance table.
+
+AMF unresolved-feature handling (project-specific and explicit):
+
+- The final AMF abundance feature is expected as `Unnamed: 386`.
+- The final row of `AMF_feature_metadata.tsv` is expected to have blank `VT`.
+- If and only if leading AMF abundance IDs and leading AMF `VT` values match exactly in order, the unresolved final feature is retained and normalized to `AMF_UNRESOLVED_FEATURE_386` in both abundance and metadata.
+- Metadata marks this row with `identifier_status=unresolved_export_id`.
+- This placeholder must **not** be interpreted as a biological/taxonomic assignment or an identified MaarjAM VT.
+- Downstream prevalence filtering treats this unresolved placeholder with the same rule as all other features (min_occurrences = max(1, int(np.ceil(threshold * n_samples))).
+
+`build_sample_manifest(...)` returns canonical membership columns (`sample_id`, `in_<modality>`, `in_META`, `modalities_present`) and is the shared pathway used by cohort and overlap workflows.

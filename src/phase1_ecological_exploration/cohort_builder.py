@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Dict
 
 import pandas as pd
 
@@ -16,48 +15,35 @@ def _serialize(obj):
 
 
 def build_cohorts(
-    datasets: Dict,
-) -> Dict:
-    meta_df = datasets["META"]["otu"]
-    canonical_col = "canonical"
-    if canonical_col not in meta_df.columns:
-        raise KeyError(
-            f"Column '{canonical_col}' not found in META dataset. "
-            f"Available: {list(meta_df.columns)[:10]}..."
-        )
-
-    sample_ids = list(meta_df[canonical_col].dropna().unique())
+    communities: dict[str, pd.DataFrame],
+    metadata: pd.DataFrame,
+    sample_manifest: pd.DataFrame,
+) -> dict:
+    sample_ids = sample_manifest["sample_id"].astype(str).tolist()
     sample_set = set(sample_ids)
 
     modality_specific_cohorts = {}
-    for k in ["AMF", "BAC", "EUK", "ITS"]:
-        otu = datasets[k]["otu"]
-        otu_samples = set(otu.index.astype(str))
-        present = sorted(otu_samples & sample_set)
-        missing = sorted(sample_set - otu_samples)
-        modality_specific_cohorts[k] = {
+    for modality in ["AMF", "BAC", "EUK", "ITS"]:
+        otu_samples = set(communities[modality].index.astype(str))
+        present = sorted(otu_samples.intersection(sample_set))
+        missing = sorted(sample_set.difference(otu_samples))
+        modality_specific_cohorts[modality] = {
             "samples_present": present,
             "samples_missing": missing,
         }
 
     otu_sets = {
-        k: set(datasets[k]["otu"].index.astype(str))
-        for k in ["AMF", "BAC", "EUK", "ITS"]
+        modality: set(communities[modality].index.astype(str))
+        for modality in ["AMF", "BAC", "EUK", "ITS"]
     }
     all_microbial = sorted(
-        otu_sets["AMF"] & otu_sets["BAC"] & otu_sets["EUK"] & otu_sets["ITS"]
+        otu_sets["AMF"].intersection(otu_sets["BAC"], otu_sets["EUK"], otu_sets["ITS"])
     )
-    microbial_plus_metadata = sorted(
-        s for s in all_microbial if s in sample_set
-    )
+    microbial_plus_metadata = sorted(s for s in all_microbial if s in sample_set)
 
-    region_counts = (
-        meta_df["region"].value_counts().to_dict()
-        if "region" in meta_df.columns
-        else {}
-    )
+    region_counts = metadata["region"].value_counts().to_dict() if "region" in metadata.columns else {}
 
-    cohort_info = {
+    return {
         "cohort_name": "darkdivnet_phase1_cohort",
         "description": (
             "Primary analytic cohort for Phase 1 ecological exploration. "
@@ -73,9 +59,6 @@ def build_cohorts(
         "region_counts": region_counts,
     }
 
-    return cohort_info
 
-
-def write_cohort_definition(cohort_info: Dict, path: Path) -> None:
-    serializable = _serialize(cohort_info)
-    path.write_text(json.dumps(serializable, indent=2))
+def write_cohort_definition(cohort_info: dict, path: Path) -> None:
+    path.write_text(json.dumps(_serialize(cohort_info), indent=2))
