@@ -606,13 +606,17 @@ def run_qc(repo_root: Path, data_dir: Path, results_dir: Path, docs_dir: Path) -
     )
 
 
-def main() -> None:
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run dataset QC v2 workflow")
     parser.add_argument("--repo-root", default=".", help="Repository root path")
     parser.add_argument("--data-dir", default="data", help="Relative path to input data directory")
     parser.add_argument("--results-dir", default="results/dataset_qc_v2", help="Relative output directory for CSV/JSON")
     parser.add_argument("--docs-dir", default="docs", help="Relative docs output directory for markdown report")
-    args = parser.parse_args()
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
 
     repo_root = Path(args.repo_root).resolve()
     data_dir = (repo_root / args.data_dir).resolve()

@@ -11,6 +11,7 @@ Mantel Spearman is computed directly on branch-specific full distance matrices
 
 from __future__ import annotations
 
+import argparse
 from pathlib import Path
 
 import numpy as np
@@ -32,8 +33,16 @@ BRANCHES = ["presence/absence", "CLR"]
 PAIRS = [("EUK", "ITS"), ("AMF", "ITS"), ("AMF", "EUK")]
 
 
-def load_otu_table(name: str) -> pd.DataFrame:
-    path = f"{DATA_DIR}/{name}_OTU_table_final.tsv"
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run Phase 2 confirmatory coupling analysis")
+    parser.add_argument("--data-dir", default=DATA_DIR, help="Input data directory")
+    parser.add_argument("--results-dir", default=RESULTS_DIR, help="Output results directory")
+    parser.add_argument("--cohort-file", default=COHORT_FILE, help="Cohort CSV path")
+    return parser.parse_args()
+
+
+def load_otu_table(name: str, data_dir: str = DATA_DIR) -> pd.DataFrame:
+    path = f"{data_dir}/{name}_OTU_table_final.tsv"
     return pd.read_csv(path, sep="\t", index_col=0)
 
 
@@ -169,11 +178,17 @@ def prepare_branch_outputs(table: pd.DataFrame, cohort: list[str], threshold: fl
 
 
 def main() -> None:
-    print("Running Phase 2 confirmatory coupling analysis...")
-    Path(RESULTS_DIR).mkdir(parents=True, exist_ok=True)
+    args = parse_args()
 
-    cohort = pd.read_csv(COHORT_FILE)["Sample_ID"].astype(str).tolist()
-    tables = {name: load_otu_table(name) for name in ["AMF", "EUK", "ITS"]}
+    data_dir = args.data_dir
+    results_dir = args.results_dir
+    cohort_file = args.cohort_file
+
+    print("Running Phase 2 confirmatory coupling analysis...")
+    Path(results_dir).mkdir(parents=True, exist_ok=True)
+
+    cohort = pd.read_csv(cohort_file)["Sample_ID"].astype(str).tolist()
+    tables = {name: load_otu_table(name, data_dir) for name in ["AMF", "EUK", "ITS"]}
 
     results: list[dict] = []
     for threshold in THRESHOLDS:
@@ -199,7 +214,7 @@ def main() -> None:
                     }
                 )
 
-    out_path = Path(RESULTS_DIR) / "phase2_coupling_summary.csv"
+    out_path = Path(results_dir) / "phase2_coupling_summary.csv"
     pd.DataFrame(results).to_csv(out_path, index=False)
     print(f"Phase 2 analysis completed: {out_path}")
 
