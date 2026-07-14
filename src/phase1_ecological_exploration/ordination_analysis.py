@@ -149,7 +149,15 @@ def run_pca(data_matrix: pd.DataFrame, n_components: int = 10) -> Dict:
         try:
             vals = data_matrix.values
             centered = vals - np.mean(vals, axis=0)
-            pca = skPCA(n_components=min(n_components, data_matrix.shape[1], data_matrix.shape[0]))
+            n_comp = min(n_components, data_matrix.shape[1], data_matrix.shape[0])
+            max_dim = max(data_matrix.shape[0], data_matrix.shape[1])
+            min_dim = min(data_matrix.shape[0], data_matrix.shape[1])
+            # Make sklearn auto-solver behavior explicit for this workflow:
+            # large-and-wide matrices use randomized SVD; otherwise full SVD.
+            if max_dim > 500 and n_comp < 0.8 * min_dim:
+                pca = skPCA(n_components=n_comp, svd_solver="randomized", random_state=0)
+            else:
+                pca = skPCA(n_components=n_comp, svd_solver="full")
             coords = pca.fit_transform(centered)
             result["coordinates"] = pd.DataFrame(
                 coords,

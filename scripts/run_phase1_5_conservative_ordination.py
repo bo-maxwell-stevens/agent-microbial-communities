@@ -48,6 +48,7 @@ from src.phase1_ecological_exploration.preprocessing_sensitivity import (
 )
 from src.phase1_ecological_exploration.diagnostics import (
     compare_ordinations,
+    derive_stable_seed,
 )
 from src.phase1_ecological_exploration.plotting import (
     plot_ordination_comparisons,
@@ -265,11 +266,11 @@ def main() -> None:
     logger.info("Computing cross-method stability diagnostics ...")
     diag_records = []
     diagnostic_random_seeds = {}
-    for mod_idx, mod in enumerate(modalities):
+    for mod in modalities:
         mod_results = all_results.get(mod, {})
         if "error" in mod_results:
             continue
-        mod_seed = RANDOM_SEED + mod_idx
+        mod_seed = derive_stable_seed(RANDOM_SEED, mod)
         diagnostic_random_seeds[mod] = mod_seed
         diags = compare_ordinations(
             mod_results,
@@ -279,7 +280,7 @@ def main() -> None:
         )
         for d in diags:
             d["modality"] = mod
-            d["random_seed"] = mod_seed
+            d["modality_seed"] = mod_seed
             diag_records.append(d)
     diag_df = pd.DataFrame(diag_records) if diag_records else pd.DataFrame()
     diag_path = results_dir / "ordination_stability_diagnostics.csv"

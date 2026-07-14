@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import logging
 import warnings
 from typing import Dict, List, Optional, Tuple
@@ -11,6 +12,12 @@ from scipy.spatial.distance import pdist, squareform
 from scipy.stats import pearsonr, spearmanr
 
 logger = logging.getLogger(__name__)
+
+
+def derive_stable_seed(base_seed: int, *parts: object) -> int:
+    payload = "|".join([str(int(base_seed))] + [str(part) for part in parts]).encode("utf-8")
+    digest = hashlib.sha256(payload).digest()
+    return int.from_bytes(digest[:8], "big") % (2**32)
 
 
 def compute_procrustes(
@@ -161,7 +168,7 @@ def compare_ordinations(
     flat = _flatten_results(ordination_results)
 
     if method_pairs is None:
-        strategies = list(flat.keys())
+        strategies = sorted(flat.keys())
         method_pairs = []
         for i in range(len(strategies)):
             for j in range(i + 1, len(strategies)):
@@ -181,12 +188,14 @@ def compare_ordinations(
             continue
 
         if use_permutation_test:
+            comparison_seed = derive_stable_seed(random_state, name_a, name_b, n_permutations)
             diag = procrustes_permutation_test(
                 coords_a,
                 coords_b,
                 n_permutations=n_permutations,
-                random_state=random_state,
+                random_state=comparison_seed,
             )
+            diag["random_seed"] = comparison_seed
         else:
             diag = compute_procrustes(coords_a, coords_b)
 
