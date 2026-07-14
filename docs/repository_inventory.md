@@ -75,8 +75,8 @@ scripts/analysis/phase2_visualize_coupling.py
 scripts/analysis/phase3_environmental_partitioning.py
 scripts/analysis/phase4_coupling_inference.py
 scripts/analysis/phase5_bac_integration.py
-scripts/run_phase1_5_conservative_ordination.py
-scripts/run_phase1_ecological_exploration.py
+scripts/03_ordination.py
+scripts/02_define_cohort.py
 scripts/run_phase2_confirmatory_coupling.py
 ```
 
@@ -318,14 +318,14 @@ results/residual_mantel_results.txt
 scripts
 scripts/__pycache__
 scripts/analysis
-scripts/dataset_qc_v2.py
+scripts/01_data_qc.py
 scripts/feasibility
 scripts/hpc
 scripts/literature
 scripts/run_dataset_qc_v2.sh
 scripts/run_denario_exploration.py
-scripts/run_phase1_5_conservative_ordination.py
-scripts/run_phase1_ecological_exploration.py
+scripts/03_ordination.py
+scripts/02_define_cohort.py
 scripts/run_phase1_ecological_exploration.sh
 scripts/run_phase2_confirmatory_coupling.py
 scripts/run_phase2_confirmatory_coupling_with_patch.py

@@ -82,7 +82,7 @@ def _load_cohort_sample_ids(cohort_path: Path) -> List[str]:
     if not cohort_path.exists():
         raise FileNotFoundError(
             f"Required cohort file not found: {cohort_path}. "
-            "Run scripts/run_phase1_ecological_exploration.py first."
+            "Run scripts/02_define_cohort.py first."
         )
 
     with open(cohort_path) as f:

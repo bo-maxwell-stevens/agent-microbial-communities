@@ -1,6 +1,6 @@
 # Dataset QC v2 Workflow
 
-This workflow is implemented in `scripts/dataset_qc_v2.py` and run via:
+This workflow is implemented in `scripts/01_data_qc.py` and run via:
 
 ```bash
 ./scripts/run_dataset_qc_v2.sh

@@ -53,12 +53,25 @@ Some scripts, such as `scripts/analysis/phase2_visualize_coupling.py` and `scrip
 
 ```bash
 cd /srv/hermes_projects/agent_microbial_communities
-source venv/bin/activate
+source .venv/bin/activate
 python3 scripts/analysis/phase2_validate_outputs.py
 python3 scripts/analysis/phase2_visualize_coupling.py
 ```
 
 Ensure the virtual environment is activated before executing these scripts for proper functionality.
+
+For early-workflow scripts requiring project dependencies (for example ordination), run either:
+
+```bash
+source .venv/bin/activate
+python3 scripts/03_ordination.py
+```
+
+or directly:
+
+```bash
+.venv/bin/python3 scripts/03_ordination.py
+```
 
 If pip resolves to a different Python interpreter on your system, prefer uv pip or python -m pip to avoid installing packages into the wrong environment.
 

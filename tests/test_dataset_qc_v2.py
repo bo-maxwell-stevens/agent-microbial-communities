@@ -7,7 +7,7 @@ import pytest
 
 
 def load_qc_module():
-    module_path = Path(__file__).resolve().parents[1] / "scripts" / "dataset_qc_v2.py"
+    module_path = Path(__file__).resolve().parents[1] / "scripts" / "01_data_qc.py"
     spec = importlib.util.spec_from_file_location("dataset_qc_v2", module_path)
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
