@@ -13,45 +13,36 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import platform
 import subprocess
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 import pandas as pd
 
 
-MODALITIES = {
-    "AMF": {
-        "otu": "AMF_OTU_table_final.tsv",
-        "meta": "AMF_feature_metadata.tsv",
-        "sep": "\t",
-    },
-    "BAC": {
-        "otu": "BAC_OTU_table_final.tsv",
-        "meta": "BAC_feature_metadata.tsv",
-        "sep": "\t",
-    },
-    "EUK": {
-        "otu": "EUK_OTU_table_final.tsv",
-        "meta": "EUK_feature_metadata.tsv",
-        "sep": "\t",
-    },
-    "ITS": {
-        "otu": "ITS_OTU_table_final.tsv",
-        "meta": "ITS_feature_metadata.tsv",
-        "sep": "\t",
-    },
-    "META": {
-        "otu": "Final_data_with_diversity_prefixed.csv",
-        "meta": None,
-        "sep": ",",
-    },
-}
+@dataclass(frozen=True)
+class ModalitySpec:
+    name: str
+    abundance_file: str
+    sep: str
+    feature_metadata_file: Optional[str] = None
+
+
+ABUNDANCE_MODALITIES: tuple[ModalitySpec, ...] = (
+    ModalitySpec("AMF", "AMF_OTU_table_final.tsv", "\t", "AMF_feature_metadata.tsv"),
+    ModalitySpec("BAC", "BAC_OTU_table_final.tsv", "\t", "BAC_feature_metadata.tsv"),
+    ModalitySpec("EUK", "EUK_OTU_table_final.tsv", "\t", "EUK_feature_metadata.tsv"),
+    ModalitySpec("ITS", "ITS_OTU_table_final.tsv", "\t", "ITS_feature_metadata.tsv"),
+)
+
+META_MODALITY = "META"
+META_FILE = "Final_data_with_diversity_prefixed.csv"
+META_SAMPLE_ID_COLUMN = "canonical"
+ALL_MODALITIES = [spec.name for spec in ABUNDANCE_MODALITIES] + [META_MODALITY]
 
 
 @dataclass
@@ -69,390 +60,457 @@ def ensure_dir(path: Path) -> None:
 def git_commit_hash(repo_root: Path) -> str:
     try:
         out = subprocess.check_output(
-            ["git", "rev-parse", "HEAD"], cwd=repo_root, stderr=subprocess.STDOUT, text=True
+            ["git", "rev-parse", "HEAD"],
+            cwd=repo_root,
+            stderr=subprocess.STDOUT,
+            text=True,
         )
         return out.strip()
-    except Exception:
+    except (subprocess.CalledProcessError, FileNotFoundError):
         return "UNKNOWN"
 
 
-def infer_sample_id_column(df: pd.DataFrame) -> Optional[str]:
-    candidates = [
-        "sample",
-        "sample_id",
-        "sampleid",
-        "sample.id",
-        "sample_name",
-        "id",
-        "plot_id",
-        "plot",
-    ]
-    lowered = {c.lower(): c for c in df.columns}
-    for c in candidates:
-        if c in lowered:
-            return lowered[c]
-
-    # fallback: first column if most values are unique and string-like
-    if len(df.columns) > 0:
-        c0 = df.columns[0]
-        s = df[c0].astype(str)
-        if s.nunique(dropna=True) >= max(10, int(0.5 * len(s))):
-            return c0
-    return None
+def normalize_identifier(value: object, label: str) -> str:
+    if value is None:
+        raise ValueError(f"{label} contains missing value")
+    raw = str(value).strip()
+    if raw == "" or raw.lower() in {"nan", "none", "na"}:
+        raise ValueError(f"{label} contains missing value")
+    return raw
 
 
-def clean_ids(values: List[str]) -> List[str]:
-    out: List[str] = []
-    for v in values:
-        if v is None:
-            continue
-        s = str(v).strip()
-        if s == "" or s.lower() in {"nan", "none", "na"}:
-            continue
-        out.append(s)
-    return out
+def normalize_identifier_index(index: pd.Index, label: str) -> pd.Index:
+    cleaned: List[str] = []
+    bad_positions: List[int] = []
+    for i, value in enumerate(index.tolist(), start=1):
+        try:
+            cleaned.append(normalize_identifier(value, label))
+        except ValueError:
+            bad_positions.append(i)
+    if bad_positions:
+        preview = ", ".join(map(str, bad_positions[:10]))
+        raise ValueError(f"{label} has invalid IDs at row positions: {preview}")
+    return pd.Index(cleaned)
 
 
-def parse_otu_samples(df: pd.DataFrame, modality: str) -> Tuple[List[str], List[str], pd.DataFrame]:
-    """Return sample ids, duplicate ids, and numeric abundance matrix (samples x taxa)."""
-    if len(df.columns) == 0:
-        return [], [], pd.DataFrame()
-
-    sample_ids = clean_ids(df.iloc[:, 0].tolist())
-
-    dup = pd.Index(sample_ids).duplicated(keep=False)
-    duplicates = sorted(pd.Index(sample_ids)[dup].unique().tolist())
-
-    abundance = df.iloc[:, 1:].copy() if len(df.columns) > 1 else pd.DataFrame()
-    abundance = abundance.apply(pd.to_numeric, errors="coerce").fillna(0)
-    if abundance.shape[0] == len(sample_ids):
-        abundance.index = sample_ids
-
-    return sample_ids, duplicates, abundance
+def collect_duplicate_ids(values: List[str], id_field: str) -> pd.DataFrame:
+    counts = pd.Series(values, dtype="string").value_counts(dropna=False)
+    dup = counts[counts > 1].sort_index()
+    if dup.empty:
+        return pd.DataFrame(columns=[id_field, "count"])
+    return dup.rename_axis(id_field).reset_index(name="count")
 
 
-def parse_metadata_samples(df: pd.DataFrame) -> Tuple[List[str], List[str]]:
-    sample_col = infer_sample_id_column(df)
-    if sample_col is None:
-        return [], []
-    ids = clean_ids(df[sample_col].tolist())
-    dup = pd.Index(ids).duplicated(keep=False)
-    duplicates = sorted(pd.Index(ids)[dup].unique().tolist())
-    return ids, duplicates
-
-
-def overlap_matrix(sample_sets: Dict[str, set]) -> pd.DataFrame:
-    keys = list(MODALITIES.keys())
-    mat = pd.DataFrame(index=keys, columns=keys, data=0)
-    for a in keys:
-        for b in keys:
-            mat.loc[a, b] = len(sample_sets.get(a, set()).intersection(sample_sets.get(b, set())))
-    return mat
-
-
-def safe_to_csv(df: pd.DataFrame, path: Path) -> None:
-    df.to_csv(path, index=False)
-
-
-def summarize_series(s: pd.Series, prefix: str = "") -> Dict[str, object]:
-    if s.empty:
+def summarize_series(series: pd.Series) -> Dict[str, object]:
+    if series.empty:
         return {
-            f"{prefix}n": 0,
-            f"{prefix}min": float("nan"),
-            f"{prefix}q25": float("nan"),
-            f"{prefix}median": float("nan"),
-            f"{prefix}mean": float("nan"),
-            f"{prefix}q75": float("nan"),
-            f"{prefix}max": float("nan"),
+            "n": 0,
+            "min": float("nan"),
+            "q25": float("nan"),
+            "median": float("nan"),
+            "mean": float("nan"),
+            "q75": float("nan"),
+            "max": float("nan"),
         }
-    q = s.quantile([0.25, 0.5, 0.75])
+    q = series.quantile([0.25, 0.5, 0.75])
     return {
-        f"{prefix}n": int(s.shape[0]),
-        f"{prefix}min": float(s.min()),
-        f"{prefix}q25": float(q.loc[0.25]),
-        f"{prefix}median": float(q.loc[0.5]),
-        f"{prefix}mean": float(s.mean()),
-        f"{prefix}q75": float(q.loc[0.75]),
-        f"{prefix}max": float(s.max()),
+        "n": int(series.shape[0]),
+        "min": float(series.min()),
+        "q25": float(q.loc[0.25]),
+        "median": float(q.loc[0.5]),
+        "mean": float(series.mean()),
+        "q75": float(q.loc[0.75]),
+        "max": float(series.max()),
     }
 
 
-def run_qc(repo_root: Path, data_dir: Path, results_dir: Path, docs_dir: Path) -> None:
-    ensure_dir(results_dir)
-    ensure_dir(docs_dir)
+def compute_prevalence(abundance: pd.DataFrame) -> pd.Series:
+    return (abundance > 0).sum(axis=0) / abundance.shape[0]
 
-    parse_messages: List[ParseMessage] = []
-    sample_sets: Dict[str, set] = {k: set() for k in MODALITIES}
-    duplicate_rows: List[dict] = []
-    modality_file_sizes: List[dict] = []
 
-    libsize_rows: List[dict] = []
-    libsize_summary_rows: List[dict] = []
-    zero_lib_rows: List[dict] = []
+def _read_csv(path: Path, sep: str, index_col: Optional[int] = None) -> pd.DataFrame:
+    try:
+        return pd.read_csv(path, sep=sep, index_col=index_col)
+    except FileNotFoundError:
+        raise
+    except (UnicodeDecodeError, pd.errors.ParserError, OSError) as exc:
+        raise ValueError(f"Failed to parse {path}: {exc}") from exc
 
-    prevalence_rows: List[dict] = []
-    prevalence_summary_rows: List[dict] = []
-    threshold_rows: List[dict] = []
 
-    richness_rows: List[dict] = []
-    richness_summary_rows: List[dict] = []
+def validate_abundance_matrix(abundance: pd.DataFrame, modality: str, file_label: str) -> None:
+    if abundance.shape[1] == 0:
+        raise ValueError(f"{modality} {file_label} has no feature columns")
 
-    for modality, spec in MODALITIES.items():
-        otu_path = data_dir / spec["otu"]
-        sep = spec["sep"]
-
-        if not otu_path.exists():
-            parse_messages.append(ParseMessage("WARNING", modality, str(otu_path), "Expected file missing"))
-            continue
-
-        modality_file_sizes.append(
-            {
-                "modality": modality,
-                "file": str(otu_path),
-                "size_bytes": otu_path.stat().st_size,
-            }
+    if abundance.columns.has_duplicates:
+        dup = collect_duplicate_ids([str(c) for c in abundance.columns], id_field="taxon_id")
+        first = dup.iloc[0]
+        raise ValueError(
+            f"{modality} {file_label} has duplicate taxon IDs; first duplicate: {first['taxon_id']} (count={int(first['count'])})"
         )
 
+    if abundance.isna().any().any():
+        row_idx, col_idx = abundance.isna().to_numpy().nonzero()
+        first_row = abundance.index[row_idx[0]]
+        first_col = abundance.columns[col_idx[0]]
+        raise ValueError(
+            f"{modality} {file_label} has missing abundance value at sample_id={first_row}, taxon_id={first_col}"
+        )
+
+    nonnumeric_columns = [col for col, dtype in abundance.dtypes.items() if not pd.api.types.is_numeric_dtype(dtype)]
+    if nonnumeric_columns:
+        examples: List[str] = []
+        for col in nonnumeric_columns[:5]:
+            coerced = pd.to_numeric(abundance[col], errors="coerce")
+            bad = coerced.isna()
+            if bad.any():
+                sample_id = abundance.index[bad.to_numpy().nonzero()[0][0]]
+                value = abundance.loc[sample_id, col]
+                examples.append(f"sample_id={sample_id}, taxon_id={col}, value={value!r}")
+        details = "; ".join(examples) if examples else f"columns={nonnumeric_columns[:5]}"
+        raise ValueError(f"{modality} {file_label} contains nonnumeric abundance values ({details})")
+
+    negative = abundance < 0
+    if negative.any().any():
+        row_idx, col_idx = negative.to_numpy().nonzero()
+        first_row = abundance.index[row_idx[0]]
+        first_col = abundance.columns[col_idx[0]]
+        first_val = abundance.loc[first_row, first_col]
+        raise ValueError(
+            f"Negative abundance value detected in {modality} {file_label} at sample_id={first_row}, taxon_id={first_col}, value={first_val}"
+        )
+
+
+def load_main_metadata_samples(path: Path, sample_column: str = META_SAMPLE_ID_COLUMN) -> pd.Index:
+    df = _read_csv(path, sep=",")
+    if sample_column not in df.columns:
+        raise ValueError(
+            f"Main metadata file {path} is missing explicit sample-ID column '{sample_column}'"
+        )
+    cleaned = normalize_identifier_index(pd.Index(df[sample_column].tolist()), label=f"{META_MODALITY} sample-ID column")
+    return cleaned
+
+
+def load_abundance_table(path: Path, sep: str, modality: str) -> pd.DataFrame:
+    df = _read_csv(path, sep=sep, index_col=0)
+    if df.empty:
+        raise ValueError(f"{modality} abundance table is empty: {path}")
+
+    df.index = normalize_identifier_index(df.index, label=f"{modality} abundance sample IDs")
+    sample_dups = collect_duplicate_ids(df.index.tolist(), id_field="sample_id")
+    if not sample_dups.empty:
+        first = sample_dups.iloc[0]
+        raise ValueError(
+            f"{modality} abundance table has duplicate sample IDs; first duplicate: {first['sample_id']} (count={int(first['count'])})"
+        )
+
+    validate_abundance_matrix(df, modality=modality, file_label=path.name)
+    return df
+
+
+def load_feature_metadata_ids(path: Path, modality: str) -> pd.Index:
+    df = _read_csv(path, sep="\t")
+    if df.empty or df.shape[1] == 0:
+        raise ValueError(f"{modality} feature metadata is empty: {path}")
+    first_col = df.columns[0]
+    ids = normalize_identifier_index(pd.Index(df[first_col].tolist()), label=f"{modality} feature metadata IDs")
+    return ids
+
+
+def compute_modality_qc(modality: str, abundance: pd.DataFrame) -> dict:
+    library_sizes = abundance.sum(axis=1)
+    richness = (abundance > 0).sum(axis=1)
+    prevalence = compute_prevalence(abundance)
+
+    min_depth = max(1000.0, float(library_sizes.quantile(0.01)))
+    threshold_rows = [
+        {
+            "modality": modality,
+            "threshold_type": "taxon_prevalence_fraction",
+            "threshold_value": thr,
+            "retained_taxa": int((prevalence >= thr).sum()),
+            "total_taxa": int(prevalence.shape[0]),
+        }
+        for thr in [0.01, 0.05, 0.1]
+    ]
+    threshold_rows.append(
+        {
+            "modality": modality,
+            "threshold_type": "sample_library_size_min_reads",
+            "threshold_value": float(min_depth),
+            "retained_taxa": "",
+            "total_taxa": "",
+        }
+    )
+
+    return {
+        "library_sizes": library_sizes,
+        "richness": richness,
+        "prevalence": prevalence,
+        "threshold_rows": threshold_rows,
+    }
+
+
+def compute_pairwise_overlap(sample_sets: Dict[str, set]) -> pd.DataFrame:
+    matrix = pd.DataFrame(index=ALL_MODALITIES, columns=ALL_MODALITIES, dtype=int)
+    for a in ALL_MODALITIES:
+        for b in ALL_MODALITIES:
+            matrix.loc[a, b] = len(sample_sets.get(a, set()).intersection(sample_sets.get(b, set())))
+    return matrix
+
+
+def build_sample_harmonization_outputs(sample_sets: Dict[str, set]) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    all_samples = sorted(set().union(*sample_sets.values()))
+
+    canonical_rows = [
+        {
+            "sample_id": sid,
+            **{f"in_{mod}": int(sid in sample_sets.get(mod, set())) for mod in ALL_MODALITIES},
+        }
+        for sid in all_samples
+    ]
+    canonical_df = pd.DataFrame(canonical_rows)
+    if canonical_df.empty:
+        canonical_df = pd.DataFrame(columns=["sample_id"] + [f"in_{mod}" for mod in ALL_MODALITIES])
+    canonical_df["modalities_present"] = canonical_df[[f"in_{mod}" for mod in ALL_MODALITIES]].sum(axis=1)
+
+    meta_samples = sample_sets.get(META_MODALITY, set())
+    summary_rows = []
+    detail_rows = []
+    for mod in ALL_MODALITIES:
+        mod_samples = sample_sets.get(mod, set())
+        missing_from_modality = sorted(meta_samples - mod_samples)
+        additional_in_modality = sorted(mod_samples - meta_samples)
+        summary_rows.append(
+            {
+                "modality": mod,
+                "n_samples_in_modality": len(mod_samples),
+                "n_missing_from_modality_vs_meta": len(missing_from_modality),
+                "n_additional_in_modality_vs_meta": len(additional_in_modality),
+            }
+        )
+        detail_rows.extend(
+            {"modality": mod, "comparison": "missing_from_modality_vs_meta", "sample_id": sid}
+            for sid in missing_from_modality
+        )
+        detail_rows.extend(
+            {"modality": mod, "comparison": "additional_in_modality_vs_meta", "sample_id": sid}
+            for sid in additional_in_modality
+        )
+
+    missing_summary_df = pd.DataFrame(summary_rows)
+    missing_detail_df = pd.DataFrame(detail_rows, columns=["modality", "comparison", "sample_id"])
+
+    overlap_df = compute_pairwise_overlap(sample_sets).reset_index().rename(columns={"index": "modality"})
+    return overlap_df, canonical_df, missing_summary_df, missing_detail_df
+
+
+def load_and_validate_inputs(
+    data_dir: Path,
+    parse_messages: List[ParseMessage],
+    file_size_rows: List[dict],
+    duplicate_sample_rows: List[dict],
+    duplicate_feature_rows: List[dict],
+) -> tuple[Dict[str, pd.DataFrame], Dict[str, set], pd.Index]:
+    abundance_tables: Dict[str, pd.DataFrame] = {}
+    sample_sets: Dict[str, set] = {name: set() for name in ALL_MODALITIES}
+
+    meta_path = data_dir / META_FILE
+    if meta_path.exists():
+        file_size_rows.append({"modality": META_MODALITY, "file": str(meta_path), "size_bytes": meta_path.stat().st_size})
         try:
-            df = pd.read_csv(otu_path, sep=sep)
-        except Exception as exc:
-            parse_messages.append(ParseMessage("ERROR", modality, str(otu_path), f"Failed to parse: {exc}"))
+            meta_ids = load_main_metadata_samples(meta_path)
+            sample_sets[META_MODALITY] = set(meta_ids.tolist())
+            dup_meta = collect_duplicate_ids(meta_ids.tolist(), id_field="sample_id")
+            if not dup_meta.empty:
+                for _, row in dup_meta.iterrows():
+                    duplicate_sample_rows.append(
+                        {
+                            "modality": META_MODALITY,
+                            "scope": "within_modality",
+                            "sample_id": row["sample_id"],
+                            "count": int(row["count"]),
+                            "source": "metadata_rows",
+                        }
+                    )
+        except ValueError as exc:
+            parse_messages.append(ParseMessage("ERROR", META_MODALITY, str(meta_path), str(exc)))
+            meta_ids = pd.Index([], dtype="string")
+    else:
+        parse_messages.append(ParseMessage("ERROR", META_MODALITY, str(meta_path), "Expected main metadata file missing"))
+        meta_ids = pd.Index([], dtype="string")
+
+    for spec in ABUNDANCE_MODALITIES:
+        abundance_path = data_dir / spec.abundance_file
+        if not abundance_path.exists():
+            parse_messages.append(ParseMessage("WARNING", spec.name, str(abundance_path), "Expected file missing"))
             continue
 
-        if df.empty:
-            parse_messages.append(ParseMessage("WARNING", modality, str(otu_path), "Parsed file is empty"))
+        file_size_rows.append({"modality": spec.name, "file": str(abundance_path), "size_bytes": abundance_path.stat().st_size})
+        try:
+            abundance = load_abundance_table(abundance_path, sep=spec.sep, modality=spec.name)
+        except ValueError as exc:
+            parse_messages.append(ParseMessage("ERROR", spec.name, str(abundance_path), str(exc)))
             continue
 
-        if modality == "META":
-            meta_ids, dups = parse_metadata_samples(df)
-            sample_sets[modality] = set(meta_ids)
-            for d in dups:
-                duplicate_rows.append(
+        abundance_tables[spec.name] = abundance
+        sample_sets[spec.name] = set(abundance.index.tolist())
+
+        dup_samples = collect_duplicate_ids(abundance.index.tolist(), id_field="sample_id")
+        if not dup_samples.empty:
+            for _, row in dup_samples.iterrows():
+                duplicate_sample_rows.append(
                     {
-                        "modality": modality,
+                        "modality": spec.name,
                         "scope": "within_modality",
-                        "sample_id": d,
-                        "count": int(meta_ids.count(d)),
-                        "source": "metadata_rows",
+                        "sample_id": row["sample_id"],
+                        "count": int(row["count"]),
+                        "source": "abundance_rows",
                     }
                 )
-            continue
 
-        sample_ids, dups, abundance = parse_otu_samples(df, modality)
-        sample_sets[modality] = set(sample_ids)
-
-        for d in dups:
-            duplicate_rows.append(
-                {
-                    "modality": modality,
-                    "scope": "within_modality",
-                    "sample_id": d,
-                    "count": int(sample_ids.count(d)),
-                    "source": "otu_columns",
-                }
-            )
-
-        if abundance.empty:
-            parse_messages.append(ParseMessage("WARNING", modality, str(otu_path), "No abundance columns detected"))
-            continue
-
-        library_sizes = abundance.sum(axis=1)
-        richness = (abundance > 0).sum(axis=1)
-        prevalence = (abundance > 0).sum(axis=0) / abundance.shape[0]
-
-        for sid, depth in library_sizes.items():
-            libsize_rows.append({"modality": modality, "sample_id": sid, "library_size": float(depth)})
-            if float(depth) == 0.0:
-                zero_lib_rows.append({"modality": modality, "sample_id": sid, "library_size": 0.0})
-
-        lib_stats = summarize_series(library_sizes, prefix="")
-        lib_stats["modality"] = modality
-        libsize_summary_rows.append(lib_stats)
-
-        for sid, r in richness.items():
-            richness_rows.append({"modality": modality, "sample_id": sid, "richness": int(r)})
-
-        rich_stats = summarize_series(richness, prefix="")
-        rich_stats["modality"] = modality
-        richness_summary_rows.append(rich_stats)
-
-        for i, prev in enumerate(prevalence.tolist(), start=1):
-            prevalence_rows.append(
-                {"modality": modality, "taxon_index": i, "prevalence_fraction": float(prev)}
-            )
-
-        prev_stats = summarize_series(prevalence, prefix="")
-        prev_stats["modality"] = modality
-        prevalence_summary_rows.append(prev_stats)
-
-        # Suggested thresholds (report candidate prevalences and a data-driven depth suggestion)
-        min_depth = max(1000.0, float(library_sizes.quantile(0.01)))
-        for thr in [0.01, 0.05, 0.1]:
-            retained = int((prevalence >= thr).sum())
-            threshold_rows.append(
-                {
-                    "modality": modality,
-                    "threshold_type": "taxon_prevalence_fraction",
-                    "threshold_value": thr,
-                    "retained_taxa": retained,
-                    "total_taxa": int(prevalence.shape[0]),
-                }
-            )
-        threshold_rows.append(
-            {
-                "modality": modality,
-                "threshold_type": "sample_library_size_min_reads",
-                "threshold_value": float(min_depth),
-                "retained_taxa": "",
-                "total_taxa": "",
-            }
-        )
-
-        # Optional per-modality feature metadata duplicate check
-        meta_file = spec.get("meta")
-        if meta_file:
-            meta_path = data_dir / meta_file
-            if meta_path.exists():
-                modality_file_sizes.append(
+        dup_taxa = collect_duplicate_ids([str(c) for c in abundance.columns], id_field="taxon_id")
+        if not dup_taxa.empty:
+            for _, row in dup_taxa.iterrows():
+                duplicate_feature_rows.append(
                     {
-                        "modality": modality,
-                        "file": str(meta_path),
-                        "size_bytes": meta_path.stat().st_size,
+                        "modality": spec.name,
+                        "taxon_id": row["taxon_id"],
+                        "count": int(row["count"]),
+                        "source": "abundance_columns",
                     }
                 )
+
+        if spec.feature_metadata_file:
+            feature_path = data_dir / spec.feature_metadata_file
+            if feature_path.exists():
+                file_size_rows.append({"modality": spec.name, "file": str(feature_path), "size_bytes": feature_path.stat().st_size})
                 try:
-                    mdf = pd.read_csv(meta_path, sep="\t")
-                    meta_ids, dups_meta = parse_metadata_samples(mdf)
-                    if dups_meta:
-                        for d in dups_meta:
-                            duplicate_rows.append(
+                    feature_ids = load_feature_metadata_ids(feature_path, modality=spec.name)
+                    dup_feature_ids = collect_duplicate_ids(feature_ids.tolist(), id_field="taxon_id")
+                    if not dup_feature_ids.empty:
+                        for _, row in dup_feature_ids.iterrows():
+                            duplicate_feature_rows.append(
                                 {
-                                    "modality": modality,
-                                    "scope": "within_modality",
-                                    "sample_id": d,
-                                    "count": int(meta_ids.count(d)),
+                                    "modality": spec.name,
+                                    "taxon_id": row["taxon_id"],
+                                    "count": int(row["count"]),
                                     "source": "feature_metadata_rows",
                                 }
                             )
-                except Exception as exc:
-                    parse_messages.append(
-                        ParseMessage("WARNING", modality, str(meta_path), f"Feature metadata parse failed: {exc}")
-                    )
+                except ValueError as exc:
+                    parse_messages.append(ParseMessage("WARNING", spec.name, str(feature_path), str(exc)))
             else:
-                parse_messages.append(ParseMessage("WARNING", modality, str(meta_path), "Feature metadata file missing"))
+                parse_messages.append(ParseMessage("WARNING", spec.name, str(feature_path), "Feature metadata file missing"))
 
-    # Harmonization artifacts
-    overlap = overlap_matrix(sample_sets)
-    overlap_out = overlap.reset_index().rename(columns={"index": "modality"})
-    safe_to_csv(overlap_out, results_dir / "pairwise_overlap_matrix.csv")
+    return abundance_tables, sample_sets, meta_ids
 
-    all_samples = sorted(set().union(*sample_sets.values()))
-    canonical_rows = []
-    for sid in all_samples:
-        row = {"sample_id": sid}
-        for mod in MODALITIES.keys():
-            row[f"in_{mod}"] = int(sid in sample_sets.get(mod, set()))
-        row["modalities_present"] = int(sum(row[f"in_{m}"] for m in MODALITIES.keys()))
-        canonical_rows.append(row)
 
-    canonical_df = pd.DataFrame(
-        canonical_rows,
-        columns=["sample_id"] + [f"in_{m}" for m in MODALITIES.keys()] + ["modalities_present"],
-    )
-    safe_to_csv(canonical_df, results_dir / "canonical_sample_inventory.csv")
+def write_outputs(
+    results_dir: Path,
+    docs_dir: Path,
+    repo_root: Path,
+    parse_messages: List[ParseMessage],
+    file_size_rows: List[dict],
+    duplicate_sample_rows: List[dict],
+    duplicate_feature_rows: List[dict],
+    sample_sets: Dict[str, set],
+    abundance_tables: Dict[str, pd.DataFrame],
+) -> None:
+    overlap_df, canonical_df, missing_summary_df, missing_detail_df = build_sample_harmonization_outputs(sample_sets)
 
-    missing_rows = []
-    for mod in MODALITIES.keys():
-        present = sample_sets.get(mod, set())
-        missing = sorted(set(all_samples) - set(present))
-        missing_rows.append(
-            {
-                "modality": mod,
-                "n_present": len(present),
-                "n_missing_from_canonical_union": len(missing),
-                "missing_samples": ";".join(missing),
-            }
-        )
-    missing_df = pd.DataFrame(missing_rows)
-    safe_to_csv(missing_df, results_dir / "missing_sample_summary.csv")
+    overlap_df.to_csv(results_dir / "pairwise_overlap_matrix.csv", index=False)
+    canonical_df.to_csv(results_dir / "canonical_sample_inventory.csv", index=False)
+    missing_summary_df.to_csv(results_dir / "missing_sample_summary.csv", index=False)
+    missing_detail_df.to_csv(results_dir / "missing_sample_details.csv", index=False)
 
-    # Across-modality duplicate report: samples seen in >1 modality are expected overlap,
-    # but we still report counts as audit metadata.
-    counts = []
-    for sid in all_samples:
-        c = sum(1 for m in MODALITIES if sid in sample_sets.get(m, set()))
-        if c > 1:
-            counts.append({"modality": "ALL", "scope": "across_modalities", "sample_id": sid, "count": c, "source": "cross_presence"})
-    duplicate_df = pd.DataFrame(
-        duplicate_rows + counts,
+    duplicate_sample_df = pd.DataFrame(
+        duplicate_sample_rows,
         columns=["modality", "scope", "sample_id", "count", "source"],
     )
-    safe_to_csv(duplicate_df, results_dir / "duplicate_sample_detection.csv")
+    duplicate_sample_df.to_csv(results_dir / "duplicate_sample_detection.csv", index=False)
 
-    # QC outputs
-    safe_to_csv(
-        pd.DataFrame(libsize_rows, columns=["modality", "sample_id", "library_size"]),
-        results_dir / "library_sizes_per_sample.csv",
+    duplicate_feature_df = pd.DataFrame(
+        duplicate_feature_rows,
+        columns=["modality", "taxon_id", "count", "source"],
     )
-    safe_to_csv(
-        pd.DataFrame(
-            libsize_summary_rows,
-            columns=["modality", "n", "min", "q25", "median", "mean", "q75", "max"],
-        ),
-        results_dir / "library_size_summary.csv",
+    duplicate_feature_df.to_csv(results_dir / "duplicate_feature_detection.csv", index=False)
+
+    lib_rows: List[dict] = []
+    lib_summary_rows: List[dict] = []
+    zero_lib_rows: List[dict] = []
+    prevalence_rows: List[dict] = []
+    prevalence_summary_rows: List[dict] = []
+    threshold_rows: List[dict] = []
+    richness_rows: List[dict] = []
+    richness_summary_rows: List[dict] = []
+
+    for modality, abundance in abundance_tables.items():
+        qc = compute_modality_qc(modality, abundance)
+        library_sizes = qc["library_sizes"]
+        richness = qc["richness"]
+        prevalence = qc["prevalence"]
+
+        lib_rows.extend(
+            {"modality": modality, "sample_id": sid, "library_size": float(depth)}
+            for sid, depth in library_sizes.items()
+        )
+        zero_lib_rows.extend(
+            {"modality": modality, "sample_id": sid, "library_size": float(depth)}
+            for sid, depth in library_sizes.items()
+            if float(depth) == 0.0
+        )
+
+        lib_summary_rows.append({"modality": modality, **summarize_series(library_sizes)})
+
+        richness_rows.extend(
+            {"modality": modality, "sample_id": sid, "richness": int(val)}
+            for sid, val in richness.items()
+        )
+        richness_summary_rows.append({"modality": modality, **summarize_series(richness)})
+
+        prevalence_rows.extend(
+            {"modality": modality, "taxon_id": taxon_id, "prevalence_fraction": float(prev)}
+            for taxon_id, prev in prevalence.items()
+        )
+        prevalence_summary_rows.append({"modality": modality, **summarize_series(prevalence)})
+
+        threshold_rows.extend(qc["threshold_rows"])
+
+    pd.DataFrame(lib_rows, columns=["modality", "sample_id", "library_size"]).to_csv(
+        results_dir / "library_sizes_per_sample.csv", index=False
     )
-    safe_to_csv(
-        pd.DataFrame(zero_lib_rows, columns=["modality", "sample_id", "library_size"]),
-        results_dir / "zero_library_samples.csv",
+    pd.DataFrame(lib_summary_rows, columns=["modality", "n", "min", "q25", "median", "mean", "q75", "max"]).to_csv(
+        results_dir / "library_size_summary.csv", index=False
+    )
+    pd.DataFrame(zero_lib_rows, columns=["modality", "sample_id", "library_size"]).to_csv(
+        results_dir / "zero_library_samples.csv", index=False
     )
 
-    safe_to_csv(
-        pd.DataFrame(prevalence_rows, columns=["modality", "taxon_index", "prevalence_fraction"]),
-        results_dir / "taxon_prevalence_distribution.csv",
+    pd.DataFrame(prevalence_rows, columns=["modality", "taxon_id", "prevalence_fraction"]).to_csv(
+        results_dir / "taxon_prevalence_distribution.csv", index=False
     )
-    safe_to_csv(
-        pd.DataFrame(
-            prevalence_summary_rows,
-            columns=["modality", "n", "min", "q25", "median", "mean", "q75", "max"],
-        ),
-        results_dir / "taxon_prevalence_summary.csv",
+    pd.DataFrame(prevalence_summary_rows, columns=["modality", "n", "min", "q25", "median", "mean", "q75", "max"]).to_csv(
+        results_dir / "taxon_prevalence_summary.csv", index=False
     )
-    safe_to_csv(
-        pd.DataFrame(
-            threshold_rows,
-            columns=[
-                "modality",
-                "threshold_type",
-                "threshold_value",
-                "retained_taxa",
-                "total_taxa",
-            ],
-        ),
-        results_dir / "suggested_filtering_thresholds.csv",
+    pd.DataFrame(
+        threshold_rows,
+        columns=["modality", "threshold_type", "threshold_value", "retained_taxa", "total_taxa"],
+    ).to_csv(results_dir / "suggested_filtering_thresholds.csv", index=False)
+
+    pd.DataFrame(richness_rows, columns=["modality", "sample_id", "richness"]).to_csv(
+        results_dir / "richness_per_sample.csv", index=False
+    )
+    pd.DataFrame(richness_summary_rows, columns=["modality", "n", "min", "q25", "median", "mean", "q75", "max"]).to_csv(
+        results_dir / "richness_summary.csv", index=False
     )
 
-    safe_to_csv(
-        pd.DataFrame(richness_rows, columns=["modality", "sample_id", "richness"]),
-        results_dir / "richness_per_sample.csv",
-    )
-    safe_to_csv(
-        pd.DataFrame(
-            richness_summary_rows,
-            columns=["modality", "n", "min", "q25", "median", "mean", "q75", "max"],
-        ),
-        results_dir / "richness_summary.csv",
+    parse_df = pd.DataFrame([m.__dict__ for m in parse_messages], columns=["level", "modality", "file", "message"])
+    parse_df.to_csv(results_dir / "parse_warnings_errors.csv", index=False)
+
+    pd.DataFrame(file_size_rows, columns=["modality", "file", "size_bytes"]).to_csv(
+        results_dir / "input_file_sizes.csv", index=False
     )
 
-    parse_df = pd.DataFrame(
-        [m.__dict__ for m in parse_messages],
-        columns=["level", "modality", "file", "message"],
-    )
-    safe_to_csv(parse_df, results_dir / "parse_warnings_errors.csv")
-
-    file_sizes_df = pd.DataFrame(modality_file_sizes, columns=["modality", "file", "size_bytes"])
-    safe_to_csv(file_sizes_df, results_dir / "input_file_sizes.csv")
-
-    # Reproducibility metadata
     metadata = {
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "python_version": sys.version.replace("\n", " "),
@@ -460,21 +518,18 @@ def run_qc(repo_root: Path, data_dir: Path, results_dir: Path, docs_dir: Path) -
         "platform": platform.platform(),
         "git_commit_hash": git_commit_hash(repo_root),
         "repo_root": str(repo_root),
-        "data_dir": str(data_dir),
         "results_dir": str(results_dir),
         "docs_dir": str(docs_dir),
         "n_parse_warnings_or_errors": int(parse_df.shape[0]),
     }
-
     (results_dir / "reproducibility_metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
     pd.DataFrame([{"key": k, "value": v} for k, v in metadata.items()]).to_csv(
         results_dir / "reproducibility_metadata.csv", index=False
     )
 
-    # Markdown report
-    n_total_samples = len(all_samples)
-    n_zero = int(pd.DataFrame(zero_lib_rows).shape[0]) if zero_lib_rows else 0
-    n_dups = int(duplicate_df.shape[0]) if not duplicate_df.empty else 0
+    n_total_samples = int(canonical_df.shape[0])
+    n_zero = int(len(zero_lib_rows))
+    n_dups = int(duplicate_sample_df.shape[0])
 
     lines = [
         "# Dataset QC v2 Report",
@@ -487,10 +542,11 @@ def run_qc(repo_root: Path, data_dir: Path, results_dir: Path, docs_dir: Path) -
         "## 1) Sample harmonization audit",
         "",
         f"- Canonical union sample count: **{n_total_samples}**",
-        f"- Duplicate detection records: **{n_dups}**",
+        f"- Duplicate sample detection records (within tables): **{n_dups}**",
         "- Pairwise overlap matrix: `results/dataset_qc_v2/pairwise_overlap_matrix.csv`",
         "- Canonical inventory: `results/dataset_qc_v2/canonical_sample_inventory.csv`",
-        "- Missing sample summary: `results/dataset_qc_v2/missing_sample_summary.csv`",
+        "- Missing sample summary vs META: `results/dataset_qc_v2/missing_sample_summary.csv`",
+        "- Missing sample details vs META: `results/dataset_qc_v2/missing_sample_details.csv`",
         "",
         "## 2) Sequencing depth and prevalence QC",
         "",
@@ -509,29 +565,45 @@ def run_qc(repo_root: Path, data_dir: Path, results_dir: Path, docs_dir: Path) -
     ]
 
     if parse_df.empty:
-        lines.extend([
-            "## Parse diagnostics",
-            "",
-            "No parse warnings or errors detected.",
-            "",
-        ])
+        lines.extend(["## Parse diagnostics", "", "No parse warnings or errors detected.", ""])
     else:
-        lines.extend([
-            "## Parse diagnostics",
-            "",
-            f"Total warnings/errors: **{parse_df.shape[0]}**",
-            "",
-        ])
+        lines.extend(["## Parse diagnostics", "", f"Total warnings/errors: **{parse_df.shape[0]}**", ""])
         for _, row in parse_df.head(25).iterrows():
-            lines.append(
-                f"- {row['level']} [{row['modality']}] `{row['file']}` — {row['message']}"
-            )
+            lines.append(f"- {row['level']} [{row['modality']}] `{row['file']}` — {row['message']}")
         if parse_df.shape[0] > 25:
             lines.append(f"- ... and {parse_df.shape[0] - 25} more records in CSV")
 
-    report_path = docs_dir / "dataset_qc_v2_report.md"
-    report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (docs_dir / "dataset_qc_v2_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+
+def run_qc(repo_root: Path, data_dir: Path, results_dir: Path, docs_dir: Path) -> None:
+    ensure_dir(results_dir)
+    ensure_dir(docs_dir)
+
+    parse_messages: List[ParseMessage] = []
+    file_size_rows: List[dict] = []
+    duplicate_sample_rows: List[dict] = []
+    duplicate_feature_rows: List[dict] = []
+
+    abundance_tables, sample_sets, _meta_ids = load_and_validate_inputs(
+        data_dir=data_dir,
+        parse_messages=parse_messages,
+        file_size_rows=file_size_rows,
+        duplicate_sample_rows=duplicate_sample_rows,
+        duplicate_feature_rows=duplicate_feature_rows,
+    )
+
+    write_outputs(
+        results_dir=results_dir,
+        docs_dir=docs_dir,
+        repo_root=repo_root,
+        parse_messages=parse_messages,
+        file_size_rows=file_size_rows,
+        duplicate_sample_rows=duplicate_sample_rows,
+        duplicate_feature_rows=duplicate_feature_rows,
+        sample_sets=sample_sets,
+        abundance_tables=abundance_tables,
+    )
 
 
 def main() -> None:

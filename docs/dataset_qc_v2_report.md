@@ -1,17 +1,18 @@
 # Dataset QC v2 Report
 
-- Generated: 2026-05-19T10:17:52.291981+00:00
-- Git commit: `4df0e3575a46c43061da55f2e4d75b5adff96585`
-- Python: `3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]`
+- Generated: 2026-07-14T10:25:29.873981+00:00
+- Git commit: `f3e7d8fd699c392decf6a244cbb9e0720e247e8c`
+- Python: `3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]`
 - pandas: `3.0.3`
 
 ## 1) Sample harmonization audit
 
 - Canonical union sample count: **143**
-- Duplicate detection records: **142**
+- Duplicate sample detection records (within tables): **0**
 - Pairwise overlap matrix: `results/dataset_qc_v2/pairwise_overlap_matrix.csv`
 - Canonical inventory: `results/dataset_qc_v2/canonical_sample_inventory.csv`
-- Missing sample summary: `results/dataset_qc_v2/missing_sample_summary.csv`
+- Missing sample summary vs META: `results/dataset_qc_v2/missing_sample_summary.csv`
+- Missing sample details vs META: `results/dataset_qc_v2/missing_sample_details.csv`
 
 ## 2) Sequencing depth and prevalence QC
 
@@ -29,5 +30,6 @@
 
 ## Parse diagnostics
 
-No parse warnings or errors detected.
+Total warnings/errors: **1**
 
+- WARNING [AMF] `/srv/hermes_projects/agent_microbial_communities/data/AMF_feature_metadata.tsv` — AMF feature metadata IDs has invalid IDs at row positions: 386
