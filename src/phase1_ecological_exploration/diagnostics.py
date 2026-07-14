@@ -155,6 +155,8 @@ def compare_ordinations(
     ordination_results: Dict[str, Dict],
     method_pairs: List[Tuple[str, str]] = None,
     use_permutation_test: bool = True,
+    random_state: int = 42,
+    n_permutations: int = 999,
 ) -> List[Dict]:
     flat = _flatten_results(ordination_results)
 
@@ -179,7 +181,12 @@ def compare_ordinations(
             continue
 
         if use_permutation_test:
-            diag = procrustes_permutation_test(coords_a, coords_b)
+            diag = procrustes_permutation_test(
+                coords_a,
+                coords_b,
+                n_permutations=n_permutations,
+                random_state=random_state,
+            )
         else:
             diag = compute_procrustes(coords_a, coords_b)
 

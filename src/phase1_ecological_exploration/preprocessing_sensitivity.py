@@ -3,8 +3,9 @@ from __future__ import annotations
 import logging
 from typing import Dict, List
 
-import numpy as np
 import pandas as pd
+
+from src.preprocessing import align_samples, filter_prevalence
 
 logger = logging.getLogger(__name__)
 
@@ -17,26 +18,22 @@ def compute_prevalence_sensitivity(
     if thresholds is None:
         thresholds = [0.005, 0.01, 0.02, 0.03, 0.05, 0.075, 0.10, 0.15, 0.20]
 
-    otu_subset = otu_table.loc[otu_table.index.isin(sample_ids)]
+    otu_subset = align_samples(otu_table, sample_ids)
     n_samples = otu_subset.shape[0]
     total_features = otu_subset.shape[1]
 
     records = []
     for thresh in thresholds:
-        min_occ = max(1, int(np.ceil(thresh * n_samples)))
-        present = (otu_subset > 0).sum(axis=0)
-        mask = (present.values >= min_occ)
-        n_retained = int(mask.sum())
-        n_removed = total_features - n_retained
-
+        filtered, info = filter_prevalence(otu_subset, thresh)
+        n_retained = int(info["features_after"])
+        n_removed = int(info["features_removed"])
         frac_retained = n_retained / total_features if total_features > 0 else 0.0
-        n_zero_samples = int((otu_subset.iloc[:, mask] if n_retained > 0
-                              else otu_subset.iloc[:, :0]).sum(axis=1).eq(0).sum())
+        n_zero_samples = int(filtered.sum(axis=1).eq(0).sum()) if n_retained > 0 else int(otu_subset.shape[0])
 
         records.append({
             "prevalence_threshold": thresh,
             "threshold_label": f"{thresh*100:.1f}%",
-            "min_occurrences": min_occ,
+            "min_occurrences": int(info["min_occurrences"]),
             "total_features": total_features,
             "features_retained": n_retained,
             "features_removed": n_removed,

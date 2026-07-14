@@ -97,3 +97,14 @@ AMF unresolved-feature handling (project-specific and explicit):
 - Downstream prevalence filtering treats this unresolved placeholder with the same rule as all other features (min_occurrences = max(1, int(np.ceil(threshold * n_samples))).
 
 `build_sample_manifest(...)` returns canonical membership columns (`sample_id`, `in_<modality>`, `in_META`, `modalities_present`) and is the shared pathway used by cohort and overlap workflows.
+
+
+## Centralized preprocessing (Phase 1.5)
+
+Phase 1.5 now uses a shared preprocessing module at `src/preprocessing.py`.
+
+- Sample alignment is explicit and order-preserving via `align_samples(...)`; missing requested samples raise errors.
+- Prevalence filtering uses the ceiling rule exactly: `min_occurrences = max(1, int(np.ceil(threshold * n_samples)))`.
+- Core transformations are centralized: presence/absence, relative abundance, Hellinger, and CLR.
+- Distance calculations are centralized: Bray–Curtis, Jaccard, and Euclidean.
+- Phase 1.5 stochastic diagnostics are seeded explicitly and deterministically from a top-level seed in the runner.

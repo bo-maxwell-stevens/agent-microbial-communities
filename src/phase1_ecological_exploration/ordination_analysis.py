@@ -6,7 +6,15 @@ from typing import Dict, Optional, Tuple
 
 import numpy as np
 import pandas as pd
-from scipy.spatial.distance import pdist, squareform
+from src.preprocessing import (
+    align_samples,
+    bray_curtis_distance,
+    clr_transform,
+    filter_prevalence,
+    jaccard_distance,
+    to_presence_absence,
+    to_relative_abundance,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -39,53 +47,6 @@ def _check_sklearn_mds():
         return None
 
 
-def to_binary(df: pd.DataFrame) -> pd.DataFrame:
-    return (df > 0).astype(np.float64)
-
-
-def to_relative_abundance(df: pd.DataFrame) -> pd.DataFrame:
-    row_sums = df.sum(axis=1)
-    row_sums = row_sums.replace(0, np.nan)
-    return df.div(row_sums, axis=0)
-
-
-def jaccard_distance_matrix(binary_df: pd.DataFrame) -> np.ndarray:
-    dist = pdist(binary_df.values, metric="jaccard")
-    return squareform(dist)
-
-
-def bray_curtis_distance_matrix(relabund_df: pd.DataFrame) -> np.ndarray:
-    dist = pdist(relabund_df.values, metric="braycurtis")
-    return squareform(dist)
-
-
-def clr_transform(df: pd.DataFrame, pseudocount: float = 0.5) -> pd.DataFrame:
-    vals = df.values.astype(np.float64) + pseudocount
-    gm = np.exp(np.mean(np.log(vals), axis=1, keepdims=True))
-    clr_vals = np.log(vals / gm)
-    return pd.DataFrame(clr_vals, index=df.index, columns=df.columns)
-
-
-def prevalence_filter(
-    df: pd.DataFrame, threshold: float
-) -> Tuple[pd.DataFrame, Dict]:
-    n_samples = df.shape[0]
-    min_occurrences = max(1, int(np.ceil(threshold * n_samples)))
-    present = (df > 0).sum(axis=0)
-    mask = present.values >= min_occurrences
-    filtered = df.iloc[:, mask]
-    info = {
-        "threshold": threshold,
-        "threshold_label": f"{threshold*100:.0f}%",
-        "features_before": df.shape[1],
-        "features_after": filtered.shape[1],
-        "features_removed": df.shape[1] - filtered.shape[1],
-        "min_occurrences": min_occurrences,
-        "n_samples": n_samples,
-    }
-    return filtered, info
-
-
 def run_pcoa(
     dist_matrix: np.ndarray,
     sample_ids: list,
@@ -98,7 +59,8 @@ def run_pcoa(
         try:
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore")
-                dm = DistanceMatrix(dist_matrix, ids=sample_ids)
+                dist_values = dist_matrix.values if isinstance(dist_matrix, pd.DataFrame) else dist_matrix
+                dm = DistanceMatrix(dist_values, ids=sample_ids)
                 skbio_result = skbio_pcoa_fn(dm)
             result["coordinates"] = pd.DataFrame(
                 skbio_result.samples.values[:, :n_components],
@@ -121,7 +83,8 @@ def run_pcoa(
         try:
             mds = skMDS(n_components=n_components, dissimilarity="precomputed",
                         random_state=42, normalized_stress="auto")
-            coords = mds.fit_transform(dist_matrix)
+            dist_values = dist_matrix.values if isinstance(dist_matrix, pd.DataFrame) else dist_matrix
+            coords = mds.fit_transform(dist_values)
             coords[np.isnan(coords)] = 0.0
             result["coordinates"] = pd.DataFrame(
                 coords,
@@ -156,7 +119,8 @@ def run_nmds(
             mds = skMDS(n_components=n_components, dissimilarity="precomputed",
                         metric=False, random_state=42, n_init=n_init,
                         normalized_stress="auto")
-            coords = mds.fit_transform(dist_matrix)
+            dist_values = dist_matrix.values if isinstance(dist_matrix, pd.DataFrame) else dist_matrix
+            coords = mds.fit_transform(dist_values)
             coords[np.isnan(coords)] = 0.0
             result["coordinates"] = pd.DataFrame(
                 coords,
@@ -242,13 +206,13 @@ def run_ordination_strategies(
     if prevalence_thresholds is None:
         prevalence_thresholds = [0.01, 0.05, 0.10]
 
-    otu_subset = otu_table.loc[otu_table.index.isin(sample_ids)]
+    otu_subset = align_samples(otu_table, sample_ids)
     logger.info("Ordination on %d samples, %d features", otu_subset.shape[0], otu_subset.shape[1])
 
     results = {}
 
-    bin_df = to_binary(otu_subset)
-    j_dist = jaccard_distance_matrix(bin_df)
+    bin_df = to_presence_absence(otu_subset)
+    j_dist = jaccard_distance(bin_df)
     pcoa_j = run_pcoa(j_dist, list(otu_subset.index))
     results["jaccard_pcoa"] = pcoa_j
     j_dist_close = len(j_dist) < 5
@@ -260,7 +224,7 @@ def run_ordination_strategies(
         logger.warning("Jaccard: too few samples for NMDS fallback")
 
     rel_df = to_relative_abundance(otu_subset)
-    bc_dist = bray_curtis_distance_matrix(rel_df)
+    bc_dist = bray_curtis_distance(rel_df)
     pcoa_bc = run_pcoa(bc_dist, list(otu_subset.index))
     results["bray_curtis_pcoa"] = pcoa_bc
     if not pcoa_bc["success"]:
@@ -270,7 +234,7 @@ def run_ordination_strategies(
 
     clr_results = {}
     for thresh in prevalence_thresholds:
-        filtered, filt_info = prevalence_filter(otu_subset, thresh)
+        filtered, filt_info = filter_prevalence(otu_subset, thresh)
         if filtered.shape[1] < 3:
             logger.warning("CLR thresh %.0f%%: only %d features left, skipping PCA",
                            thresh * 100, filtered.shape[1])

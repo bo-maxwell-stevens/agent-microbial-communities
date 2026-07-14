@@ -41,10 +41,6 @@ from src.phase1_ecological_exploration.dataset_loader import (
 )
 from src.phase1_ecological_exploration.ordination_analysis import (
     run_ordination_strategies,
-    to_binary,
-    to_relative_abundance,
-    clr_transform,
-    prevalence_filter,
 )
 from src.phase1_ecological_exploration.preprocessing_sensitivity import (
     compute_prevalence_sensitivity,
@@ -60,6 +56,7 @@ from src.phase1_ecological_exploration.plotting import (
 )
 
 logger = logging.getLogger("phase1_5")
+RANDOM_SEED = 42
 
 
 def _get_git_commit(repo_root: Path) -> Optional[str]:
@@ -267,12 +264,22 @@ def main() -> None:
 
     logger.info("Computing cross-method stability diagnostics ...")
     diag_records = []
-    for mod, mod_results in all_results.items():
+    diagnostic_random_seeds = {}
+    for mod_idx, mod in enumerate(modalities):
+        mod_results = all_results.get(mod, {})
         if "error" in mod_results:
             continue
-        diags = compare_ordinations(mod_results, use_permutation_test=True)
+        mod_seed = RANDOM_SEED + mod_idx
+        diagnostic_random_seeds[mod] = mod_seed
+        diags = compare_ordinations(
+            mod_results,
+            use_permutation_test=True,
+            random_state=mod_seed,
+            n_permutations=999,
+        )
         for d in diags:
             d["modality"] = mod
+            d["random_seed"] = mod_seed
             diag_records.append(d)
     diag_df = pd.DataFrame(diag_records) if diag_records else pd.DataFrame()
     diag_path = results_dir / "ordination_stability_diagnostics.csv"
@@ -405,6 +412,8 @@ def main() -> None:
         "parameters": {
             "prevalence_thresholds": args.prevalence_thresholds,
             "sensitivity_thresholds": args.sensitivity_thresholds,
+            "random_seed": RANDOM_SEED,
+            "diagnostic_random_seeds": diagnostic_random_seeds,
         },
         "package_versions": {
             "numpy": _check_package_version("numpy"),

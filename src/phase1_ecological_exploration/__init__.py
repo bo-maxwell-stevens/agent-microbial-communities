@@ -8,16 +8,24 @@ from src.phase1_ecological_exploration.plans_reporting import (
 )
 from src.phase1_ecological_exploration.ordination_analysis import (
     run_ordination_strategies,
-    to_binary,
-    to_relative_abundance,
-    clr_transform,
-    prevalence_filter,
-    jaccard_distance_matrix,
-    bray_curtis_distance_matrix,
     run_pcoa,
     run_nmds,
     run_pca,
 )
+from src.preprocessing import (
+    to_presence_absence,
+    to_relative_abundance,
+    clr_transform,
+    filter_prevalence,
+    jaccard_distance,
+    bray_curtis_distance,
+)
+
+# Backward-compatible aliases for existing external imports.
+to_binary = to_presence_absence
+prevalence_filter = filter_prevalence
+jaccard_distance_matrix = jaccard_distance
+bray_curtis_distance_matrix = bray_curtis_distance
 from src.phase1_ecological_exploration.preprocessing_sensitivity import (
     compute_prevalence_sensitivity,
     compute_preprocessing_summary,
@@ -42,11 +50,15 @@ __all__ = [
     "generate_analysis_plan",
     "generate_runtime_metadata",
     "run_ordination_strategies",
+    "to_presence_absence",
     "to_binary",
     "to_relative_abundance",
     "clr_transform",
+    "filter_prevalence",
     "prevalence_filter",
+    "jaccard_distance",
     "jaccard_distance_matrix",
+    "bray_curtis_distance",
     "bray_curtis_distance_matrix",
     "run_pcoa",
     "run_nmds",
