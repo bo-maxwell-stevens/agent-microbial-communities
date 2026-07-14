@@ -77,7 +77,7 @@ scripts/analysis/phase4_coupling_inference.py
 scripts/analysis/phase5_bac_integration.py
 scripts/03_ordination.py
 scripts/02_define_cohort.py
-scripts/run_phase2_confirmatory_coupling.py
+scripts/04_cross_kingdom_coupling.py
 ```
 
 ## 5) Active HPC scripts (tracked)
@@ -327,7 +327,7 @@ scripts/run_denario_exploration.py
 scripts/03_ordination.py
 scripts/02_define_cohort.py
 scripts/run_phase1_ecological_exploration.sh
-scripts/run_phase2_confirmatory_coupling.py
+scripts/04_cross_kingdom_coupling.py
 scripts/run_phase2_confirmatory_coupling_with_patch.py
 scripts/test_denario_idea.py
 scripts/test_denario_minimal.py

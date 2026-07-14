@@ -18,7 +18,7 @@ def _load_module(rel_path: str, module_name: str):
     return module
 
 
-p2 = _load_module("scripts/run_phase2_confirmatory_coupling.py", "phase2_mod")
+p2 = _load_module("scripts/04_cross_kingdom_coupling.py", "phase2_mod")
 p5b = _load_module("scripts/analysis/phase5b_environmental_drivers.py", "phase5b_mod")
 p5c = _load_module("scripts/analysis/phase5c_plant_diversity_hypotheses.py", "phase5c_mod")
 
