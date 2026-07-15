@@ -13,6 +13,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import argparse
+import sys
 import time
 
 import numpy as np
@@ -21,6 +22,15 @@ from scipy.spatial import procrustes
 from scipy.spatial.distance import pdist, squareform
 from scipy.stats import rankdata
 from sklearn.decomposition import PCA
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.coupling_metrics import (
+    mantel_spearman,
+    procrustes_disparity,
+)
 
 DATA_DIR = "data"
 PHASE2_RESULTS_DIR = "results/phase2_confirmatory_coupling"
@@ -115,14 +125,23 @@ def pca_embedding(table: pd.DataFrame, n_components: int = N_COMPONENTS) -> np.n
     return model.fit_transform(x)
 
 
-def condensed_upper(distance_matrix: np.ndarray) -> np.ndarray:
-    i, j = np.triu_indices(distance_matrix.shape[0], k=1)
-    return distance_matrix[i, j]
+def _to_labelled_distance(distance_matrix: np.ndarray, sample_ids: pd.Index) -> pd.DataFrame:
+    return pd.DataFrame(distance_matrix, index=sample_ids, columns=sample_ids)
 
 
-def spearman_fast(x: np.ndarray, y: np.ndarray) -> float:
-    rx = rankdata(x)
-    ry = rankdata(y)
+def _to_labelled_embedding(embedding: np.ndarray, sample_ids: pd.Index) -> pd.DataFrame:
+    cols = [f"axis_{i + 1}" for i in range(embedding.shape[1])]
+    return pd.DataFrame(embedding, index=sample_ids, columns=cols)
+
+
+def _condense_array(distance: np.ndarray) -> np.ndarray:
+    i, j = np.triu_indices(distance.shape[0], k=1)
+    return distance[i, j]
+
+
+def _spearman_from_condensed(x_condensed: np.ndarray, y_condensed: np.ndarray) -> float:
+    rx = rankdata(x_condensed)
+    ry = rankdata(y_condensed)
     sx = rx.std()
     sy = ry.std()
     if sx == 0.0 or sy == 0.0:
@@ -130,11 +149,17 @@ def spearman_fast(x: np.ndarray, y: np.ndarray) -> float:
     return float(np.corrcoef(rx, ry)[0, 1])
 
 
-def compute_mantel_spearman(distance_x: np.ndarray, distance_y: np.ndarray) -> float:
-    return spearman_fast(condensed_upper(distance_x), condensed_upper(distance_y))
+def _mantel_spearman_array(
+    distance_x: np.ndarray,
+    distance_y: np.ndarray,
+) -> float:
+    return _spearman_from_condensed(_condense_array(distance_x), _condense_array(distance_y))
 
 
-def compute_procrustes(embedding_x: np.ndarray, embedding_y: np.ndarray) -> float:
+def _procrustes_disparity_array(
+    embedding_x: np.ndarray,
+    embedding_y: np.ndarray,
+) -> float:
     try:
         _, _, disparity = procrustes(embedding_x, embedding_y)
         return float(disparity)
@@ -142,7 +167,22 @@ def compute_procrustes(embedding_x: np.ndarray, embedding_y: np.ndarray) -> floa
         return float("nan")
 
 
-def prepare_branch_outputs(table: pd.DataFrame, threshold: float, branch: str) -> dict:
+def _align_distance_labels_once(
+    distance_x: pd.DataFrame,
+    distance_y: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    if list(distance_x.columns) != list(distance_x.index):
+        raise ValueError("distance_x columns must match index labels in order")
+    if list(distance_y.columns) != list(distance_y.index):
+        raise ValueError("distance_y columns must match index labels in order")
+
+    if not distance_x.index.equals(distance_y.index):
+        raise ValueError("Mantel Spearman requires identical sample ordering in both distance matrices")
+
+    return distance_x, distance_y
+
+
+def prepare_branch_outputs(table: pd.DataFrame, threshold: float, branch: str, include_labelled: bool = True) -> dict:
     filtered = prevalence_filter_table(table, threshold)
 
     if branch == "presence/absence":
@@ -161,7 +201,7 @@ def prepare_branch_outputs(table: pd.DataFrame, threshold: float, branch: str) -
     else:
         raise ValueError(f"Unsupported branch: {branch}")
 
-    return {
+    result = {
         "transformed": transformed,
         "distance": distance,
         "embedding": embedding,
@@ -169,6 +209,13 @@ def prepare_branch_outputs(table: pd.DataFrame, threshold: float, branch: str) -
         "ordination_method": ordination_method,
         "n_features": int(filtered.shape[1]),
     }
+
+    if include_labelled:
+        sample_ids = transformed.index
+        result["distance_df"] = _to_labelled_distance(distance, sample_ids)
+        result["embedding_df"] = _to_labelled_embedding(embedding, sample_ids)
+
+    return result
 
 
 def bootstrap_metrics(
@@ -186,14 +233,14 @@ def bootstrap_metrics(
 
     for b in range(n_bootstraps):
         idx = rng.integers(0, n, size=n)
-        t1 = table1.iloc[idx].copy()
-        t2 = table2.iloc[idx].copy()
+        t1 = table1.iloc[idx]
+        t2 = table2.iloc[idx]
 
-        o1 = prepare_branch_outputs(t1, threshold, branch)
-        o2 = prepare_branch_outputs(t2, threshold, branch)
+        o1 = prepare_branch_outputs(t1, threshold, branch, include_labelled=False)
+        o2 = prepare_branch_outputs(t2, threshold, branch, include_labelled=False)
 
-        mantel_vals[b] = compute_mantel_spearman(o1["distance"], o2["distance"])
-        proc_vals[b] = compute_procrustes(o1["embedding"], o2["embedding"])
+        mantel_vals[b] = _mantel_spearman_array(o1["distance"], o2["distance"])
+        proc_vals[b] = _procrustes_disparity_array(o1["embedding"], o2["embedding"])
 
         if (b + 1) % 10 == 0 or (b + 1) == n_bootstraps:
             prefix = f"[{progress_label}] " if progress_label else ""
@@ -203,19 +250,26 @@ def bootstrap_metrics(
 
 
 def mantel_permutation_pvalue(
-    distance_x: np.ndarray,
-    distance_y: np.ndarray,
+    distance_x: pd.DataFrame,
+    distance_y: pd.DataFrame,
     rng: np.random.Generator,
     n_permutations: int,
     progress_label: str = "",
 ) -> tuple[float, float]:
-    obs = compute_mantel_spearman(distance_x, distance_y)
-    n = distance_x.shape[0]
+    distance_x, distance_y = _align_distance_labels_once(distance_x, distance_y)
+    obs = mantel_spearman(distance_x, distance_y)
+
+    x_arr = distance_x.to_numpy(dtype=np.float64, copy=False)
+    y_arr = distance_y.to_numpy(dtype=np.float64, copy=False)
+    x_condensed = _condense_array(x_arr)
+
+    n = x_arr.shape[0]
     hits = 0
     for i in range(n_permutations):
-        perm = rng.permutation(n)
-        dy = distance_y[np.ix_(perm, perm)]
-        stat = compute_mantel_spearman(distance_x, dy)
+        perm_idx = rng.permutation(n)
+        y_perm = y_arr[np.ix_(perm_idx, perm_idx)]
+        y_condensed = _condense_array(y_perm)
+        stat = _spearman_from_condensed(x_condensed, y_condensed)
         if abs(stat) >= abs(obs):
             hits += 1
 
@@ -401,13 +455,13 @@ def main() -> None:
                 out2 = prepare_branch_outputs(tables[name2], threshold, branch)
 
                 obs_mantel, p_perm = mantel_permutation_pvalue(
-                    out1["distance"],
-                    out2["distance"],
+                    out1["distance_df"],
+                    out2["distance_df"],
                     base_rng,
                     N_PERMUTATIONS,
                     progress_label=combo_label,
                 )
-                obs_proc = compute_procrustes(out1["embedding"], out2["embedding"])
+                obs_proc = procrustes_disparity(out1["embedding_df"], out2["embedding_df"])
 
                 # independent deterministic child RNG for bootstrap per config
                 child_seed = int(base_rng.integers(0, 2**31 - 1))
