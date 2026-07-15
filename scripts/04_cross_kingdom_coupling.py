@@ -3,7 +3,7 @@ Run Phase 2 Confirmatory Coupling Analysis
 
 Branch-specific confirmatory coupling:
 - presence/absence: prevalence filter -> binary -> Jaccard -> deterministic PCoA
-- CLR: prevalence filter -> relative abundance -> CLR -> Euclidean -> deterministic PCA
+- CLR: prevalence filter -> remove zero-library samples -> relative abundance -> CLR -> Euclidean -> deterministic PCA
 
 Mantel Spearman is computed directly on branch-specific full distance matrices
 (not reduced ordination embeddings).
@@ -12,23 +12,37 @@ Mantel Spearman is computed directly on branch-specific full distance matrices
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from scipy.spatial import procrustes
-from scipy.spatial.distance import pdist, squareform
 from scipy.stats import spearmanr
 from sklearn.decomposition import PCA
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.preprocessing import (
+    align_samples,
+    clr_transform,
+    euclidean_distance,
+    filter_prevalence,
+    jaccard_distance,
+    to_presence_absence,
+    to_relative_abundance,
+)
 
 # Paths
 DATA_DIR = "data"
 RESULTS_DIR = "results/phase2_confirmatory_coupling"
 COHORT_FILE = f"{RESULTS_DIR}/sample_cohort_used.csv"
 
-PSEUDOCOUNT = 1e-6
+CLR_PSEUDOCOUNT = 1e-6
 N_COMPONENTS = 10
-THRESHOLDS = [0.05, 0.10]
+PREVALENCE_THRESHOLDS = (0.05, 0.10)
 BRANCHES = ["presence/absence", "CLR"]
 PAIRS = [("EUK", "ITS"), ("AMF", "ITS"), ("AMF", "EUK")]
 
@@ -46,48 +60,24 @@ def load_otu_table(name: str, data_dir: str = DATA_DIR) -> pd.DataFrame:
     return pd.read_csv(path, sep="\t", index_col=0)
 
 
-def align_samples(table: pd.DataFrame, cohort_sample_ids: list[str]) -> pd.DataFrame:
-    aligned = table.reindex(cohort_sample_ids)
-    if aligned.isnull().any().any():
-        missing_rows = aligned.index[aligned.isnull().all(axis=1)].tolist()
-        if missing_rows:
-            raise ValueError(f"Missing cohort samples in OTU table: {missing_rows[:5]}...")
-    return aligned
+def _sorted_features(table: pd.DataFrame) -> pd.DataFrame:
+    return table.reindex(sorted(table.columns), axis=1)
 
 
-def prevalence_filter_table(table: pd.DataFrame, threshold: float) -> pd.DataFrame:
-    # Sort columns before any transform for deterministic behavior
-    table = table.reindex(sorted(table.columns), axis=1)
-    prevalence = (table > 0).mean(axis=0)
-    keep_cols = prevalence[prevalence >= threshold].index.tolist()
-    if not keep_cols:
-        keep_cols = prevalence.sort_values(ascending=False).head(1).index.tolist()
-    return table.loc[:, keep_cols]
-
-
-def to_presence_absence(table: pd.DataFrame) -> pd.DataFrame:
-    return (table > 0).astype(float)
-
-
-def to_relative_abundance(table: pd.DataFrame) -> pd.DataFrame:
-    row_sums = table.sum(axis=1).replace(0.0, np.nan)
-    rel = table.div(row_sums, axis=0).fillna(0.0)
-    return rel
-
-
-def clr_transform(rel_table: pd.DataFrame, pseudocount: float = PSEUDOCOUNT) -> pd.DataFrame:
-    vals = rel_table.to_numpy(dtype=np.float64) + pseudocount
-    gm = np.exp(np.mean(np.log(vals), axis=1, keepdims=True))
-    clr_vals = np.log(vals / gm)
-    return pd.DataFrame(clr_vals, index=rel_table.index, columns=rel_table.columns)
-
-
-def jaccard_distance_matrix(binary_table: pd.DataFrame) -> np.ndarray:
-    return squareform(pdist(binary_table.to_numpy(dtype=np.float64), metric="jaccard"))
-
-
-def euclidean_distance_matrix(table: pd.DataFrame) -> np.ndarray:
-    return squareform(pdist(table.to_numpy(dtype=np.float64), metric="euclidean"))
+def _prevalence_filter_required(
+    aligned: pd.DataFrame,
+    *,
+    threshold: float,
+    modality: str,
+) -> tuple[pd.DataFrame, dict]:
+    filtered, info = filter_prevalence(aligned, threshold)
+    if filtered.shape[1] == 0:
+        raise ValueError(
+            "No features passed prevalence filter: "
+            f"modality={modality}, threshold={threshold}, "
+            f"n_samples={info['n_samples']}, min_occurrences={info['min_occurrences']}"
+        )
+    return filtered, info
 
 
 def pcoa_from_distance(distance_matrix: np.ndarray, sample_ids: list[str], n_components: int = N_COMPONENTS) -> pd.DataFrame:
@@ -148,32 +138,87 @@ def compute_mantel_spearman(distance_x: np.ndarray, distance_y: np.ndarray) -> f
     return float(r)
 
 
-def prepare_branch_outputs(table: pd.DataFrame, cohort: list[str], threshold: float, branch: str):
+def prepare_branch_modality(
+    table: pd.DataFrame,
+    cohort: list[str],
+    threshold: float,
+    branch: str,
+    modality: str,
+) -> dict:
     aligned = align_samples(table, cohort)
-    filtered = prevalence_filter_table(aligned, threshold)
+    aligned = _sorted_features(aligned)
+    filtered, _ = _prevalence_filter_required(aligned, threshold=threshold, modality=modality)
 
+    excluded_zero_library_samples: list[str] = []
     if branch == "presence/absence":
         transformed = to_presence_absence(filtered)
-        distance = jaccard_distance_matrix(transformed)
-        embedding = pcoa_from_distance(distance, cohort, N_COMPONENTS)
         distance_metric = "jaccard"
         ordination_method = "pcoa"
     elif branch == "CLR":
-        rel = to_relative_abundance(filtered)
-        transformed = clr_transform(rel, PSEUDOCOUNT)
-        distance = euclidean_distance_matrix(transformed)
-        embedding = pca_embedding(transformed, cohort, N_COMPONENTS)
+        library_sizes = filtered.sum(axis=1)
+        zero_mask = library_sizes == 0
+        excluded_zero_library_samples = filtered.index[zero_mask].astype(str).tolist()
+        filtered_for_clr = filtered.loc[~zero_mask]
+        rel = to_relative_abundance(filtered_for_clr)
+        transformed = clr_transform(rel, pseudocount=CLR_PSEUDOCOUNT)
         distance_metric = "euclidean"
         ordination_method = "pca"
     else:
         raise ValueError(f"Unsupported branch: {branch}")
 
     return {
-        "embedding": embedding,
-        "distance": distance,
+        "modality": modality,
+        "threshold": float(threshold),
+        "branch": branch,
+        "transformed": transformed,
         "distance_metric": distance_metric,
         "ordination_method": ordination_method,
         "n_features": int(filtered.shape[1]),
+        "excluded_zero_library_samples": excluded_zero_library_samples,
+    }
+
+
+def run_pair(
+    out1: dict,
+    out2: dict,
+    cohort: list[str],
+    name1: str,
+    name2: str,
+) -> dict:
+    idx1 = set(out1["transformed"].index.astype(str))
+    idx2 = set(out2["transformed"].index.astype(str))
+    pair_samples = [sid for sid in cohort if sid in idx1 and sid in idx2]
+
+    t1 = out1["transformed"].loc[pair_samples]
+    t2 = out2["transformed"].loc[pair_samples]
+
+    if out1["branch"] == "presence/absence":
+        d1 = jaccard_distance(t1).to_numpy(dtype=np.float64)
+        d2 = jaccard_distance(t2).to_numpy(dtype=np.float64)
+        emb1 = pcoa_from_distance(d1, pair_samples, N_COMPONENTS)
+        emb2 = pcoa_from_distance(d2, pair_samples, N_COMPONENTS)
+    else:
+        d1 = euclidean_distance(t1).to_numpy(dtype=np.float64)
+        d2 = euclidean_distance(t2).to_numpy(dtype=np.float64)
+        emb1 = pca_embedding(t1, pair_samples, N_COMPONENTS)
+        emb2 = pca_embedding(t2, pair_samples, N_COMPONENTS)
+
+    procrustes_fit = compute_procrustes(emb1, emb2)
+    mantel_spearman = compute_mantel_spearman(d1, d2)
+
+    return {
+        "pair": f"{name1}↔{name2}",
+        "branch": out1["branch"],
+        "threshold": out1["threshold"],
+        "procrustes_fit": procrustes_fit,
+        "mantel_spearman": mantel_spearman,
+        "distance_metric": out1["distance_metric"],
+        "ordination_method": out1["ordination_method"],
+        "n_features_1": out1["n_features"],
+        "n_features_2": out2["n_features"],
+        "n_samples": int(len(pair_samples)),
+        "excluded_zero_library_samples_a": ";".join(out1["excluded_zero_library_samples"]),
+        "excluded_zero_library_samples_b": ";".join(out2["excluded_zero_library_samples"]),
     }
 
 
@@ -191,28 +236,14 @@ def main() -> None:
     tables = {name: load_otu_table(name, data_dir) for name in ["AMF", "EUK", "ITS"]}
 
     results: list[dict] = []
-    for threshold in THRESHOLDS:
+    for threshold in PREVALENCE_THRESHOLDS:
         for branch in BRANCHES:
+            per_modality = {
+                name: prepare_branch_modality(tables[name], cohort, threshold, branch, modality=name)
+                for name in ["AMF", "EUK", "ITS"]
+            }
             for name1, name2 in PAIRS:
-                out1 = prepare_branch_outputs(tables[name1], cohort, threshold, branch)
-                out2 = prepare_branch_outputs(tables[name2], cohort, threshold, branch)
-
-                procrustes_fit = compute_procrustes(out1["embedding"], out2["embedding"])
-                mantel_spearman = compute_mantel_spearman(out1["distance"], out2["distance"])
-
-                results.append(
-                    {
-                        "pair": f"{name1}↔{name2}",
-                        "branch": branch,
-                        "threshold": threshold,
-                        "procrustes_fit": procrustes_fit,
-                        "mantel_spearman": mantel_spearman,
-                        "distance_metric": out1["distance_metric"],
-                        "ordination_method": out1["ordination_method"],
-                        "n_features_1": out1["n_features"],
-                        "n_features_2": out2["n_features"],
-                    }
-                )
+                results.append(run_pair(per_modality[name1], per_modality[name2], cohort, name1, name2))
 
     out_path = Path(results_dir) / "phase2_coupling_summary.csv"
     pd.DataFrame(results).to_csv(out_path, index=False)

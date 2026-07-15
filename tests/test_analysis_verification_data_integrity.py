@@ -5,6 +5,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -37,7 +38,7 @@ def test_phase2_align_samples_order_and_missing_guard():
     try:
         p2.align_samples(table, ["S1", "S2", "S4"])
     except ValueError as exc:
-        assert "Missing cohort samples" in str(exc)
+        assert "Requested samples are missing from table" in str(exc)
     else:
         raise AssertionError("Expected ValueError for missing cohort sample")
 
@@ -51,7 +52,7 @@ def test_prevalence_binary_clr_invariants():
         },
         index=["S1", "S2", "S3", "S4"],
     )
-    filtered = p2.prevalence_filter_table(tbl, threshold=0.5)
+    filtered, _ = p2.filter_prevalence(tbl, threshold=0.5)
     # f2 has 0 prevalence and must be dropped
     assert "f2" not in filtered.columns
 
@@ -59,7 +60,10 @@ def test_prevalence_binary_clr_invariants():
     vals = set(np.unique(binary.to_numpy()))
     assert vals.issubset({0.0, 1.0})
 
-    rel = p2.to_relative_abundance(filtered)
+    with pytest.raises(ValueError, match="zero library size"):
+        p2.to_relative_abundance(filtered)
+
+    rel = p2.to_relative_abundance(filtered.loc[["S1", "S2", "S3"]])
     clr = p2.clr_transform(rel)
     assert np.isfinite(clr.to_numpy()).all()
 
@@ -74,14 +78,14 @@ def test_distance_matrices_basic_properties():
         index=["S1", "S2", "S3"],
     )
     b = p2.to_presence_absence(tbl)
-    d_j = p2.jaccard_distance_matrix(b)
+    d_j = p2.jaccard_distance(b).to_numpy()
     assert d_j.shape == (3, 3)
     assert np.allclose(d_j, d_j.T, atol=1e-12)
     assert np.allclose(np.diag(d_j), 0.0, atol=1e-12)
 
     rel = p2.to_relative_abundance(tbl)
     clr = p2.clr_transform(rel)
-    d_e = p2.euclidean_distance_matrix(clr)
+    d_e = p2.euclidean_distance(clr).to_numpy()
     assert d_e.shape == (3, 3)
     assert np.allclose(d_e, d_e.T, atol=1e-12)
     assert np.allclose(np.diag(d_e), 0.0, atol=1e-12)
@@ -90,8 +94,8 @@ def test_distance_matrices_basic_properties():
 def test_mantel_and_procrustes_helper_bounds():
     emb_x = pd.DataFrame([[0.0, 0.0], [1.0, 0.0], [0.0, 1.0]], index=["S1", "S2", "S3"])
     emb_y = pd.DataFrame([[0.0, 0.0], [1.0, 0.1], [0.0, 0.9]], index=["S1", "S2", "S3"])
-    d_x = p2.euclidean_distance_matrix(emb_x)
-    d_y = p2.euclidean_distance_matrix(emb_y)
+    d_x = p2.euclidean_distance(emb_x).to_numpy()
+    d_y = p2.euclidean_distance(emb_y).to_numpy()
     r = p2.compute_mantel_spearman(d_x, d_y)
     assert -1.0 <= r <= 1.0
 
@@ -148,7 +152,7 @@ def test_no_duplicate_sample_ids_in_cohort_and_otu_tables():
     assert cohort["Sample_ID"].astype(str).is_unique
 
     for domain in ["AMF", "BAC", "EUK", "ITS"]:
-        df = pd.read_csv(REPO_ROOT / f"data/{domain}_OTU_table_final.tsv", sep="	", index_col=0)
+        df = pd.read_csv(REPO_ROOT / f"data/{domain}_OTU_table_final.tsv", sep="\t", index_col=0)
         ids = df.index.astype(str)
         assert ids.is_unique, f"Duplicate sample IDs in {domain} OTU table"
 
@@ -159,6 +163,6 @@ def test_forbidden_metadata_columns_absent_from_otu_feature_columns():
         "lat", "lon", "alpha", "dark", "pool", "compl", "pH_KCl", "N_pct", "C_pct",
     }
     for domain in ["AMF", "BAC", "EUK", "ITS"]:
-        df = pd.read_csv(REPO_ROOT / f"data/{domain}_OTU_table_final.tsv", sep="	", index_col=0)
+        df = pd.read_csv(REPO_ROOT / f"data/{domain}_OTU_table_final.tsv", sep="\t", index_col=0)
         overlap = forbidden.intersection(set(map(str, df.columns)))
         assert not overlap, f"Forbidden metadata-like columns found in {domain} OTU table: {sorted(overlap)}"
