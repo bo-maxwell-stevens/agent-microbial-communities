@@ -17,14 +17,13 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from scipy.spatial import procrustes
-from scipy.stats import spearmanr
 from sklearn.decomposition import PCA
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
+from src.coupling_metrics import mantel_spearman, procrustes_disparity
 from src.preprocessing import (
     align_samples,
     clr_transform,
@@ -119,25 +118,6 @@ def pca_embedding(table: pd.DataFrame, sample_ids: list[str], n_components: int 
     return pd.DataFrame(emb, index=sample_ids)
 
 
-def condensed_upper(distance_matrix: np.ndarray) -> np.ndarray:
-    idx = np.triu_indices(distance_matrix.shape[0], k=1)
-    return distance_matrix[idx]
-
-
-def compute_procrustes(embedding_x: pd.DataFrame, embedding_y: pd.DataFrame) -> float:
-    x = embedding_x.to_numpy(dtype=np.float64)
-    y = embedding_y.to_numpy(dtype=np.float64)
-    _, _, disparity = procrustes(x, y)
-    return float(disparity)
-
-
-def compute_mantel_spearman(distance_x: np.ndarray, distance_y: np.ndarray) -> float:
-    vx = condensed_upper(distance_x)
-    vy = condensed_upper(distance_y)
-    r, _ = spearmanr(vx, vy)
-    return float(r)
-
-
 def prepare_branch_modality(
     table: pd.DataFrame,
     cohort: list[str],
@@ -193,25 +173,29 @@ def run_pair(
     t2 = out2["transformed"].loc[pair_samples]
 
     if out1["branch"] == "presence/absence":
-        d1 = jaccard_distance(t1).to_numpy(dtype=np.float64)
-        d2 = jaccard_distance(t2).to_numpy(dtype=np.float64)
+        d1_df = jaccard_distance(t1)
+        d2_df = jaccard_distance(t2)
+        d1 = d1_df.to_numpy(dtype=np.float64)
+        d2 = d2_df.to_numpy(dtype=np.float64)
         emb1 = pcoa_from_distance(d1, pair_samples, N_COMPONENTS)
         emb2 = pcoa_from_distance(d2, pair_samples, N_COMPONENTS)
     else:
-        d1 = euclidean_distance(t1).to_numpy(dtype=np.float64)
-        d2 = euclidean_distance(t2).to_numpy(dtype=np.float64)
+        d1_df = euclidean_distance(t1)
+        d2_df = euclidean_distance(t2)
+        d1 = d1_df.to_numpy(dtype=np.float64)
+        d2 = d2_df.to_numpy(dtype=np.float64)
         emb1 = pca_embedding(t1, pair_samples, N_COMPONENTS)
         emb2 = pca_embedding(t2, pair_samples, N_COMPONENTS)
 
-    procrustes_fit = compute_procrustes(emb1, emb2)
-    mantel_spearman = compute_mantel_spearman(d1, d2)
+    procrustes_fit = procrustes_disparity(emb1, emb2)
+    mantel_spearman_value = mantel_spearman(d1_df, d2_df)
 
     return {
         "pair": f"{name1}↔{name2}",
         "branch": out1["branch"],
         "threshold": out1["threshold"],
         "procrustes_fit": procrustes_fit,
-        "mantel_spearman": mantel_spearman,
+        "mantel_spearman": mantel_spearman_value,
         "distance_metric": out1["distance_metric"],
         "ordination_method": out1["ordination_method"],
         "n_features_1": out1["n_features"],

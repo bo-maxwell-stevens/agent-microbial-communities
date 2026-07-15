@@ -7,6 +7,8 @@ import numpy as np
 import pandas as pd
 import pytest
 
+from src.coupling_metrics import mantel_spearman, procrustes_disparity
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -94,15 +96,14 @@ def test_distance_matrices_basic_properties():
 def test_mantel_and_procrustes_helper_bounds():
     emb_x = pd.DataFrame([[0.0, 0.0], [1.0, 0.0], [0.0, 1.0]], index=["S1", "S2", "S3"])
     emb_y = pd.DataFrame([[0.0, 0.0], [1.0, 0.1], [0.0, 0.9]], index=["S1", "S2", "S3"])
-    d_x = p2.euclidean_distance(emb_x).to_numpy()
-    d_y = p2.euclidean_distance(emb_y).to_numpy()
-    r = p2.compute_mantel_spearman(d_x, d_y)
+    d_x = p2.euclidean_distance(emb_x)
+    d_y = p2.euclidean_distance(emb_y)
+    r = mantel_spearman(d_x, d_y)
     assert -1.0 <= r <= 1.0
 
-    disp = p2.compute_procrustes(emb_x, emb_y)
+    disp = procrustes_disparity(emb_x, emb_y)
     assert np.isfinite(disp)
     assert disp >= 0.0
-
 
 def test_permutation_floor_and_adjusted_r2_bounds_phase5b():
     rng = np.random.default_rng(7)
