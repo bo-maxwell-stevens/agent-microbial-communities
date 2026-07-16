@@ -1,0 +1,11 @@
+results/phase5b_environmental_drivers/phase5b_combo_manifest.csv|exists=True|snap_exists=True|match=True
+results/phase5b_environmental_drivers/phase5b_dbRDA_summary.csv|exists=True|snap_exists=True|match=True
+results/phase5b_environmental_drivers/phase5b_manifest.csv|exists=True|snap_exists=True|match=True
+results/phase5b_environmental_drivers/phase5b_pair_rankings.csv|exists=True|snap_exists=True|match=True
+results/phase5b_environmental_drivers/phase5b_predictor_ranking.csv|exists=True|snap_exists=True|match=True
+results/phase5c_plant_diversity/phase5c_combo_manifest.csv|exists=True|snap_exists=True|match=True
+results/phase5c_plant_diversity/phase5c_hypothesis_summary.csv|exists=True|snap_exists=True|match=True
+results/phase5c_plant_diversity/phase5c_manifest.csv|exists=True|snap_exists=True|match=True
+results/phase5c_plant_diversity/phase5c_model_comparison.csv|exists=True|snap_exists=True|match=True
+results/phase5c_plant_diversity/phase5c_pair_rankings.csv|exists=True|snap_exists=True|match=True
+results/phase5c_plant_diversity/phase5c_predictor_effects.csv|exists=True|snap_exists=True|match=True

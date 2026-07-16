@@ -1,0 +1,4 @@
+# log validation
+SNAP=results/rocket_production_snapshot_20260716T1718Z
+ERR_nonempty:
+OUT_traceback_hits:

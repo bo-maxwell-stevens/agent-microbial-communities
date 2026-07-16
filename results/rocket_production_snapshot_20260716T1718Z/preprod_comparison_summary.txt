@@ -1,0 +1,13 @@
+=== phase5b ===
+phase5b_combo_manifest.csv prior_vs_backup ok (0, 0, 0.0) prod_vs_backup ok (0, 0, 0.0)
+phase5b_dbRDA_summary.csv prior_vs_backup ok (99, 0, 998.0) prod_vs_backup ok (0, 0, 0.0)
+phase5b_manifest.csv prior_vs_backup ok (0, 0, 0.0) prod_vs_backup ok (0, 0, 0.0)
+phase5b_pair_rankings.csv prior_vs_backup ok (42, 0, 0.499) prod_vs_backup ok (0, 0, 0.0)
+phase5b_predictor_ranking.csv prior_vs_backup ok (1211, 0, 998.0) prod_vs_backup ok (0, 0, 0.0)
+=== phase5c ===
+phase5c_combo_manifest.csv prior_vs_backup ok (0, 0, 0.0) prod_vs_backup ok (0, 0, 0.0)
+phase5c_hypothesis_summary.csv prior_vs_backup ok (27, 0, 12.0) prod_vs_backup ok (0, 0, 0.0)
+phase5c_manifest.csv prior_vs_backup ok (0, 0, 0.0) prod_vs_backup ok (0, 0, 0.0)
+phase5c_model_comparison.csv prior_vs_backup shape_or_cols_mismatch None prod_vs_backup ok (0, 0, 0.0)
+phase5c_pair_rankings.csv prior_vs_backup shape_or_cols_mismatch None prod_vs_backup ok (0, 0, 0.0)
+phase5c_predictor_effects.csv prior_vs_backup shape_or_cols_mismatch None prod_vs_backup ok (0, 0, 0.0)
