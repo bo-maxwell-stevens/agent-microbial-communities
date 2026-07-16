@@ -1,123 +1,140 @@
-# Agent Microbial Communities
+# Cross-Kingdom Soil Microbial Community Coupling Analysis
 
-Fresh agent-oriented workspace for bacterial, AMF, ITS, and eukaryotic community analysis.
+## Scientific purpose
+This repository tests how strongly soil microbial domains (AMF, BAC, EUK, ITS) co-vary across shared samples, and whether that coupling is structured by abiotic gradients and plant-diversity hypotheses in Dryland DarkDivNet-style field data. The manuscript workflow moves from data quality control and cohort definition to deterministic coupling analysis, inferential validation, BAC-expanded integration, environmental/plant-driver modeling, and final synthesis/figure regeneration.
 
-Raw data are stored locally in `data/` and are intentionally excluded from GitHub.
+## Repository structure
 
-## Project overview
+- `data/` — read-only raw inputs (OTU/ASV tables, feature metadata, and sample metadata).
+- `scripts/` — top-level sequential entrypoints (`01`-`04`) and utility runners.
+- `scripts/analysis/` — phase-specific analysis scripts used after Phase 2.
+- `scripts/hpc/` — Slurm array wrappers for Rocket production runs (Phase 5A/5B/5C).
+- `src/` — shared analysis modules (data loading, preprocessing, coupling metrics, ordination helpers).
+- `tests/` — regression, integrity, and unit tests for workflow outputs and shared modules.
+- `results/` — phase outputs, checkpoints, and synthesis artifacts.
+- `figures/` — manuscript figure package (`main/`, `supplemental/`, `source_data/`, captions, package report).
+- `manuscript/` — manuscript versions and release-ready narrative files.
+- `docs/` — methods notes, execution guides, audits, and verification reports.
 
-This repository supports integrated microbial community analyses across multiple marker datasets and associated ecological metadata.
+## Analysis workflow
 
-- Main goals:
-  - Harmonize sample IDs across datasets (AMF, BAC, EUK, ITS, metadata)
-  - Run sequencing-depth and prevalence QC
-  - Build reproducible, script-first ecological analysis workflows
-- Reproducibility constraints:
-  - Never modify raw input files in `data/`
-  - Write derived outputs to `results/` and narrative summaries to `docs/`
+Run in the order below for manuscript reproduction.
 
-## Input datasets (`data/`)
+| Step | Script | Purpose | Major outputs | Execution |
+|---|---|---|---|---|
+| 1 | `scripts/01_data_qc.py` | Cross-modality sample harmonization, depth/prevalence QC, parse/repro metadata. | `results/dataset_qc_v2/` (harmonization tables, prevalence/depth summaries, reproducibility metadata), `docs/dataset_qc_v2_report.md` | Local |
+| 2 | `scripts/02_define_cohort.py` | Define shared analysis cohort and planning artifacts from canonical overlap. | `results/phase1_ecological_exploration/` (`cohort_definition.json`, overlap and planning files) | Local |
+| 3 | `scripts/03_ordination.py` | Deterministic ordination and preprocessing-sensitivity diagnostics for shared cohort. | `results/phase1_5_conservative_ordination/` (ordination summaries, prevalence summary, figures) | Local |
+| 4 | `scripts/04_cross_kingdom_coupling.py` | Phase 2 confirmatory pairwise coupling across branches/thresholds. | `results/phase2_confirmatory_coupling/phase2_coupling_summary.csv` and companion phase outputs | Local |
+| 5 | `scripts/analysis/phase2_validate_outputs.py` | Validate Phase 2 summary schema/content. | `results/phase2_confirmatory_coupling/validation_summary.txt` | Local |
+| 6 | `scripts/analysis/phase4_coupling_inference.py` | Add permutation/CI inference and phase-level figures to deterministic coupling. | `results/phase4_coupling_inference/` (`phase4_summary.csv`, `phase4_mantel_inference.csv`, `phase4_procrustes_bootstrap.csv`, figures) | Local |
+| 7 | `scripts/analysis/phase5_bac_integration.py` | Expand coupling framework to BAC-inclusive four-domain comparisons (24 combos). | `results/phase5_bac_integration/` summaries, inference tables, checkpoint files, figures | Rocket production (local smoke test supported) |
+| 8 | `scripts/analysis/phase5b_environmental_drivers.py` | dbRDA-style environmental-driver analysis over pair × branch combinations. | `results/phase5b_environmental_drivers/` (`phase5b_dbRDA_summary.csv`, predictor ranking tables, checkpoints, figures) | Rocket production (local smoke test supported) |
+| 9 | `scripts/analysis/phase5c_plant_diversity_hypotheses.py` | Hypothesis-driven plant-diversity model comparisons beyond abiotic base. | `results/phase5c_plant_diversity/` model comparison tables, hypothesis summary, checkpoints, figures | Rocket production (local smoke test supported) |
+| 10 | `scripts/analysis/phase5d_synthesis.py` | Synthesis-only integration of completed Phase 2/4/5/5B/5C outputs (no new inferential runs). | `results/phase5d_synthesis/` final ranking/synthesis tables and summary figures | Local |
+| 11 | `scripts/figures/regenerate_manuscript_figures.py` | Rebuild manuscript figure package from current synthesis outputs. | `figures/main/`, `figures/supplemental/`, `figures/source_data/`, `figures/FIGURE_PACKAGE_REPORT.md` | Local |
 
-The following raw inputs are used by the workflow.
+## Running locally
 
-- `Final_data_with_diversity_prefixed.csv`
-  - Ecological/sample-level metadata table (99 rows × 103 columns)
-  - Includes canonical sample identifiers and diversity/environment variables used for downstream integration
+### Environment
 
-- `AMF_OTU_table_final.tsv`
-  - Arbuscular mycorrhizal fungi abundance table (120 rows × 387 columns)
-  - Row-wise samples, with one sample-ID column plus AMF feature abundance columns
-
-- `AMF_feature_metadata.tsv`
-  - AMF feature annotation table (386 rows × 1 column)
-  - Reference metadata for AMF features in the AMF abundance matrix
-
-- `BAC_OTU_table_final.tsv`
-  - Bacterial abundance table (140 rows × 291,700 columns)
-  - Row-wise samples, with one sample-ID column plus bacterial feature abundance columns
-
-- `BAC_feature_metadata.tsv`
-  - Bacterial feature annotation table (291,699 rows × 2 columns)
-  - Reference metadata for bacterial OTUs/features
-
-- `EUK_OTU_table_final.tsv`
-  - Eukaryotic abundance table (135 rows × 58,206 columns)
-  - Row-wise samples, with one sample-ID column plus eukaryotic feature abundance columns
-
-- `EUK_feature_metadata.tsv`
-  - Eukaryotic feature annotation table (58,205 rows × 2 columns)
-  - Reference metadata for eukaryotic OTUs/features
-
-## Phase 2 Virtual Environment Requirement
-Some scripts, such as `scripts/analysis/phase2_visualize_coupling.py` and `scripts/analysis/phase2_validate_outputs.py`, rely on the project's Python virtual environment for dependencies like `seaborn`, `matplotlib`, and `pandas`. To run these scripts:
+Use the project virtual environment in the repository root.
 
 ```bash
 cd /srv/hermes_projects/agent_microbial_communities
 source .venv/bin/activate
-python3 scripts/analysis/phase2_validate_outputs.py
-python3 scripts/analysis/phase2_visualize_coupling.py
 ```
 
-Ensure the virtual environment is activated before executing these scripts for proper functionality.
-
-For early-workflow scripts requiring project dependencies (for example ordination), run either:
+If `.venv/` is missing, repository documentation (`docs/repository_cleanup_plan.md`) records this minimal recreation command:
 
 ```bash
+python3 -m venv .venv
 source .venv/bin/activate
-python3 scripts/03_ordination.py
 ```
 
-or directly:
+### Core numbered scripts (`01`-`04`)
 
 ```bash
+.venv/bin/python3 scripts/01_data_qc.py
+.venv/bin/python3 scripts/02_define_cohort.py
 .venv/bin/python3 scripts/03_ordination.py
+.venv/bin/python3 scripts/04_cross_kingdom_coupling.py
 ```
 
-If pip resolves to a different Python interpreter on your system, prefer uv pip or python -m pip to avoid installing packages into the wrong environment.
+### Downstream local scripts
 
-## Additional utility scripts
-- `scripts/figures/regenerate_manuscript_figures.py` — Rebuilds manuscript figure set from existing analysis outputs.
-- `scripts/literature/run_darkdivnet_literature_search.py` — Runs the DarkDivNet-focused literature retrieval workflow.
-- `scripts/literature/summarize_darkdivnet_context.py` — Summarizes retrieved DarkDivNet literature context into project-ready notes.
+```bash
+.venv/bin/python3 scripts/analysis/phase2_validate_outputs.py
+.venv/bin/python3 scripts/analysis/phase4_coupling_inference.py
+.venv/bin/python3 scripts/analysis/phase5d_synthesis.py
+.venv/bin/python3 scripts/figures/regenerate_manuscript_figures.py
+```
 
-## Centralized data loading and schema contract
+## Running on Rocket HPC
 
-Project-wide loading lives in `src/data_loading.py` via:
+Current production HPC path in Slurm wrappers:
 
-- `load_project_data(data_dir)`
-- `build_sample_manifest(project_data)`
+- `~/projects/agent_microbial_communities`
 
-Schema/validation contract:
+Phases executed on Rocket in production are Phase 5A/5B/5C via Slurm arrays:
 
-- OTU tables are `samples × features`.
-- Sample IDs come from the first OTU-table column.
-- Metadata sample IDs must use `canonical`.
-- Explicit feature ID columns are:
-  - AMF: `VT`
-  - BAC: `OTU`
-  - EUK: `OTU`
-  - ITS: `SH`
-- OTU matrices are validated as numeric, non-negative counts with unique sample IDs and feature IDs.
-- Feature metadata is validated to be positionally aligned with each abundance table.
+- `scripts/hpc/phase5_bac_integration_array.slurm`
+- `scripts/hpc/phase5b_environmental_drivers_array.slurm`
+- `scripts/hpc/phase5c_plant_diversity_hypotheses_array.slurm`
 
-AMF unresolved-feature handling (project-specific and explicit):
+Typical pattern:
 
-- The final AMF abundance feature is expected as `Unnamed: 386`.
-- The final row of `AMF_feature_metadata.tsv` is expected to have blank `VT`.
-- If and only if leading AMF abundance IDs and leading AMF `VT` values match exactly in order, the unresolved final feature is retained and normalized to `AMF_UNRESOLVED_FEATURE_386` in both abundance and metadata.
-- Metadata marks this row with `identifier_status=unresolved_export_id`.
-- This placeholder must **not** be interpreted as a biological/taxonomic assignment or an identified MaarjAM VT.
-- Downstream prevalence filtering treats this unresolved placeholder with the same rule as all other features (min_occurrences = max(1, int(np.ceil(threshold * n_samples))).
+1. Write manifest locally in repo on Rocket (`--write-manifest`).
+2. Submit array wrapper with `sbatch`.
+3. Monitor with `squeue`/`sacct`.
+4. Combine checkpoints after all array tasks succeed (`--combine-checkpoints`).
 
-`build_sample_manifest(...)` returns canonical membership columns (`sample_id`, `in_<modality>`, `in_META`, `modalities_present`) and is the shared pathway used by cohort and overlap workflows.
+Expected production outputs:
 
+- Phase 5A: `results/phase5_bac_integration/` final coupling/inference tables + figures.
+- Phase 5B: `results/phase5b_environmental_drivers/` dbRDA summaries, predictor rankings, figures.
+- Phase 5C: `results/phase5c_plant_diversity/` hypothesis/model summaries and figures.
 
-## Centralized preprocessing (Phase 1.5)
+## Testing
 
-Phase 1.5 now uses a shared preprocessing module at `src/preprocessing.py`.
+### Targeted regression/integrity tests
 
-- Sample alignment is explicit and order-preserving via `align_samples(...)`; missing requested samples raise errors.
-- Prevalence filtering uses the ceiling rule exactly: `min_occurrences = max(1, int(np.ceil(threshold * n_samples)))`.
-- Core transformations are centralized: presence/absence, relative abundance, Hellinger, and CLR.
-- Distance calculations are centralized: Bray–Curtis, Jaccard, and Euclidean.
-- Phase 1.5 stochastic diagnostics are seeded explicitly and deterministically from a top-level seed in the runner.
+```bash
+PYTHONPATH=. .venv/bin/pytest -q \
+  tests/test_analysis_verification_data_integrity.py \
+  tests/test_analysis_verification_regression.py
+```
+
+### Full suite
+
+```bash
+PYTHONPATH=. .venv/bin/pytest -q
+```
+
+Current local run status in this repository state:
+
+- Targeted verification: `16 passed`
+- Full suite: `90 passed, 1 warning`
+
+Regression philosophy:
+
+- verify required canonical outputs exist before interpretation,
+- guard deterministic numerical behavior (seeding and stable transforms),
+- detect schema/value drift in coupling and synthesis tables before manuscript updates.
+
+## Results
+
+Major phase outputs are written under `results/` using phase-scoped directories (`dataset_qc_v2`, `phase1_ecological_exploration`, `phase1_5_conservative_ordination`, `phase2_confirmatory_coupling`, `phase4_coupling_inference`, `phase5_bac_integration`, `phase5b_environmental_drivers`, `phase5c_plant_diversity`, `phase5d_synthesis`). Manuscript-ready figure assets are produced under `figures/` and manuscript text assets under `manuscript/`.
+
+## Reproducibility
+
+- Deterministic analysis design is enforced in core coupling/inference workflows (fixed seeds and explicit transformation branches).
+- Regression tests validate both scientific outputs and shared numerical utilities.
+- Shared preprocessing modules in `src/preprocessing.py` centralize prevalence filtering, transforms, and distance calculations.
+- Shared coupling metrics in `src/coupling_metrics.py` centralize Mantel and Procrustes computations across phases.
+
+## Development philosophy
+
+- Scientific correctness before optimization.
+- Regression validation before refactoring.
+- Deterministic outputs as a release baseline.
