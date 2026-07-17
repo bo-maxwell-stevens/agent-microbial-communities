@@ -1,6 +1,6 @@
 # FIGURE PACKAGE REPORT
 
-- generated_utc: 2026-06-09T12:21:24.549539+00:00
+- generated_utc: 2026-07-17T10:29:08.589919+00:00
 
 ## Scope
 - Figure package regenerated from existing committed result tables (no new inferential reruns).
